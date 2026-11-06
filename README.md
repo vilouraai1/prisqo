@@ -14,7 +14,11 @@ Checkout's default (it asks for the buyer's email at payment); no engine
 change was made and no email is sent. Going live (live Stripe keys, showing
 a price, removing noindex / the demo banner) is a separate Jilsha yes — not
 this commit. Sample rebuilt to a stronger labeled example (12/18 named,
-10/18 top-3, score 63); the live scoring formula is unchanged.
+10/18 top-3, score 63); the live scoring formula is unchanged. Contact email
+  vilouraai1@gmail.com is now published on the contact page (and in
+  terms/privacy/FAQ); sample answer previews show the full Sources line;
+  the check form validates website/category/city and blocks double-submit
+  while checkout opens.
 
 ## What's in here
 

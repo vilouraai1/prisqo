@@ -25,6 +25,7 @@
   "use strict";
 
   var MAX_STEPS = 60;
+  var checkoutBusy = false;
   var MAX_ELAPSED_MS = 20 * 60 * 1000;
   var MAX_WAIT_S = 70;
 
@@ -87,6 +88,21 @@
   function showStatus(box, html) {
     box.innerHTML = html;
   }
+  function isValidUrl(value) {
+    var v = value;
+    if (!/^[a-z][a-z0-9+.-]*:\/\//i.test(v)) v = "https://" + v;
+    try {
+      var u = new URL(v);
+      return (u.protocol === "http:" || u.protocol === "https:") && u.hostname.indexOf(".") !== -1;
+    } catch (e) { return false; }
+  }
+  // Field errors happen before checkout opens, so no charge is
+  // involved and the message just says what is missing.
+  function showValidationError(box, problems) {
+    showStatus(box,
+      '<p role="alert"><strong>Please fix the form first:</strong></p><ul>' +
+      problems.map(function (p) { return "<li>" + escapeHtml(p) + "</li>"; }).join("") + "</ul>");
+  }
   // Before payment: nothing was charged, so the message stays mild.
   function showError(box, message) {
     showStatus(box,
@@ -126,10 +142,17 @@
     var category = categoryEl ? categoryEl.value.trim() : "";
     var city = cityEl ? cityEl.value.trim() : "";
     var businessName = nameEl ? nameEl.value.trim() : "";
-    if (!website || !category) {
-      showError(box, "Enter your website and what you do (category) first.");
+    if (checkoutBusy) return;
+    var problems = [];
+    if (!website) problems.push("Enter your website.");
+    else if (!isValidUrl(website)) problems.push("That website address does not look valid — enter a full address like example.com.");
+    if (!category) problems.push("Enter what you do (your niche or category).");
+    if (!city) problems.push("Enter your city or location.");
+    if (problems.length) {
+      showValidationError(box, problems);
       return;
     }
+    checkoutBusy = true;
     submitBtn.disabled = true;
     showStatus(box, "<p>Opening secure checkout…</p>");
     var redirecting = false;
@@ -151,7 +174,7 @@
       redirecting = true;
       window.location.assign(d.url);
     } finally {
-      if (!redirecting) submitBtn.disabled = false;
+      if (!redirecting) { submitBtn.disabled = false; checkoutBusy = false; }
     }
   }
 
