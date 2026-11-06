@@ -3,4 +3,5 @@
   Referrer-Policy: no-referrer
   X-Content-Type-Options: nosniff
   X-Frame-Options: DENY
+  # GO-LIVE: remove the X-Robots-Tag line below only when Jilsha says go live. Do not remove before then.
   X-Robots-Tag: noindex, nofollow

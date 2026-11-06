@@ -4,6 +4,17 @@ Muse pushes here; Kiwi deploys. Nothing in this repo deploys itself, and
 nobody deploys from here — Kiwi pulls, reviews, and deploys to the live
 Workers (`prisqo` site, `prisqo-report-engine` engine).
 
+Latest batch (selling-ready, Nov 6): terms and privacy are published for
+the paid one-time check; checkout-return and cancel copy in `prisqo-check.js`
+say the payment went through, to stay on the page, and to bookmark the
+report address; `pricing.html` no longer has a `plan-free` test id; every
+page and `_headers` carry a `GO-LIVE` comment saying what to change when
+Jilsha says go live — nothing was flipped. Email collection is Stripe
+Checkout's default (it asks for the buyer's email at payment); no engine
+change was made and no email is sent. Going live (live Stripe keys, showing
+a price, removing noindex / the demo banner) is a separate Jilsha yes — not
+this commit.
+
 ## What's in here
 
 - `index.html`, `pricing.html`, `faq.html`, `contact.html`, `privacy.html`,

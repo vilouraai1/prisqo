@@ -100,8 +100,10 @@
       (jobId ? "finish" : "start") + ".</strong> " + escapeHtml(message) + "</p>" +
       (jobId ? "<p>Your check id is <code>" + escapeHtml(jobId) + "</code>. " +
         "It may still be running — reload this page in a minute.</p>" : "") +
-      "<p>This payment cannot be reused for another check. If you need a rerun, " +
-      '<a href="/contact">contact us</a> and include the check id above if there is one.</p>');
+      "<p>Your payment still covers one report. If no report was produced, " +
+      "reloading this page retries the check once automatically — there are no " +
+      "unlimited reruns. If it still fails, see the FAQ " +
+      "<a href=\"/faq#q15\">\u201cWhat if I pay and the check fails?\u201d</a>.</p>");
   }
 
   async function postJson(path, body) {
@@ -154,7 +156,7 @@
   }
 
   async function runPaidCheck(box, sessionId) {
-    showStatus(box, "<p>Payment received. Starting your check…</p>");
+    showStatus(box, "<p><strong>Your payment went through.</strong> Your check is starting now. Stay on this page until the report finishes, then bookmark this page — this address is your report, and opening it again reloads the same check.</p>");
     var startedAt = Date.now();
     var jobId = null;
     var created;
@@ -177,7 +179,11 @@
         "Reload this page in a minute. Your check starts as soon as the payment is confirmed.</p>");
       return;
     } else if (created.status === 402 && (c.code === "unknown_session" || c.code === "payment_required")) {
-      showError(box, "That checkout link was not recognised. Start again from the form.");
+      showStatus(box,
+      '<p role="alert"><strong>That checkout link was not recognised.</strong> ' +
+      "If you just paid, your payment may still have gone through — see the FAQ " +
+      "<a href=\"/faq#q15\">\u201cWhat if I pay and the check fails?\u201d</a> " +
+      "or start again from the form.</p>");
       return;
     } else {
       showPaidError(box, c.error || ("The check could not start (HTTP " + created.status + ")."));
@@ -282,6 +288,7 @@
       "<p><strong>Score: " + (s.score == null ? "—" : s.score + " / 100") + "</strong> — " +
       "named in " + (s.mentioned || 0) + " of " + (s.total || 6) + " answers, " +
       "in the top 3 in " + (s.top3 || 0) + ".</p>" +
+      "<p>Bookmark this page to come back to this report — this address is your report.</p>" +
       (r.capped ? "<p><strong>Partial report:</strong> the daily spending cap was reached, so this is not a full 6-prompt report.</p>" : "") +
       (r.complete === false && !r.capped ? "<p><strong>Partial report:</strong> not all prompts completed.</p>" : "") +
       "<h3>Who AI recommends instead</h3>" +
