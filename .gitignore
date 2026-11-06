@@ -1,0 +1,10 @@
+# Secrets and local deploy state — never commit these.
+wrangler.toml
+.dev.vars
+.dev.vars.*
+.wrangler/
+.stripe*
+*.pem
+*.key
+.env
+.env.*

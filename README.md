@@ -1,7 +1,8 @@
 # Prisqo — changed files for Kiwi to review and deploy
 
-Delivery vehicle only. Nothing here is deployed by this repo; Kiwi pulls,
-reviews, and deploys to the live Workers.
+Muse pushes here; Kiwi deploys. Nothing in this repo deploys itself, and
+nobody deploys from here — Kiwi pulls, reviews, and deploys to the live
+Workers (`prisqo` site, `prisqo-report-engine` engine).
 
 ## What's in here
 
@@ -9,29 +10,44 @@ reviews, and deploys to the live Workers.
   `terms.html`, `404.html`, `compare.html`, `compare/hubspot-aeo.html`,
   `compare/otterly.html`, `compare/peec-ai.html` — the 13 site pages, swept
   Nov 6: one report, pay once at checkout, no subscription; 6 prompts, not
-  12; no Prisqo price printed anywhere; no "free check".
-- `sample/results.html` — sample report, rebuilt around the 6 kept prompts ×
+  12; no Prisqo price printed anywhere; no "free check". Homepage hero now
+  matches the shipped sample: score 39 of 100, named in 7 of 18 answers
+  (was 29 / 13 of 36), with competitor and source bars from the same
+  18-answer grid.
+- `sample/results.html` — sample report, built around the 6 kept prompts ×
   3 sample engines = 18 answers. Smith Family Dental 7/18 mentioned, 7/18
   top-3, score 39 (computed from the answer grid).
 - `sample/weekly-report.html` — sample weekly report, same 18 answers.
   Score 39, down 6 vs last week 45; mentions 7/18, down 4 vs 11.
-- `prisqo-check.js` — homepage check script. New `showPaidError`: post-payment
-  errors no longer claim "Nothing was charged." Pre-payment errors keep
-  `showError`.
+- `prisqo-check.js` — homepage check script, synced from the live file:
+  handles `already_used` and `not_paid`, targets
+  `data-static-demo-form="check"` (not the first `<form>`), and post-payment
+  errors say the payment went through and never say "nothing was charged".
+- `_headers` — CSP, `X-Frame-Options: DENY`, `X-Robots-Tag: noindex,
+  nofollow` (the repo copy had dropped the last two).
 - `prisqo-site-worker.js` — site Worker: serves static assets (adds
   `X-Robots-Tag: noindex, nofollow`), proxies only `/api/check`,
   `/api/create-checkout-session`, `/api/step/*`, `/api/report/*`, `/api/spend`
   to the engine with `CHECK_TOKEN` added server-side. `/api/webhook/stripe`
   is NOT proxied (stays 404 on the site).
-- `engine/worker.js` — report engine. Two fixes: `/report/:id` not-done
-  fallback `|| 12` → `|| 6`, and the Stripe webhook signature verify is now
-  constant-time (`timingSafeEqualHex`) instead of a character-by-character
-  compare. Confirm the deployed engine matches before the first paid test.
+- `engine/worker.js` — report engine. Unchanged in this batch: the live
+  engine is newer than this copy (more robust Stripe header parse,
+  `SESSION_ID_RE` on `/check`, `code: "payment_required"`), and its exact
+  text still has to come from Kiwi. This copy is the last verified version
+  (constant-time webhook verify, `/report` fallback `|| 6`, paid-retry
+  rules). Do not deploy from the repo expecting the engine to match live.
+
+## Still needed from Kiwi (live files this repo cannot fetch)
+
+- Live `engine/worker.js` (Worker `prisqo-report-engine`).
+- Live `prisqo-site-worker.js` exact text (routing in this copy is
+  verified correct; only comments may differ).
 
 ## Not in here (by design)
 
-- No `wrangler.toml` — Kiwi keeps the live values at deploy time. Never commit
-  a live KV namespace id or a live Stripe Price id.
+- No `wrangler.toml` — on purpose. The live KV namespace id and the live
+  Stripe Price id stay only in the Cloudflare Worker config; never commit
+  them, and never paste them into a wrangler.toml for Muse to deploy.
 - No secrets of any kind. `STRIPE_SECRET_KEY`, `STRIPE_WEBHOOK_SECRET`,
   `GROQ_API_KEY`, and `CHECK_TOKEN` are set via `wrangler secret put` only.
 - No live Stripe keys, no price printed anywhere on the site.

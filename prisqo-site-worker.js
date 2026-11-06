@@ -25,7 +25,9 @@
 // Binding: ASSETS (static site). If ASSETS is not bound, static
 // paths return 503 and /api/* still works.
 //
-// No Stripe, no payments, no email sending in this file.
+// This file holds no secrets and sends no email. It proxies the
+// Stripe Checkout session creation to the engine (the browser never
+// sees a Stripe key); payment verification lives on the engine.
 
 export default {
   async fetch(request, env) {
@@ -57,7 +59,7 @@ async function proxyToEngine(request, env, url) {
   const upstreamPath = url.pathname.replace(/^\/api/, "") || "/";
   const upstream = `${engine}${upstreamPath}${url.search}`;
 
-  // Only the four engine routes, nothing else is forwarded.
+  // Only the five engine routes, nothing else is forwarded.
   const allowed =
     (request.method === "POST" && upstreamPath === "/check") ||
     (request.method === "POST" && upstreamPath === "/create-checkout-session") ||

@@ -2,30 +2,24 @@
 // Include once on the homepage, after the form:
 //   <script src="/prisqo-check.js" defer></script>
 //
-// PAID flow (Stripe Checkout, test mode):
-//   1. Form submit -> POST /api/create-checkout-session with
-//      {url, category, city, businessName}. The server returns a
-//      Stripe Checkout URL; the browser is redirected there.
-//      No Groq check runs at this point.
-//   2. After payment, Stripe redirects back to
-//      /?paid=1&session_id={CHECKOUT_SESSION_ID}. On load, this
-//      file sees session_id and calls POST /api/check with
-//      {paidSessionId}. The server verifies the payment with
-//      Stripe (webhook, or a direct Stripe lookup) and only
-//      then creates the job, using the inputs stored at
-//      checkout time. Then it polls POST /api/step/:jobId until
-//      done or retry_later (wait retry_after_seconds), shows
-//      progress "Prompt N of 6", loads GET /api/report/:id and
-//      renders it.
-//   A session pays for ONE report: a second /check with the
-//   same session id resumes the running job, or starts one
-//   replacement if the job failed before producing a report;
-//   a finished report is rejected (402).
+// Paid flow (Stripe Checkout, hosted):
+// 1. Form submit -> POST /api/create-checkout-session
+//    {url, category, city, businessName} -> redirect to Stripe url.
+// 2. Stripe returns to /?paid=1&session_id=cs_... -> POST
+//    /api/check {paidSessionId} -> POST /api/step/:jobId until done
+//    or retry_later (wait retry_after_seconds) -> render the report.
+//    Progress shows "Prompt N of 6".
+// 3. /?cancelled=1 -> a short "nothing was charged" message.
+// No check (and no AI call) runs until Stripe says paid.
 //
-// This file contains NO token, NO Stripe key, and NO engine URL.
-// It only talks to same-origin /api/*, and the site Worker adds
-// the check token server-side. Never add a token or a key here.
-// Hosted Checkout needs no publishable key in JS.
+// This file contains NO token and NO engine URL. It only talks to
+// same-origin /api/*, and the site Worker adds the token
+// server-side. Never add a token here.
+//
+// Guards against hanging: at most 60 step attempts, at most
+// 20 minutes elapsed, at most 3 network retries per step. After
+// any of those, it stops and tells the user the job id, so the
+// report can be re-loaded later instead of spinning forever.
 
 (function () {
   "use strict";
@@ -56,22 +50,16 @@
     return new Promise(function (r) { setTimeout(r, ms); });
   }
 
-  // Copy corrections, in place, only where the old wording is
-  // still present. The homepage source should carry the new
-  // wording (see homepage-copy.md); this is a safety net.
+  // The live check asks 6 questions now, not 12. Correct the
+  // demo copy in place if it still says otherwise, and replace
+  // the "does not run checks" note. Only exact phrases change.
   function fixDemoCopy() {
     var replacements = [
       ["about 12 buyer-style questions", "6 buyer-style questions"],
       ["We ask ~12 real buyer questions", "We ask 6 real buyer questions"],
       ["~12 real buyer questions", "6 real buyer questions"],
-      ["No sign-up and nothing is for sale yet.",
-       "One report, pay once at checkout. No subscription."],
-      ["nothing is for sale yet", "pay once at checkout for one report"],
       ["Demo only: this static preview does not run checks and sends nothing.",
-       "This runs a real 6-question check after checkout."],
-      ["Demo only: this static preview does not run checks",
-       "This runs a real 6-question check after checkout"],
-      ["Run free check", "Continue to checkout"],
+       "Pay once at checkout, then your check runs automatically. No subscription. One payment buys one report."],
     ];
     var walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT);
     var nodes = [];
@@ -99,23 +87,21 @@
   function showStatus(box, html) {
     box.innerHTML = html;
   }
-  // Pre-payment errors only: nothing was charged yet.
-  function showError(box, message, jobId) {
+  // Before payment: nothing was charged, so the message stays mild.
+  function showError(box, message) {
     showStatus(box,
-      '<p role="alert"><strong>That check did not finish.</strong> ' + escapeHtml(message) + "</p>" +
-      (jobId ? "<p>Your check id is <code>" + escapeHtml(jobId) + "</code>. " +
-        "It may still be running — try loading the report again in a minute.</p>" : "") +
-      "<p>Nothing was charged for a check that did not run. Try again, or use the sample report.</p>");
+      '<p role="alert"><strong>Checkout did not start.</strong> ' + escapeHtml(message) + "</p>" +
+      "<p>Nothing was charged. Try again, or look at the sample report.</p>");
   }
-  // Errors after payment: the buyer may already have paid, so never
-  // claim nothing was charged. One payment covers one report, with
-  // one retry when the job failed before producing a report.
+  // After payment: the money went through, so say so plainly.
   function showPaidError(box, message, jobId) {
     showStatus(box,
-      '<p role="alert"><strong>That check did not finish.</strong> ' + escapeHtml(message) + "</p>" +
+      '<p role="alert"><strong>Your payment went through, but the check could not ' +
+      (jobId ? "finish" : "start") + ".</strong> " + escapeHtml(message) + "</p>" +
       (jobId ? "<p>Your check id is <code>" + escapeHtml(jobId) + "</code>. " +
-        "It may still be running — try loading the report again in a minute.</p>" : "") +
-      "<p>If your payment went through, it still covers one report: reload the page Stripe sent you back to and it retries once if the job failed before producing a report. A session that already produced a report cannot be reused.</p>");
+        "It may still be running — reload this page in a minute.</p>" : "") +
+      "<p>This payment cannot be reused for another check. If you need a rerun, " +
+      '<a href="/contact">contact us</a> and include the check id above if there is one.</p>');
   }
 
   async function postJson(path, body) {
@@ -129,12 +115,11 @@
     return { status: res.status, ok: res.ok, data: data };
   }
 
-  // Step 1: form -> Stripe Checkout. No check runs here.
   async function startCheckout(form, box, submitBtn) {
-    var websiteEl = field(["website", "url"]);
+    var websiteEl = field(["website", "url", "domain"]);
     var categoryEl = field(["category"]);
     var cityEl = field(["city"]);
-    var nameEl = field(["businessName", "business_name", "name"]);
+    var nameEl = field(["businessName", "business_name", "name", "brand"]);
     var website = websiteEl ? websiteEl.value.trim() : "";
     var category = categoryEl ? categoryEl.value.trim() : "";
     var city = cityEl ? cityEl.value.trim() : "";
@@ -144,43 +129,60 @@
       return;
     }
     submitBtn.disabled = true;
-    showStatus(box, "<p>Taking you to secure checkout…</p>");
+    showStatus(box, "<p>Opening secure checkout…</p>");
+    var redirecting = false;
     try {
-      var created = await postJson("/api/create-checkout-session", {
-        url: website, category: category, city: city, businessName: businessName || undefined,
-      });
-      if (!created.ok || !created.data || !created.data.url) {
-        var msg = (created.data && created.data.error) ||
-          ("Checkout could not start (HTTP " + created.status + ").");
-        showError(box, msg);
-        submitBtn.disabled = false;
+      var created;
+      try {
+        created = await postJson("/api/create-checkout-session", {
+          url: website, category: category, city: city, businessName: businessName || undefined,
+        });
+      } catch (e) {
+        showError(box, "The connection dropped. Please try again.");
         return;
       }
-      // Hosted Stripe page. Nothing is charged until the buyer
-      // completes payment there.
-      window.location.href = created.data.url;
-    } catch (e) {
-      showError(box, "Checkout could not start. Check your connection and try again.");
-      submitBtn.disabled = false;
+      var d = created.data || {};
+      if (!created.ok || !d.url || !/^https:\/\/checkout\.stripe\.com\//.test(d.url)) {
+        showError(box, d.error || ("Checkout could not start (HTTP " + created.status + ")."));
+        return;
+      }
+      redirecting = true;
+      window.location.assign(d.url);
+    } finally {
+      if (!redirecting) submitBtn.disabled = false;
     }
   }
 
-  // Step 2: back from Stripe with ?session_id=... -> start the
-  // paid check, then poll it. The server verifies the payment;
-  // a 402 here means Stripe has not confirmed it (or the
-  // session was already used for a report).
   async function runPaidCheck(box, sessionId) {
     showStatus(box, "<p>Payment received. Starting your check…</p>");
     var startedAt = Date.now();
     var jobId = null;
-    var created = await postJson("/api/check", { paidSessionId: sessionId });
-    if (!created.ok || !created.data || !created.data.jobId) {
-      var msg = (created.data && created.data.error) ||
-        ("The check could not start (HTTP " + created.status + ").");
-      showPaidError(box, msg + " Session: " + sessionId);
+    var created;
+    try {
+      created = await postJson("/api/check", { paidSessionId: sessionId });
+    } catch (e) {
+      showPaidError(box, "The connection dropped while starting the check. Reload this page to try again.");
       return;
     }
-    jobId = created.data.jobId;
+    var c = created.data || {};
+    if (created.ok && c.jobId) {
+      jobId = c.jobId;
+    } else if (created.status === 402 && c.code === "already_used" && c.jobId) {
+      // Page refresh after the check started: resume the same job
+      // (no new check runs).
+      jobId = c.jobId;
+    } else if (created.status === 402 && c.code === "not_paid") {
+      showStatus(box,
+        '<p role="alert"><strong>Stripe has not confirmed this payment yet.</strong> ' +
+        "Reload this page in a minute. Your check starts as soon as the payment is confirmed.</p>");
+      return;
+    } else if (created.status === 402 && (c.code === "unknown_session" || c.code === "payment_required")) {
+      showError(box, "That checkout link was not recognised. Start again from the form.");
+      return;
+    } else {
+      showPaidError(box, c.error || ("The check could not start (HTTP " + created.status + ")."));
+      return;
+    }
 
     var steps = 0;
     var networkRetries = 0;
@@ -210,22 +212,17 @@
         if (!isFinite(waitS) || waitS <= 0) waitS = 65;
         waitS = Math.min(waitS, MAX_WAIT_S);
         showStatus(box,
-          "<p>Groq is rate-limiting the check. Waiting " + waitS + " seconds, then continuing automatically.</p>" +
-          "<p>Prompt " + (d.progress || 0) + " of 6 done.</p>" +
-          (d.groq_error ? "<p><small>" + escapeHtml(String(d.groq_error).slice(0, 200)) + "</small></p>" : ""));
+          "<p>The AI provider is rate-limiting the check. Waiting " + waitS + " seconds, then continuing automatically. Keep this page open.</p>" +
+          "<p>Prompt " + (d.progress || 0) + " of 6 done.</p>");
         await sleep(waitS * 1000);
         continue;
-      }
-      if (!step.ok) {
-        showPaidError(box, (d.error || "The check failed (HTTP " + step.status + ")."), jobId);
-        return;
       }
       if (d.status === "done") {
         await loadReport(box, jobId, d.report || null);
         return;
       }
-      if (d.status === "failed") {
-        showPaidError(box, d.error || "The check failed.", jobId);
+      if (!step.ok || d.status === "failed") {
+        showPaidError(box, (d.error || "The check failed (HTTP " + step.status + ")."), jobId);
         return;
       }
       var done = d.progress == null ? 0 : d.progress;
@@ -235,7 +232,7 @@
         extra = "<p>Reading the answers… " + d.parse_progress + " of " + (d.parse_total || done) + ".</p>";
       }
       showStatus(box,
-        "<p>Checking… prompt " + done + " of " + total + " done.</p>" + extra +
+        "<p>Checking… prompt " + done + " of " + total + " done. Keep this page open.</p>" + extra +
         (d.capped ? "<p><strong>Daily spending cap reached.</strong> This is a partial report.</p>" : ""));
       await sleep(1000);
     }
@@ -299,20 +296,39 @@
 
   document.addEventListener("DOMContentLoaded", function () {
     fixDemoCopy();
-    var form = document.querySelector("form");
+    var form = document.querySelector("[data-static-demo-form=\"check\"]") || document.querySelector("form");
     if (!form) return;
-    var submitBtn = form.querySelector('[type="submit"]') || form.querySelector("button");
-    var box = resultBox(form);
-    var params = new URLSearchParams(window.location.search);
-    if (params.get("cancelled") === "1") {
-      showStatus(box, "<p>Checkout was cancelled. Nothing was charged. You can try again whenever you like.</p>");
-    } else if (params.get("session_id")) {
-      // Back from Stripe after payment. Start the paid check.
-      runPaidCheck(box, params.get("session_id"));
-    }
-    form.addEventListener("submit", function (e) {
-      e.preventDefault();
-      startCheckout(form, box, submitBtn);
+    form.querySelectorAll("input, button, select, textarea").forEach(function (el) {
+      el.disabled = false;
     });
+    var submitBtn = form.querySelector('[type="submit"]') || form.querySelector("button");
+    if (!submitBtn) {
+      submitBtn = document.createElement("button");
+      submitBtn.type = "submit";
+      submitBtn.className = "btn";
+      var actions = form.querySelector(".form-actions") || form;
+      actions.appendChild(submitBtn);
+    }
+    submitBtn.textContent = "Continue to checkout";
+    var box = resultBox(form);
+    function onSubmit(e) {
+      if (e) e.preventDefault();
+      startCheckout(form, box, submitBtn);
+    }
+    form.addEventListener("submit", onSubmit);
+    if (form.tagName !== "FORM") {
+      submitBtn.addEventListener("click", onSubmit);
+    }
+
+    var params = new URLSearchParams(window.location.search);
+    var sessionId = params.get("session_id");
+    if (sessionId && /^cs_(test|live)_[A-Za-z0-9]+$/.test(sessionId)) {
+      if (box.scrollIntoView) box.scrollIntoView({ block: "start" });
+      runPaidCheck(box, sessionId);
+    } else if (params.get("cancelled") === "1") {
+      showStatus(box, "<p>Checkout was cancelled. Nothing was charged and no check ran. " +
+        "You can start again whenever you like.</p>");
+      if (box.scrollIntoView) box.scrollIntoView({ block: "start" });
+    }
   });
 })();
