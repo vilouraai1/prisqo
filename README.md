@@ -18,7 +18,10 @@ this commit. Sample rebuilt to a stronger labeled example (12/18 named,
   vilouraai1@gmail.com is now published on the contact page (and in
   terms/privacy/FAQ); sample answer previews show the full Sources line;
   the check form validates website/category/city and blocks double-submit
-  while checkout opens.
+  while checkout opens. Sample sources reconciled preview-led (previews now
+  cite 3–4 sources each, counts match the bars 12/11/10/9/8/7/6; slugs no
+  longer cut at 38 chars); Back from Stripe Checkout no longer leaves the
+  pay button stuck (pageshow/bfcache reset).
 
 ## What's in here
 

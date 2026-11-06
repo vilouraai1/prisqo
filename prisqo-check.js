@@ -361,4 +361,25 @@
       if (box.scrollIntoView) box.scrollIntoView({ block: "start" });
     }
   });
+
+  // Back from Stripe Checkout restores the page from the back-forward
+  // cache with the pay button still disabled from the redirect, and
+  // checkoutBusy still set. DOMContentLoaded does not fire on that
+  // restore, so reset here — unless a paid check is running on this
+  // page (/?paid=1&session_id=...), in which case leave it alone.
+  window.addEventListener("pageshow", function (e) {
+    if (!e.persisted) return;
+    var params = new URLSearchParams(window.location.search);
+    var sessionId = params.get("session_id");
+    if (sessionId && /^cs_(test|live)_[A-Za-z0-9]+$/.test(sessionId)) return;
+    var form = document.querySelector("[data-static-demo-form=\"check\"]") || document.querySelector("form");
+    if (!form) return;
+    var btn = form.querySelector('[type="submit"]') || form.querySelector("button");
+    if (btn) btn.disabled = false;
+    checkoutBusy = false;
+    var box = $("#prisqo-result") || $("[data-prisqo-result]");
+    if (box && box.textContent.indexOf("Opening secure checkout") !== -1) {
+      showStatus(box, "<p>You came back from checkout. You can try again whenever you like.</p>");
+    }
+  });
 })();
