@@ -21,7 +21,16 @@ this commit. Sample rebuilt to a stronger labeled example (12/18 named,
   while checkout opens. Sample sources reconciled preview-led (previews now
   cite 3–4 sources each, counts match the bars 12/11/10/9/8/7/6; slugs no
   longer cut at 38 chars); Back from Stripe Checkout no longer leaves the
-  pay button stuck (pageshow/bfcache reset).
+  pay button stuck (pageshow/bfcache reset). Share-ready Nov 6: new
+  opengraph-image.png (1200x630, "Pay once" not "Free check" — the old live
+  image said "Free check"). NOTE: the GitHub connector only pushes UTF-8
+  text, so the two PNGs (opengraph-image.png, apple-icon.png) are NOT in
+  this repo yet — the new OG image is supplied to Kiwi separately and she
+  must replace the live opengraph-image.png, or share previews keep saying
+  "Free check". icon.svg + robots.txt ARE in the repo; apple-icon.png is
+  already correct live (white P on indigo). Mobile rechecked against the live stylesheet:
+  form row stacks, pay button full-width at <=720px, tables/nav scroll
+  internally, no page-level horizontal scroll.
 
 ## What's in here
 
