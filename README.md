@@ -5,8 +5,11 @@ reviews, and deploys to the live Workers.
 
 ## What's in here
 
-- `faq.html` — FAQ page. New q15 "What if I pay and the check fails?" in the
-  visible FAQ and in the FAQPage JSON-LD.
+- `index.html`, `pricing.html`, `faq.html`, `contact.html`, `privacy.html`,
+  `terms.html`, `404.html`, `compare.html`, `compare/hubspot-aeo.html`,
+  `compare/otterly.html`, `compare/peec-ai.html` — the 13 site pages, swept
+  Nov 6: one report, pay once at checkout, no subscription; 6 prompts, not
+  12; no Prisqo price printed anywhere; no "free check".
 - `sample/results.html` — sample report, rebuilt around the 6 kept prompts ×
   3 sample engines = 18 answers. Smith Family Dental 7/18 mentioned, 7/18
   top-3, score 39 (computed from the answer grid).
@@ -15,6 +18,11 @@ reviews, and deploys to the live Workers.
 - `prisqo-check.js` — homepage check script. New `showPaidError`: post-payment
   errors no longer claim "Nothing was charged." Pre-payment errors keep
   `showError`.
+- `prisqo-site-worker.js` — site Worker: serves static assets (adds
+  `X-Robots-Tag: noindex, nofollow`), proxies only `/api/check`,
+  `/api/create-checkout-session`, `/api/step/*`, `/api/report/*`, `/api/spend`
+  to the engine with `CHECK_TOKEN` added server-side. `/api/webhook/stripe`
+  is NOT proxied (stays 404 on the site).
 - `engine/worker.js` — report engine. Two fixes: `/report/:id` not-done
   fallback `|| 12` → `|| 6`, and the Stripe webhook signature verify is now
   constant-time (`timingSafeEqualHex`) instead of a character-by-character
