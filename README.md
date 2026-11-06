@@ -13,7 +13,8 @@ Jilsha says go live — nothing was flipped. Email collection is Stripe
 Checkout's default (it asks for the buyer's email at payment); no engine
 change was made and no email is sent. Going live (live Stripe keys, showing
 a price, removing noindex / the demo banner) is a separate Jilsha yes — not
-this commit.
+this commit. Sample rebuilt to a stronger labeled example (12/18 named,
+10/18 top-3, score 63); the live scoring formula is unchanged.
 
 ## What's in here
 
@@ -22,14 +23,14 @@ this commit.
   `compare/otterly.html`, `compare/peec-ai.html` — the 13 site pages, swept
   Nov 6: one report, pay once at checkout, no subscription; 6 prompts, not
   12; no Prisqo price printed anywhere; no "free check". Homepage hero now
-  matches the shipped sample: score 39 of 100, named in 7 of 18 answers
-  (was 29 / 13 of 36), with competitor and source bars from the same
+  matches the shipped sample: score 63 of 100, named in 12 of 18 answers
+  (was 39 / 7 of 18), with competitor and source bars from the same
   18-answer grid.
 - `sample/results.html` — sample report, built around the 6 kept prompts ×
-  3 sample engines = 18 answers. Smith Family Dental 7/18 mentioned, 7/18
-  top-3, score 39 (computed from the answer grid).
+  3 sample engines = 18 answers. Smith Family Dental 12/18 mentioned, 10/18
+  top-3, score 63 (computed from the answer grid).
 - `sample/weekly-report.html` — sample weekly report, same 18 answers.
-  Score 39, down 6 vs last week 45; mentions 7/18, down 4 vs 11.
+  Score 63, up 18 vs last week 45; mentions 12/18, up 3 vs 9.
 - `prisqo-check.js` — homepage check script, synced from the live file:
   handles `already_used` and `not_paid`, targets
   `data-static-demo-form="check"` (not the first `<form>`), and post-payment
