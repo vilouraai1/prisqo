@@ -1,7 +1,5 @@
 /*
-  Content-Security-Policy: default-src 'self'; script-src 'self'; connect-src 'self'; form-action 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; base-uri 'none'; frame-ancestors 'none'
+  Content-Security-Policy: default-src 'self'; script-src 'self' https://static.cloudflareinsights.com; connect-src 'self' https://cloudflareinsights.com; form-action 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; base-uri 'none'; frame-ancestors 'none'
   Referrer-Policy: no-referrer
   X-Content-Type-Options: nosniff
   X-Frame-Options: DENY
-  # GO-LIVE: remove the X-Robots-Tag line below only when Jilsha says go live. Do not remove before then.
-  X-Robots-Tag: noindex, nofollow

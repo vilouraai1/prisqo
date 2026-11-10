@@ -51,16 +51,13 @@
     return new Promise(function (r) { setTimeout(r, ms); });
   }
 
-  // The live check asks 6 questions now, not 12. Correct the
-  // demo copy in place if it still says otherwise, and replace
-  // the "does not run checks" note. Only exact phrases change.
-  function fixDemoCopy() {
+  // The live check asks 6 questions now, not 12. Correct stale
+  // copy in place if it still says otherwise. Only exact phrases change.
+  function fixCheckCopy() {
     var replacements = [
       ["about 12 buyer-style questions", "6 buyer-style questions"],
       ["We ask ~12 real buyer questions", "We ask 6 real buyer questions"],
       ["~12 real buyer questions", "6 real buyer questions"],
-      ["Demo only: this static preview does not run checks and sends nothing.",
-       "$19, pay once at checkout, then your check runs automatically. No subscription. One payment buys one report."],
     ];
     var walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT);
     var nodes = [];
@@ -72,6 +69,50 @@
         changed = changed.split(pair[0]).join(pair[1]);
       });
       if (changed !== text) node.nodeValue = changed;
+    });
+  }
+
+  // The report lives at this page's address, and nothing is emailed.
+  // Show the link in a box with a copy button and a mailto link, so
+  // the buyer can keep it. Nothing is sent by the server.
+  function reportLinkBox() {
+    var url = window.location.href;
+    var subject = encodeURIComponent("My Prisqo visibility report");
+    var body = encodeURIComponent("My Prisqo report: " + url);
+    return '<div class="report-link" style="border:1px solid #e2e8f0;border-radius:10px;padding:12px;margin:12px 0">' +
+      "<p><strong>Your report link</strong></p>" +
+      '<p><a href="' + escapeHtml(url) + '">' + escapeHtml(url) + "</a></p>" +
+      '<p><button type="button" class="btn secondary" data-copy-link="1">Copy link</button> ' +
+      '<a href="mailto:?subject=' + subject + "&body=" + body + '">Email this link to yourself</a></p>' +
+      "<p>Bookmark this. It's the only way back to your report.</p></div>";
+  }
+  function fallbackCopy(text, done) {
+    var ta = document.createElement("textarea");
+    ta.value = text;
+    ta.setAttribute("readonly", "");
+    ta.style.position = "fixed";
+    ta.style.opacity = "0";
+    document.body.appendChild(ta);
+    ta.select();
+    var ok = false;
+    try { ok = document.execCommand("copy"); } catch (e) { ok = false; }
+    document.body.removeChild(ta);
+    done(ok);
+  }
+  function wireCopyButton(box) {
+    var btn = box.querySelector("[data-copy-link]");
+    if (!btn) return;
+    btn.addEventListener("click", function () {
+      var url = window.location.href;
+      function done(ok) {
+        btn.textContent = ok ? "Copied!" : "Copy failed \u2014 long-press the link to copy it";
+      }
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(url).then(function () { done(true); },
+          function () { fallbackCopy(url, done); });
+      } else {
+        fallbackCopy(url, done);
+      }
     });
   }
 
@@ -179,7 +220,8 @@
   }
 
   async function runPaidCheck(box, sessionId) {
-    showStatus(box, "<p><strong>Your payment went through.</strong> Your check is starting now. Stay on this page until the report finishes, then bookmark this page — this address is your report, and opening it again reloads the same check.</p>");
+    showStatus(box, "<p><strong>Your payment went through.</strong> Your check is starting now. Stay on this page until the report finishes, then bookmark this page — this address is your report, and opening it again reloads the same check.</p>" + reportLinkBox());
+    wireCopyButton(box);
     var startedAt = Date.now();
     var jobId = null;
     var created;
@@ -311,7 +353,7 @@
       "<p><strong>Score: " + (s.score == null ? "—" : s.score + " / 100") + "</strong> — " +
       "named in " + (s.mentioned || 0) + " of " + (s.total || 6) + " answers, " +
       "in the top 3 in " + (s.top3 || 0) + ".</p>" +
-      "<p>Bookmark this page to come back to this report — this address is your report.</p>" +
+      reportLinkBox() +
       (r.capped ? "<p><strong>Partial report:</strong> the daily spending cap was reached, so this is not a full 6-prompt report.</p>" : "") +
       (r.complete === false && !r.capped ? "<p><strong>Partial report:</strong> not all prompts completed.</p>" : "") +
       "<h3>Who AI recommends instead</h3>" +
@@ -322,11 +364,12 @@
       "<p><small>Checked with Groq gpt-oss-20b and live web search — one model, " +
       (s.total || 6) + " buyer-style questions. This is not ChatGPT, Perplexity, Claude, Grok, " +
       "or Google AI Overviews, and results vary between runs. Competitor URLs are as the model returned them, not independently verified.</small></p>");
+    wireCopyButton(box);
   }
 
   document.addEventListener("DOMContentLoaded", function () {
-    fixDemoCopy();
-    var form = document.querySelector("[data-static-demo-form=\"check\"]") || document.querySelector("form");
+    fixCheckCopy();
+    var form = document.querySelector("[data-static-check-form=\"check\"]") || document.querySelector("form");
     if (!form) return;
     form.querySelectorAll("input, button, select, textarea").forEach(function (el) {
       el.disabled = false;
@@ -372,7 +415,7 @@
     var params = new URLSearchParams(window.location.search);
     var sessionId = params.get("session_id");
     if (sessionId && /^cs_(test|live)_[A-Za-z0-9]+$/.test(sessionId)) return;
-    var form = document.querySelector("[data-static-demo-form=\"check\"]") || document.querySelector("form");
+    var form = document.querySelector("[data-static-check-form=\"check\"]") || document.querySelector("form");
     if (!form) return;
     var btn = form.querySelector('[type="submit"]') || form.querySelector("button");
     if (btn) btn.disabled = false;

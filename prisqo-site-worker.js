@@ -1,11 +1,13 @@
 // Prisqo site Worker — prisqo.vilouraai.com (Cloudflare free plan).
-// Serves the static demo site AND proxies the real check to the
+// Serves the static site AND proxies the real check to the
 // report engine, so the secret never reaches public JS.
 //
 // How it works:
 // - GET / and other static paths -> the site's static assets
-//   (env.ASSETS, Workers Static Assets). X-Robots-Tag: noindex
-//   is added to every response, so the demo stays noindexed.
+//   (env.ASSETS, Workers Static Assets). The site is live and
+//   indexable: no robots-exclusion header is set here, and the
+//   pages carry no robots-exclusion meta (except 404 and the
+//   weekly-report preview).
 // - POST /api/check, POST /api/step/:jobId, GET /api/report/:id,
 //   GET /api/spend, POST /api/create-checkout-session ->
 //   forwarded to the engine at ENGINE_URL,
@@ -44,10 +46,7 @@ export default {
       });
     }
     const res = await env.ASSETS.fetch(request);
-    const out = new Response(res.body, res);
-    // Keep the demo noindexed, whatever the static files say.
-    out.headers.set("X-Robots-Tag", "noindex, nofollow");
-    return out;
+    return new Response(res.body, res);
   },
 };
 
