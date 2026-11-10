@@ -60,7 +60,7 @@
       ["We ask ~12 real buyer questions", "We ask 6 real buyer questions"],
       ["~12 real buyer questions", "6 real buyer questions"],
       ["Demo only: this static preview does not run checks and sends nothing.",
-       "Pay once at checkout, then your check runs automatically. No subscription. One payment buys one report."],
+       "$19, pay once at checkout, then your check runs automatically. No subscription. One payment buys one report."],
     ];
     var walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT);
     var nodes = [];
