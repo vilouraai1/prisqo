@@ -1,7 +1,7 @@
 # Reply: brief-4 (homepage conversion + "best tools" SEO pages)
 
 Commit: `b6a0ca57f22b8504458135acfc5faf295fd53513`
-PR: (link added after opening)
+PR: https://github.com/vilouraai1/prisqo/pull/23 (non-draft)
 Branch: `muse-brief-4` (from main `58e02227` — main moved from `6141363` while this ran; the new commit only added `ops/tasks/brief-5.md` and `ops/tasks/hark-20.md`, no conflicts with any file below)
 Status: done — items A1–A4, B5–B6, C7. Only the brief's files changed.
 
