@@ -29,6 +29,74 @@
   var MAX_ELAPSED_MS = 20 * 60 * 1000;
   var MAX_WAIT_S = 70;
 
+  // Attribution (?ref= / utm_*) is kept in the URL through the
+  // checkout flow. The engine does not read it yet (no
+  // client_reference_id / metadata in the live engine), so it is
+  // passed along in the checkout-session request for the engine to
+  // pick up later, and restored into the address bar on the
+  // ?paid=1 return. No third-party script, no cookie.
+  var ATTRIBUTION_KEYS = ["ref", "utm_source", "utm_medium", "utm_campaign", "utm_term", "utm_content"];
+  function readAttribution() {
+    var params = new URLSearchParams(window.location.search);
+    var out = {};
+    ATTRIBUTION_KEYS.forEach(function (k) { var v = params.get(k); if (v) out[k] = v; });
+    return out;
+  }
+  function storedAttribution() {
+    try {
+      var raw = sessionStorage.getItem("prisqo-attribution");
+      return raw ? JSON.parse(raw) : {};
+    } catch (e) { return {}; }
+  }
+  function captureAttribution() {
+    var fresh = readAttribution();
+    if (Object.keys(fresh).length) {
+      try { sessionStorage.setItem("prisqo-attribution", JSON.stringify(fresh)); } catch (e) {}
+    }
+  }
+  function restoreAttribution() {
+    var stored = storedAttribution();
+    if (!Object.keys(stored).length) return;
+    var params = new URLSearchParams(window.location.search);
+    var changed = false;
+    ATTRIBUTION_KEYS.forEach(function (k) {
+      if (stored[k] && !params.get(k)) { params.set(k, stored[k]); changed = true; }
+    });
+    if (changed) {
+      try { history.replaceState(null, "", window.location.pathname + "?" + params.toString() + window.location.hash); } catch (e) {}
+    }
+  }
+  function attributionQuery(obj) {
+    var parts = [];
+    ATTRIBUTION_KEYS.forEach(function (k) {
+      if (obj[k]) parts.push(encodeURIComponent(k) + "=" + encodeURIComponent(obj[k]));
+    });
+    return parts.length ? "?" + parts.join("&") : "";
+  }
+
+  // Free checklist capture (homepage): there is no backend endpoint
+  // for this, so the form opens the visitor's mail app with a
+  // request ready to send to vilouraai1@gmail.com. Nothing is
+  // submitted automatically and no address is stored.
+  function wireChecklistCapture() {
+    var form = document.getElementById("checklist-capture");
+    if (!form) return;
+    form.addEventListener("submit", function (e) {
+      e.preventDefault();
+      var email = document.getElementById("checklist-email");
+      var addr = email ? email.value.trim() : "";
+      var note = document.getElementById("checklist-note");
+      if (!addr || addr.indexOf("@") === -1) {
+        if (note) note.textContent = "Enter a valid email address first.";
+        return;
+      }
+      var subject = encodeURIComponent("AI-visibility checklist request");
+      var body = encodeURIComponent("Please send the AI-visibility checklist to: " + addr + "\n\n(Requested from prisqo.vilouraai.com.)");
+      window.location.href = "mailto:vilouraai1@gmail.com?subject=" + subject + "&body=" + body;
+      if (note) note.textContent = "Your mail app should have opened with the request ready to send — send it and we will reply with the checklist.";
+    });
+  }
+
   function $(sel) {
     return document.querySelector(sel);
   }
@@ -200,8 +268,10 @@
     try {
       var created;
       try {
-        created = await postJson("/api/create-checkout-session", {
+        var attr = storedAttribution();
+        created = await postJson("/api/create-checkout-session" + attributionQuery(attr), {
           url: website, category: category, city: city, businessName: businessName || undefined,
+          attribution: attr,
         });
       } catch (e) {
         showError(box, "The connection dropped. Please try again.");
@@ -220,7 +290,9 @@
   }
 
   async function runPaidCheck(box, sessionId) {
-    showStatus(box, "<p><strong>Your payment went through.</strong> Your check is starting now. Stay on this page until the report finishes, then bookmark this page — this address is your report, and opening it again reloads the same check.</p>" + reportLinkBox());
+    showStatus(box, "<p><strong>Your payment went through.</strong> Your check is starting now.</p>" +
+      "<p><strong>What happens next:</strong> we ask 6 buyer-style questions about your business and record who AI recommends. Your report is ready on this page in a few minutes — stay here until it finishes, then bookmark this page: this address is your report, and opening it again reloads the same check. Nothing is emailed; the report lives at this address.</p>" +
+      "<p>Questions? Email <a href=\"mailto:vilouraai1@gmail.com\">vilouraai1@gmail.com</a>. Know another business owner who should see this? <a href=\"mailto:?subject=" + encodeURIComponent("Prisqo: does AI recommend your business?") + "&body=" + encodeURIComponent("I just ran a $19 AI visibility check on my business: https://prisqo.vilouraai.com/ — it shows whether AI assistants recommend you, who they name instead, and which sources they cite.") + "\">Share Prisqo with a friend</a>.</p>" + reportLinkBox());
     wireCopyButton(box);
     var startedAt = Date.now();
     var jobId = null;
@@ -369,6 +441,9 @@
 
   document.addEventListener("DOMContentLoaded", function () {
     fixCheckCopy();
+    captureAttribution();
+    restoreAttribution();
+    wireChecklistCapture();
     var form = document.querySelector("[data-static-check-form=\"check\"]") || document.querySelector("form");
     if (!form) return;
     form.querySelectorAll("input, button, select, textarea").forEach(function (el) {
@@ -382,7 +457,7 @@
       var actions = form.querySelector(".form-actions") || form;
       actions.appendChild(submitBtn);
     }
-    submitBtn.textContent = "Continue to checkout";
+    submitBtn.textContent = "Get my report ($19)";
     var box = resultBox(form);
     function onSubmit(e) {
       if (e) e.preventDefault();
