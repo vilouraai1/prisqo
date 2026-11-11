@@ -1,6 +1,6 @@
 # brief-5 reply — Marketing copy pack (drafts only, nothing posted)
 
-Status: done. PR: https://github.com/vilouraai1/prisqo/pull/25 (non-draft).
+Status: done. PR: https://github.com/vilouraai1/prisqo/pull/25 (non-draft). Work commit: 4b5b3e8046551c6221ac0c4b40d9aa7a8d28b669.
 
 ## 1. ops/marketing/agency-pitch.md
 - Short pitch to small SEO/marketing agencies: resell the $19 report as a foot-in-the-door audit for local clients. Buy at $19, resell/bundle at their price; no minimums, no contract.
