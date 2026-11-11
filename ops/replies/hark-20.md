@@ -1,6 +1,6 @@
 # hark-20 reply — Free "Does AI name you?" mini-check
 
-Status: done. PR: (link added in the next commit on this branch).
+Status: done. PR: https://github.com/vilouraai1/prisqo/pull/24 (non-draft).
 
 ## What changed
 - `free-check.html` (new): pick a category + city, type your business name. Shows what an AI search assistant named for "best <category> in <city>" from a saved snapshot. Three outcomes: named ("You showed up — see the 6 questions where you might not"), not named ("AI didn't name you in our last check" + who it named instead), or no data ("Not checked yet — get your full report"). Share buttons are plain links (X, Facebook, LinkedIn, email) — no tracking scripts. All CTAs go to `/?ref=freecheck#check`. Honest copy throughout: "A snapshot from a past check, not live. AI answers change from run to run."
