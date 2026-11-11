@@ -11,9 +11,7 @@ This batch is the next fastest path to revenue: finish the press kit so director
 3. Update /compare title, meta description, and OG/Twitter tags so they cover all 12 comparison pages, not just Otterly, Peec AI, and HubSpot AEO. Body already lists all 12; titles/meta should match.
 4. Hedge unverified competitor prices in titles and meta the same way the page body already does (AthenaHQ $295, Writesonic GEO $99, Am I On AI $100 are third-party-reported; Goodie $295 billing period is ambiguous). Do not assert those figures in title/description as if they were verified on the vendor's site.
 
-## C. Local-intent SEO pages (traffic)
-5. Add 8 local-intent landing pages, unique intros, 3 example prompts, the sample-report CTA, and Buy: dentists in Austin, dentists in Dallas, plumbers in Houston, restaurants in Austin, law firms in Dallas, real estate agents in Chicago, med spas in Houston, and SaaS in Austin. Follow the existing ai-visibility/*.html template. Suggested paths: /ai-visibility/dentists-austin, /ai-visibility/dentists-dallas, /ai-visibility/plumbers-houston, /ai-visibility/restaurants-austin, /ai-visibility/lawyers-dallas, /ai-visibility/real-estate-agents-chicago, /ai-visibility/med-spas-houston, /ai-visibility/saas-austin.
-6. Update sitemap.xml, footer/internal links, and canonical tags. Every new or changed page gets a unique title, meta description, and OG tags.
+## C. (Moved to ops/tasks/hark-1.md, which Hark is handling. Don't touch the /ai-visibility/*-<city> pages or the sitemap entries for them.)
 
 ## D. Hygiene
 7. Lighthouse 90+ on mobile for home, one compare page, and one industry or local page (compress images if needed; JS is already deferred). If you cannot run Lighthouse, say so in the reply; do not invent scores.
