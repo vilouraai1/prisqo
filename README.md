@@ -4,6 +4,70 @@ Muse pushes here; Kiwi deploys. Nothing in this repo deploys itself, and
 nobody deploys from here — Kiwi pulls, reviews, and deploys to the live
 Workers (`prisqo` site, `prisqo-report-engine` engine).
 
+## Latest batch (revenue batch 2, Nov 10 — branch `muse-revenue-2`)
+
+Conversion first, then SEO and distribution. Price stays $19 one-time,
+14-day refund. No engine or Stripe changes. All new pages verified:
+JSON-LD parses, unique titles, canonicals and OG tags on every page,
+no broken internal links, no "coming soon" / "not built" text.
+
+- Homepage: hero cut to one promise ("Does AI recommend your business?")
+  and one subline; "See a real sample report" CTA next to Buy;
+  every buy button site-wide now reads "Get my report ($19)" with a
+  trust strip underneath (14-day refund, one-time charge, report ready
+  in minutes); free AI-visibility checklist email capture (mailto
+  fallback — there is no backend endpoint for it, nothing is submitted
+  automatically and no address is stored).
+- `success.html` (new): post-purchase next steps — check runs on the
+  report page, ready in a few minutes, bookmark the report address,
+  contact email, share-with-a-friend link. Stripe still returns buyers
+  to `/?paid=1` (engine `success_url`); pointing it at `/success` needs
+  a one-line engine change by Kiwi. The paid-check status on the
+  homepage now carries the same next-steps copy.
+- `pricing.html`: FAQ block ("What do I get for $19?", "How long does
+  it take?", "Refunds?") with FAQPage schema.
+- `prisqo-check.js`: `?ref=` / `utm_*` are captured on landing, stored
+  in sessionStorage, passed in the checkout-session request (query
+  string and body) and restored into the address bar on the `?paid=1`
+  return. The engine does not read them yet — Stripe metadata wiring
+  needs an engine change. Also fixes a bug: the script reset the buy
+  button label to "Continue to checkout" on every load.
+- 9 new compare pages (`compare/profound`, `semrush-ai-toolkit`,
+  `ahrefs-brand-radar`, `scrunch`, `athenahq`, `goodie`, `rankscale`,
+  `writesonic-geo`, `am-i-on-ai`): facts from each vendor's own public
+  pricing/product page, checked Nov 10. Prices the vendor page did not
+  show in readable copy are labelled third-party-reported, never
+  asserted (AthenaHQ $295, Writesonic $99, Am I On AI $100; Goodie
+  $295 billing period ambiguous). Peec AI already had a page, so no
+  duplicate was built. `compare.html` now lists all 12.
+- 3 new industry pages (`ai-visibility/saas`, `med-spas`,
+  `ecommerce`): unique intro, 3 example prompts, what AI cites, 3
+  fixes, CTA, FAQ with FAQPage JSON-LD. 8 industries total now.
+- 2 new guides (`guides/show-up-in-perplexity-answers`,
+  `guides/ai-search-visibility-checklist`): the checklist doubles as
+  the lead magnet the homepage email capture points to.
+- `for-agencies.html` (new): $19 per client report, contact by email
+  for 5+. `press.html` (new): logo, share image, one-line description,
+  press contact, empty "Featured on" slot ("No press features yet").
+  Product screenshots are not in this batch — the screenshots the
+  browser captured could not be saved as files; Kiwi's agents can
+  capture homepage / sample / pricing at 1280x900.
+- `404.html`: links to home, sample report, and buy.
+- `sitemap.xml`: 34 URLs (17 new). Footer Compare / Industries /
+  Company navs updated on all 36 pages.
+- Hygiene: `prisqo-check.js` and the analytics beacon were already
+  `defer`; the OG image compresses 194,679 → 114,721 bytes at 256
+  colours with no visible difference (local copy replaced; live copy
+  is outside the repo — Kiwi to swap it in at deploy). Lighthouse 90+
+  could not be measured here (no working browser with network); Kiwi's
+  agents QA per the brief.
+- Two brief wordings were not followed literally, on purpose:
+  the trust strip says "Report ready in minutes", not "delivered by
+  email", because reports are never emailed — they live at their web
+  address; and the email capture opens the visitor's mail app with a
+  request ready to send, because there is no engine contact endpoint.
+  Both are flagged in `ops/replies/brief-2.md`.
+
 ## Live now
 
 The live site is live: the robots-exclusion meta and the preview banner are already gone from
