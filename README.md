@@ -4,7 +4,53 @@ Muse pushes here; Kiwi deploys. Nothing in this repo deploys itself, and
 nobody deploys from here — Kiwi pulls, reviews, and deploys to the live
 Workers (`prisqo` site, `prisqo-report-engine` engine).
 
-## Latest batch (revenue batch 2, Nov 10 — branch `muse-revenue-2`)
+## Latest batch (brief-3 launch kit, Nov 11 — branch `muse-brief-3`)
+
+Press kit finish + compare-hub SEO hygiene. Price stays $19 one-time,
+14-day refund. No engine or Stripe changes. No new pages; the sitemap
+(50 URLs) already covers every page except the intentionally excluded
+`/sample/weekly-report` (noindex preview).
+
+- `/press`: new "Product screenshots" section with clearly labeled
+  placeholders for the homepage, sample report, and pricing captures.
+  Real screenshot files could not be committed: the GitHub connector
+  pushes text files only, and the VM's headless Chromium cannot tunnel
+  through the egress proxy (ERR_TUNNEL_CONNECTION_FAILED, tried twice
+  with proxy auth split out). The live pages were re-checked in the
+  cloud browser at 1280x900 and load cleanly. Kiwi's agents can capture
+  the three PNGs and commit them; the placeholders name exactly what
+  each capture shows, and no broken image path is linked.
+- `/press`: the share image is downloadable as both
+  `/opengraph-image.png` and `/twitter-image.png` (both live, both 200;
+  the Twitter file is byte-identical to the original OG image). Neither
+  live file was touched or replaced.
+- `/compare`: title now "Prisqo Compared: 12 AI Visibility Tools Side
+  by Side"; meta, OG, and Twitter descriptions now name all 12
+  comparison pages instead of only Otterly, Peec AI, and HubSpot AEO.
+  OG/Twitter titles now "How Prisqo compares to 12 AI visibility tools".
+- `compare/goodie.html`: the $295/mo figure is hedged in all three
+  descriptions ("listed at $295/mo (billing period unclear on the
+  vendor's page)") and in the body FAQ, matching the pricing table's
+  existing hedge. AthenaHQ ($295), Writesonic GEO ($99), and Am I On AI
+  ($100) were checked: their titles and descriptions carry no price
+  (AthenaHQ) or already say "reported" (Am I On AI) / no price
+  (Writesonic), and their bodies already label the figures
+  third-party-reported — nothing to change there.
+- Lighthouse 90+ measured via Google PageSpeed Insights (Lighthouse
+  13.6.0, mobile, Moto G Power, Slow 4G), Nov 11 ~09:06–09:07 CT:
+  home 100/92/100/100, compare/profound 100/96/100/100,
+  ai-visibility/saas 100/95/96/100 (Performance / Accessibility /
+  Best Practices / SEO) — all four categories 90+ on all three pages.
+  Notes: accessibility deductions are links relying on color and
+  identical links with the same purpose; the SaaS page's Best Practices
+  96 is partly a "browser errors were logged to the console" flag —
+  worth a look in a later batch, not a blocker. No field (real-user)
+  data yet ("No Data").
+- Verified: JSON-LD parses on all 52 pages, titles unique, no broken
+  internal links, no "coming soon" / "not built" / "not set yet" text,
+  every buy button still reads "Get my report ($19)".
+
+## Latest batch (revenue batch 2, Nov 10 — branch `muse-brief-2`)
 
 Conversion first, then SEO and distribution. Price stays $19 one-time,
 14-day refund. No engine or Stripe changes. All new pages verified:
