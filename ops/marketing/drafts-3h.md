@@ -7,7 +7,167 @@ Drafts only. Jilsha approves and sends every email herself. Nothing here has bee
 - Hooks: on Nov 12, 2026 an AI assistant with live web search answered "best {niche} in {City}, TX" once per city and niche, before leads were picked. Answers change from run to run, so the emails say "when I asked".
 - **Before sending:** `/free-check` only holds saved answers for Lewisville, TX (`data/ai-answers.json`). Its city list has Dallas and Irving but not Fort Worth or Arlington, and it has no roofer or auto repair option. A lead in these cities who tries the free check won't find their answer until snapshots for these cities and niches are added.
 
-### 1. Hanami Medspa (Fort Worth, TX): Hanami.medspa@yahoo.com
+### 1. SK2 Dental (Stanley Ngo, DDS, PA) (Dallas, TX): info@sk2dental.com
+
+Subject: SK2 Dental (Stanley Ngo, DDS, PA) didn't come up in an AI answer
+
+Hi Dr. Ngo,
+
+When I asked an AI search assistant "best dentist in Dallas, TX", it named Arts Family Dentistry, Lake Highlands Dental, Skyline Dental Studio and Midtown Family Dentistry. SK2 Dental (Stanley Ngo, DDS, PA) didn't come up.
+
+Prisqo shows whether AI names your business and who it names instead. Try the free check:
+https://prisqo.vilouraai.com/free-check?ref=email
+
+Reply "no" and I won't email again.
+
+Jilsha Jose, VilouraAI
+[postal address]
+
+### 2. Moseley Dental Group (Preston Commons Dental Care) (Dallas, TX): info@prestoncommonsdentalcare.com
+
+Subject: Moseley Dental Group (Preston Commons Dental Care) didn't come up in an AI answer
+
+Hi Dr. Moseley,
+
+When I asked an AI search assistant "best dentist in Dallas, TX", it named Arts Family Dentistry, Lake Highlands Dental, Skyline Dental Studio and Midtown Family Dentistry. Moseley Dental Group (Preston Commons Dental Care) didn't come up.
+
+Prisqo shows whether AI names your business and who it names instead. Try the free check:
+https://prisqo.vilouraai.com/free-check?ref=email
+
+Reply "no" and I won't email again.
+
+Jilsha Jose, VilouraAI
+[postal address]
+
+### 3. Ember Medical Spa (Dallas, TX): info@embermedspadallas.com
+
+Subject: Ember Medical Spa didn't come up in an AI answer
+
+Hi Dr. Haddock,
+
+When I asked an AI search assistant "best med spa in Dallas, TX", it named It's A Secret Med Spa, Mara's Med Spa, Sanjiva Medical Spa and UPKEEP Med Spa. Ember Medical Spa didn't come up.
+
+Prisqo shows whether AI names your business and who it names instead. Try the free check:
+https://prisqo.vilouraai.com/free-check?ref=email
+
+Reply "no" and I won't email again.
+
+Jilsha Jose, VilouraAI
+[postal address]
+
+### 4. D'Allure Medspa (Dallas, TX): brandy@dalluremedspa.com
+
+Subject: D'Allure Medspa didn't come up in an AI answer
+
+Hi Brandy,
+
+When I asked an AI search assistant "best med spa in Dallas, TX", it named It's A Secret Med Spa, Mara's Med Spa, Sanjiva Medical Spa and UPKEEP Med Spa. D'Allure Medspa didn't come up.
+
+Prisqo shows whether AI names your business and who it names instead. Try the free check:
+https://prisqo.vilouraai.com/free-check?ref=email
+
+Reply "no" and I won't email again.
+
+Jilsha Jose, VilouraAI
+[postal address]
+
+### 5. Cozy-D Heating & A/C LLC (Dallas, TX): info@cozydair.com
+
+Subject: Cozy-D Heating & A/C LLC didn't come up in an AI answer
+
+Hi there,
+
+When I asked an AI search assistant "best HVAC in Dallas, TX", it named Airtron Heating & Air Conditioning, Rescue Air and Plumbing, Baker Brothers Plumbing, Air & Electric and Cody & Sons Plumbing, Heating & Air. Cozy-D Heating & A/C LLC didn't come up, even though you're #2 on DFW Professionals' Dallas HVAC ranking (5.0 stars, 366 reviews).
+
+Prisqo shows whether AI names your business and who it names instead. Try the free check:
+https://prisqo.vilouraai.com/free-check?ref=email
+
+Reply "no" and I won't email again.
+
+Jilsha Jose, VilouraAI
+[postal address]
+
+### 6. Berry Best Cooling & Heating (Dallas, TX): comfort@berrybestservices.com
+
+Subject: Berry Best Cooling & Heating didn't come up in an AI answer
+
+Hi there,
+
+When I asked an AI search assistant "best HVAC in Dallas, TX", it named Airtron Heating & Air Conditioning, Rescue Air and Plumbing, Baker Brothers Plumbing, Air & Electric and Cody & Sons Plumbing, Heating & Air. Berry Best Cooling & Heating didn't come up, even though you're #5 on DFW Professionals' Dallas HVAC ranking (5.0 stars, 111 reviews).
+
+Prisqo shows whether AI names your business and who it names instead. Try the free check:
+https://prisqo.vilouraai.com/free-check?ref=email
+
+Reply "no" and I won't email again.
+
+Jilsha Jose, VilouraAI
+[postal address]
+
+### 7. Harmony Plumbing & Drain Cleaning (Dallas, TX): service@harmonyplumbing.com
+
+Subject: Harmony Plumbing & Drain Cleaning didn't come up in an AI answer
+
+Hi there,
+
+When I asked an AI search assistant "best plumber in Dallas, TX", it named Workman Plumbing, Metro Flow Plumbing, Anchor Plumbing Company and Public Service Plumbers. Harmony Plumbing & Drain Cleaning didn't come up, even though you're #8 on ProSource's Best Plumbers in Dallas 2026 list (5.0 stars, 78 Google reviews).
+
+Prisqo shows whether AI names your business and who it names instead. Try the free check:
+https://prisqo.vilouraai.com/free-check?ref=email
+
+Reply "no" and I won't email again.
+
+Jilsha Jose, VilouraAI
+[postal address]
+
+### 8. We Roof Dallas, Inc (Dallas, TX): info@weroofdallas.com
+
+Subject: We Roof Dallas, Inc didn't come up in an AI answer
+
+Hi there,
+
+When I asked an AI search assistant "best roofer in Dallas, TX", it named Priority Roofing, T Rock Roofing & Contracting, Arrington Roofing and New View Roofing. We Roof Dallas, Inc didn't come up, even though you're #3 on DFW Professionals' Dallas roofer ranking (5.0 stars, 207 reviews).
+
+Prisqo shows whether AI names your business and who it names instead. Try the free check:
+https://prisqo.vilouraai.com/free-check?ref=email
+
+Reply "no" and I won't email again.
+
+Jilsha Jose, VilouraAI
+[postal address]
+
+### 9. Nolan Ryan Law (Dallas, TX): nolan@nolanryanlaw.com
+
+Subject: Nolan Ryan Law didn't come up in an AI answer
+
+Hi Nolan,
+
+When I asked an AI search assistant "best law firm (personal injury) in Dallas, TX", it named Hamilton Wingo, Mullen & Mullen Law Firm, Aldous Law and Lyons & Simmons. Nolan Ryan Law didn't come up, even though you're #5 on DFW Professionals' Dallas personal injury lawyer ranking (5.0 stars, 162 reviews).
+
+Prisqo shows whether AI names your business and who it names instead. Try the free check:
+https://prisqo.vilouraai.com/free-check?ref=email
+
+Reply "no" and I won't email again.
+
+Jilsha Jose, VilouraAI
+[postal address]
+
+### 10. Woodward Chiropractic & Massage (Dallas, TX): appointments@woodwardchiro.com
+
+Subject: Woodward Chiropractic & Massage didn't come up in an AI answer
+
+Hi Dr. Woodward,
+
+When I asked an AI search assistant "best chiropractor in Dallas, TX", it named Texas Functional Health Centers, Atlas Chiropractic & Wellness, Physis Chiropractic and Apex Chiropractic. Woodward Chiropractic & Massage didn't come up, even though you're #2 on Birdeye's Dallas chiropractor list (4.9 stars, 182 reviews).
+
+Prisqo shows whether AI names your business and who it names instead. Try the free check:
+https://prisqo.vilouraai.com/free-check?ref=email
+
+Reply "no" and I won't email again.
+
+Jilsha Jose, VilouraAI
+[postal address]
+
+### 11. Hanami Medspa (Fort Worth, TX): Hanami.medspa@yahoo.com
 
 Subject: Hanami Medspa didn't come up in an AI answer
 
@@ -23,7 +183,7 @@ Reply "no" and I won't email again.
 Jilsha Jose, VilouraAI
 [postal address]
 
-### 2. Strickland Heating and Air (Fort Worth, TX): info@stricklandhvac.com
+### 12. Strickland Heating and Air (Fort Worth, TX): info@stricklandhvac.com
 
 Subject: Strickland Heating and Air didn't come up in an AI answer
 
@@ -39,7 +199,7 @@ Reply "no" and I won't email again.
 Jilsha Jose, VilouraAI
 [postal address]
 
-### 3. Total Roofing Systems LLC (Fort Worth, TX): info@totalroofingsystems.com
+### 13. Total Roofing Systems LLC (Fort Worth, TX): info@totalroofingsystems.com
 
 Subject: Total Roofing Systems LLC didn't come up in an AI answer
 
@@ -55,7 +215,7 @@ Reply "no" and I won't email again.
 Jilsha Jose, VilouraAI
 [postal address]
 
-### 4. Limitless Chiropractic (Fort Worth, TX): info@limitlessdfw.com
+### 14. Limitless Chiropractic (Fort Worth, TX): info@limitlessdfw.com
 
 Subject: Limitless Chiropractic didn't come up in an AI answer
 
@@ -71,7 +231,7 @@ Reply "no" and I won't email again.
 Jilsha Jose, VilouraAI
 [postal address]
 
-### 5. Cowtown Gear Inc (Fort Worth, TX): Michelle@cowtowngear.com
+### 15. Cowtown Gear Inc (Fort Worth, TX): Michelle@cowtowngear.com
 
 Subject: Cowtown Gear Inc didn't come up in an AI answer
 
@@ -87,7 +247,7 @@ Reply "no" and I won't email again.
 Jilsha Jose, VilouraAI
 [postal address]
 
-### 6. Skin Beauty Med Spa (Fort Worth, TX): olgaphambeauty@gmail.com
+### 16. Skin Beauty Med Spa (Fort Worth, TX): olgaphambeauty@gmail.com
 
 Subject: Skin Beauty Med Spa didn't come up in an AI answer
 
@@ -103,7 +263,7 @@ Reply "no" and I won't email again.
 Jilsha Jose, VilouraAI
 [postal address]
 
-### 7. Davis Chiropractic (Fort Worth, TX): timdavisdc@gmail.com
+### 17. Davis Chiropractic (Fort Worth, TX): timdavisdc@gmail.com
 
 Subject: Davis Chiropractic didn't come up in an AI answer
 
@@ -119,7 +279,7 @@ Reply "no" and I won't email again.
 Jilsha Jose, VilouraAI
 [postal address]
 
-### 8. Parker Law Firm Injury Lawyers (Fort Worth, TX): brad@parkerlawfirm.com
+### 18. Parker Law Firm Injury Lawyers (Fort Worth, TX): brad@parkerlawfirm.com
 
 Subject: Parker Law Firm Injury Lawyers didn't come up in an AI answer
 
@@ -135,7 +295,7 @@ Reply "no" and I won't email again.
 Jilsha Jose, VilouraAI
 [postal address]
 
-### 9. Dwell Dental (formerly Ross + Cammack Family Dentistry) (Fort Worth, TX): info@dwelldental.com
+### 19. Dwell Dental (formerly Ross + Cammack Family Dentistry) (Fort Worth, TX): info@dwelldental.com
 
 Subject: Dwell Dental (formerly Ross + Cammack Family Dentistry) didn't come up in an AI answer
 
@@ -151,7 +311,7 @@ Reply "no" and I won't email again.
 Jilsha Jose, VilouraAI
 [postal address]
 
-### 10. MK's Auto Service LLC (Fort Worth, TX): INFO@MKSAUTOSERVICES.COM
+### 20. MK's Auto Service LLC (Fort Worth, TX): INFO@MKSAUTOSERVICES.COM
 
 Subject: MK's Auto Service LLC didn't come up in an AI answer
 
@@ -167,7 +327,7 @@ Reply "no" and I won't email again.
 Jilsha Jose, VilouraAI
 [postal address]
 
-### 11. South Arlington Smiles (Arlington, TX): drdavis@southarlingtonsmilestx.com
+### 21. South Arlington Smiles (Arlington, TX): drdavis@southarlingtonsmilestx.com
 
 Subject: South Arlington Smiles didn't come up in an AI answer
 
@@ -183,7 +343,7 @@ Reply "no" and I won't email again.
 Jilsha Jose, VilouraAI
 [postal address]
 
-### 12. CM Aesthetics, LLC (Arlington, TX): info.cmaesthetics@gmail.com
+### 22. CM Aesthetics, LLC (Arlington, TX): info.cmaesthetics@gmail.com
 
 Subject: CM Aesthetics, LLC didn't come up in an AI answer
 
@@ -199,7 +359,7 @@ Reply "no" and I won't email again.
 Jilsha Jose, VilouraAI
 [postal address]
 
-### 13. Who's Your Roofer?, LLC (Arlington, TX): michael@whosyourroofer.net
+### 23. Who's Your Roofer?, LLC (Arlington, TX): michael@whosyourroofer.net
 
 Subject: Who's Your Roofer?, LLC didn't come up in an AI answer
 
@@ -215,7 +375,7 @@ Reply "no" and I won't email again.
 Jilsha Jose, VilouraAI
 [postal address]
 
-### 14. The McClelland Law Firm, PLLC (Arlington, TX): david@mcclellandlaw.com
+### 24. The McClelland Law Firm, PLLC (Arlington, TX): david@mcclellandlaw.com
 
 Subject: The McClelland Law Firm, PLLC didn't come up in an AI answer
 
@@ -231,7 +391,7 @@ Reply "no" and I won't email again.
 Jilsha Jose, VilouraAI
 [postal address]
 
-### 15. Euro Car Tech (Arlington, TX): eurocartech@outlook.com
+### 25. Euro Car Tech (Arlington, TX): eurocartech@outlook.com
 
 Subject: Euro Car Tech didn't come up in an AI answer
 
@@ -247,7 +407,7 @@ Reply "no" and I won't email again.
 Jilsha Jose, VilouraAI
 [postal address]
 
-### 16. Discount Auto Air (Arlington, TX): discountacauto@gmail.com
+### 26. Discount Auto Air (Arlington, TX): discountacauto@gmail.com
 
 Subject: Discount Auto Air didn't come up in an AI answer
 
@@ -263,7 +423,7 @@ Reply "no" and I won't email again.
 Jilsha Jose, VilouraAI
 [postal address]
 
-### 17. Alana K. Macalik, DDS (Macalik DDS) (Arlington, TX): doctormac@macalikdds.com
+### 27. Alana K. Macalik, DDS (Macalik DDS) (Arlington, TX): doctormac@macalikdds.com
 
 Subject: Alana K. Macalik, DDS (Macalik DDS) didn't come up in an AI answer
 
@@ -279,7 +439,7 @@ Reply "no" and I won't email again.
 Jilsha Jose, VilouraAI
 [postal address]
 
-### 18. Phanton Mechanical, LLC (Arlington, TX): cservice@phantonmechanical.com
+### 28. Phanton Mechanical, LLC (Arlington, TX): cservice@phantonmechanical.com
 
 Subject: Phanton Mechanical, LLC didn't come up in an AI answer
 
@@ -295,7 +455,7 @@ Reply "no" and I won't email again.
 Jilsha Jose, VilouraAI
 [postal address]
 
-### 19. Skyview Dental (Erika Mendez, DDS) (Irving, TX): Info@skyviewdentalirving.com
+### 29. Skyview Dental (Erika Mendez, DDS) (Irving, TX): Info@skyviewdentalirving.com
 
 Subject: Skyview Dental (Erika Mendez, DDS) didn't come up in an AI answer
 
@@ -311,7 +471,7 @@ Reply "no" and I won't email again.
 Jilsha Jose, VilouraAI
 [postal address]
 
-### 20. American Air Customs, Inc. (Irving, TX): americanaircustoms@yahoo.com
+### 30. American Air Customs, Inc. (Irving, TX): americanaircustoms@yahoo.com
 
 Subject: American Air Customs, Inc. didn't come up in an AI answer
 
@@ -327,7 +487,7 @@ Reply "no" and I won't email again.
 Jilsha Jose, VilouraAI
 [postal address]
 
-### 21. Angel Chiropractic (Irving, TX): info@angelchiroclinic.com
+### 31. Angel Chiropractic (Irving, TX): info@angelchiroclinic.com
 
 Subject: Angel Chiropractic didn't come up in an AI answer
 
@@ -343,7 +503,7 @@ Reply "no" and I won't email again.
 Jilsha Jose, VilouraAI
 [postal address]
 
-### 22. Eddie's Mechanic & Body Repair (Irving, TX): service@ebodyrepair.com
+### 32. Eddie's Mechanic & Body Repair (Irving, TX): service@ebodyrepair.com
 
 Subject: Eddie's Mechanic & Body Repair didn't come up in an AI answer
 
@@ -359,7 +519,7 @@ Reply "no" and I won't email again.
 Jilsha Jose, VilouraAI
 [postal address]
 
-### 23. Law Office of Sina Taleghani & Associates (Irving, TX): info@taslawfirm.com
+### 33. Law Office of Sina Taleghani & Associates (Irving, TX): info@taslawfirm.com
 
 Subject: Law Office of Sina Taleghani & Associates didn't come up in an AI answer
 
@@ -375,7 +535,7 @@ Reply "no" and I won't email again.
 Jilsha Jose, VilouraAI
 [postal address]
 
-### 24. RWD Services LLC (RWD Plumbing Services) (Irving, TX): rwdservices1@gmail.com
+### 34. RWD Services LLC (RWD Plumbing Services) (Irving, TX): rwdservices1@gmail.com
 
 Subject: RWD Services LLC (RWD Plumbing Services) didn't come up in an AI answer
 
@@ -391,7 +551,7 @@ Reply "no" and I won't email again.
 Jilsha Jose, VilouraAI
 [postal address]
 
-### 25. Carey Plumbing Company (Irving, TX): Duverioux@careyplumbingcompany.com
+### 35. Carey Plumbing Company (Irving, TX): Duverioux@careyplumbingcompany.com
 
 Subject: Carey Plumbing Company didn't come up in an AI answer
 
@@ -407,7 +567,7 @@ Reply "no" and I won't email again.
 Jilsha Jose, VilouraAI
 [postal address]
 
-### 26. Access Modern Roofing (Irving, TX): info@accessroofs.com
+### 36. Access Modern Roofing (Irving, TX): info@accessroofs.com
 
 Subject: Access Modern Roofing didn't come up in an AI answer
 
@@ -423,7 +583,7 @@ Reply "no" and I won't email again.
 Jilsha Jose, VilouraAI
 [postal address]
 
-### 27. Skin Technology (Sherry Smith) (Irving, TX): skintechnology@yahoo.com
+### 37. Skin Technology (Sherry Smith) (Irving, TX): skintechnology@yahoo.com
 
 Subject: Skin Technology (Sherry Smith) didn't come up in an AI answer
 
@@ -439,7 +599,7 @@ Reply "no" and I won't email again.
 Jilsha Jose, VilouraAI
 [postal address]
 
-### 28. The Law Office of Elisa Kumadey, PLLC (Irving, TX): legal@ekdnet.law
+### 38. The Law Office of Elisa Kumadey, PLLC (Irving, TX): legal@ekdnet.law
 
 Subject: The Law Office of Elisa Kumadey, PLLC didn't come up in an AI answer
 
