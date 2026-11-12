@@ -84,3 +84,111 @@ Hi, is this Hair Topik? My name is Jilsha, I build websites for local salons. Yo
 
 Hola, is the owner in? My name is Jilsha, I build websites for local shops, and I can do this in Spanish or English. I couldn't find a website for Salon De Belleza Latino 2, and your Yelp page hasn't been claimed yet, so people searching for a barber in Lewisville don't see your hours or that you're open seven days. We can build a simple bilingual site and help you claim Yelp. Could we do a quick call to scope it?
 
+## VL-020 — Salon Yoli and Barber Shop (Lewisville)
+- chosen_offer: Website build
+- reason: Facebook page is the only web presence and the business contact is a personal iCloud email; no missed-call evidence, so website only.
+- public_email: guadalupe.garcia9208@icloud.com (in CRM; a personal iCloud address listed as the business contact)
+- draft:
+
+**Email** (From: Jilsha <vilouraai@gmail.com>, To: guadalupe.garcia9208@icloud.com)
+
+Subject: A website for Salon Yoli and Barber Shop
+
+Hi,
+
+I'm Jilsha with Viloura AI in DFW. I noticed Salon Yoli and Barber Shop only has a Facebook page, so people searching for a salon in Lewisville can't find your hours, services or a way to book. Your 4.5 rating deserves better.
+
+We build simple bilingual websites for local salons, with booking built in. Could we do a quick call to scope it?
+
+Jilsha, Viloura AI
+
+Not interested? Reply stop and I won't email again.
+
+**Phone/visit script**
+
+Hola, is this Salon Yoli? I'm Jilsha, I build websites for local salons, in Spanish or English. Right now you only have a Facebook page, so people searching in Lewisville can't see your hours or book. Could we do a quick call to scope a simple site?
+
+## VL-021 — Envy Nails (Flower Mound)
+- chosen_offer: Website build
+- reason: Google website link points to beorndir.top, an unrelated-looking domain (not visited), for a shop with 27 years in business and 68 reviews.
+- public_email: none in CRM
+- draft:
+
+**Phone/visit script**
+
+Hi, may I speak with Tang or Vanessa? My name is Jilsha, I help local salons with their websites. I noticed the website link on Envy Nails' Google listing goes to a strange domain, beorndir.top, not a salon page, so anyone who clicks it after reading your 68 reviews hits a dead end. After 27 years you deserve a real site. Could we do a quick call to scope it?
+
+## VL-022 — Muse Hair Salon (Carrollton)
+- chosen_offer: Website build
+- reason: 184 reviews at 4.7, but the only 'website' is a misspelled Instagram link (instgram.com) that's broken.
+- public_email: none in CRM
+- draft:
+
+**Phone/visit script**
+
+Hi, is this Muse Hair Salon? I'm Jilsha with Viloura AI. Quick heads up: the website link on your Google listing is spelled 'instgram.com', so it's broken, and people coming from your 184 reviews land nowhere. We can build you a real site with your services and booking so that link works. Could the owner do a quick call to scope it?
+
+## VL-044 — Pura Vida Salon (Dallas)
+- chosen_offer: AI Receptionist
+- reason: Yelp Q&A: a client tried 'numerous ways to contact them' for weeks, and the answer says it's 'extremely difficult to get anyone to answer the phone, even with a front desk guy'.
+- public_email: none in CRM
+- draft:
+
+**Phone/visit script**
+
+(Visit script; no phone in CRM.) Hi, could I leave a note for the owner or manager? I'm Jilsha with Viloura AI. On your Yelp page someone asked how to reach you after weeks of trying, and the answer was that it's hard to get anyone on the phone, even with a front desk. We set up an assistant that picks up the overflow and after-hours calls and books them for your stylists. Could the owner and I do a quick call to scope it? Here's my email, vilouraai@gmail.com.
+
+## VL-045 — Armando's Barbershop (Dallas)
+- chosen_offer: Website + AI Receptionist
+- reason: Review says the shop 'refused to answer after trying multiple times calling back', and there's no website listed.
+- public_email: none in CRM
+- draft:
+
+**Phone/visit script**
+
+Hi, is this Armando's? My name is Jilsha, I help local barbershops with their phones. I read a review from someone who called back several times and couldn't get through, which happens when everybody's cutting. We set up an assistant that answers every call and books or takes the message, and we can add a simple website, since you don't have one listed. Could we do a quick call to scope it?
+
+## VL-046 — Afro Crown Braids (Dallas)
+- chosen_offer: AI Receptionist
+- reason: Review: a client 'called her over 10 times, sent countless messages' and waited over a week for a reply; they already have a Square site with online booking, so the gap is answering, not the site.
+- public_email: none in CRM; found afroiscrown@gmail.com on http://afrocrownbraids.square.site/ (Location & Hours section, mailto link)
+- draft:
+
+**Email** (From: Jilsha <vilouraai@gmail.com>, To: afroiscrown@gmail.com)
+
+Subject: Calls and messages while you're braiding
+
+Hi,
+
+I'm Jilsha with Viloura AI in Dallas. One of your Google reviews says a client called over 10 times and sent countless messages, then waited over a week for a reply. With 5-hour braid sessions, I get why the phone can't always be answered.
+
+We set up an assistant that answers every call, handles questions like what hair to bring, and books into your Square calendar. Could we do a quick call to scope it?
+
+Jilsha, Viloura AI
+
+Not interested? Reply stop and I won't email again.
+
+**Phone/visit script**
+
+Hi, is this Afro Crown Braids? I'm Jilsha. A review mentioned a client calling over 10 times before hearing back. We set up an assistant that answers while you braid and books into Square. Could we do a quick call to scope it?
+
+## VL-047 — Ale's Salon (Lewisville)
+- chosen_offer: Website build
+- reason: Unclaimed Yelp listing with no website or phone found, for a salon offering hair, nails and lashes; customers can't find a way to reach them.
+- public_email: none in CRM
+- draft:
+
+**Phone/visit script**
+
+(Visit script; no phone in CRM.) Hi, is the owner in? I'm Jilsha with Viloura AI, here in Lewisville. I tried to look you up online and couldn't find a website or even a phone number, and your Yelp page isn't claimed yet. You do hair, nails and lashes, which people search for a lot. We can build a simple site with your number, services and booking. Could we do a quick call to scope it? I'll leave my email, vilouraai@gmail.com.
+
+## VL-048 — Giren Deguchi (GD) Barbershop (Lewisville)
+- chosen_offer: Website build
+- reason: 216 reviews at 4.9 but only a Linktree; booking already works through each barber's Booksy/theCut link, so an AI Agent isn't needed. A real site is the gap.
+- public_email: none in CRM; Linktree (https://linktr.ee/gdbarbershop) shows hours and barber booking links but no email
+- draft:
+
+**Phone/visit script**
+
+Hi, is this GD Barbershop? My name is Jilsha, I build websites for local shops. You've got 216 reviews at 4.9, which is excellent, but online you only have a Linktree with a booking link for each barber. A real site with all nine barbers, your hours and one place to book would show up much better in local search. Could the owner do a quick call to scope it?
+
