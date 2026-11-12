@@ -85,19 +85,21 @@
   matches a known option) and the visitor picks a category and submits.
   The check itself does not run until submitted. No other behaviour
   changed; `node --check free-check.js` passes.
-- The hero fields use distinct names (`biz-name` / `biz-city`) and a
-  small inline script builds `/free-check?name=…&city=…`. This is
-  deliberate: `prisqo-check.js` reads `[name="city"]` and `[name="name"]`
-  globally for the paid form, so hero fields named `name`/`city` would
-  have been picked up by the checkout instead. Without JS the form still
-  GETs to `/free-check` (params unrecognised there, visitor types again
-  — acceptable fallback, noted here).
+- The hero fields are named `name` / `city` (adi review, Nov 12 — see
+  "Fixes after adi review" below). The plain form GET to `/free-check`
+  sends `?name=…&city=…`, exactly what `free-check.js` reads, so no
+  inline script is needed — and the site CSP (`script-src 'self'`)
+  blocks inline scripts live anyway, so the earlier inline handler
+  never ran in production. `prisqo-check.js` now scopes its field
+  lookups to the paid-check form (see the fixes section), so the hero
+  fields can no longer shadow checkout.
 - The paid checkout form keeps working: it carries
   `data-static-check-form="check"`, field names `website` / `category` /
-  `city` / `businessName` exactly as `prisqo-check.js` expects, the
-  submit button it rewrites to "Get my report ($19)", and an explicit
-  `#prisqo-result` box for the `?paid=1` / `?cancelled=1` return. It is
-  the only `[name="city"]` in the document (verified by grep). The old
+  `city` / `businessName` and ids `domain` / `category` / `cats` /
+  `city` / `brand` exactly as on main, `action="#" method="post"`, the
+  `$19…` notice and both secondary links exactly as on main, the submit
+  button it rewrites to "Get my report ($19)", and an explicit
+  `#prisqo-result` box for the `?paid=1` / `?cancelled=1` return. The old
   `#check` anchor is preserved (pricing links and the free-check CTA
   point at `/#check`).
 
@@ -298,17 +300,65 @@ description instead of images.
   naive counter). H1 still 5 words, title exact, 5 sections, 4 FAQ
   questions matching JSON-LD word for word (Python `json.loads` valid).
 - `node --check free-check.js` passes; HTML tag balance clean (Python
-  `html.parser`); hero ids/names (`hero-name`/`biz-name`,
-  `hero-city`/`biz-city`) unchanged so the inline handler and prefill
-  still work; pay form fields and the single `[name="city"]` form field
-  unchanged; `$19`, 14-day refund line, and `/free-seo-audit` links
-  present; noindex still absent from `index.html` and still present on
-  `success.html`, `sample/weekly-report.html`, `404.html`.
+  `html.parser`); hero ids (`hero-name`, `hero-city`) unchanged and the
+  inline handler and prefill still work; pay form fields and the single
+  `[name="city"]` form field unchanged; `$19`, 14-day refund line, and
+  `/free-seo-audit` links present; noindex still absent from `index.html`
+  and still present on `success.html`, `sample/weekly-report.html`, `404.html`.
+  (Superseded for the hero names, the inline handler and the pay-form
+  ids by "Fixes after adi review" below — adi asked for `name`/`city`
+  on the hero and main's exact ids on the checkout form.)
 - Files changed by this pass: `index.html` (hero labels, `*` markers,
   answer-card `aria-label` removed — a generic `<div>` ignores
   `aria-label`; the card's visible text is self-describing),
   `prisqo-lp.css` (tokens, placeholder, labels, touch targets,
   safe-area, animation scope).
+
+## Fixes after adi review (Nov 12)
+
+Adi asked for three changes; all three are in this branch now.
+
+1. **Hero form fields are `name` and `city`** (were `biz-name` /
+   `biz-city`). The plain GET to `/free-check` now sends the params
+   `free-check.js` reads, so the free check prefills without JS. The
+   inline hero script is removed: it only existed to translate the old
+   names, and the site CSP (`script-src 'self'`, no `unsafe-inline`)
+   blocks inline scripts live, so it never ran in production.
+2. **`data-testid="sample-preview"` and `data-testid="home-more"` are
+   back**, on the sample section and on the restored "What we measure,
+   pricing and comparisons" link after the FAQ, both exactly as on main.
+3. **$19 checkout form restyled but on main's exact contract**: ids
+   `domain` / `category` / `cats` / `city` / `brand` (were
+   `pay-website` / `pay-category` / `pay-cats` / `pay-city` /
+   `pay-name`), names unchanged, `action="#" method="post"`, the
+   `$19…` notice byte-identical to main, both secondary links
+   ("See a real sample report", "Free 10-second check") exact, plus
+   the form-actions hint, the refund line and the "Not ready to pay?"
+   line restored. The revamp's `type="url"` + `required` on the
+   website field are also gone: `type="url"` blocks bare domains like
+   `smithfamilydental.com`, which the placeholder itself invites and
+   the JS validator accepts. New CSS (`prisqo-lp.css`) styles the
+   restored pieces in the new design: `.btn.secondary`,
+   `.form-actions`, `.notice`.
+- **Checkout-safety fix this rename forced**: `prisqo-check.js`
+  `field()` read `[name="city"]` / `[name="name"]` from the whole
+  document, and the hero form comes first in the DOM — with the hero
+  renamed, checkout would have read the hero's city. `field()` now
+  takes the pay form as its root (`field(form, …)` at the four call
+  sites in `startCheckout`); nothing else in the file changed.
+- Verification re-run: 40 automated checks pass (hero names, both
+  testids once each, all five checkout ids + four names, notice
+  byte-identical, both secondary links exact, no `biz-*`/`pay-*`
+  strings left, no inline script, no duplicate ids, JSON-LD parses,
+  `node --check prisqo-check.js` passes); page rendered in headless
+  Chrome at 1280px and 375px — hero, sample, pay form (secondary
+  buttons + notice box) and home-more link all render cleanly. Copy
+  grew slightly from the restored checkout text (notice, secondary
+  links, "Not ready to pay?" line, home-more link), so the 464-word
+  figure above is the pre-fix count. Files changed by this pass:
+  `index.html`, `prisqo-check.js`, `prisqo-lp.css`,
+  `ops/replies/muse-lp-2.md` (this section + the two stale bullets
+  above).
 
 ## Summary
 

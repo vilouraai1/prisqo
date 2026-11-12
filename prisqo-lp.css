@@ -226,7 +226,19 @@ img { display: block; max-width: 100%; }
 .pay-row { display: grid; grid-template-columns: 1fr; gap: 0; }
 @media (min-width: 640px) { .pay-row { grid-template-columns: 1fr 1fr; gap: 16px; } }
 .pay-form .btn { width: 100%; margin: 4px 0 12px; }
-.pay-form .hint { text-align: center; margin: 0; }
+.pay-form > p.hint { text-align: center; margin: 0; }
+.form-actions { display: flex; flex-direction: column; gap: 10px; margin-top: 4px; }
+.form-actions .btn { margin: 0; }
+.btn.secondary {
+  background: var(--surface); color: var(--accent);
+  border: 1.5px solid var(--accent);
+}
+.btn.secondary:hover { background: var(--soft); }
+.notice {
+  background: var(--soft); border: 1px solid var(--card-line);
+  border-radius: 10px; padding: 12px 14px;
+  font-size: 14px; color: var(--muted); margin: 16px 0 0;
+}
 .audit-line { margin-top: 22px; font-size: 15px; }
 .audit-line a { font-weight: 600; }
 

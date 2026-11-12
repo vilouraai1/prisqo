@@ -66,12 +66,12 @@
     <form id="hero-free" class="hero-form" action="/free-check" method="get">
       <span class="hero-field">
         <label for="hero-name">Business name <span class="req" aria-hidden="true">*</span></label>
-        <input id="hero-name" name="biz-name" type="text" placeholder="Your business name" autocomplete="organization" required>
+        <input id="hero-name" name="name" type="text" placeholder="Your business name" autocomplete="organization" required>
       </span>
       <span class="pill-div" aria-hidden="true"></span>
       <span class="hero-field">
         <label for="hero-city">City <span class="req" aria-hidden="true">*</span></label>
-        <input id="hero-city" name="biz-city" type="text" placeholder="City" autocomplete="address-level2" list="hero-cities" required>
+        <input id="hero-city" name="city" type="text" placeholder="City" autocomplete="address-level2" list="hero-cities" required>
       </span>
       <datalist id="hero-cities">
         <option value="Lewisville, TX"></option><option value="Dallas, TX"></option><option value="Plano, TX"></option><option value="Frisco, TX"></option><option value="Denton, TX"></option><option value="Carrollton, TX"></option><option value="McKinney, TX"></option><option value="Allen, TX"></option><option value="Irving, TX"></option><option value="Garland, TX"></option>
@@ -111,7 +111,7 @@
   </ol>
 </section>
 
-<section class="section sample" aria-labelledby="sample-title">
+<section class="section sample" aria-labelledby="sample-title" data-testid="sample-preview">
   <h2 id="sample-title">What a report looks like</h2>
   <p class="section-lead">Smith Family Dental, a fictional dentist in Austin, TX &mdash; named in 5 of 6 answers, score 83 of 100.</p>
   <div class="sample-grid">
@@ -151,27 +151,35 @@
   <p class="section-lead">$19, pay once. No subscription, no account. 14-day refund if the report fails or comes back empty.</p>
   <div id="check">
     <form class="card pay-form" data-static-check-form="check" action="#" method="post">
-      <label for="pay-website">Your website <span class="req" aria-hidden="true">*</span></label>
-      <input id="pay-website" name="website" type="url" inputmode="url" placeholder="e.g. smithfamilydental.com" autocomplete="url" required>
+      <label for="domain">Your website</label>
+      <input id="domain" name="website" placeholder="e.g. smithfamilydental.com" value="">
       <div class="pay-row">
         <div>
-          <label for="pay-category">What you do <span class="req" aria-hidden="true">*</span></label>
-          <input id="pay-category" name="category" type="text" list="pay-cats" placeholder="e.g. dentist" autocomplete="off" required>
-          <datalist id="pay-cats">
+          <label for="category">What you do (category)</label>
+          <input id="category" name="category" list="cats" placeholder="e.g. dentist" value="">
+          <datalist id="cats">
             <option value="dentist"></option><option value="plumber"></option><option value="roofer"></option><option value="HVAC company"></option><option value="lawyer"></option><option value="real estate agent"></option><option value="veterinarian"></option><option value="chiropractor"></option><option value="hair salon"></option><option value="day spa"></option><option value="gym"></option><option value="coffee shop"></option><option value="restaurant"></option><option value="auto repair shop"></option><option value="cleaning service"></option><option value="landscaper"></option><option value="electrician"></option><option value="accountant"></option><option value="insurance agency"></option><option value="marketing agency"></option><option value="software tool"></option>
           </datalist>
+          <div class="hint">Auto-suggested from your domain. Change it if it's wrong.</div>
         </div>
         <div>
-          <label for="pay-city">City <span class="req" aria-hidden="true">*</span></label>
-          <input id="pay-city" name="city" type="text" placeholder="e.g. Austin, TX" autocomplete="address-level2" required>
+          <label for="city">City</label>
+          <input id="city" name="city" placeholder="e.g. Austin, TX">
         </div>
       </div>
-      <label for="pay-name">Business name (optional)</label>
-      <input id="pay-name" name="businessName" type="text" placeholder="We&rsquo;ll guess it from your domain" autocomplete="organization">
-      <button type="submit" class="btn">Get my report ($19)</button>
-      <p class="hint">6 buyer-style questions &middot; Report ready in minutes on this page.</p>
+      <label for="brand">Business name (optional)</label>
+      <input id="brand" name="businessName" placeholder="We'll guess it from your domain">
+      <div class="form-actions">
+        <span class="hint" style="margin:0">We ask 6 real buyer questions, like “best dentist in Austin”, and record who gets recommended.</span>
+        <button type="submit" class="btn">Get my report ($19)</button>
+        <a class="btn secondary" href="/sample/results">See a real sample report</a>
+        <a class="btn secondary" href="/free-check">Free 10-second check</a>
+      </div>
+      <p class="hint" style="text-align:center">14-day refund &middot; One-time charge &middot; Report ready in minutes</p>
+      <p class="notice" data-static-check-note="">$19, pay once at checkout, then your check runs automatically. No subscription. One payment buys one report. Secure checkout asks for your email at payment.</p>
       <div id="prisqo-result" data-prisqo-result></div>
     </form>
+    <p class="hint" style="margin-top:12px">Not ready to pay? <a href="/sample/results" style="text-decoration:underline">See a real sample report</a> &mdash; Smith Family Dental, named in 5 of 6 answers, score 83. Example data.</p>
   </div>
   <p class="audit-line">Want the fixes too? <a href="/free-seo-audit">Get a free one-page SEO audit</a>.</p>
 </section>
@@ -195,6 +203,8 @@
     <p>Email us within 14 days and we&rsquo;ll refund you in full &mdash; vilouraai1@gmail.com.</p>
   </details>
 </section>
+
+<p class="section" style="padding-top:0;text-align:center" data-testid="home-more"><a class="link-arrow" href="/faq#more" style="text-decoration:underline">What we measure, pricing and comparisons <svg class="icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></a></p>
 
 </main>
 </div>
@@ -256,24 +266,6 @@
   <span>$19 once</span>
 </div>
 
-<script>
-/* Hero free check: the two fields read as one input. The paid-check script
-   (prisqo-check.js) reads [name="city"] and [name="name"] globally, so the
-   hero fields use distinct names (biz-name / biz-city) and this handler
-   builds the /free-check URL with the params free-check.js accepts
-   (name, city). Without JS the form still GETs to /free-check. */
-(function () {
-  var form = document.getElementById("hero-free");
-  if (!form) return;
-  form.addEventListener("submit", function (ev) {
-    ev.preventDefault();
-    var name = document.getElementById("hero-name").value.trim();
-    var city = document.getElementById("hero-city").value.trim();
-    if (!name || !city) return;
-    window.location.assign("/free-check?name=" + encodeURIComponent(name) + "&city=" + encodeURIComponent(city));
-  });
-})();
-</script>
 <script src="/prisqo-check.js" defer></script>
 <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "CF_BEACON_TOKEN"}'></script>
 </body>
