@@ -263,7 +263,39 @@ Reply "no" and I won't email again.
 Jilsha Jose, VilouraAI
 [postal address]
 
-### 17. Skyview Dental (Erika Mendez, DDS) (Irving, TX): Info@skyviewdentalirving.com
+### 17. Alana K. Macalik, DDS (Macalik DDS) (Arlington, TX): doctormac@macalikdds.com
+
+Subject: Alana K. Macalik, DDS (Macalik DDS) didn't come up in an AI answer
+
+Hi Alana,
+
+When I asked an AI search assistant "best dentist in Arlington, TX", it named Sonria Dentista of Arlington, Fielder Park Dental, Arlington Dental Clinic and Pecan Park Dental. Alana K. Macalik, DDS (Macalik DDS) didn't come up.
+
+Prisqo shows whether AI names your business and who it names instead. Try the free check:
+https://prisqo.vilouraai.com/free-check?ref=email
+
+Reply "no" and I won't email again.
+
+Jilsha Jose, VilouraAI
+[postal address]
+
+### 18. Phanton Mechanical, LLC (Arlington, TX): cservice@phantonmechanical.com
+
+Subject: Phanton Mechanical, LLC didn't come up in an AI answer
+
+Hi Roberto,
+
+When I asked an AI search assistant "best HVAC in Arlington, TX", it named Hightower Service, Texas Air & Heat, Cool Tech Mechanical and Arlington AC & Heating. Phanton Mechanical, LLC didn't come up, even though you're #7 on DFW Professionals' Arlington HVAC ranking (4.8 stars, 55 reviews).
+
+Prisqo shows whether AI names your business and who it names instead. Try the free check:
+https://prisqo.vilouraai.com/free-check?ref=email
+
+Reply "no" and I won't email again.
+
+Jilsha Jose, VilouraAI
+[postal address]
+
+### 19. Skyview Dental (Erika Mendez, DDS) (Irving, TX): Info@skyviewdentalirving.com
 
 Subject: Skyview Dental (Erika Mendez, DDS) didn't come up in an AI answer
 
@@ -279,7 +311,7 @@ Reply "no" and I won't email again.
 Jilsha Jose, VilouraAI
 [postal address]
 
-### 18. American Air Customs, Inc. (Irving, TX): americanaircustoms@yahoo.com
+### 20. American Air Customs, Inc. (Irving, TX): americanaircustoms@yahoo.com
 
 Subject: American Air Customs, Inc. didn't come up in an AI answer
 
@@ -295,7 +327,7 @@ Reply "no" and I won't email again.
 Jilsha Jose, VilouraAI
 [postal address]
 
-### 19. Angel Chiropractic (Irving, TX): info@angelchiroclinic.com
+### 21. Angel Chiropractic (Irving, TX): info@angelchiroclinic.com
 
 Subject: Angel Chiropractic didn't come up in an AI answer
 
@@ -311,7 +343,7 @@ Reply "no" and I won't email again.
 Jilsha Jose, VilouraAI
 [postal address]
 
-### 20. Eddie's Mechanic & Body Repair (Irving, TX): service@ebodyrepair.com
+### 22. Eddie's Mechanic & Body Repair (Irving, TX): service@ebodyrepair.com
 
 Subject: Eddie's Mechanic & Body Repair didn't come up in an AI answer
 
@@ -327,13 +359,93 @@ Reply "no" and I won't email again.
 Jilsha Jose, VilouraAI
 [postal address]
 
-### 21. Law Office of Sina Taleghani & Associates (Irving, TX): info@taslawfirm.com
+### 23. Law Office of Sina Taleghani & Associates (Irving, TX): info@taslawfirm.com
 
 Subject: Law Office of Sina Taleghani & Associates didn't come up in an AI answer
 
 Hi Sina,
 
 When I asked an AI search assistant "best law firm (personal injury) in Irving, TX", it named The Barber Law Firm, The Dashner Law Firm and Montes Law Group. Law Office of Sina Taleghani & Associates didn't come up.
+
+Prisqo shows whether AI names your business and who it names instead. Try the free check:
+https://prisqo.vilouraai.com/free-check?ref=email
+
+Reply "no" and I won't email again.
+
+Jilsha Jose, VilouraAI
+[postal address]
+
+### 24. RWD Services LLC (RWD Plumbing Services) (Irving, TX): rwdservices1@gmail.com
+
+Subject: RWD Services LLC (RWD Plumbing Services) didn't come up in an AI answer
+
+Hi Randy,
+
+When I asked an AI search assistant "best plumber in Irving, TX", it named AAA Auger Plumbing Services, Roto-Rooter, Mark Ondras Plumbing and ARS/Rescue Rooter. RWD Services LLC (RWD Plumbing Services) didn't come up, even though you're #5 on DFW Professionals' Best Plumbers in Irving list (5.0 stars, 123 reviews).
+
+Prisqo shows whether AI names your business and who it names instead. Try the free check:
+https://prisqo.vilouraai.com/free-check?ref=email
+
+Reply "no" and I won't email again.
+
+Jilsha Jose, VilouraAI
+[postal address]
+
+### 25. Carey Plumbing Company (Irving, TX): Duverioux@careyplumbingcompany.com
+
+Subject: Carey Plumbing Company didn't come up in an AI answer
+
+Hi Duverioux,
+
+When I asked an AI search assistant "best plumber in Irving, TX", it named AAA Auger Plumbing Services, Roto-Rooter, Mark Ondras Plumbing and ARS/Rescue Rooter. Carey Plumbing Company didn't come up, even though you're #2 on DFW Professionals' Best Plumbers in Irving list (5.0 stars, 38 reviews).
+
+Prisqo shows whether AI names your business and who it names instead. Try the free check:
+https://prisqo.vilouraai.com/free-check?ref=email
+
+Reply "no" and I won't email again.
+
+Jilsha Jose, VilouraAI
+[postal address]
+
+### 26. Access Modern Roofing (Irving, TX): info@accessroofs.com
+
+Subject: Access Modern Roofing didn't come up in an AI answer
+
+Hi Ron,
+
+When I asked an AI search assistant "best roofer in Irving, TX", it named 911 Exteriors, Kidd Roofing, Hybrid Roofing and IntegriBuilt. Access Modern Roofing didn't come up, even though you're #4 on DFW Professionals' Best Roofing Contractors in Irving list (5.0 stars, 20 reviews).
+
+Prisqo shows whether AI names your business and who it names instead. Try the free check:
+https://prisqo.vilouraai.com/free-check?ref=email
+
+Reply "no" and I won't email again.
+
+Jilsha Jose, VilouraAI
+[postal address]
+
+### 27. Skin Technology (Sherry Smith) (Irving, TX): skintechnology@yahoo.com
+
+Subject: Skin Technology (Sherry Smith) didn't come up in an AI answer
+
+Hi Sherry,
+
+When I asked an AI search assistant "best med spa in Irving, TX", it named Facial Mania Med Spa, Fit & Fancy Med Spa, Renova Skin Med and The Beauty Clinic MedSpa. Skin Technology (Sherry Smith) didn't come up, even though you're #8 on TrustAnalytica's Best Medspa in Irving list (4.6 stars, 22 reviews).
+
+Prisqo shows whether AI names your business and who it names instead. Try the free check:
+https://prisqo.vilouraai.com/free-check?ref=email
+
+Reply "no" and I won't email again.
+
+Jilsha Jose, VilouraAI
+[postal address]
+
+### 28. The Law Office of Elisa Kumadey, PLLC (Irving, TX): legal@ekdnet.law
+
+Subject: The Law Office of Elisa Kumadey, PLLC didn't come up in an AI answer
+
+Hi Elisa,
+
+When I asked an AI search assistant "best law firm (family) in Irving, TX", it named Len Conner & Associates, J. Roland Jeter, P.C., The Webb Family Law Firm and Law Office of Michelle Poblenz. The Law Office of Elisa Kumadey, PLLC didn't come up, even though you're #2 on LegalDirectorate's Best Family Law Attorneys in Irving list (4.9 stars, 134 reviews).
 
 Prisqo shows whether AI names your business and who it names instead. Try the free check:
 https://prisqo.vilouraai.com/free-check?ref=email
