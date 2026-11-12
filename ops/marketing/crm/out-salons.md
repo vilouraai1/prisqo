@@ -192,3 +192,121 @@ Hi, is this Afro Crown Braids? I'm Jilsha. A review mentioned a client calling o
 
 Hi, is this GD Barbershop? My name is Jilsha, I build websites for local shops. You've got 216 reviews at 4.9, which is excellent, but online you only have a Linktree with a booking link for each barber. A real site with all nine barbers, your hours and one place to book would show up much better in local search. Could the owner do a quick call to scope it?
 
+## VL-049 — BARBERS@101E (Lewisville)
+- chosen_offer: Website build
+- reason: No website listed for a walk-in shop that's closed Sun-Mon and closes 4:30 Saturday; people need to see hours before driving over. No missed-call evidence.
+- public_email: none in CRM
+- draft:
+
+**Phone/visit script**
+
+Hi, is this Barbers at 101 E? I'm Jilsha with Viloura AI in Lewisville. I couldn't find a website for the shop, and since you're walk-in and closed Sunday and Monday, people have to guess your hours before driving over. A simple site with hours, prices and a map would fix that. Could we do a quick call to scope it?
+
+## VL-050 — Ray's Barber and Beauty (Lewisville)
+- chosen_offer: Website build
+- reason: 129 reviews at 4.8 but the only web page is a hub.biz directory stub; hours are short (closed Sun-Mon, Sat 8-4) and nothing online makes them easy to find. No missed-call evidence, so website only.
+- public_email: none in CRM
+- draft:
+
+**Phone/visit script**
+
+Hi, is this Ray's? My name is Jilsha, I build websites for local barbershops. You've got 129 reviews at 4.8, but online the only page is a directory listing on hub.biz. Since you're closed Sunday and Monday, a simple site of your own with your hours and services helps people catch you when you're open. Could the owner do a quick call to scope it?
+
+## VL-051 — Stylz Fabulous Barbershop (Lewisville)
+- chosen_offer: Website build
+- reason: Only web presence is a Salons by JC suite profile; no site, phone or booking found for this solo barber.
+- public_email: stylzm@yahoo.com (in CRM; listed on the Salons by JC suite page)
+- draft:
+
+**Email** (From: Jilsha <vilouraai@gmail.com>, To: stylzm@yahoo.com)
+
+Subject: A simple website for Stylz Fabulous Barbershop
+
+Hi Marion,
+
+I'm Jilsha with Viloura AI in Lewisville. I looked for Stylz Fabulous Barbershop online and the only thing I found was your suite page on Salons by JC. No website, no phone number, no booking link, so new clients nearby can't find you.
+
+We build simple one-page sites for solo barbers, with your number and booking on it. Could we do a quick call to scope it?
+
+Jilsha, Viloura AI
+
+Not interested? Reply stop and I won't email again.
+
+## VL-052 — Cosmo Nails (Flower Mound)
+- chosen_offer: Prisqo $19 report
+- reason: They have a working site and reviews, but it's a free wixsite.com subdomain with dated pasted Yelp testimonials and 'call for bookings' only: thin presence, so the low-friction $19 AI-visibility report is the opener.
+- public_email: none in CRM; found cosmonails7488@gmail.com on https://cosmonails7488.wixsite.com/nails (Visit Us section, mailto link)
+- draft:
+
+**Email** (From: Jilsha <vilouraai@gmail.com>, To: cosmonails7488@gmail.com)
+
+Subject: Does AI recommend Cosmo Nails?
+
+Hi,
+
+I'm Jilsha with Viloura AI in DFW. More people now ask ChatGPT or Google's AI for a "nail salon near Flower Mound" instead of scrolling. Your site is a free wixsite.com page with older Yelp quotes, and that kind of page is often hard for AI assistants to read.
+
+Want to see whether AI assistants recommend you? Our one-time report is $19: https://prisqo.vilouraai.com
+
+Jilsha, Viloura AI
+
+Not interested? Reply stop and I won't email again.
+
+**Phone/visit script**
+
+Hi, is this Cosmo Nails? I'm Jilsha with Viloura AI. Your site is a free Wix page, which AI assistants often struggle to read. We do a one-time $19 report showing whether AI recommends you. Can I email you the link?
+
+## VL-053 — Nail Go (Flower Mound)
+- chosen_offer: Website build
+- reason: Instagram is the only web presence for a 4.9 / 99-review salon under new management; Yelp only offers appointment requests. A site with self-booking fits; AI Agent isn't supported by the signals.
+- public_email: none in CRM
+- draft:
+
+**Phone/visit script**
+
+Hi, is this Nail Go? My name is Jilsha, I build websites for local salons. You've got a 4.9 with 99 reviews, but your only website is Instagram, so people searching in Flower Mound can't see prices or book themselves. With clients coming back every few weeks, a site with online booking makes that easy. Could the manager do a quick call to scope it?
+
+## VL-054 — Van's Hair Salon (Carrollton)
+- chosen_offer: Website build
+- reason: ~400 reviews at 4.7 but only a Facebook page; reviews mention Van staying past closing for late clients. A site with online booking is the clear need; AI Agent isn't supported.
+- public_email: none in CRM
+- draft:
+
+**Phone/visit script**
+
+Hi, may I speak with Van? I'm Jilsha with Viloura AI in Carrollton. You have almost 400 reviews, and people even mention you staying late for clients, but online there's only a Facebook page. A simple site with your services and online booking would bring in the people who search but never call. Could we do a quick call to scope it?
+
+## VL-055 — Celia's Hair Salon (Carrollton)
+- chosen_offer: AI Receptionist
+- reason: Short hours (Mon, Tue, Thu 1-6 PM; closed Wed and Sun) mean morning and midweek calls go unanswered; they already have a working Canva site with an email and booking button, so the site isn't the gap.
+- public_email: none in CRM; found celiashairsalon73@gmail.com on https://celiashairsalon.my.canva.site/ (contact section)
+- draft:
+
+**Email** (From: Jilsha <vilouraai@gmail.com>, To: celiashairsalon73@gmail.com)
+
+Subject: Calls on mornings and Wednesdays
+
+Hi Karla,
+
+I'm Jilsha with Viloura AI in DFW. I see Celia's Hair Salon opens at 1 PM on Mondays, Tuesdays and Thursdays and is closed Wednesdays, so anyone calling in the morning or midweek can't book.
+
+We set up an assistant that answers those calls, in English or Spanish, and books the appointment for you. Could we do a quick call to scope it?
+
+Jilsha, Viloura AI
+
+Not interested? Reply stop and I won't email again.
+
+**Phone/visit script**
+
+Hi, is Karla in? I'm Jilsha with Viloura AI. Since you open at 1 most weekdays and close Wednesdays, morning calls can't book. We set up an assistant that answers and books them. Could we do a quick call to scope it?
+
+## VL-056 — Divas Hair Salon (Carrollton)
+- chosen_offer: Website build
+- reason: The Google website link is a Groupon page, with Facebook otherwise; repeat clients land on a deal page instead of the salon's own site.
+- public_email: none in CRM
+- draft:
+
+**Phone/visit script**
+
+Hi, is this Divas Hair Salon? My name is Jilsha, I build websites for local salons. I noticed the website link on your Google listing goes to a Groupon page, so your regular clients land on a coupon site instead of yours. With a 4.7 rating, a simple site of your own with services and booking would serve you better. Could the owner do a quick call to scope it?
+
