@@ -310,3 +310,63 @@ Hi, is Karla in? I'm Jilsha with Viloura AI. Since you open at 1 most weekdays a
 
 Hi, is this Divas Hair Salon? My name is Jilsha, I build websites for local salons. I noticed the website link on your Google listing goes to a Groupon page, so your regular clients land on a coupon site instead of yours. With a 4.7 rating, a simple site of your own with services and booking would serve you better. Could the owner do a quick call to scope it?
 
+## VL-057 — Centro Estetico SG (The Colony)
+- chosen_offer: Website build
+- reason: Google lists a Canva 'edit' link as the website, which isn't a public page; besides that, only a Booksy page and 5 reviews. Spanish-speaking clientele, so bilingual.
+- public_email: none in CRM
+- draft:
+
+**Phone/visit script**
+
+Hola, is this Centro Estetico SG? I'm Jilsha with Viloura AI, and I can talk in English or Spanish. The website link on your Google listing opens a Canva editing page, not a real site, so people can't see your services. We can build a simple bilingual site that links to your Booksy booking. Could we do a quick call to scope it?
+
+## VL-077 — The Grooming Specialist (Lewisville)
+- chosen_offer: AI Receptionist
+- reason: Fresha listing says 'Call to book' and the only web presence is Booksy; for a solo barber, phone-first booking means calls come in mid-cut. The signal is mild, so the ask stays small.
+- public_email: none in CRM
+- draft:
+
+**Phone/visit script**
+
+Hi, is this The Grooming Specialist? I'm Jilsha with Viloura AI in Lewisville. I saw your Fresha listing tells people to call to book, which is hard when you're in the middle of a cut. We set up an assistant that answers those calls and puts the booking straight into your schedule. Could we do a quick call to scope it?
+
+## VL-078 — Highland Nails & Spa (Flower Mound)
+- chosen_offer: Website build
+- reason: No site of their own: the 'website' is a third-party lldtek booking link and another listing points to locality.com, despite 232 reviews. The near-closing review isn't a phone problem, so no receptionist pitch.
+- public_email: none in CRM
+- draft:
+
+**Phone/visit script**
+
+Hi, is this Highland Nails & Spa? My name is Jilsha, I build websites for local salons. You've got 232 reviews at 4.6, but your website link only goes to a third-party booking page, and another listing points somewhere else entirely. A site of your own with your hours, services and booking keeps that consistent. Could the owner do a quick call to scope it?
+
+## VL-079 — DripSumGlitz (Lewisville)
+- chosen_offer: Website build
+- reason: Perfect 5.0 (14 reviews) but the only web presence is a Square booking page; a small branded site would help them get found.
+- public_email: none in CRM
+- draft:
+
+**Phone/visit script**
+
+Hi, is this DripSumGlitz? I'm Jilsha with Viloura AI in Lewisville. You've got a perfect 5.0, but the only thing online is your Square booking page, so it's hard for new clients to find you or see your work. A small branded site with photos that links to your Square booking would help. Could we do a quick call to scope it?
+
+## VL-080 — Brooke & Co Lash Studio (The Colony)
+- chosen_offer: Website build
+- reason: Only a GlossGenius booking page and 5 Google reviews, closed Sun-Mon; the need is a findable site. Review requests aren't a strong enough signal for an AI Agent.
+- public_email: none in CRM
+- draft:
+
+**Phone/visit script**
+
+Hi, is this Brooke? My name is Jilsha, I build websites for local beauty studios. Your GlossGenius booking page works, but it's the only thing online, and with 5 reviews new clients in The Colony have little to go on. A simple site with your work, hours and booking link would help you get found. Could we do a quick call to scope it?
+
+## VL-081 — Viki hair & beauty (Carrollton)
+- chosen_offer: Website build
+- reason: Rated 4.8 (47 reviews) but no website, booking link or hours published on Google.
+- public_email: none in CRM
+- draft:
+
+**Phone/visit script**
+
+Hi, is this Viki hair & beauty? I'm Jilsha with Viloura AI in Carrollton. You're rated 4.8, but Google shows no website, no booking link and no hours, so new clients can't tell when to come in. A simple mobile site with hours and online booking is an easy first step. Could we do a quick call to scope it?
+
