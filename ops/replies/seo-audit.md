@@ -102,14 +102,148 @@ in that repo. This PR does not change vilouraai-web.
 - 14-day refund: Jilsha's yes/no before driving more traffic.
 - Vilouraai-web PR #1 merge/deploy decision — the audit does not deploy it.
 
+## Progress — SEO fixes + Free SEO audit offer (2026-11-12, ~16:30 CST)
+
+**Status:** fixes applied locally in `~/workspace/prisqo-repo` (synced from main
+969624b, hark-lp-1 homepage present). **Not pushed, not deployed** — parent
+to push to PR #29. No checkout/engine/Stripe/Groq touched. No paid APIs, no
+invented numbers; every price/date/claim below comes from a file read during
+this work.
+
+### What changed
+
+- **P0-2 `/success`:** added `<meta name="robots" content="noindex, nofollow">`
+  (same pattern as 404.html) and removed `/success` from `sitemap.xml`.
+- **P1-1 nav:** "Free check" link added to the main nav on 206 pages; 2 pages
+  already had it — now all 208 HTML files link `/free-check` from the nav.
+- **P1-4 footer headings:** footer column labels `<h2>Product / Compare /
+  Company</h2>` → `<p>` on all 208 files (624 labels). Styling note: there is
+  no footer-h2 rule in the repo — pages link a generated Next.js CSS chunk
+  (`/_next/static/chunks/3yytf2z4lgznt.css`) that is not in the repo, and that
+  chunk 404s when fetched live, so the labels currently render at the
+  browser-default h2 size. The replacement `<p>` carries an inline style
+  matching exactly that (`font-size:1.5em;font-weight:700;margin:.83em 0`), so
+  the look is preserved as-rendered today. Kiwi: please eyeball the footer
+  after deploy; if the rebuilt chunk ever styles footer h2s, the inline style
+  may need adjusting.
+- **P1-5 sitemap:** 205 URLs, all with `<lastmod>2026-11-12</lastmod>` (every
+  sitemap page was edited today by the nav/footer pass, so the date is real);
+  `/success` removed; home loc fixed to the canonical's form
+  (`https://prisqo.vilouraai.com`, no trailing slash); `/free-seo-audit`
+  added. XML parses clean.
+- **P1-2/P1-3 worst only:** descriptions trimmed to ≤155 chars (meta + OG +
+  Twitter): compare.html 296→108, index.html 183→131, privacy.html 218→126,
+  free-check.html 176→126. Titles trimmed to ≤60 (title + OG + Twitter):
+  health-practices guide 93→43, financial-services guide 92→45,
+  wedding-photographers 86→59, property-managers 85→55,
+  general-contractors 85→57. All keyword-first.
+- **P1-6 best pages:** one contextual paragraph linking both `best/*`
+  roundups added to all 12 `compare/*` pages, before the CTA band.
+- **P2-4 llms.txt:** new file at repo root (title, description, key facts:
+  $19 once, 6 questions, one search-grounded model, sample/pricing/FAQ/
+  compare links). `robots.txt` untouched — no AI crawler blocked.
+- **P2-8 sample:** `sample/results.html` retitled to "Sample AI visibility
+  report: Smith Family Dental, 5 of 6 named | Prisqo" (68 chars — over 60,
+  but this is the exact wording specified; it says "sample" as required) and
+  the H1 comment separators removed ("Does AI recommend Smith Family
+  Dental?").
+- **P2-1 partial:** Product + Offer schema ($19 USD, description = pricing
+  page's own meta description) added to `pricing.html`; ItemList schema (12
+  tools, URLs verified against the page's own links) added to `compare.html`.
+  Both JSON-LD blocks parse as valid JSON. No `sameAs` added — no social
+  profiles exist to list.
+- **Free SEO audit offer:** new `free-seo-audit.html` (title 41 chars, desc
+  136, canonical, OG/Twitter, FAQPage schema with 3 questions, form with
+  business name / website / email, all required, posting to
+  `https://formsubmit.co/vilouraai1@gmail.com` with `_subject` "Free SEO audit
+  request — Prisqo", `_template` table, `_captcha` false, `_next`
+  `https://prisqo.vilouraai.com/free-seo-audit?sent=1`, plus inline JS showing
+  a thank-you when `?sent=1` is present). Homepage section added to
+  `index.html` after the checklist section, before the final CTA, in the
+  hark-lp-1 card style. `/free-seo-audit` in the sitemap (lastmod 2026-11-12)
+  and a "Free SEO audit" link in the footer Product column on all 208 pages.
+- **Template:** new `ops/marketing/seo-audit-template.md` — one-page sample
+  audit format (scores table, top 3 findings with evidence, what we would
+  fix, paid offer, next step). Example business is clearly labelled
+  fictional; no invented client results.
+
+### Verification (all re-checked after editing)
+
+- Nav "Free check": 208/208 files. Footer `<h2>Product/Compare/Company</h2>`:
+  0 remaining. Footer `<p>` labels: 624. Footer "Free SEO audit" links:
+  208/208. Compare best links: 12/12 pages, both roundups.
+- Sitemap: 205 URLs, 205 lastmod, no `/success`, home no-slash, `/free-seo-audit` present.
+- New page: title 41, desc 136, canonical correct, form action + all 4 hidden
+  fields + 3 required fields verified, `?sent=1` JS present, JSON-LD valid.
+- Pricing/compare JSON-LD valid. Every HTML file still has exactly one
+  `<title>`. `git diff --stat`: 208 tracked files changed (+ new
+  `free-seo-audit.html`, `llms.txt`, `ops/marketing/seo-audit-template.md`).
+- No other files touched; checkout/engine/Stripe/Groq untouched.
+
+### Skipped (per instructions) and why
+
+- **P0-1 Search Console** — needs adi. **P0-3 refund line** — needs Jilsha's
+  yes/no. **P2-3 city-page expansion** — out of scope. **P2-5 competitor-price
+  dates** — prices were never verified, so no "checked on" date was stamped.
+- **P2-2 FAQ duplication, P1-7 images, P2-6 free-check re-run, P2-7 press
+  screenshots** — not in this task's list; left for a later pass.
+
+### Open questions / notes for Kiwi
+
+- **FormSubmit activation:** the VilouraAI contact form does NOT use
+  FormSubmit — it stores leads via tRPC + mailto fallback — so this
+  FormSubmit form is new per adi's instruction. The first submission will
+  need activation via an email sent to vilouraai1@gmail.com; nothing will be
+  delivered until that activation is clicked.
+- **$497 / $149 prices on the new page** come from the vilouraai.com audit
+  (local source, PR #1 not yet live), not from any prisqo page — they are
+  VilouraAI's Website Launch / AI Receptionist prices as audited Nov 12.
+- **Footer industry/city `<h2>`s remain:** 399 occurrences of "AI visibility
+  by industry / by city" as `<h2>` in footers were out of this task's scope
+  (only Product/Compare/Company were specified). Same `<p>` treatment could
+  follow.
+- **Sample title is 68 chars** (over the usual 60) because the specified
+  wording was used verbatim.
+- **hark-lp-1 note:** the local copy now contains the hark-lp-1 homepage
+  (PR #28 merged as main 969624b); the audit's "not in snapshot" caveat no
+  longer applies to the homepage, but the landing page itself was not
+  re-audited here.
+
 ## Caveats
 
-- The Prisqo audit used the local snapshot copy, which **does not contain
-  hark-lp-1 / PR #28** — the new landing page needs a re-audit after the
-  local copy is refreshed from main.
+- The Prisqo audit used a local snapshot copy that at audit time did not
+  contain hark-lp-1 / PR #28. The copy has since been refreshed from main
+  (969624b, hark-lp-1 homepage present); the landing page itself was not
+  re-audited in this pass.
 - Competitor prices on Prisqo compare/best pages were **not** verified
   against vendors' live sites; the finding is only that they carry no
   "checked on" date.
 - Vilouraai live-vs-local figures are from live fetches on 2026-11-12
   (~15:58 CST); niche-page rendered titles are projected from the
   live-verified template mechanism, not observed live (those pages 404).
+
+## Summary
+
+- **Prisqo (this PR, #29):** top SEO fixes applied and pushed to branch
+  `muse-seo-audit` — `/success` noindexed + removed from sitemap, Free check
+  in the nav on all 208 pages, footer Product/Compare/Company headings
+  changed to styled paragraphs, sitemap lastmod on all 205 URLs + home
+  canonical fixed, worst titles/descriptions trimmed, `best/*` roundups
+  linked from all 12 compare pages, `llms.txt` added, sample page retitled,
+  Product/ItemList schema added. Free SEO audit offer live as a homepage
+  section + `/free-seo-audit` page (FormSubmit to vilouraai1@gmail.com —
+  first submission needs the FormSubmit activation email confirmed).
+  One-page audit template at `ops/marketing/seo-audit-template.md`.
+- **Vilouraai-web (separate PR, #1):** same class of fixes on branch
+  `muse-viloura-services` — doubled/tripled brand removed from titles,
+  descriptions trimmed to ≤160, city schema + WebSite node fixed,
+  `/new-business` orphan linked, phone/hours added (from the GBP record in
+  memory — verify against the live GBP profile before deploy), `llms.txt`
+  added, and a complimentary `/free-seo-audit` page linked from the website,
+  AI receptionist, and pricing pages.
+- **Still needs adi/Jilsha, not code:** Search Console for both domains;
+  14-day refund yes/no; vilouraai-web PR #1 merge/deploy. City-page body
+  copy on vilouraai.com is still forecast-first — a services-first copy
+  pass is still owed.
+
+DONE
