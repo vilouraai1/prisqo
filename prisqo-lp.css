@@ -1,0 +1,78 @@
+/* prisqo-lp.css — first-party styles for the hark-lp-1 homepage redesign.
+   Extends the existing site stylesheet; defines only new .lp-* components
+   plus a few layout helpers. No external fonts, scripts, or images. */
+
+:root {
+  --lp-accent: #0b6e4f;
+  --lp-accent-ink: #ffffff;
+  --lp-soft: #eef6f2;
+  --lp-line: #d9e2de;
+  --lp-warn: #7a4a00;
+  --lp-warn-bg: #fff7e8;
+}
+
+.lp-hero { padding-top: 8px; }
+.lp-hero h1 { font-size: clamp(2rem, 5.5vw, 3.25rem); line-height: 1.08; letter-spacing: -0.02em; }
+.lp-hero .lead { font-size: 1.125rem; line-height: 1.55; max-width: 34rem; }
+
+.lp-cta-row { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; margin: 20px 0 12px; }
+.lp-cta-row .btn { min-height: 48px; display: inline-flex; align-items: center; justify-content: center; }
+.lp-trust { font-size: 14px; margin: 0 0 8px; }
+
+.lp-free { margin: 24px 0 8px; }
+.lp-free .card { padding: 20px; }
+.lp-free h2 { font-size: 1.125rem; margin: 0 0 4px; }
+.lp-free p { margin: 0 0 14px; }
+.lp-free .row { display: grid; grid-template-columns: 1fr; gap: 12px; }
+@media (min-width: 640px) {
+  .lp-free .row { grid-template-columns: 1.4fr 1fr 1fr; align-items: end; }
+}
+.lp-free label { display: block; font-weight: 600; margin-bottom: 6px; }
+.lp-free input, .lp-free select { width: 100%; min-height: 48px; padding: 10px 12px; font: inherit; border: 1px solid var(--lp-line); border-radius: 8px; background: #fff; color: inherit; }
+.lp-free .btn { width: 100%; min-height: 48px; }
+@media (min-width: 640px) {
+  .lp-free .lp-free-btn { grid-column: 1 / -1; }
+  .lp-free .lp-free-btn .btn { width: auto; }
+}
+.lp-free-note { font-size: 13px; margin-top: 10px; }
+
+.lp-pain { background: var(--lp-warn-bg); border: 1px solid #f0d9a8; border-radius: 12px; padding: 20px; }
+.lp-pain h2 { margin-top: 0; }
+.lp-pain ul { margin: 12px 0 0; padding-left: 20px; }
+.lp-pain li { margin: 6px 0; }
+
+.lp-compare { width: 100%; border-collapse: collapse; font-size: 15px; }
+.lp-compare th, .lp-compare td { text-align: left; padding: 12px 10px; border-bottom: 1px solid var(--lp-line); vertical-align: top; }
+.lp-compare th { font-size: 14px; }
+.lp-compare td:first-child { font-weight: 600; white-space: nowrap; }
+.lp-compare-wrap { overflow-x: auto; }
+@media (max-width: 640px) {
+  .lp-compare { font-size: 14px; }
+  .lp-compare td:first-child { white-space: normal; }
+}
+
+.lp-faq details { border: 1px solid var(--lp-line); border-radius: 10px; padding: 14px 16px; margin: 10px 0; background: #fff; }
+.lp-faq summary { font-weight: 700; cursor: pointer; min-height: 44px; display: flex; align-items: center; }
+.lp-faq p { margin: 10px 0 0; }
+
+.lp-preview-note { font-size: 13px; }
+
+.lp-sticky { display: none; }
+@media (max-width: 700px) {
+  .lp-sticky {
+    display: flex; gap: 10px; align-items: center; justify-content: space-between;
+    position: fixed; left: 0; right: 0; bottom: 0; z-index: 50;
+    padding: 10px 14px calc(10px + env(safe-area-inset-bottom));
+    background: #fff; border-top: 1px solid var(--lp-line);
+    box-shadow: 0 -2px 12px rgba(0, 0, 0, 0.08);
+  }
+  .lp-sticky .btn { flex: 1; min-height: 48px; display: inline-flex; align-items: center; justify-content: center; }
+  .lp-sticky span { font-size: 13px; white-space: nowrap; }
+  body { padding-bottom: 76px; }
+}
+
+.lp-section-gap { margin-top: 8px; }
+
+@media (prefers-reduced-motion: reduce) {
+  .lp-sticky { transition: none; }
+}
