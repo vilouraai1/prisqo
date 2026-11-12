@@ -69,6 +69,8 @@
   .lp-sticky .btn { flex: 1; min-height: 48px; display: inline-flex; align-items: center; justify-content: center; }
   .lp-sticky span { font-size: 13px; white-space: nowrap; }
   body { padding-bottom: 76px; }
+  html { scroll-padding-bottom: 76px; }
+  #check { scroll-margin-bottom: 76px; }
 }
 
 .lp-section-gap { margin-top: 8px; }
