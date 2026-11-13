@@ -11,5 +11,7 @@ Do:
 4. Verify locally with `npm run preview:cf` (wrangler dev) and write the results in the reply (each route, status code, forms).
 5. Write DEPLOY.md: the exact deploy command, plus the custom-domain step (attach vilouraai.com and www.vilouraai.com to the Worker, which replaces the Vercel DNS records).
 
+6. Add a /pricing page (Prisqo's live footer links to vilouraai.com/pricing). Build it from the cleaned offers.ts in main: $497 website redesign, $149/mo AI receptionist with 14-day trial, $597 bundle, plus the free SEO audit and the Prisqo $19 report link. Do NOT reuse the old PR #1 pricing page; it has the unapproved founding offer. No founding offer, no client counts.
+
 Don't: deploy anything, change DNS, touch the prisqo or prisqo-report-engine Workers, Stripe, or keys, or change design, copy or prices.
 Acceptance: `npm run build` and `npm run build:cf` both pass; the preview serves all routes with 200; the forms post; no secrets or dev.db in git; the reply lists the bindings.
