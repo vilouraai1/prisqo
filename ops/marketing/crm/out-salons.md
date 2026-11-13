@@ -102,6 +102,8 @@ We build simple bilingual websites for local salons, with booking built in. Coul
 
 Jilsha, Viloura AI
 
+[postal address]
+
 Not interested? Reply stop and I won't email again.
 
 **Phone/visit script**
@@ -165,6 +167,8 @@ I'm Jilsha with Viloura AI in Dallas. One of your Google reviews says a client c
 We set up an assistant that answers every call, handles questions like what hair to bring, and books into your Square calendar. Could we do a quick call to scope it?
 
 Jilsha, Viloura AI
+
+[postal address]
 
 Not interested? Reply stop and I won't email again.
 
@@ -230,6 +234,8 @@ We build simple one-page sites for solo barbers, with your number and booking on
 
 Jilsha, Viloura AI
 
+[postal address]
+
 Not interested? Reply stop and I won't email again.
 
 ## VL-052 — Cosmo Nails (Flower Mound)
@@ -249,6 +255,8 @@ I'm Jilsha with Viloura AI in DFW. More people now ask ChatGPT or Google's AI fo
 Want to see whether AI assistants recommend you? Our one-time report is $19: https://prisqo.vilouraai.com
 
 Jilsha, Viloura AI
+
+[postal address]
 
 Not interested? Reply stop and I won't email again.
 
@@ -293,6 +301,8 @@ I'm Jilsha with Viloura AI in DFW. I see Celia's Hair Salon opens at 1 PM on Mon
 We set up an assistant that answers those calls, in English or Spanish, and books the appointment for you. Could we do a quick call to scope it?
 
 Jilsha, Viloura AI
+
+[postal address]
 
 Not interested? Reply stop and I won't email again.
 
@@ -370,3 +380,13 @@ Hi, is this Brooke? My name is Jilsha, I build websites for local beauty studios
 
 Hi, is this Viki hair & beauty? I'm Jilsha with Viloura AI in Carrollton. You're rated 4.8, but Google shows no website, no booking link and no hours, so new clients can't tell when to come in. A simple mobile site with hours and online booking is an easy first step. Could we do a quick call to scope it?
 
+## Summary
+- Leads: 30
+- Email drafts: 5 (VL-020, VL-046, VL-051, VL-052, VL-055). 3 of the addresses were found on the business's own site: VL-046 afroiscrown@gmail.com, VL-052 cosmonails7488@gmail.com, VL-055 celiashairsalon73@gmail.com. VL-020 is a personal iCloud address, so confirm it before sending.
+- Phone/visit scripts: 29 (every lead without an email, plus some email leads as a backup; VL-044 and VL-047 have no phone, so theirs are visit scripts)
+- Offer mix: Website build 18, Website + AI Receptionist 6, AI Receptionist 5, Prisqo $19 report 1, AI Agent 0
+- Free check: not used. No salon is in a free-check category.
+- Overlaps: none with leads-1, leads-2, outreach, drafts-2 or sent-log.
+- Every email keeps a [postal address] placeholder and ends with the stop line. Nothing was sent.
+
+DONE
