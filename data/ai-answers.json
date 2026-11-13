@@ -1,1 +1,1145 @@
-{"checked":"2026-11-11","checks":[{"category":"chiropractor","categoryLabel":"Chiropractor","checked":"2026-11-11","city":"Lewisville, TX","named":["BBC Health","Shine Chiropractic","Dr. Newell Smith Estess"],"question":"best chiropractor in Lewisville, TX"},{"category":"dentist","categoryLabel":"Dentist","checked":"2026-11-11","city":"Lewisville, TX","named":["Prairie Creek Dental","Lewisville Kids Dentistry","SolidSMILES Dental"],"question":"best dentist in Lewisville, TX"},{"category":"med-spa","categoryLabel":"Med spa","checked":"2026-11-11","city":"Lewisville, TX","named":["Ultimate Image MedSpa","Boutique MEDSpa","Black Iris MedSpa"],"question":"best med spa in Lewisville, TX"},{"category":"hvac","categoryLabel":"HVAC company","checked":"2026-11-11","city":"Lewisville, TX","named":["Northside Air Conditioning","Prime AC and Heat","TexAire"],"question":"best HVAC company in Lewisville, TX"},{"category":"family-law","categoryLabel":"Family law attorney","checked":"2026-11-11","city":"Lewisville, TX","named":["Jennifer Ilarraza (Ilarraza Law)","William F. Neal"],"question":"best family law attorney in Lewisville, TX"},{"category":"personal-injury","categoryLabel":"Personal injury lawyer","checked":"2026-11-11","city":"Lewisville, TX","named":["Kuzmich Law Firm","Shuster Law","Just Wrecked Law"],"question":"best personal injury lawyer in Lewisville, TX"},{"category":"plumber","categoryLabel":"Plumber","checked":"2026-11-11","city":"Lewisville, TX","named":["All Metroplex Plumbing","CW Service Pros","Herndon McFarland"],"question":"best plumber in Lewisville, TX"}],"note":"Snapshot from an AI search assistant asked 'best <category> in <city>' on Nov 11, 2026. AI answers change from run to run; this is a past check, not live."}
+{
+  "checked": "2026-11-13",
+  "checks": [
+    {
+      "category": "hvac",
+      "categoryLabel": "Hvac",
+      "checked": "2026-11-13",
+      "city": "Allen, TX",
+      "named": [
+        "Jupitair HVAC",
+        "Colony Air Conditioning & Heating",
+        "Harris Air Services",
+        "Rescue Air, LLC",
+        "Team Enoch"
+      ],
+      "question": "best hvac in Allen, TX"
+    },
+    {
+      "category": "plumber",
+      "categoryLabel": "Plumber",
+      "checked": "2026-11-13",
+      "city": "Allen, TX",
+      "named": [
+        "Top",
+        "Bewley Plumbing, LLC",
+        "James Plumbing",
+        "Micah's Honest Plumbing",
+        "AugerPros Plumbing & Drain LLC",
+        "Plumbing Solutions, LLC"
+      ],
+      "question": "best plumber in Allen, TX"
+    },
+    {
+      "category": "auto-repair",
+      "categoryLabel": "Auto Repair",
+      "checked": "2026-11-13",
+      "city": "Arlington, TX",
+      "named": [
+        "When looking for top",
+        "Highly Rated Independent & Specialized Shops",
+        "Dubsquared (1223 Colorado Ln)",
+        "Cooper Pit Stop (2536 S Cooper St)",
+        "McGaw's Automotive, Inc. (2113 Roosevelt Dr)",
+        "Advanced Tire & Auto Service (407 N Cooper St)",
+        "Highly Rated Certified Chains & Warrantied Shops",
+        "Christian Brothers Automotive (718 W Sublett Rd)",
+        "Sun Auto Tire & Service (5351 W Sublett Rd)",
+        "<Carousel>",
+        "</Carousel>"
+      ],
+      "question": "best auto repair in Arlington, TX"
+    },
+    {
+      "category": "dentist",
+      "categoryLabel": "Dentist",
+      "checked": "2026-11-13",
+      "city": "Arlington, TX",
+      "named": [
+        "All Dental Arlington",
+        "Park Row Dental Services",
+        "Dentists of Arlington",
+        "Premier Craft Dental Care",
+        "Arlington Dental Associates"
+      ],
+      "question": "best dentist in Arlington, TX"
+    },
+    {
+      "category": "hvac",
+      "categoryLabel": "Hvac",
+      "checked": "2026-11-13",
+      "city": "Arlington, TX",
+      "named": [
+        "Hightower Service, Inc.",
+        "Arlington AC & Heating",
+        "Cool Tech Mechanical",
+        "NewRise Heating & Cooling",
+        "Willard Cooling, Heating, Plumbing, & Electrical"
+      ],
+      "question": "best hvac in Arlington, TX"
+    },
+    {
+      "category": "med-spa",
+      "categoryLabel": "Med Spa",
+      "checked": "2026-11-13",
+      "city": "Arlington, TX",
+      "named": [
+        "Top",
+        "| Med Spa | Key Specialties & Focus | Highlights |",
+        "| Skinwerx | Dermatology",
+        "| Glo & Glam MedSpa (Viridian Location) | Advanced non",
+        "| Euro Image Med Spa | Laser hair removal, tattoo removal, anti",
+        "| Bex Laser Aesthetix | Personalized skin care, laser treatments, and confidence",
+        "Key Factors to Consider When Choosing"
+      ],
+      "question": "best med spa in Arlington, TX"
+    },
+    {
+      "category": "personal-injury-lawyer",
+      "categoryLabel": "Personal Injury Lawyer",
+      "checked": "2026-11-13",
+      "city": "Arlington, TX",
+      "named": [
+        "Board Certification",
+        "Relevant Case Experience",
+        "Trial Readiness",
+        "Contingency Fee Structure",
+        "Direct Attorney Access"
+      ],
+      "question": "best personal injury lawyer in Arlington, TX"
+    },
+    {
+      "category": "roofer",
+      "categoryLabel": "Roofer",
+      "checked": "2026-11-13",
+      "city": "Arlington, TX",
+      "named": [
+        "Verify Local Physical Presence",
+        "Check Manufacturer Certifications",
+        "Get Lien Waivers"
+      ],
+      "question": "best roofer in Arlington, TX"
+    },
+    {
+      "category": "auto-detailing",
+      "categoryLabel": "Auto Detailing",
+      "checked": "2026-11-13",
+      "city": "Carrollton, TX",
+      "named": [
+        "Brick",
+        "Perfection Auto Detail",
+        "Carnation Auto Spa (Hebron)",
+        "RAC Performance (Detail Shop)",
+        "Top Mobile Detailing Services (Come to You)",
+        "Zak's Car Detailing",
+        "Dallas Best Car Detailing",
+        "Panda Hub"
+      ],
+      "question": "best auto detailing in Carrollton, TX"
+    },
+    {
+      "category": "body-shop",
+      "categoryLabel": "Body Shop",
+      "checked": "2026-11-13",
+      "city": "Carrollton, TX",
+      "named": [
+        "Xtreme Collision Repair",
+        "Gerber Collision & Glass",
+        "Crash Champions Collision Repair",
+        "CARSTAR Mr. Collision Inc.",
+        "Texas Collision Centers"
+      ],
+      "question": "best body shop in Carrollton, TX"
+    },
+    {
+      "category": "chiropractor",
+      "categoryLabel": "Chiropractor",
+      "checked": "2026-11-13",
+      "city": "Carrollton, TX",
+      "named": [
+        "Based on patient reviews, local awards, and clinical specialties, several top",
+        "Top",
+        "Elevation Spine & Sports Medicine",
+        "Texas Spine Center",
+        "Weir Family Chiropractic",
+        "Carrollton Family Chiropractic",
+        "Manfre Chiropractic",
+        "Carrollton Spine & Wellness",
+        "Quick Comparison by Need",
+        "| Clinic Name | Best For | Key Techniques / Services |",
+        "| Carrollton Family Chiropractic | Prenatal & low"
+      ],
+      "question": "best chiropractor in Carrollton, TX"
+    },
+    {
+      "category": "dentist",
+      "categoryLabel": "Dentist",
+      "checked": "2026-11-13",
+      "city": "Carrollton, TX",
+      "named": [
+        "Carrollton Smiles",
+        "Carrollton Dentistry (Carrollton Dental Group)",
+        "Celebration Family Dental of Carrollton",
+        "Marc Dandois DDS"
+      ],
+      "question": "best dentist in Carrollton, TX"
+    },
+    {
+      "category": "hair-salon",
+      "categoryLabel": "Hair Salon",
+      "checked": "2026-11-13",
+      "city": "Carrollton, TX",
+      "named": [
+        "The top",
+        "Top",
+        "Chadâm Hair Lounge and CO2 Spa (3709 Old Denton Rd, Suite 108)",
+        "Roman Hair Salon (3030 N Josey Ln, Suite 110)",
+        "Cutting Edge Hair (3432 E Hebron Pkwy)",
+        "Champagne Hair Studio (1500 W Hebron Pkwy)",
+        "Perfect Hair Salon (3108 Old Denton Rd, Suite 113)",
+        "Quick Comparison",
+        "| Salon Name | Neighborhood / Area | Standout Specialties |",
+        "| Chadâm Hair Lounge | Old Denton Rd (Koreatown) | CO2 head spa, digital perms, keratin |",
+        "| Roman Hair Salon | N Josey Ln | Curly cuts, balayage, family cuts |",
+        "| Cutting Edge Hair | E Hebron Pkwy (Northeast) | Dimensional color, gender",
+        "| Perfect Hair Salon | Old Denton Rd | Classic cuts, highlights, styling |"
+      ],
+      "question": "best hair salon in Carrollton, TX"
+    },
+    {
+      "category": "house-cleaning",
+      "categoryLabel": "House Cleaning",
+      "checked": "2026-11-13",
+      "city": "Carrollton, TX",
+      "named": [
+        "The Cleaning Authority (Coppell / Carrollton)",
+        "MaidPro (Carrollton / Plano)",
+        "CottageCare (Carrollton / Lewisville)",
+        "Merry Maids (Serving Carrollton)"
+      ],
+      "question": "best house cleaning in Carrollton, TX"
+    },
+    {
+      "category": "med-spa",
+      "categoryLabel": "Med Spa",
+      "checked": "2026-11-13",
+      "city": "Carrollton, TX",
+      "named": [
+        "Original Skin",
+        "St. Mary’s Aesthetics & Wellness Center",
+        "Modern Line Med Spa",
+        "NWME Aesthetics",
+        "Charm Laser Skin Center"
+      ],
+      "question": "best med spa in Carrollton, TX"
+    },
+    {
+      "category": "physical-therapy",
+      "categoryLabel": "Physical Therapy",
+      "checked": "2026-11-13",
+      "city": "Carrollton, TX",
+      "named": [
+        "Green Oaks Physical Therapy (Carrollton Location)",
+        "Baylor Scott & White Institute for Rehabilitation",
+        "Greater Therapy Centers",
+        "Elevation Spine & Sports Medicine",
+        "Results Physiotherapy"
+      ],
+      "question": "best physical therapy in Carrollton, TX"
+    },
+    {
+      "category": "plumber",
+      "categoryLabel": "Plumber",
+      "checked": "2026-11-13",
+      "city": "Carrollton, TX",
+      "named": [
+        "Verify Licensing",
+        "Ask About Diagnostic Fees",
+        "Check for Permits"
+      ],
+      "question": "best plumber in Carrollton, TX"
+    },
+    {
+      "category": "chiropractor",
+      "categoryLabel": "Chiropractor",
+      "checked": "2026-11-13",
+      "city": "Dallas, TX",
+      "named": [
+        "Apex Chiropractic",
+        "Trinity Mills Chiropractic",
+        "Uptown Chiropractic",
+        "Woodward Chiropractic & Massage",
+        "FreeForm Chiropractic (North Dallas)"
+      ],
+      "question": "best chiropractor in Dallas, TX"
+    },
+    {
+      "category": "dentist",
+      "categoryLabel": "Dentist",
+      "checked": "2026-11-13",
+      "city": "Dallas, TX",
+      "named": [
+        "Dallas Dental Group",
+        "Highland Park Dental",
+        "Central Dentist",
+        "Lakewood Dental Group",
+        "Keith W. Brewster, DDS PLLC"
+      ],
+      "question": "best dentist in Dallas, TX"
+    },
+    {
+      "category": "hair-salon",
+      "categoryLabel": "Hair Salon",
+      "checked": "2026-11-13",
+      "city": "Dallas, TX",
+      "named": [
+        "Salon Culture",
+        "House of Dear (Uptown)",
+        "Salon D (North Dallas / Galleria Area)",
+        "Lure Salon (Uptown)",
+        "Ceron Highland Park"
+      ],
+      "question": "best hair salon in Dallas, TX"
+    },
+    {
+      "category": "hvac",
+      "categoryLabel": "Hvac",
+      "checked": "2026-11-13",
+      "city": "Dallas, TX",
+      "named": [
+        "Clarify Labor vs. Parts Warranties",
+        "Verify Licensing and Insurance",
+        "Get Multiple Quotes for Replacements"
+      ],
+      "question": "best hvac in Dallas, TX"
+    },
+    {
+      "category": "med-spa",
+      "categoryLabel": "Med Spa",
+      "checked": "2026-11-13",
+      "city": "Dallas, TX",
+      "named": [
+        "Viva Day Spa + Med Spa (Preston Center)",
+        "Total Med Solutions",
+        "Dallas Associated Dermatologists",
+        "UPKEEP Med Spa",
+        "Renew Beauty Med Spa"
+      ],
+      "question": "best med spa in Dallas, TX"
+    },
+    {
+      "category": "personal-injury-lawyer",
+      "categoryLabel": "Personal Injury Lawyer",
+      "checked": "2026-11-13",
+      "city": "Dallas, TX",
+      "named": [
+        "Mullen & Mullen Law Firm",
+        "Hamilton Wingo, LLP",
+        "Miller Weisbrod Olesky, LLP",
+        "Lyons & Simmons, LLP",
+        "Thompson Law LLP"
+      ],
+      "question": "best personal injury lawyer in Dallas, TX"
+    },
+    {
+      "category": "plumber",
+      "categoryLabel": "Plumber",
+      "checked": "2026-11-13",
+      "city": "Dallas, TX",
+      "named": [
+        "Top",
+        "Baker Brothers Plumbing, Air & Electric",
+        "Milestone Electric, A/C, & Plumbing",
+        "Metro",
+        "Mr. Rooter Plumbing of Dallas",
+        "Berkeys Air Conditioning, Plumbing & Electrical"
+      ],
+      "question": "best plumber in Dallas, TX"
+    },
+    {
+      "category": "roofer",
+      "categoryLabel": "Roofer",
+      "checked": "2026-11-13",
+      "city": "Dallas, TX",
+      "named": [
+        "T Rock Roofing & Contracting",
+        "Arrington Roofing",
+        "Priority Roofing",
+        "New View Roofing",
+        "Phillips Home Improvements",
+        "KPost Roofing & Waterproofing"
+      ],
+      "question": "best roofer in Dallas, TX"
+    },
+    {
+      "category": "dentist",
+      "categoryLabel": "Dentist",
+      "checked": "2026-11-13",
+      "city": "Denton, TX",
+      "named": [
+        "Top Dental Practices in Denton",
+        "Garden Oaks Family & Cosmetic Dentistry",
+        "Denton Family Dentistry",
+        "MINT dentistry | Denton",
+        "Ideal Dental of Denton",
+        "Denton Modern Dentistry and Orthodontics",
+        "When selecting a dentist, it's best to verify whether they are in"
+      ],
+      "question": "best dentist in Denton, TX"
+    },
+    {
+      "category": "hvac",
+      "categoryLabel": "Hvac",
+      "checked": "2026-11-13",
+      "city": "Denton, TX",
+      "named": [
+        "Cogburn’s Heating and Air Conditioning",
+        "Work Environmental Systems",
+        "Aaron’s Air Conditioning",
+        "Morrison’s Heating and Air",
+        "Cote’s Mechanical"
+      ],
+      "question": "best hvac in Denton, TX"
+    },
+    {
+      "category": "med-spa",
+      "categoryLabel": "Med Spa",
+      "checked": "2026-11-13",
+      "city": "Denton, TX",
+      "named": [
+        "Serenity Med Spa (at North Texas Breast & Plastic Surgery Center)",
+        "The Filling Station Med Spa",
+        "Beleza MedSpa",
+        "Ma’Belle Med Spa",
+        "Lisa Rux Medical Aesthetician"
+      ],
+      "question": "best med spa in Denton, TX"
+    },
+    {
+      "category": "roofer",
+      "categoryLabel": "Roofer",
+      "checked": "2026-11-13",
+      "city": "Denton, TX",
+      "named": [
+        "Over The Top Roofing",
+        "Presidio Roofing Company of Denton",
+        "Elite Roofing LLC",
+        "Denton Trinity Roofing, Inc.",
+        "Gillean Brothers Roofing LLC"
+      ],
+      "question": "best roofer in Denton, TX"
+    },
+    {
+      "category": "auto-detailing",
+      "categoryLabel": "Auto Detailing",
+      "checked": "2026-11-13",
+      "city": "Flower Mound, TX",
+      "named": [
+        "My Detail Guys (Mobile Detailing)",
+        "Panda Hub (Mobile Detailing)",
+        "EcoPal Mobile Detail",
+        "Kwik Kar Wash & Detail Center",
+        "Precision Auto Detail & Tint"
+      ],
+      "question": "best auto detailing in Flower Mound, TX"
+    },
+    {
+      "category": "chiropractor",
+      "categoryLabel": "Chiropractor",
+      "checked": "2026-11-13",
+      "city": "Flower Mound, TX",
+      "named": [
+        "FreeForm Chiropractic",
+        "Best Life Chiropractic and Wellness Center",
+        "New Leaf Chiropractic",
+        "Bradley Chiropractic Clinic"
+      ],
+      "question": "best chiropractor in Flower Mound, TX"
+    },
+    {
+      "category": "nail-salon",
+      "categoryLabel": "Nail Salon",
+      "checked": "2026-11-13",
+      "city": "Flower Mound, TX",
+      "named": [
+        "Milano Nail Spa Flower Mound",
+        "Majestic Nail Spa (Lakeside)",
+        "Fancy Nails Spa",
+        "Texas Nail Lounge",
+        "Fiore Nail Bar"
+      ],
+      "question": "best nail salon in Flower Mound, TX"
+    },
+    {
+      "category": "plumber",
+      "categoryLabel": "Plumber",
+      "checked": "2026-11-13",
+      "city": "Flower Mound, TX",
+      "named": [
+        "Absolute Plumbing of Flower Mound",
+        "AugerPros Plumbing & Drain LLC",
+        "Jensen Plumbing LLC",
+        "Legacy Plumbing",
+        "Baker Brothers Plumbing, Air & Electric"
+      ],
+      "question": "best plumber in Flower Mound, TX"
+    },
+    {
+      "category": "auto-repair",
+      "categoryLabel": "Auto Repair",
+      "checked": "2026-11-13",
+      "city": "Fort Worth, TX",
+      "named": [
+        "Independent & General Repair Shops",
+        "Specialty & Transmission Specialists",
+        "Highly"
+      ],
+      "question": "best auto repair in Fort Worth, TX"
+    },
+    {
+      "category": "chiropractor",
+      "categoryLabel": "Chiropractor",
+      "checked": "2026-11-13",
+      "city": "Fort Worth, TX",
+      "named": [
+        "Active Spine & Sport Therapy",
+        "Prime Spine & Wellness",
+        "Bronson Chiropractic Clinic",
+        "HealthSource Chiropractic of Southwest Fort Worth",
+        "Kare Clinic Chiropractic & Rehab"
+      ],
+      "question": "best chiropractor in Fort Worth, TX"
+    },
+    {
+      "category": "dentist",
+      "categoryLabel": "Dentist",
+      "checked": "2026-11-13",
+      "city": "Fort Worth, TX",
+      "named": [
+        "Fort Worth Dental",
+        "Brown Family Dentistry",
+        "Paulus Dental",
+        "Alliance Dental Care (Dr. Robert Karr's Practice)"
+      ],
+      "question": "best dentist in Fort Worth, TX"
+    },
+    {
+      "category": "hvac",
+      "categoryLabel": "Hvac",
+      "checked": "2026-11-13",
+      "city": "Fort Worth, TX",
+      "named": [
+        "Webb Air Heating & Cooling",
+        "Lawrence Air Conditioning & Heating",
+        "Air Worth Heating & Cooling",
+        "Comfort Experts",
+        "Baker Brothers Plumbing, Air & Electric"
+      ],
+      "question": "best hvac in Fort Worth, TX"
+    },
+    {
+      "category": "med-spa",
+      "categoryLabel": "Med Spa",
+      "checked": "2026-11-13",
+      "city": "Fort Worth, TX",
+      "named": [
+        "Kalos Medical Spa at Kirby Plastic Surgery",
+        "Hanami Medspa",
+        "Skin Deep Laser MD",
+        "Vitalyc Medspa",
+        "It’s A Secret Med Spa"
+      ],
+      "question": "best med spa in Fort Worth, TX"
+    },
+    {
+      "category": "personal-injury-lawyer",
+      "categoryLabel": "Personal Injury Lawyer",
+      "checked": "2026-11-13",
+      "city": "Fort Worth, TX",
+      "named": [
+        "Look for Board Certification",
+        "Ask Who Will Handle Your Case",
+        "Check Trial Experience"
+      ],
+      "question": "best personal injury lawyer in Fort Worth, TX"
+    },
+    {
+      "category": "roofer",
+      "categoryLabel": "Roofer",
+      "checked": "2026-11-13",
+      "city": "Fort Worth, TX",
+      "named": [
+        "Lon Smith Roofing & Construction",
+        "Tarrant Roofing",
+        "High Pointe Roofing and Construction",
+        "Team Enoch",
+        "Veritas Roofing",
+        "T Rock Roofing & Construction"
+      ],
+      "question": "best roofer in Fort Worth, TX"
+    },
+    {
+      "category": "chiropractor",
+      "categoryLabel": "Chiropractor",
+      "checked": "2026-11-13",
+      "city": "Frisco, TX",
+      "named": [
+        "Breakaway Chiropractic & Wellness",
+        "FreeForm Chiropractic (Frisco)",
+        "Global Chiropractic Plano Frisco",
+        "Frisco Chiropractic Center",
+        "Viva Chiropractic Center"
+      ],
+      "question": "best chiropractor in Frisco, TX"
+    },
+    {
+      "category": "dentist",
+      "categoryLabel": "Dentist",
+      "checked": "2026-11-13",
+      "city": "Frisco, TX",
+      "named": [
+        "Dental Care of Frisco",
+        "Smile Lounge",
+        "Tribute Family Dentistry",
+        "Spectacular Smiles Dental",
+        "Frisco Smiles Dentistry"
+      ],
+      "question": "best dentist in Frisco, TX"
+    },
+    {
+      "category": "med-spa",
+      "categoryLabel": "Med Spa",
+      "checked": "2026-11-13",
+      "city": "Frisco, TX",
+      "named": [
+        "Starwood Med Spa",
+        "Hush MedSpa",
+        "Geneva Med Spa",
+        "Harmoni Health & Beauty",
+        "Avanti Skin Center of Willow Bend",
+        "Le Beau Visage Medical Spa"
+      ],
+      "question": "best med spa in Frisco, TX"
+    },
+    {
+      "category": "chiropractor",
+      "categoryLabel": "Chiropractor",
+      "checked": "2026-11-13",
+      "city": "Grapevine, TX",
+      "named": [
+        "Hands On Health Chiropractic",
+        "The Vine Family Chiropractic (Dr. Kelsey Brown, DC)",
+        "Innovate Health (Dr. Brett Payne, DC)",
+        "Kreamer Family Chiropractic (Dr. Mark Kreamer)",
+        "The Chiro Co.",
+        "Spine Health & Wellness (Grapevine Clinic)"
+      ],
+      "question": "best chiropractor in Grapevine, TX"
+    },
+    {
+      "category": "dentist",
+      "categoryLabel": "Dentist",
+      "checked": "2026-11-13",
+      "city": "Grapevine, TX",
+      "named": [
+        "Grapevine Family Dentistry",
+        "Daaboul Family Dentistry",
+        "Grapevine Dental",
+        "Grapevine Dental Center"
+      ],
+      "question": "best dentist in Grapevine, TX"
+    },
+    {
+      "category": "chiropractor",
+      "categoryLabel": "Chiropractor",
+      "checked": "2026-11-13",
+      "city": "Highland Village, TX",
+      "named": [
+        "Elite Body Chiropractic",
+        "Trinity Wellness Center, P.C.",
+        "Rooted Chiropractic and Wellness Center",
+        "Six One Clinic",
+        "Village Chiropractic Center (and Medical Massage Rx)"
+      ],
+      "question": "best chiropractor in Highland Village, TX"
+    },
+    {
+      "category": "physical-therapy",
+      "categoryLabel": "Physical Therapy",
+      "checked": "2026-11-13",
+      "city": "Highland Village, TX",
+      "named": [
+        "PeakRx PT & Wellness",
+        "Fortitude Performance Physical Therapy",
+        "Triumph Physical Therapy & Wellness Center"
+      ],
+      "question": "best physical therapy in Highland Village, TX"
+    },
+    {
+      "category": "auto-repair",
+      "categoryLabel": "Auto Repair",
+      "checked": "2026-11-13",
+      "city": "Irving, TX",
+      "named": [
+        "The top",
+        "Top Full",
+        "Christian Brothers Automotive",
+        "Lakeshore Automotive (1100 W Lyndon B Johnson Fwy, Irving, TX)",
+        "K3S Auto Repair (307 N Rogers Rd, Irving, TX 75061)",
+        "Well",
+        "One Stop Automotive (1515 N Loop 12, Irving, TX 75061)",
+        "Johnny's Automotive (1101 N Britain Rd, Irving, TX 75061)",
+        "Lopez Automotive (South Irving, on Rock Island Rd)",
+        "Specialty & Make",
+        "Hondura (Off Loop 12 near Irving Blvd) & Honcura (N Story Rd area)",
+        "AMD Transmissions & Auto Repairs (1021 Allen St, Irving, TX 75060)",
+        "All American Transmissions & Foreign Auto Repair (South of Hwy 183 off Belt Line Rd)",
+        "SDR Diesel Engine & Performance (Soto Diesel Repair) (1004 Bluebonnet Dr, Irving, TX 75060)"
+      ],
+      "question": "best auto repair in Irving, TX"
+    },
+    {
+      "category": "chiropractor",
+      "categoryLabel": "Chiropractor",
+      "checked": "2026-11-13",
+      "city": "Irving, TX",
+      "named": [
+        "Ethos Chiropractic",
+        "Dynamic Sports Medicine (Irving Clinic)",
+        "City Chiro Sports Center",
+        "Newton Chiropractic",
+        "Spine Health & Wellness (Irving"
+      ],
+      "question": "best chiropractor in Irving, TX"
+    },
+    {
+      "category": "dentist",
+      "categoryLabel": "Dentist",
+      "checked": "2026-11-13",
+      "city": "Irving, TX",
+      "named": [
+        "Top",
+        "Advanced Dental Care of Las Colinas",
+        "Gentle Dentistry of Las Colinas",
+        "Irving Family Dental",
+        "Cosmetic and Family Dentistry of Las Colinas",
+        "Story Dental"
+      ],
+      "question": "best dentist in Irving, TX"
+    },
+    {
+      "category": "family-lawyer",
+      "categoryLabel": "Family Lawyer",
+      "checked": "2026-11-13",
+      "city": "Irving, TX",
+      "named": [
+        "KoonsFuller, P.C. (Dallas/DFW Metroplex)",
+        "The Law Office of Bryan Fagan, PLLC (Dallas/Irving Area)",
+        "Bale Law Firm, PLLC (Irving, TX)",
+        "The Law Offices of Rita M. Boyd, P.C. (Irving/Las Colinas, TX)",
+        "Guest and Gray Law Firm (DFW Metroplex)"
+      ],
+      "question": "best family lawyer in Irving, TX"
+    },
+    {
+      "category": "hvac",
+      "categoryLabel": "Hvac",
+      "checked": "2026-11-13",
+      "city": "Irving, TX",
+      "named": [
+        "Spencer Air Conditioning & Heating",
+        "Reliant Air Conditioning",
+        "Berkeys Air Conditioning, Plumbing & Electrical",
+        "Aval Air Conditioning & Heating",
+        "Air"
+      ],
+      "question": "best hvac in Irving, TX"
+    },
+    {
+      "category": "med-spa",
+      "categoryLabel": "Med Spa",
+      "checked": "2026-11-13",
+      "city": "Irving, TX",
+      "named": [
+        "The Beauty Clinic MedSpa",
+        "A&M Skin & Laser Clinic",
+        "Dr. Reddy Medspa",
+        "Facial Mania Med Spa",
+        "Irving Health and Wellness Clinic"
+      ],
+      "question": "best med spa in Irving, TX"
+    },
+    {
+      "category": "personal-injury-lawyer",
+      "categoryLabel": "Personal Injury Lawyer",
+      "checked": "2026-11-13",
+      "city": "Irving, TX",
+      "named": [
+        "Domingo Garcia Law Office",
+        "Eberstein Witherite, LLP (1",
+        "The Barber Law Firm",
+        "Frenkel & Frenkel, LLP",
+        "Rad Law Firm"
+      ],
+      "question": "best personal injury lawyer in Irving, TX"
+    },
+    {
+      "category": "plumber",
+      "categoryLabel": "Plumber",
+      "checked": "2026-11-13",
+      "city": "Irving, TX",
+      "named": [
+        "Verify Licensing",
+        "Ask About Warranties",
+        "Request Upfront Pricing"
+      ],
+      "question": "best plumber in Irving, TX"
+    },
+    {
+      "category": "roofer",
+      "categoryLabel": "Roofer",
+      "checked": "2026-11-13",
+      "city": "Irving, TX",
+      "named": [
+        "Kidd Roofing",
+        "IntegriBuilt Roofing",
+        "Hybrid Roofing",
+        "Golden Nail Roofing LLC",
+        "Simmons & Sons Roofing LLC",
+        "Blue Hammer Roofing"
+      ],
+      "question": "best roofer in Irving, TX"
+    },
+    {
+      "category": "chiropractor",
+      "categoryLabel": "Chiropractor",
+      "checked": "2026-11-13",
+      "city": "Keller, TX",
+      "named": [
+        "Keller Family Chiropractic",
+        "Performance Chiropractic Clinic",
+        "Thrive Chiropractic",
+        "Alpha & Omega Chiropractic"
+      ],
+      "question": "best chiropractor in Keller, TX"
+    },
+    {
+      "category": "plumber",
+      "categoryLabel": "Plumber",
+      "checked": "2026-11-13",
+      "city": "Keller, TX",
+      "named": [
+        "Big Blade Plumbing & Rooter",
+        "Hat Plumbing, Heating and Air",
+        "Longhorn Plumbing",
+        "Mother Modern Plumbing, Sewer & Drain",
+        "Baker Brothers Plumbing, Air & Electric"
+      ],
+      "question": "best plumber in Keller, TX"
+    },
+    {
+      "category": "auto-detailing",
+      "categoryLabel": "Auto Detailing",
+      "checked": "2026-11-13",
+      "city": "Lewisville, TX",
+      "named": [
+        "Masterpiece Auto Appearance",
+        "NTX Mobile Detailing",
+        "Carnation Auto Spa (Lewisville",
+        "Main Street Car Wash",
+        "Bees Mobile Detailing (BMD)"
+      ],
+      "question": "best auto detailing in Lewisville, TX"
+    },
+    {
+      "category": "barbershop",
+      "categoryLabel": "Barbershop",
+      "checked": "2026-11-13",
+      "city": "Lewisville, TX",
+      "named": [
+        "Flocka Fadez",
+        "Old Town Barbershop",
+        "Troy Cuts Barber Shop",
+        "Ray's Barber Shop",
+        "Barbers @ 101 E (Suite 116 / Collective Suites)"
+      ],
+      "question": "best barbershop in Lewisville, TX"
+    },
+    {
+      "category": "chiropractor",
+      "categoryLabel": "Chiropractor",
+      "checked": "2026-11-13",
+      "city": "Lewisville, TX",
+      "named": [
+        "Atchley Chiropractic Centers (Castle Hills location)",
+        "Shine Chiropractic",
+        "HealthSource Chiropractic of Lewisville",
+        "Byroad Chiropractic",
+        "Curis Functional Health"
+      ],
+      "question": "best chiropractor in Lewisville, TX"
+    },
+    {
+      "category": "dentist",
+      "categoryLabel": "Dentist",
+      "checked": "2026-11-13",
+      "city": "Lewisville, TX",
+      "named": [
+        "Sehnert Precision Dentistry",
+        "Capehart Dental of Lewisville",
+        "SolidSMILES Dental",
+        "Round Grove Family Dentistry"
+      ],
+      "question": "best dentist in Lewisville, TX"
+    },
+    {
+      "category": "family-law",
+      "categoryLabel": "Family law attorney",
+      "checked": "2026-11-11",
+      "city": "Lewisville, TX",
+      "named": [
+        "Jennifer Ilarraza (Ilarraza Law)",
+        "William F. Neal"
+      ],
+      "question": "best family law attorney in Lewisville, TX"
+    },
+    {
+      "category": "family-lawyer",
+      "categoryLabel": "Family Lawyer",
+      "checked": "2026-11-13",
+      "city": "Lewisville, TX",
+      "named": [
+        "Check Board Certification",
+        "Match the Attorney to Your Approach",
+        "Ask About Local Court Experience",
+        "Compare Fee Structures"
+      ],
+      "question": "best family lawyer in Lewisville, TX"
+    },
+    {
+      "category": "hair-salon",
+      "categoryLabel": "Hair Salon",
+      "checked": "2026-11-13",
+      "city": "Lewisville, TX",
+      "named": [
+        "Salons of Volterra",
+        "Change Hair & Beauty",
+        "Salon Thairapy",
+        "Tommy Hair Salon",
+        "Meraki Luxe & Natural Hair Studios (Main Valley / Southwest Pkwy Area)"
+      ],
+      "question": "best hair salon in Lewisville, TX"
+    },
+    {
+      "category": "house-cleaning",
+      "categoryLabel": "House Cleaning",
+      "checked": "2026-11-13",
+      "city": "Lewisville, TX",
+      "named": [
+        "Buckets & Bows Maid Service",
+        "MaidPro (Lewisville / Flower Mound)",
+        "Merry Maids of Lewisville",
+        "Full Scope Cleaning, LLC",
+        "Green Feather Cleaning Services"
+      ],
+      "question": "best house cleaning in Lewisville, TX"
+    },
+    {
+      "category": "hvac",
+      "categoryLabel": "Hvac",
+      "checked": "2026-11-13",
+      "city": "Lewisville, TX",
+      "named": [
+        "Highly",
+        "Advent Air Conditioning",
+        "Colony Air Conditioning & Heating",
+        "Southern Comfort Mechanical",
+        "Aire Serv of Flower Mound / Lewisville",
+        "Lex Air Conditioning, Heating, Plumbing & Electrical",
+        "Northside Air Conditioning"
+      ],
+      "question": "best hvac in Lewisville, TX"
+    },
+    {
+      "category": "med-spa",
+      "categoryLabel": "Med Spa",
+      "checked": "2026-11-13",
+      "city": "Lewisville, TX",
+      "named": [
+        "Boutique MedSpa (MD Skin and Laser)",
+        "Doctor Slim Med Spa",
+        "ROOT Med Spa",
+        "Stuart Lipton, MD (Medical Spa Services)"
+      ],
+      "question": "best med spa in Lewisville, TX"
+    },
+    {
+      "category": "pediatric-dentist",
+      "categoryLabel": "Pediatric Dentist",
+      "checked": "2026-11-13",
+      "city": "Lewisville, TX",
+      "named": [
+        "Smile Magic Family Dental",
+        "Burst Dental + Kids (Nearby in Carrollton)",
+        "Hillside Dental",
+        "KidSmiles Dental & Orthodontics (Nearby in Flower Mound)"
+      ],
+      "question": "best pediatric dentist in Lewisville, TX"
+    },
+    {
+      "category": "personal-injury",
+      "categoryLabel": "Personal injury lawyer",
+      "checked": "2026-11-11",
+      "city": "Lewisville, TX",
+      "named": [
+        "Kuzmich Law Firm",
+        "Shuster Law",
+        "Just Wrecked Law"
+      ],
+      "question": "best personal injury lawyer in Lewisville, TX"
+    },
+    {
+      "category": "personal-injury-lawyer",
+      "categoryLabel": "Personal Injury Lawyer",
+      "checked": "2026-11-13",
+      "city": "Lewisville, TX",
+      "named": [
+        "Confirm contingency fees",
+        "Ask who handles your file",
+        "Check Board Certification"
+      ],
+      "question": "best personal injury lawyer in Lewisville, TX"
+    },
+    {
+      "category": "plumber",
+      "categoryLabel": "Plumber",
+      "checked": "2026-11-13",
+      "city": "Lewisville, TX",
+      "named": [
+        "Imperial Plumbing",
+        "Master Fix Plumbing",
+        "All Metroplex Plumbing",
+        "RHD Primary Plumbing",
+        "Legacy Plumbing",
+        "Berkeys Plumbing"
+      ],
+      "question": "best plumber in Lewisville, TX"
+    },
+    {
+      "category": "hvac",
+      "categoryLabel": "Hvac",
+      "checked": "2026-11-13",
+      "city": "Mckinney, TX",
+      "named": [
+        "When looking for top",
+        "Highly Rated HVAC Businesses in McKinney",
+        "| Business Name | Best Known For / Highlights |",
+        "| Bill Joplin's Air Conditioning & Heating | • Long",
+        "| Airview AC | • New installations & modern approach • Multi",
+        "| Harris Air Services | • Family",
+        "Tips for Choosing a Contractor in McKinney"
+      ],
+      "question": "best hvac in Mckinney, TX"
+    },
+    {
+      "category": "plumber",
+      "categoryLabel": "Plumber",
+      "checked": "2026-11-13",
+      "city": "Mckinney, TX",
+      "named": [
+        "Genzel Plumbing Company",
+        "Hackler Plumbing",
+        "Baker Brothers Plumbing, Air Conditioning, & Electric",
+        "Murley Plumbing"
+      ],
+      "question": "best plumber in Mckinney, TX"
+    },
+    {
+      "category": "chiropractor",
+      "categoryLabel": "Chiropractor",
+      "checked": "2026-11-13",
+      "city": "Plano, TX",
+      "named": [
+        "Epic Chiropractic",
+        "Farrar Family Chiropractic",
+        "Prime Life Chiropractic",
+        "ChiroConcepts of Plano",
+        "Whole Body Chiropractic"
+      ],
+      "question": "best chiropractor in Plano, TX"
+    },
+    {
+      "category": "dentist",
+      "categoryLabel": "Dentist",
+      "checked": "2026-11-13",
+      "city": "Plano, TX",
+      "named": [
+        "Parkhaven Dental Care",
+        "Texas Dental Specialists",
+        "Darren K. Dickson, DDS",
+        "The Danna Smile (Jodi Danna, DDS & Mariya Volvovsky, DDS)",
+        "Advanced Dental Care (Christine C. Hopkins, DDS)"
+      ],
+      "question": "best dentist in Plano, TX"
+    },
+    {
+      "category": "personal-injury-lawyer",
+      "categoryLabel": "Personal Injury Lawyer",
+      "checked": "2026-11-13",
+      "city": "Plano, TX",
+      "named": [
+        "Mullen & Mullen Law Firm",
+        "Burress Injury Law",
+        "Snellings Law PLLC",
+        "Ted B. Lyon & Associates",
+        "Jose Robles Jr Law Firm"
+      ],
+      "question": "best personal injury lawyer in Plano, TX"
+    },
+    {
+      "category": "family-lawyer",
+      "categoryLabel": "Family Lawyer",
+      "checked": "2026-11-13",
+      "city": "Southlake, TX",
+      "named": [
+        "Varghese Summersett PLLC",
+        "Law Office of Dana L. White, PLLC",
+        "Beal Law Firm, PLLC",
+        "McNulty Law Firm",
+        "The Mohr Law Firm, PLLC",
+        "KoonsFuller, PC"
+      ],
+      "question": "best family lawyer in Southlake, TX"
+    },
+    {
+      "category": "hvac",
+      "categoryLabel": "Hvac",
+      "checked": "2026-11-13",
+      "city": "Southlake, TX",
+      "named": [
+        "When looking for top",
+        "Highly Rated HVAC Contractors in Southlake",
+        "Gentry Air Conditioning",
+        "Berkeys Plumbing, AC & Electrical",
+        "billyGO Air Conditioning & Plumbing",
+        "Select Air Conditioning",
+        "AirCo Air Conditioning, Heating & Plumbing"
+      ],
+      "question": "best hvac in Southlake, TX"
+    },
+    {
+      "category": "tire-shop",
+      "categoryLabel": "Tire Shop",
+      "checked": "2026-11-13",
+      "city": "The Colony, TX",
+      "named": [
+        "Discount Tire",
+        "NTB Tire & Service Centers",
+        "Midas",
+        "Regio Tire & Shop"
+      ],
+      "question": "best tire shop in The Colony, TX"
+    }
+  ],
+  "note": "New snapshots were collected with Gemini on 2026-11-13. Lewisville checks without a newer match are from 2026-11-11. AI answers change over time; these are past checks, not live."
+}

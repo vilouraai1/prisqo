@@ -23,6 +23,31 @@
     if (n.length >= 4 && t.indexOf(n) !== -1) return true;
     return false;
   }
+  function addDataOptions() {
+    var categories = form.elements["category"], cities = form.elements["city"];
+    var seenCategories = {}, seenCities = {};
+    Array.prototype.forEach.call(categories.options, function (o) { seenCategories[o.value] = true; });
+    Array.prototype.forEach.call(cities.options, function (o) { seenCities[o.value] = true; });
+    data.checks.forEach(function (check) {
+      if (!seenCategories[check.category]) {
+        var categoryOption = document.createElement("option");
+        categoryOption.value = check.category;
+        categoryOption.textContent = check.categoryLabel;
+        categories.appendChild(categoryOption);
+        seenCategories[check.category] = true;
+      }
+      if (!seenCities[check.city]) {
+        var cityOption = document.createElement("option");
+        cityOption.value = check.city;
+        cityOption.textContent = check.city;
+        cities.appendChild(cityOption);
+        seenCities[check.city] = true;
+      }
+    });
+  }
+  function sourceLabel(check) {
+    return check.checked === "2026-11-13" ? "Gemini on Nov 13, 2026" : "an AI search assistant on Nov 11, 2026";
+  }
   function ctaHtml() {
     return '<p><a class="btn" href="/?ref=freecheck#check">Get my report ($19)</a></p>' +
       '<p style="font-size:14px">14-day refund · One-time charge · Report ready in minutes</p>';
@@ -69,19 +94,25 @@
       ? "AI named " + found + " for “best " + label.toLowerCase() + " in " + city + "”. Did it name you?"
       : "AI did not name us for “best " + label.toLowerCase() + " in " + city + "”. Did it name you?";
     if (found) {
-      result.innerHTML = "<h2>You showed up</h2><p><strong>" + esc(found) + "</strong> was named for “" + esc(check.question) + "” in our check on Nov 11, 2026. But that is one question — see the 6 buyer questions where you might not show up.</p>" + ctaHtml() + shareHtml(shareText);
+      result.innerHTML = "<h2>You showed up</h2><p><strong>" + esc(found) + "</strong> was named for “" + esc(check.question) + "” in our check with " + sourceLabel(check) + ". But that is one question — see the 6 buyer questions where you might not show up.</p>" + ctaHtml() + shareHtml(shareText);
     } else {
-      result.innerHTML = "<h2>AI did not name you in our last check</h2><p>For “" + esc(check.question) + "” on Nov 11, 2026, it named: <strong>" + list + "</strong>. Find out where you stand across 6 buyer questions — and what to fix.</p>" + ctaHtml() + shareHtml(shareText);
+      result.innerHTML = "<h2>AI did not name you in our last check</h2><p>For “" + esc(check.question) + "” on " + sourceLabel(check) + ", it named: <strong>" + list + "</strong>. Find out where you stand across 6 buyer questions — and what to fix.</p>" + ctaHtml() + shareHtml(shareText);
     }
   }
 
   form.addEventListener("submit", function (ev) { ev.preventDefault(); run(); });
+  var params = new URLSearchParams(window.location.search);
   fetch("/data/ai-answers.json").then(function (r) {
     if (!r.ok) throw new Error("http " + r.status);
     return r.json();
-  }).then(function (j) { data = j; }).catch(function () { failed = true; });
+  }).then(function (j) {
+    data = j;
+    addDataOptions();
+    var categoryParam = params.get("category"), cityParam = params.get("city");
+    if (categoryParam && form.elements["category"].querySelector('option[value="' + categoryParam + '"]')) form.elements["category"].value = categoryParam;
+    if (cityParam && form.elements["city"].querySelector('option[value="' + cityParam + '"]')) form.elements["city"].value = cityParam;
+  }).catch(function () { failed = true; });
 
-  var params = new URLSearchParams(window.location.search);
   var pc = params.get("category"), py = params.get("city"), pn = params.get("name");
   if (pc && py && pn) {
     if (form.elements["category"].querySelector('option[value="' + pc + '"]')) form.elements["category"].value = pc;
