@@ -448,3 +448,329 @@ VilouraAI
 [postal address]
 Not interested? Reply stop and I won't email again.
 ```
+
+## VL-088 — Physical Therapy Experts (Carrollton)
+- chosen_offer: Prisqo $19 report
+- reason: Working site and a 5-star rating, but a small site with a request form only; PT is not a free-check category, so the main $19 link.
+- public_email: care@ptexperts.us (in CRM)
+- draft:
+
+**Email**
+
+```text
+Subject: Do AI assistants recommend Physical Therapy Experts?
+From: Jilsha <vilouraai@gmail.com>
+
+Hi Physical Therapy Experts team,
+
+People now ask ChatGPT and other AI assistants for a good physical therapist in Carrollton. With a 5-star rating you should be in those answers, but your site is small, with a request form only, so the assistants have little to read.
+
+For $19, this report shows whether AI assistants recommend you and what to fix:
+https://prisqo.vilouraai.com
+
+Would it be useful?
+
+Thanks,
+Jilsha
+VilouraAI
+[postal address]
+Not interested? Reply stop and I won't email again.
+```
+
+## VL-089 — Triumph Physical Therapy & Wellness Center (Highland Village)
+- chosen_offer: Prisqo $19 report
+- reason: Working site with a 5-star rating, but the footer still says 2022 and there's no booking; PT is not a free-check category, so the main $19 link.
+- public_email: hello@triumphwc.com (in CRM)
+- draft:
+
+**Email**
+
+```text
+Subject: Do AI assistants recommend Triumph PT?
+From: Jilsha <vilouraai@gmail.com>
+
+Hi Rimoun,
+
+People now ask ChatGPT and other AI assistants for a physical therapist in Highland Village. Your site footer still says 2022, and AI assistants tend to favor fresh, detailed sites.
+
+For $19, this report shows whether AI assistants recommend Triumph and what to update:
+https://prisqo.vilouraai.com
+
+Would it be useful?
+
+Thanks,
+Jilsha
+VilouraAI
+[postal address]
+Not interested? Reply stop and I won't email again.
+```
+
+## VL-090 — Advanced Dentistry (Lewisville)
+- chosen_offer: AI Receptionist
+- reason: Birdeye review: 'Doesn't return calls... no return calls and the run around' (an older review) at 1,092 reviews; closed Mondays. No phone or site in CRM.
+- public_email: none in CRM; no site of its own to check. Caveat: no phone in CRM either; look up the number on the Birdeye/Google listing before calling, and the review is old
+- draft:
+
+**Phone script**
+
+```text
+Hi, this is Jilsha with VilouraAI. Could I speak with the office manager?
+You have over a thousand reviews, which means a lot of calls. One review on Birdeye, an older one, said the office "doesn't return calls" and gave "the run around." With Mondays closed, those calls can stack up.
+We set up an AI receptionist that answers every call and books or logs the callback so it actually happens.
+Would the doctor or manager have time for a quick call to scope it?
+```
+
+## VL-098 — Capehart Dental of Lewisville (Lewisville)
+- chosen_offer: Prisqo $19 report (ON HOLD)
+- reason: ON HOLD: Capehart is already lead #2 in leads-1 and drafted in outreach.md #2; don't double-send. Legacy .html site with LocalMed booking already present, so the receptionist pitch is weak; free-check draft kept for reference.
+- public_email: info@capehartdentistry.com (in CRM)
+- draft:
+
+**Email**
+
+```text
+Subject: Do AI assistants recommend Capehart Dental?
+From: Jilsha <vilouraai@gmail.com>
+
+Hi Dr. Capehart,
+
+Patients now ask ChatGPT and other AI assistants for a dentist in Lewisville. You already take online bookings, but your site still uses older .html pages, which AI assistants may read less well.
+
+This free check shows whether AI assistants recommend you for Lewisville dentists:
+https://prisqo.vilouraai.com/free-check?ref=email
+
+The full report with fixes is $19.
+
+Would you take a look?
+
+Thanks,
+Jilsha
+VilouraAI
+[postal address]
+Not interested? Reply stop and I won't email again.
+```
+
+## VL-099 — Creekview Family Dentistry (Lewisville)
+- chosen_offer: AI Agent
+- reason: Three dentists open 7 AM-7 PM but booking is a request form only; real-time online booking is the gap. Also lead #9 in leads-1 (no email used there); don't double-contact.
+- public_email: none in CRM; the fdesk@dentaloffice.com on the site is template text, ignored
+- draft:
+
+**Phone script**
+
+```text
+Hi, this is Jilsha with VilouraAI. Could I speak with Dr. Mathew or the office manager?
+You have three dentists and you're open 7 to 7, but on your website new patients can only send a request form and wait to hear back.
+We set up an AI agent on your site that answers questions and books real appointment times on the spot.
+Would Dr. Mathew have time for a quick call to scope it?
+```
+
+## VL-100 — Lomonaco Family Chiropractic (Highland Village)
+- chosen_offer: Prisqo $19 report
+- reason: Only signal: the site blocked our automated check (403), which AI tools that read sites may also hit; PT/chiro outside Lewisville, so the main $19 link.
+- public_email: info@lomonacodc.com (in CRM)
+- draft:
+
+**Email**
+
+```text
+Subject: Can AI assistants read lomonacodc.com?
+From: Jilsha <vilouraai@gmail.com>
+
+Hi Lomonaco Family Chiropractic team,
+
+When I tried an automated check of lomonacodc.com, the site blocked it (a 403 error). AI assistants that read websites to recommend a chiropractor in Highland Village may hit the same wall.
+
+For $19, this report shows whether AI assistants recommend you and what's in the way:
+https://prisqo.vilouraai.com
+
+Would it be useful?
+
+Thanks,
+Jilsha
+VilouraAI
+[postal address]
+Not interested? Reply stop and I won't email again.
+```
+
+## VL-101 — Butler Chiropractic (Flower Mound)
+- chosen_offer: AI Agent
+- reason: 30+ year practice with only 4 Google reviews; an agent that sends review requests after visits. Already named by AI in drafts-2 checks, so no $19 report.
+- public_email: randy.butler@butlerchiropractic.com (in CRM)
+- draft:
+
+**Email**
+
+```text
+Subject: 30 years in Flower Mound, 4 Google reviews
+From: Jilsha <vilouraai@gmail.com>
+
+Hi Dr. Butler,
+
+You've treated patients in Flower Mound for over 30 years, but I could only find 4 Google reviews for the practice.
+
+We set up an AI agent that follows up after each visit and asks happy patients for a review, so your online reputation matches your track record.
+
+Could we set up a quick call to scope it?
+
+Thanks,
+Jilsha
+VilouraAI
+[postal address]
+Not interested? Reply stop and I won't email again.
+```
+
+## VL-102 — Foster Chiropractic (Flower Mound)
+- chosen_offer: Website build
+- reason: Legacy index.html template site, Zocdoc-only booking, and directories list conflicting addresses; a refreshed site fixes where patients go. Named by AI in drafts-2 checks, so no $19 report.
+- public_email: none in CRM; no email found on site
+- draft:
+
+**Phone script**
+
+```text
+Hi, this is Jilsha with VilouraAI. Is Dr. Foster or the office manager available?
+I noticed different directories list different addresses for your office, and your website is an older template with booking only through a Zocdoc link.
+We build refreshed practice websites with the right address and clear booking, so new patients end up at the right door.
+Would Dr. Foster have time for a quick call to scope it?
+```
+
+## VL-103 — Abundant Living Health & Wellness (Flower Mound)
+- chosen_offer: AI Receptionist
+- reason: Closed 1-2:40 PM most days and Friday afternoons; calls in those windows go unanswered.
+- public_email: dr.markahrens@gmail.com (in CRM)
+- draft:
+
+**Email**
+
+```text
+Subject: Calls between 1 and 2:40
+From: Jilsha <vilouraai@gmail.com>
+
+Hi Dr. Ahrens,
+
+Your office closes from 1 to 2:40 PM most days and on Friday afternoons. Those are times when many people call to book.
+
+An AI receptionist answers those calls and books the appointment while you're away.
+
+Would you be open to a quick call to scope it?
+
+Thanks,
+Jilsha
+VilouraAI
+[postal address]
+Not interested? Reply stop and I won't email again.
+```
+
+## VL-104 — Body Spring Fascia Fitness (Carrollton)
+- chosen_offer: Website build
+- reason: No website found, only a Cylex directory listing; solo practitioner. A site is the first gap.
+- public_email: none in CRM; no site of its own to check
+- draft:
+
+**Phone script**
+
+```text
+Hi, this is Jilsha with VilouraAI. Is Dr. McCullough available?
+I was searching for physical therapy in Carrollton and only found Body Spring Fascia Fitness on a Cylex directory listing. I couldn't find your own website.
+We build simple practice websites so people searching can learn about your fascia work and contact you.
+Could we set up a quick call to scope it?
+```
+
+## VL-105 — Celebration Family Dental of Carrollton (Carrollton)
+- chosen_offer: AI Agent
+- reason: Evening hours advertised but booking is a request form only, with no chat; online booking for those slots is the gap. Named by AI in earlier checks, so no $19 report.
+- public_email: celebrationfamilydental@gmail.com (in CRM)
+- draft:
+
+**Email**
+
+```text
+Subject: Booking your evening hours online
+From: Jilsha <vilouraai@gmail.com>
+
+Hi Dr. Shekhadiya,
+
+Celebration Family Dental advertises evening hours, which is a big plus for working families. But on your site, booking is a request form, so patients wait for a callback before they get a time.
+
+We set up an AI agent on your site that answers questions and books those evening slots on the spot.
+
+Could we set up a quick call to scope it?
+
+Thanks,
+Jilsha
+VilouraAI
+[postal address]
+Not interested? Reply stop and I won't email again.
+```
+
+## VL-112 — Boutique Medspa (Lewisville)
+- chosen_offer: AI Agent
+- reason: Small single-page site with online booking but no chat for treatment/pricing questions. Named by AI in leads-1 / outreach.md checks, so no $19 report.
+- public_email: boutiquemedspa@gmail.com (in CRM)
+- draft:
+
+**Email**
+
+```text
+Subject: Answering Botox and filler questions on your site
+From: Jilsha <vilouraai@gmail.com>
+
+Hi Boutique Medspa team,
+
+Your site already has online booking, which is great. But it's a single page with no way to ask about treatments or pricing first, and many people want answers before they book.
+
+We set up an AI chat agent that answers Botox and filler questions and books the consult right then.
+
+Could we set up a quick call to scope it?
+
+Thanks,
+Jilsha
+VilouraAI
+[postal address]
+Not interested? Reply stop and I won't email again.
+```
+
+## VL-113 — Doctor Slim Med Spa (Lewisville)
+- chosen_offer: AI Agent
+- reason: Online scheduling present but no chat for weight-loss program questions; an agent answers questions before booking.
+- public_email: help@doctorslimmedspa.com (in CRM)
+- draft:
+
+**Email**
+
+```text
+Subject: Weight-loss program questions on your site
+From: Jilsha <vilouraai@gmail.com>
+
+Hi Doctor Slim team,
+
+Your site has online scheduling, but people looking at weight-loss programs usually have questions first, and there's no chat to answer them.
+
+We set up an AI chat agent that answers those questions any time and books the consult.
+
+Could we set up a quick call to scope it?
+
+Thanks,
+Jilsha
+VilouraAI
+[postal address]
+Not interested? Reply stop and I won't email again.
+```
+
+## Summary
+- Leads: 33
+- Email drafts: 20 (19 from CRM emails + 1 found on site: VL-008)
+- Phone/visit/DM scripts: 14 (VL-008 has both an email and a script)
+- Offer mix:
+  - AI Receptionist: 14
+  - AI Agent: 6
+  - Website build: 5
+  - Prisqo $19 report: 5
+  - Website + AI Receptionist: 2
+  - Prisqo $19 report (ON HOLD): 1
+- Emails found: drprincele@gmail.com for VL-008 Smith Family Dentistry, in the footer of http://www.smithfamilydentistrypa.com; does not match owner Dr. Carmen Smith, confirm before sending. No email found for The Lewisville Dentist (form only), Vibrant Life, Josey Lane, Bradley, Hamptons, Foster; Creekview's fdesk@dentaloffice.com is template text and was ignored. VL-001, 025, 063, 064, 090, 104 have no site of their own.
+- Overlaps: VL-098 Capehart is lead #2 in leads-1 and drafted in outreach.md #2 (ON HOLD, don't double-send). VL-099 Creekview is lead #9 in leads-1 (no email used). VL-101 Butler and VL-102 Foster were named by AI in drafts-2 checks; VL-105 Celebration and VL-112 Boutique were named by AI in earlier checks (Boutique in leads-1/outreach.md); none of these get the $19 report.
+- Caveats: VL-064 has only a Vagaro page (no phone, address or email), so its draft is a DM/visit script. VL-090 has no phone in CRM and its review is old. VL-100's only signal is the 403 block.
+
+DONE
