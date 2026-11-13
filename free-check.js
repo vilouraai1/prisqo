@@ -90,5 +90,11 @@
     var wait = setInterval(function () {
       if (data || failed) { clearInterval(wait); run(); }
     }, 100);
+  } else {
+    /* Prefill from the homepage hero form, which passes name + city only
+       (no category yet): fill what we were given so the visitor only
+       picks a category. The check itself does not run until submitted. */
+    if (pn) form.elements["name"].value = pn;
+    if (py && form.elements["city"].querySelector('option[value="' + py + '"]')) form.elements["city"].value = py;
   }
 })();
