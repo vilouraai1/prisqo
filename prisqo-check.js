@@ -100,9 +100,13 @@
   function $(sel) {
     return document.querySelector(sel);
   }
-  function field(names) {
+  // Look up a field inside the paid-check form only. The homepage hero
+  // form now uses the same field names (name, city), so a document-wide
+  // lookup would find the hero fields first (they come earlier in the DOM)
+  // and checkout would read the wrong values.
+  function field(root, names) {
     for (var i = 0; i < names.length; i++) {
-      var el = document.querySelector('[name="' + names[i] + '"]') || document.querySelector("#" + names[i]);
+      var el = root.querySelector('[name="' + names[i] + '"]') || root.querySelector("#" + names[i]);
       if (el) return el;
     }
     return null;
@@ -243,10 +247,10 @@
   }
 
   async function startCheckout(form, box, submitBtn) {
-    var websiteEl = field(["website", "url", "domain"]);
-    var categoryEl = field(["category"]);
-    var cityEl = field(["city"]);
-    var nameEl = field(["businessName", "business_name", "name", "brand"]);
+    var websiteEl = field(form, ["website", "url", "domain"]);
+    var categoryEl = field(form, ["category"]);
+    var cityEl = field(form, ["city"]);
+    var nameEl = field(form, ["businessName", "business_name", "name", "brand"]);
     var website = websiteEl ? websiteEl.value.trim() : "";
     var category = categoryEl ? categoryEl.value.trim() : "";
     var city = cityEl ? cityEl.value.trim() : "";
