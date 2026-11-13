@@ -211,3 +211,240 @@ Your site tells new patients to "Call our office for an appointment," but you're
 We set up an AI receptionist that answers those calls and books the appointment.
 Could Dr. Bradley spare time for a quick call to scope it?
 ```
+
+## VL-061 — Wakefield Family & Cosmetic Dentistry (Lewisville)
+- chosen_offer: AI Receptionist
+- reason: Hours end 3:30-5 PM with no Friday hours listed and a request form only; after-hours callers have nowhere to book.
+- public_email: brianwakefielddds@gmail.com (in CRM)
+- draft:
+
+**Email**
+
+```text
+Subject: The callers after 3:30
+From: Jilsha <vilouraai@gmail.com>
+
+Hi Dr. Wakefield,
+
+Your site shows the office closing between 3:30 and 5 PM, with no Friday hours listed, and new patients can only send a request form.
+
+That means anyone who calls after work or on a Friday doesn't reach anyone. An AI receptionist answers those calls and books the appointment straight into your schedule.
+
+Would you be open to a quick call to scope it?
+
+Thanks,
+Jilsha
+VilouraAI
+[postal address]
+Not interested? Reply stop and I won't email again.
+```
+
+## VL-062 — Dawson Family Dentistry (Lewisville)
+- chosen_offer: AI Receptionist
+- reason: Site says 'the fastest way to schedule and ask about insurance is to call us', yet most days close at 3 PM; calls plus insurance questions are the gap.
+- public_email: office@drdawson.com (in CRM)
+- draft:
+
+**Email**
+
+```text
+Subject: "The fastest way to schedule is to call us"
+From: Jilsha <vilouraai@gmail.com>
+
+Hi Dr. Dawson,
+
+Your site says "the fastest way to schedule and ask about insurance is to call us," but most days the office closes at 3 PM.
+
+An AI receptionist can answer those calls after 3, handle the common insurance questions, and book the visit, so the fastest way stays open all evening.
+
+Could we set up a quick call to scope it?
+
+Thanks,
+Jilsha
+VilouraAI
+[postal address]
+Not interested? Reply stop and I won't email again.
+```
+
+## VL-063 — Derma Phi Med Spa (Carrollton)
+- chosen_offer: AI Receptionist
+- reason: Open only Thu-Sat and treatments listed as 'Call to Book'; four days a week, calls to book go unanswered.
+- public_email: none in CRM; no site of its own to check
+- draft:
+
+**Phone script**
+
+```text
+Hi, this is Jilsha with VilouraAI. Could I speak with the owner of Derma Phi?
+I noticed you're open Thursday through Saturday, and your treatments are listed as "Call to Book." So anyone who calls Sunday through Wednesday can't book, even with your 5-star reviews.
+We set up an AI receptionist that answers those calls and books consults on the days you're closed.
+Would the owner have time for a quick call to scope it?
+```
+
+## VL-064 — Vita Drip Wellness Spa (Lewisville)
+- chosen_offer: Website build
+- reason: Only web presence is a Vagaro booking page (no own site in search, 6 reviews); no phone, address or email found, so this is a DM/visit script.
+- public_email: none in CRM; no site, phone or address found; only the Vagaro page
+- draft:
+
+**DM / visit script**
+
+```text
+(Send as a message via the Vagaro page, or say in person if visiting.)
+Hi, I'm Jilsha with VilouraAI. I came across Vita Drip Wellness Spa via the Vagaro page. That looks like the only place clients can find you online right now; I couldn't find your own website.
+A simple branded site, with your IV and wellness services and a link to your Vagaro booking, helps new clients trust you before they book.
+Would you be open to a quick call to scope it?
+```
+
+## VL-082 — Ace Dental (Lewisville)
+- chosen_offer: Prisqo $19 report
+- reason: Working but very thin site (about 12KB) where booking is 'call or email us'; Lewisville dentist, so the free check applies.
+- public_email: appointments@acedental-care.com (in CRM)
+- draft:
+
+**Email**
+
+```text
+Subject: Do AI assistants recommend Ace Dental?
+From: Jilsha <vilouraai@gmail.com>
+
+Hi Dr. Reddy,
+
+More patients now ask ChatGPT and other AI assistants to suggest a dentist in Lewisville. Your site is short and mostly asks people to call or email, so those assistants have little to read about you.
+
+This free check shows whether AI assistants recommend you for Lewisville dentists:
+https://prisqo.vilouraai.com/free-check?ref=email
+
+The full report with fixes is $19.
+
+Would you take a look?
+
+Thanks,
+Jilsha
+VilouraAI
+[postal address]
+Not interested? Reply stop and I won't email again.
+```
+
+## VL-083 — Round Grove Family Dentistry (Lewisville)
+- chosen_offer: AI Receptionist
+- reason: Short, irregular hours (Mon/Thu 9-3, Sat 9-1) and a 'Request Appt' form; callers outside those windows have no one to book with.
+- public_email: roundgrovefd@gmail.com (in CRM)
+- draft:
+
+**Email**
+
+```text
+Subject: Your Mon/Thu 9-3 and Saturday 9-1 hours
+From: Jilsha <vilouraai@gmail.com>
+
+Hi Dr. Shrestha and Dr. James,
+
+Your hours change through the week, like Monday and Thursday 9 to 3 and Saturday 9 to 1, and new patients use a request form.
+
+Callers outside those windows don't reach anyone. An AI receptionist answers every call, gives your correct hours, and books the appointment.
+
+Would you be open to a quick call to scope it?
+
+Thanks,
+Jilsha
+VilouraAI
+[postal address]
+Not interested? Reply stop and I won't email again.
+```
+
+## VL-084 — The Hamptons Family & Cosmetic Dentistry (Carrollton)
+- chosen_offer: AI Agent
+- reason: Site: 'you can schedule an appointment by calling' with a request form only and no chat; the gap is self-service booking on the web.
+- public_email: none in CRM; no email found on site
+- draft:
+
+**Phone script**
+
+```text
+Hi, this is Jilsha with VilouraAI. Could I speak with the office manager?
+On your website, it says "you can schedule an appointment by calling," and the only other option is a request form. So a new patient browsing at night has to wait for office hours.
+We set up an AI agent on your site that answers common questions and books the appointment right then.
+Would the doctor or office manager have time for a quick call to scope it?
+```
+
+## VL-085 — DD Family Dentistry of Carrollton (Carrollton)
+- chosen_offer: AI Receptionist
+- reason: Site says 'Call us today to schedule' but the office is closed Fridays and every other Saturday; request form only.
+- public_email: info@ddfamilydentistrytx.com (in CRM)
+- draft:
+
+**Email**
+
+```text
+Subject: Friday calls to DD Family Dentistry
+From: Jilsha <vilouraai@gmail.com>
+
+Hi Dr. Devarakonda,
+
+Your site says "Call us today to schedule," but the office is closed Fridays and every other Saturday, and the online option is a request form.
+
+An AI receptionist answers those Friday and Saturday calls and books the patient, so they don't move on to another office.
+
+Could we set up a quick call to scope it?
+
+Thanks,
+Jilsha
+VilouraAI
+[postal address]
+Not interested? Reply stop and I won't email again.
+```
+
+## VL-086 — Elite Body Chiropractic (Highland Village)
+- chosen_offer: AI Receptionist
+- reason: Closed 12-2 PM daily with half days Fri/Sat and 'By Appointment Only'; calls at lunch and weekend afternoons go unanswered.
+- public_email: office@elitebodyhighlandvillage.com (in CRM)
+- draft:
+
+**Email**
+
+```text
+Subject: Your 12-2 lunch closure
+From: Jilsha <vilouraai@gmail.com>
+
+Hi Dr. Cat,
+
+Elite Body is "By Appointment Only," but the office closes from 12 to 2 every day and runs half days on Friday and Saturday. Lunch hour is when a lot of people call.
+
+An AI receptionist answers those calls and books the appointment while you're closed.
+
+Would you be open to a quick call to scope it?
+
+Thanks,
+Jilsha
+VilouraAI
+[postal address]
+Not interested? Reply stop and I won't email again.
+```
+
+## VL-087 — Village Chiropractic Center & Medical Massage Rx (Flower Mound)
+- chosen_offer: AI Receptionist
+- reason: Three small locations share phone lines with no online booking or chat; routing and booking calls to the right office is the need.
+- public_email: vcc@vrx-medical.com (in CRM)
+- draft:
+
+**Email**
+
+```text
+Subject: Three locations, shared phone lines
+From: Jilsha <vilouraai@gmail.com>
+
+Hi Village Chiropractic team,
+
+With three locations sharing phone lines and no online booking, callers can end up waiting or reaching the wrong office.
+
+An AI receptionist answers every call, asks which location the patient wants, and books them there.
+
+Could we set up a quick call to scope it?
+
+Thanks,
+Jilsha
+VilouraAI
+[postal address]
+Not interested? Reply stop and I won't email again.
+```
