@@ -1,0 +1,22 @@
+# Prisqo
+
+> Prisqo is a one-time AI visibility check for local businesses: 6 buyer-style questions, one search-grounded AI model, and a report showing whether AI assistants recommend your business, who they name instead, and which sources they cite. One report costs $19, paid once, no subscription, no account.
+
+## Key facts
+
+- One AI visibility report: $19, paid once at checkout. No account, no subscription.
+- Each check asks 6 buyer-style questions and records who AI recommends and which sources it cites.
+- Prisqo does not query ChatGPT, Perplexity, Claude or Grok directly; it uses one search-grounded model.
+- A free 10-second check shows whether an AI search assistant named a business in a past check.
+- A free one-page SEO audit is available on request.
+
+## Pages
+
+- [Home](https://prisqo.vilouraai.com/)
+- [Pricing](https://prisqo.vilouraai.com/pricing)
+- [FAQ](https://prisqo.vilouraai.com/faq)
+- [Free check](https://prisqo.vilouraai.com/free-check)
+- [Free SEO audit](https://prisqo.vilouraai.com/free-seo-audit)
+- [Compare AI visibility tools](https://prisqo.vilouraai.com/compare)
+- [Sample report](https://prisqo.vilouraai.com/sample/results)
+- [Contact](https://prisqo.vilouraai.com/contact)
