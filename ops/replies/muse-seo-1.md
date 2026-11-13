@@ -1,7 +1,7 @@
 # Reply: muse-seo-1 — SEO & UI/UX Redesign for VilouraAI & Prisqo
 
 **Task:** `ops/tasks/muse-seo-1.md` (Kiwi, Nov 12, 2026)
-**Status:** Audit done Nov 12, 2026. Prisqo PR DONE locally on branch `muse-seo-1` (not pushed, no PR opened yet — parent pushes + opens the PR, then comments "ready"). vilouraai-web PR in progress (separate agent).
+**Status:** Audit done Nov 12, 2026. Prisqo PR OPEN as https://github.com/vilouraai1/prisqo/pull/31 (branch `muse-seo-1`, work commits 7ac09745 + cd4723d8). vilouraai-web PR in progress (separate agent).
 **Method:** Illyism SEO Skills + Claude SEO (no paid APIs, no invented numbers, no Search Console on either domain, no CWV measured). Live pages re-checked Nov 12, 2026 ~19:00 CT; source checked against main HEADs below.
 
 ## 0. Baseline audit (Nov 12, 2026)
@@ -39,7 +39,7 @@
 - Env vars: `.env.example` lists only DATABASE_URL (Prisma). Build needs it per `src/env.js` schema — documented in the vilouraai-web PR reply.
 
 ## 1. Prisqo PR (branch muse-seo-1 → main)
-- Status: DONE locally Nov 12, 2026 (branch `muse-seo-1`, from main `72ba19b`). NOT pushed, NO PR opened yet — parent pushes + opens the PR, then comments "ready".
+- Status: DONE — PR https://github.com/vilouraai1/prisqo/pull/31 (branch `muse-seo-1`, from main `72ba19b`; work commits 7ac09745 + cd4723d8).
 - What changed:
   1. **Homepage cross-links (the main gap — was ZERO vilouraai.com links):** header nav gains `VilouraAI` → https://vilouraai.com; footer Company nav gains `Website redesign ($497)` and `AI Receptionist ($149/mo)` → https://vilouraai.com/pricing; footer legal `Viloura AI` → https://vilouraai.com. LP-2 design untouched — no CSS changes, no restyle. Homepage now has 10 vilouraai.com references (1 header, 2 footer service links, 1 footer legal, 6 in schema).
   2. **Homepage JSON-LD @graph extended with 3 Service nodes** (Website Launch $497, AI Receptionist $149/mo, Launch Bundle $597; provider VilouraAI, url https://vilouraai.com/pricing; wording from vilouraai-web `offers.ts` via the audit baseline §0). Organization + Product ($19) + FAQPage kept. No LocalBusiness on Prisqo — that belongs on vilouraai.com.
