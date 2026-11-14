@@ -8,7 +8,7 @@ Drafts are not sent. Jilsha approves and sends every email herself.
 - GMP (seo@gmpinternetmarketing.com) — sent 2026-11-11
 - Thinkit (hi@thinkitmedia.com) — sent 2026-11-11
 - Aspiro (info@aspiroagency.com) — sent 2026-11-11
-- DigitalZeon (contact@digitalzeon.com) — sent 2026-11-11 (Gmail was still retrying a delayed delivery as of 2026-11-13)
+- DigitalZeon (contact@digitalzeon.com) — sent 2026-11-11 (Gmail was still retrying a delayed delivery as of the 2026-11-14 kickoff; last delay notice 2026-11-13 4:35 PM CST, with about 20 hours of retries left at that time)
 
 ## Local leads
 
@@ -31,14 +31,40 @@ Picked from `ops/marketing/leads-2.csv` on 2026-11-12. Each address was found on
 
 ## Leads (batch 3)
 
-Picked from `ops/marketing/leads-3.csv` and `ops/marketing/drafts-3.md` on 2026-11-13. Prime Life Chiropractic was already in batch 2, so it is not listed again. Nothing below has been sent.
+Picked from `ops/marketing/leads-3.csv` and `ops/marketing/drafts-3.md` on 2026-11-13. All nine were sent 2026-11-13 from vilouraai@gmail.com.
 
-- Prestonbrook Dental (contact@prestonbrookdental.com) — drafted 2026-11-13
-- Hush MedSpa (info@hushmedspa.com) — drafted 2026-11-13
-- Best Neighbor Home Services (help@bestneighborhomeservices.com) — drafted 2026-11-13
-- Burnside Air Conditioning, Heating, and Indoor Air Quality (info@burnsideac.com) — drafted 2026-11-13
-- Pounce Plumbing (info@pounceplumbing.com) — drafted 2026-11-13
-- White Tree Chiro (office@whitetreechiro.com) — drafted 2026-11-13
-- The Barber Law Firm (main@thebarberlawfirm.com) — drafted 2026-11-13
-- ArmorTex (tanner@armortexroofs.com) — drafted 2026-11-13
-- Denton Smiles Dentistry (info@dentonsmilesdentistry.com) — drafted 2026-11-13
+- Prestonbrook Dental (contact@prestonbrookdental.com) — sent 2026-11-13
+- Hush MedSpa (info@hushmedspa.com) — sent 2026-11-13
+- Best Neighbor Home Services (help@bestneighborhomeservices.com) — sent 2026-11-13
+- Burnside Air Conditioning, Heating, and Indoor Air Quality (info@burnsideac.com) — sent 2026-11-13
+- Pounce Plumbing (info@pounceplumbing.com) — sent 2026-11-13
+- White Tree Chiro (office@whitetreechiro.com) — sent 2026-11-13
+- The Barber Law Firm (main@thebarberlawfirm.com) — sent 2026-11-13
+- ArmorTex (tanner@armortexroofs.com) — sent 2026-11-13
+- Denton Smiles Dentistry (info@dentonsmilesdentistry.com) — sent 2026-11-13
+
+## CRM (score 8+ with email)
+
+Sent 2026-11-13 from vilouraai@gmail.com, taken from Jilsha's Excel CRM.
+
+- Lewisville Chiropractic Center (office@drkareed.com) — sent 2026-11-13; bounced the same day (address not found)
+- Lakewood Family Dental Care (appointment@lakewoodfamilydental.com) — sent 2026-11-13
+- True Petal Cleaning Services (truepetalclean@gmail.com) — sent 2026-11-13
+- Salon Yoli and Barber Shop (guadalupe.garcia9208@icloud.com) — sent 2026-11-13
+- Kelly's Heating and Air (info@kellysheatingandair.com) — sent 2026-11-13
+- Ajax Plumbing Solutions (ajaxplumbingsolutions@gmail.com) — sent 2026-11-13
+
+## Leads (batch 3h)
+
+Picked from `ops/marketing/leads-3h.csv` and `ops/marketing/drafts-3h.md` on 2026-11-14. Business-domain emails only; personal-domain addresses and Cowtown Gear skipped. Nothing below has been sent.
+
+- SK2 Dental (info@sk2dental.com) — drafted 2026-11-14
+- Ember Medical Spa (info@embermedspadallas.com) — drafted 2026-11-14
+- Harmony Plumbing & Drain Cleaning (service@harmonyplumbing.com) — drafted 2026-11-14
+- Woodward Chiropractic & Massage (appointments@woodwardchiro.com) — drafted 2026-11-14
+- Strickland Heating and Air (info@stricklandhvac.com) — drafted 2026-11-14
+- Total Roofing Systems LLC (info@totalroofingsystems.com) — drafted 2026-11-14
+- Limitless Chiropractic (info@limitlessdfw.com) — drafted 2026-11-14
+- The McClelland Law Firm, PLLC (david@mcclellandlaw.com) — drafted 2026-11-14
+- Skyview Dental (Info@skyviewdentalirving.com) — drafted 2026-11-14
+- Carey Plumbing Company (Duverioux@careyplumbingcompany.com) — drafted 2026-11-14
