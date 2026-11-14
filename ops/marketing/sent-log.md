@@ -68,3 +68,14 @@ Picked from `ops/marketing/leads-3h.csv` and `ops/marketing/drafts-3h.md` on 202
 - The McClelland Law Firm, PLLC (david@mcclellandlaw.com) — drafted 2026-11-14
 - Skyview Dental (Info@skyviewdentalirving.com) — drafted 2026-11-14
 - Carey Plumbing Company (Duverioux@careyplumbingcompany.com) — drafted 2026-11-14
+
+## Follow-ups (round 1)
+
+Drafted 2026-11-14 in `ops/marketing/followups-1.md`, for first emails sent 2026-11-11 with no reply. One follow-up each, then stop. Nothing below has been sent.
+
+- Fast Hippo (info@fasthippomedia.com) — follow-up drafted 2026-11-14
+- GMP (seo@gmpinternetmarketing.com) — follow-up drafted 2026-11-14
+- Thinkit (hi@thinkitmedia.com) — follow-up drafted 2026-11-14
+- Aspiro (info@aspiroagency.com) — follow-up drafted 2026-11-14
+- Kingdom Chiropractic (info@kingdomchiropractictx.com) — follow-up drafted 2026-11-14
+- DigitalZeon — skipped; delivery still being retried
