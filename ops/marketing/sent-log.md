@@ -8,7 +8,7 @@ Drafts are not sent. Jilsha approves and sends every email herself.
 - GMP (seo@gmpinternetmarketing.com) — sent 2026-11-11
 - Thinkit (hi@thinkitmedia.com) — sent 2026-11-11
 - Aspiro (info@aspiroagency.com) — sent 2026-11-11
-- DigitalZeon (contact@digitalzeon.com) — sent 2026-11-11 (Gmail was still retrying a delayed delivery as of the 2026-11-14 kickoff; last delay notice 2026-11-13 4:35 PM CST, with about 20 hours of retries left at that time)
+- DigitalZeon (contact@digitalzeon.com) — sent 2026-11-11; delivery failed 2026-11-14 3:04 PM CST (Gmail: message not delivered)
 
 ## Local leads
 
@@ -79,3 +79,18 @@ Drafted 2026-11-14 in `ops/marketing/followups-1.md`, for first emails sent 2026
 - Aspiro (info@aspiroagency.com) — follow-up drafted 2026-11-14
 - Kingdom Chiropractic (info@kingdomchiropractictx.com) — follow-up drafted 2026-11-14
 - DigitalZeon — skipped; delivery still being retried
+
+## Lewisville outreach + CRM (2026-11-15)
+
+Picked 2026-11-15 from `ops/marketing/outreach.md` (leads-1; Lewisville, where the live /free-check still has snapshots) and from `ops/marketing/crm/` drafts with website, receptionist, or agent offers (or Lewisville Prisqo). Nothing below has been sent.
+
+- Capehart Dental of Lewisville (info@capehartdentistry.com) — drafted 2026-11-15
+- Project Anti-Aging Med Spa (hello@projectantiaging.com) — drafted 2026-11-15
+- Durand & Associates, PC (diana@durandlaw.com) — drafted 2026-11-15
+- Cheer Dental (office@cheerdentallc.com) — drafted 2026-11-15
+- Ace Dental (appointments@acedental-care.com) — drafted 2026-11-15
+- Dawson Family Dentistry (office@drdawson.com) — drafted 2026-11-15
+- Doctor Slim Med Spa (help@doctorslimmedspa.com) — drafted 2026-11-15
+- Dee's Domestics (marge@deesdomestics.com) — drafted 2026-11-15
+- DD Family Dentistry of Carrollton (info@ddfamilydentistrytx.com) — drafted 2026-11-15
+- Elite Body Chiropractic (office@elitebodyhighlandvillage.com) — drafted 2026-11-15
