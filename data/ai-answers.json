@@ -3,7 +3,7 @@
   "checks": [
     {
       "category": "hvac",
-      "categoryLabel": "Hvac",
+      "categoryLabel": "HVAC company",
       "checked": "2026-11-13",
       "city": "Allen, TX",
       "named": [
@@ -21,7 +21,6 @@
       "checked": "2026-11-13",
       "city": "Allen, TX",
       "named": [
-        "Top",
         "Bewley Plumbing, LLC",
         "James Plumbing",
         "Micah's Honest Plumbing",
@@ -32,21 +31,16 @@
     },
     {
       "category": "auto-repair",
-      "categoryLabel": "Auto Repair",
+      "categoryLabel": "Auto repair shop",
       "checked": "2026-11-13",
       "city": "Arlington, TX",
       "named": [
-        "When looking for top",
-        "Highly Rated Independent & Specialized Shops",
-        "Dubsquared (1223 Colorado Ln)",
-        "Cooper Pit Stop (2536 S Cooper St)",
-        "McGaw's Automotive, Inc. (2113 Roosevelt Dr)",
-        "Advanced Tire & Auto Service (407 N Cooper St)",
-        "Highly Rated Certified Chains & Warrantied Shops",
-        "Christian Brothers Automotive (718 W Sublett Rd)",
-        "Sun Auto Tire & Service (5351 W Sublett Rd)",
-        "<Carousel>",
-        "</Carousel>"
+        "Dubsquared",
+        "Cooper Pit Stop",
+        "McGaw's Automotive, Inc.",
+        "Advanced Tire & Auto Service",
+        "Christian Brothers Automotive",
+        "Sun Auto Tire & Service"
       ],
       "question": "best auto repair in Arlington, TX"
     },
@@ -66,7 +60,7 @@
     },
     {
       "category": "hvac",
-      "categoryLabel": "Hvac",
+      "categoryLabel": "HVAC company",
       "checked": "2026-11-13",
       "city": "Arlington, TX",
       "named": [
@@ -80,53 +74,23 @@
     },
     {
       "category": "med-spa",
-      "categoryLabel": "Med Spa",
+      "categoryLabel": "Med spa",
       "checked": "2026-11-13",
       "city": "Arlington, TX",
       "named": [
-        "Top",
-        "| Med Spa | Key Specialties & Focus | Highlights |",
-        "| Skinwerx | Dermatology",
-        "| Glo & Glam MedSpa (Viridian Location) | Advanced non",
-        "| Euro Image Med Spa | Laser hair removal, tattoo removal, anti",
-        "| Bex Laser Aesthetix | Personalized skin care, laser treatments, and confidence",
-        "Key Factors to Consider When Choosing"
+        "Skinwerx",
+        "Glo & Glam MedSpa (Viridian Location)",
+        "Euro Image Med Spa",
+        "Bex Laser Aesthetix"
       ],
       "question": "best med spa in Arlington, TX"
     },
     {
-      "category": "personal-injury-lawyer",
-      "categoryLabel": "Personal Injury Lawyer",
-      "checked": "2026-11-13",
-      "city": "Arlington, TX",
-      "named": [
-        "Board Certification",
-        "Relevant Case Experience",
-        "Trial Readiness",
-        "Contingency Fee Structure",
-        "Direct Attorney Access"
-      ],
-      "question": "best personal injury lawyer in Arlington, TX"
-    },
-    {
-      "category": "roofer",
-      "categoryLabel": "Roofer",
-      "checked": "2026-11-13",
-      "city": "Arlington, TX",
-      "named": [
-        "Verify Local Physical Presence",
-        "Check Manufacturer Certifications",
-        "Get Lien Waivers"
-      ],
-      "question": "best roofer in Arlington, TX"
-    },
-    {
       "category": "auto-detailing",
-      "categoryLabel": "Auto Detailing",
+      "categoryLabel": "Auto detailing",
       "checked": "2026-11-13",
       "city": "Carrollton, TX",
       "named": [
-        "Brick",
         "Perfection Auto Detail",
         "Carnation Auto Spa (Hebron)",
         "RAC Performance (Detail Shop)",
@@ -139,7 +103,7 @@
     },
     {
       "category": "body-shop",
-      "categoryLabel": "Body Shop",
+      "categoryLabel": "Body shop",
       "checked": "2026-11-13",
       "city": "Carrollton, TX",
       "named": [
@@ -157,17 +121,12 @@
       "checked": "2026-11-13",
       "city": "Carrollton, TX",
       "named": [
-        "Based on patient reviews, local awards, and clinical specialties, several top",
-        "Top",
         "Elevation Spine & Sports Medicine",
         "Texas Spine Center",
         "Weir Family Chiropractic",
         "Carrollton Family Chiropractic",
         "Manfre Chiropractic",
-        "Carrollton Spine & Wellness",
-        "Quick Comparison by Need",
-        "| Clinic Name | Best For | Key Techniques / Services |",
-        "| Carrollton Family Chiropractic | Prenatal & low"
+        "Carrollton Spine & Wellness"
       ],
       "question": "best chiropractor in Carrollton, TX"
     },
@@ -186,29 +145,21 @@
     },
     {
       "category": "hair-salon",
-      "categoryLabel": "Hair Salon",
+      "categoryLabel": "Hair salon",
       "checked": "2026-11-13",
       "city": "Carrollton, TX",
       "named": [
-        "The top",
-        "Top",
-        "Chadâm Hair Lounge and CO2 Spa (3709 Old Denton Rd, Suite 108)",
-        "Roman Hair Salon (3030 N Josey Ln, Suite 110)",
-        "Cutting Edge Hair (3432 E Hebron Pkwy)",
-        "Champagne Hair Studio (1500 W Hebron Pkwy)",
-        "Perfect Hair Salon (3108 Old Denton Rd, Suite 113)",
-        "Quick Comparison",
-        "| Salon Name | Neighborhood / Area | Standout Specialties |",
-        "| Chadâm Hair Lounge | Old Denton Rd (Koreatown) | CO2 head spa, digital perms, keratin |",
-        "| Roman Hair Salon | N Josey Ln | Curly cuts, balayage, family cuts |",
-        "| Cutting Edge Hair | E Hebron Pkwy (Northeast) | Dimensional color, gender",
-        "| Perfect Hair Salon | Old Denton Rd | Classic cuts, highlights, styling |"
+        "Chadâm Hair Lounge and CO2 Spa",
+        "Roman Hair Salon",
+        "Cutting Edge Hair",
+        "Champagne Hair Studio",
+        "Perfect Hair Salon"
       ],
       "question": "best hair salon in Carrollton, TX"
     },
     {
       "category": "house-cleaning",
-      "categoryLabel": "House Cleaning",
+      "categoryLabel": "House cleaning",
       "checked": "2026-11-13",
       "city": "Carrollton, TX",
       "named": [
@@ -221,7 +172,7 @@
     },
     {
       "category": "med-spa",
-      "categoryLabel": "Med Spa",
+      "categoryLabel": "Med spa",
       "checked": "2026-11-13",
       "city": "Carrollton, TX",
       "named": [
@@ -235,7 +186,7 @@
     },
     {
       "category": "physical-therapy",
-      "categoryLabel": "Physical Therapy",
+      "categoryLabel": "Physical therapist",
       "checked": "2026-11-13",
       "city": "Carrollton, TX",
       "named": [
@@ -246,18 +197,6 @@
         "Results Physiotherapy"
       ],
       "question": "best physical therapy in Carrollton, TX"
-    },
-    {
-      "category": "plumber",
-      "categoryLabel": "Plumber",
-      "checked": "2026-11-13",
-      "city": "Carrollton, TX",
-      "named": [
-        "Verify Licensing",
-        "Ask About Diagnostic Fees",
-        "Check for Permits"
-      ],
-      "question": "best plumber in Carrollton, TX"
     },
     {
       "category": "chiropractor",
@@ -289,33 +228,21 @@
     },
     {
       "category": "hair-salon",
-      "categoryLabel": "Hair Salon",
+      "categoryLabel": "Hair salon",
       "checked": "2026-11-13",
       "city": "Dallas, TX",
       "named": [
         "Salon Culture",
         "House of Dear (Uptown)",
-        "Salon D (North Dallas / Galleria Area)",
+        "Salon D",
         "Lure Salon (Uptown)",
         "Ceron Highland Park"
       ],
       "question": "best hair salon in Dallas, TX"
     },
     {
-      "category": "hvac",
-      "categoryLabel": "Hvac",
-      "checked": "2026-11-13",
-      "city": "Dallas, TX",
-      "named": [
-        "Clarify Labor vs. Parts Warranties",
-        "Verify Licensing and Insurance",
-        "Get Multiple Quotes for Replacements"
-      ],
-      "question": "best hvac in Dallas, TX"
-    },
-    {
       "category": "med-spa",
-      "categoryLabel": "Med Spa",
+      "categoryLabel": "Med spa",
       "checked": "2026-11-13",
       "city": "Dallas, TX",
       "named": [
@@ -328,8 +255,8 @@
       "question": "best med spa in Dallas, TX"
     },
     {
-      "category": "personal-injury-lawyer",
-      "categoryLabel": "Personal Injury Lawyer",
+      "category": "personal-injury",
+      "categoryLabel": "Personal injury lawyer",
       "checked": "2026-11-13",
       "city": "Dallas, TX",
       "named": [
@@ -347,10 +274,8 @@
       "checked": "2026-11-13",
       "city": "Dallas, TX",
       "named": [
-        "Top",
         "Baker Brothers Plumbing, Air & Electric",
         "Milestone Electric, A/C, & Plumbing",
-        "Metro",
         "Mr. Rooter Plumbing of Dallas",
         "Berkeys Air Conditioning, Plumbing & Electrical"
       ],
@@ -377,19 +302,17 @@
       "checked": "2026-11-13",
       "city": "Denton, TX",
       "named": [
-        "Top Dental Practices in Denton",
         "Garden Oaks Family & Cosmetic Dentistry",
         "Denton Family Dentistry",
-        "MINT dentistry | Denton",
+        "MINT dentistry",
         "Ideal Dental of Denton",
-        "Denton Modern Dentistry and Orthodontics",
-        "When selecting a dentist, it's best to verify whether they are in"
+        "Denton Modern Dentistry and Orthodontics"
       ],
       "question": "best dentist in Denton, TX"
     },
     {
       "category": "hvac",
-      "categoryLabel": "Hvac",
+      "categoryLabel": "HVAC company",
       "checked": "2026-11-13",
       "city": "Denton, TX",
       "named": [
@@ -403,7 +326,7 @@
     },
     {
       "category": "med-spa",
-      "categoryLabel": "Med Spa",
+      "categoryLabel": "Med spa",
       "checked": "2026-11-13",
       "city": "Denton, TX",
       "named": [
@@ -431,7 +354,7 @@
     },
     {
       "category": "auto-detailing",
-      "categoryLabel": "Auto Detailing",
+      "categoryLabel": "Auto detailing",
       "checked": "2026-11-13",
       "city": "Flower Mound, TX",
       "named": [
@@ -458,7 +381,7 @@
     },
     {
       "category": "nail-salon",
-      "categoryLabel": "Nail Salon",
+      "categoryLabel": "Nail salon",
       "checked": "2026-11-13",
       "city": "Flower Mound, TX",
       "named": [
@@ -485,18 +408,6 @@
       "question": "best plumber in Flower Mound, TX"
     },
     {
-      "category": "auto-repair",
-      "categoryLabel": "Auto Repair",
-      "checked": "2026-11-13",
-      "city": "Fort Worth, TX",
-      "named": [
-        "Independent & General Repair Shops",
-        "Specialty & Transmission Specialists",
-        "Highly"
-      ],
-      "question": "best auto repair in Fort Worth, TX"
-    },
-    {
       "category": "chiropractor",
       "categoryLabel": "Chiropractor",
       "checked": "2026-11-13",
@@ -519,13 +430,13 @@
         "Fort Worth Dental",
         "Brown Family Dentistry",
         "Paulus Dental",
-        "Alliance Dental Care (Dr. Robert Karr's Practice)"
+        "Alliance Dental Care"
       ],
       "question": "best dentist in Fort Worth, TX"
     },
     {
       "category": "hvac",
-      "categoryLabel": "Hvac",
+      "categoryLabel": "HVAC company",
       "checked": "2026-11-13",
       "city": "Fort Worth, TX",
       "named": [
@@ -539,7 +450,7 @@
     },
     {
       "category": "med-spa",
-      "categoryLabel": "Med Spa",
+      "categoryLabel": "Med spa",
       "checked": "2026-11-13",
       "city": "Fort Worth, TX",
       "named": [
@@ -550,18 +461,6 @@
         "It’s A Secret Med Spa"
       ],
       "question": "best med spa in Fort Worth, TX"
-    },
-    {
-      "category": "personal-injury-lawyer",
-      "categoryLabel": "Personal Injury Lawyer",
-      "checked": "2026-11-13",
-      "city": "Fort Worth, TX",
-      "named": [
-        "Look for Board Certification",
-        "Ask Who Will Handle Your Case",
-        "Check Trial Experience"
-      ],
-      "question": "best personal injury lawyer in Fort Worth, TX"
     },
     {
       "category": "roofer",
@@ -608,7 +507,7 @@
     },
     {
       "category": "med-spa",
-      "categoryLabel": "Med Spa",
+      "categoryLabel": "Med spa",
       "checked": "2026-11-13",
       "city": "Frisco, TX",
       "named": [
@@ -628,9 +527,9 @@
       "city": "Grapevine, TX",
       "named": [
         "Hands On Health Chiropractic",
-        "The Vine Family Chiropractic (Dr. Kelsey Brown, DC)",
-        "Innovate Health (Dr. Brett Payne, DC)",
-        "Kreamer Family Chiropractic (Dr. Mark Kreamer)",
+        "The Vine Family Chiropractic",
+        "Innovate Health",
+        "Kreamer Family Chiropractic",
         "The Chiro Co.",
         "Spine Health & Wellness (Grapevine Clinic)"
       ],
@@ -665,7 +564,7 @@
     },
     {
       "category": "physical-therapy",
-      "categoryLabel": "Physical Therapy",
+      "categoryLabel": "Physical therapist",
       "checked": "2026-11-13",
       "city": "Highland Village, TX",
       "named": [
@@ -677,24 +576,20 @@
     },
     {
       "category": "auto-repair",
-      "categoryLabel": "Auto Repair",
+      "categoryLabel": "Auto repair shop",
       "checked": "2026-11-13",
       "city": "Irving, TX",
       "named": [
-        "The top",
-        "Top Full",
         "Christian Brothers Automotive",
-        "Lakeshore Automotive (1100 W Lyndon B Johnson Fwy, Irving, TX)",
-        "K3S Auto Repair (307 N Rogers Rd, Irving, TX 75061)",
-        "Well",
-        "One Stop Automotive (1515 N Loop 12, Irving, TX 75061)",
-        "Johnny's Automotive (1101 N Britain Rd, Irving, TX 75061)",
-        "Lopez Automotive (South Irving, on Rock Island Rd)",
-        "Specialty & Make",
-        "Hondura (Off Loop 12 near Irving Blvd) & Honcura (N Story Rd area)",
-        "AMD Transmissions & Auto Repairs (1021 Allen St, Irving, TX 75060)",
-        "All American Transmissions & Foreign Auto Repair (South of Hwy 183 off Belt Line Rd)",
-        "SDR Diesel Engine & Performance (Soto Diesel Repair) (1004 Bluebonnet Dr, Irving, TX 75060)"
+        "Lakeshore Automotive",
+        "K3S Auto Repair",
+        "One Stop Automotive",
+        "Johnny's Automotive",
+        "Lopez Automotive",
+        "Hondura & Honcura",
+        "AMD Transmissions & Auto Repairs",
+        "All American Transmissions & Foreign Auto Repair",
+        "SDR Diesel Engine & Performance (Soto Diesel Repair)"
       ],
       "question": "best auto repair in Irving, TX"
     },
@@ -708,7 +603,7 @@
         "Dynamic Sports Medicine (Irving Clinic)",
         "City Chiro Sports Center",
         "Newton Chiropractic",
-        "Spine Health & Wellness (Irving"
+        "Spine Health & Wellness"
       ],
       "question": "best chiropractor in Irving, TX"
     },
@@ -718,7 +613,6 @@
       "checked": "2026-11-13",
       "city": "Irving, TX",
       "named": [
-        "Top",
         "Advanced Dental Care of Las Colinas",
         "Gentle Dentistry of Las Colinas",
         "Irving Family Dental",
@@ -728,36 +622,35 @@
       "question": "best dentist in Irving, TX"
     },
     {
-      "category": "family-lawyer",
-      "categoryLabel": "Family Lawyer",
+      "category": "family-law",
+      "categoryLabel": "Family law attorney",
       "checked": "2026-11-13",
       "city": "Irving, TX",
       "named": [
         "KoonsFuller, P.C. (Dallas/DFW Metroplex)",
-        "The Law Office of Bryan Fagan, PLLC (Dallas/Irving Area)",
-        "Bale Law Firm, PLLC (Irving, TX)",
-        "The Law Offices of Rita M. Boyd, P.C. (Irving/Las Colinas, TX)",
+        "The Law Office of Bryan Fagan, PLLC",
+        "Bale Law Firm, PLLC",
+        "The Law Offices of Rita M. Boyd, P.C.",
         "Guest and Gray Law Firm (DFW Metroplex)"
       ],
       "question": "best family lawyer in Irving, TX"
     },
     {
       "category": "hvac",
-      "categoryLabel": "Hvac",
+      "categoryLabel": "HVAC company",
       "checked": "2026-11-13",
       "city": "Irving, TX",
       "named": [
         "Spencer Air Conditioning & Heating",
         "Reliant Air Conditioning",
         "Berkeys Air Conditioning, Plumbing & Electrical",
-        "Aval Air Conditioning & Heating",
-        "Air"
+        "Aval Air Conditioning & Heating"
       ],
       "question": "best hvac in Irving, TX"
     },
     {
       "category": "med-spa",
-      "categoryLabel": "Med Spa",
+      "categoryLabel": "Med spa",
       "checked": "2026-11-13",
       "city": "Irving, TX",
       "named": [
@@ -770,30 +663,18 @@
       "question": "best med spa in Irving, TX"
     },
     {
-      "category": "personal-injury-lawyer",
-      "categoryLabel": "Personal Injury Lawyer",
+      "category": "personal-injury",
+      "categoryLabel": "Personal injury lawyer",
       "checked": "2026-11-13",
       "city": "Irving, TX",
       "named": [
         "Domingo Garcia Law Office",
-        "Eberstein Witherite, LLP (1",
+        "Eberstein Witherite, LLP",
         "The Barber Law Firm",
         "Frenkel & Frenkel, LLP",
         "Rad Law Firm"
       ],
       "question": "best personal injury lawyer in Irving, TX"
-    },
-    {
-      "category": "plumber",
-      "categoryLabel": "Plumber",
-      "checked": "2026-11-13",
-      "city": "Irving, TX",
-      "named": [
-        "Verify Licensing",
-        "Ask About Warranties",
-        "Request Upfront Pricing"
-      ],
-      "question": "best plumber in Irving, TX"
     },
     {
       "category": "roofer",
@@ -839,13 +720,13 @@
     },
     {
       "category": "auto-detailing",
-      "categoryLabel": "Auto Detailing",
+      "categoryLabel": "Auto detailing",
       "checked": "2026-11-13",
       "city": "Lewisville, TX",
       "named": [
         "Masterpiece Auto Appearance",
         "NTX Mobile Detailing",
-        "Carnation Auto Spa (Lewisville",
+        "Carnation Auto Spa",
         "Main Street Car Wash",
         "Bees Mobile Detailing (BMD)"
       ],
@@ -861,7 +742,7 @@
         "Old Town Barbershop",
         "Troy Cuts Barber Shop",
         "Ray's Barber Shop",
-        "Barbers @ 101 E (Suite 116 / Collective Suites)"
+        "Barbers @ 101 E"
       ],
       "question": "best barbershop in Lewisville, TX"
     },
@@ -904,21 +785,8 @@
       "question": "best family law attorney in Lewisville, TX"
     },
     {
-      "category": "family-lawyer",
-      "categoryLabel": "Family Lawyer",
-      "checked": "2026-11-13",
-      "city": "Lewisville, TX",
-      "named": [
-        "Check Board Certification",
-        "Match the Attorney to Your Approach",
-        "Ask About Local Court Experience",
-        "Compare Fee Structures"
-      ],
-      "question": "best family lawyer in Lewisville, TX"
-    },
-    {
       "category": "hair-salon",
-      "categoryLabel": "Hair Salon",
+      "categoryLabel": "Hair salon",
       "checked": "2026-11-13",
       "city": "Lewisville, TX",
       "named": [
@@ -926,13 +794,13 @@
         "Change Hair & Beauty",
         "Salon Thairapy",
         "Tommy Hair Salon",
-        "Meraki Luxe & Natural Hair Studios (Main Valley / Southwest Pkwy Area)"
+        "Meraki Luxe & Natural Hair Studios"
       ],
       "question": "best hair salon in Lewisville, TX"
     },
     {
       "category": "house-cleaning",
-      "categoryLabel": "House Cleaning",
+      "categoryLabel": "House cleaning",
       "checked": "2026-11-13",
       "city": "Lewisville, TX",
       "named": [
@@ -946,11 +814,10 @@
     },
     {
       "category": "hvac",
-      "categoryLabel": "Hvac",
+      "categoryLabel": "HVAC company",
       "checked": "2026-11-13",
       "city": "Lewisville, TX",
       "named": [
-        "Highly",
         "Advent Air Conditioning",
         "Colony Air Conditioning & Heating",
         "Southern Comfort Mechanical",
@@ -962,7 +829,7 @@
     },
     {
       "category": "med-spa",
-      "categoryLabel": "Med Spa",
+      "categoryLabel": "Med spa",
       "checked": "2026-11-13",
       "city": "Lewisville, TX",
       "named": [
@@ -975,7 +842,7 @@
     },
     {
       "category": "pediatric-dentist",
-      "categoryLabel": "Pediatric Dentist",
+      "categoryLabel": "Pediatric dentist",
       "checked": "2026-11-13",
       "city": "Lewisville, TX",
       "named": [
@@ -999,18 +866,6 @@
       "question": "best personal injury lawyer in Lewisville, TX"
     },
     {
-      "category": "personal-injury-lawyer",
-      "categoryLabel": "Personal Injury Lawyer",
-      "checked": "2026-11-13",
-      "city": "Lewisville, TX",
-      "named": [
-        "Confirm contingency fees",
-        "Ask who handles your file",
-        "Check Board Certification"
-      ],
-      "question": "best personal injury lawyer in Lewisville, TX"
-    },
-    {
       "category": "plumber",
       "categoryLabel": "Plumber",
       "checked": "2026-11-13",
@@ -1027,32 +882,28 @@
     },
     {
       "category": "hvac",
-      "categoryLabel": "Hvac",
+      "categoryLabel": "HVAC company",
       "checked": "2026-11-13",
-      "city": "Mckinney, TX",
+      "city": "McKinney, TX",
       "named": [
-        "When looking for top",
-        "Highly Rated HVAC Businesses in McKinney",
-        "| Business Name | Best Known For / Highlights |",
-        "| Bill Joplin's Air Conditioning & Heating | • Long",
-        "| Airview AC | • New installations & modern approach • Multi",
-        "| Harris Air Services | • Family",
-        "Tips for Choosing a Contractor in McKinney"
+        "Bill Joplin's Air Conditioning & Heating",
+        "Airview AC",
+        "Harris Air Services"
       ],
-      "question": "best hvac in Mckinney, TX"
+      "question": "best hvac in McKinney, TX"
     },
     {
       "category": "plumber",
       "categoryLabel": "Plumber",
       "checked": "2026-11-13",
-      "city": "Mckinney, TX",
+      "city": "McKinney, TX",
       "named": [
         "Genzel Plumbing Company",
         "Hackler Plumbing",
         "Baker Brothers Plumbing, Air Conditioning, & Electric",
         "Murley Plumbing"
       ],
-      "question": "best plumber in Mckinney, TX"
+      "question": "best plumber in McKinney, TX"
     },
     {
       "category": "chiropractor",
@@ -1083,8 +934,8 @@
       "question": "best dentist in Plano, TX"
     },
     {
-      "category": "personal-injury-lawyer",
-      "categoryLabel": "Personal Injury Lawyer",
+      "category": "personal-injury",
+      "categoryLabel": "Personal injury lawyer",
       "checked": "2026-11-13",
       "city": "Plano, TX",
       "named": [
@@ -1097,8 +948,8 @@
       "question": "best personal injury lawyer in Plano, TX"
     },
     {
-      "category": "family-lawyer",
-      "categoryLabel": "Family Lawyer",
+      "category": "family-law",
+      "categoryLabel": "Family law attorney",
       "checked": "2026-11-13",
       "city": "Southlake, TX",
       "named": [
@@ -1113,12 +964,10 @@
     },
     {
       "category": "hvac",
-      "categoryLabel": "Hvac",
+      "categoryLabel": "HVAC company",
       "checked": "2026-11-13",
       "city": "Southlake, TX",
       "named": [
-        "When looking for top",
-        "Highly Rated HVAC Contractors in Southlake",
         "Gentry Air Conditioning",
         "Berkeys Plumbing, AC & Electrical",
         "billyGO Air Conditioning & Plumbing",
@@ -1129,7 +978,7 @@
     },
     {
       "category": "tire-shop",
-      "categoryLabel": "Tire Shop",
+      "categoryLabel": "Tire shop",
       "checked": "2026-11-13",
       "city": "The Colony, TX",
       "named": [
@@ -1141,5 +990,5 @@
       "question": "best tire shop in The Colony, TX"
     }
   ],
-  "note": "New snapshots were collected with Gemini on 2026-11-13. Lewisville checks without a newer match are from 2026-11-11. AI answers change over time; these are past checks, not live."
+  "note": "Gemini snapshots checked 2026-11-13. Lewisville family law and personal injury answers are from 2026-11-11. Business names only; addresses and table text from the raw answers were removed. AI answers change over time; these are past checks, not live."
 }
