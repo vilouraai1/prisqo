@@ -1,0 +1,98 @@
+rank,business,niche,city,phone,website,score,emailed,hook
+1,Ark Dental PC,Dental,Dallas,(214) 320-9444,,10,no,No working website found (directory link points to an unrelated/unreachable arkdentalmanassas.com)
+2,Lewisville Chiropractic Center,Chiropractor,Lewisville,(972) 436-2521,http://www.chiropractorlewisville.com/,10,yes,Website currently shows 'Account Suspended' (checked 2026-11-08)
+3,Bamboo Salon,Hair Salon,Dallas,(469) 567-3273,https://bamboo-salon-tx.hub.biz/,9,no,Google reviews: 'tried scheduling appointments online and they never answer'
+4,Bryant's Tire Shop #2,Tire shop,The Colony,(469) 347-1369,,9,no,No website on any listing found (phone only)
+5,House of Fadez Barbershop,Barbershop,Lewisville,(469) 763-0684,,9,no,No website listed on Google
+6,Kecho's Barber Shop,Barbershop,Dallas,(214) 331-3955,,9,no,Reviews: 'not only do they not answer phones'
+7,La Zacatecana Tortilleria y Taqueria,Mexican restaurant / tortilleria,Carrollton,(469) 802-6849,,9,no,"TX Comptroller sales-tax permit 2026-10-23, first sales 2026-11-01"
+8,Mary Nails,Nail Salon,Carrollton,(214) 483-9571,https://mary-nail-tx.hub.biz/,9,no,Yelp review: 'Difficult to make an appointment. Understaffed & never answered their phones'
+9,Smitty's Auto Repair,Auto repair,The Colony,(469) 233-6730,,9,no,No website found on listings
+10,Auto Collision Body Repair,Body shop,Carrollton,(469) 289-3304,,8,no,No website found on BBB or place listings
+11,Dallas Elect Auto Center,Auto repair,Dallas,(972) 644-4714,http://www.dallaselectautocenter.com,8,no,Website returned an empty page with no mobile viewport in our check
+12,Envy Nails,Nail Salon,Flower Mound,(972) 691-3327,https://beorndir.top,8,no,Google website link goes to an unrelated-looking domain (beorndir.top)
+13,Hair Topik,Hair Salon,Dallas,(214) 274-8373,,8,no,No website and no hours published on Google
+14,Jessica's Cleaning Service,House cleaning,Lewisville,(214) 780-7948,,8,no,No website on Yelp
+15,Knapp Auto Repair,Auto repair,Dallas,(214) 363-7390,https://www.knappautorepair.com,8,no,"Yelp 2025 reviews: owner won't text or leave voicemail with details, no itemized receipts, repeated..."
+16,Maryann Ring and Company,Hair Salon,Dallas,(214) 674-8261,,8,no,Google 'website' link is a Square dashboard URL (not a public site)
+17,Muse Hair Salon,Hair Salon,Carrollton,(972) 245-0630,https://instgram.com/musehairsalon_carrolltontx,8,no,"Only 'website' is a misspelled Instagram link (instgram.com), so it's broken"
+18,Nm Rehab & Wellness Center,Physical Therapy,Carrollton,(214) 764-0759,,8,no,"No practice website found - only NPI/directory listings, and its Vitadox profile is unclaimed"
+19,Salo by M&R,Hair Salon,Dallas,(469) 248-0345,http://www.extensionsbystephanie.com,8,no,"Review: requested appointment, followed up by call, no response for over a week"
+20,Salon De Belleza Latino 2,Barbershop,Lewisville,(972) 420-0097,,8,no,No website found
+21,Singularity Salon,Hair salon,Dallas,(214) 579-9885,https://singularitysalondallas.com/,8,no,"TX Comptroller sales-tax permit 2026-10-20, first sales 2026-10-26"
+22,Spa Auto Repair,Auto repair,Carrollton,(972) 841-7670,,8,no,No website found on listings
+23,The Lewisville Dentist,Dental,Lewisville,(469) 708-4713,https://www.thelewisvilledentist.com/,8,no,Yelp: told staff would call back and 'they never did'
+24,Vibrant Life Med Spa,Med Spa,The Colony,(469) 842-7268,https://vibrantlifespa.com/,8,no,Google review shown on their own testimonials page: 'There was no one to answer phone calls and no way to...
+25,You Have It Maid LLC,House cleaning,Lewisville,(469) 554-2371,,8,no,No website on Yelp
+26,Armando's Barbershop,Barbershop,Dallas,(214) 350-2722,,7,no,No website listed
+27,BARBERS@101E,Barbershop,Lewisville,(972) 219-5343,,7,no,No website listed
+28,Bradley Chiropractic,Chiropractor,Flower Mound,(972) 539-2446,http://www.bradleychiropracticclinic.com/,7,no,Site says 'Call our office for an appointment'
+29,Centro Estetico SG,Lash & Brow,The Colony,(972) 654-5261,http://centroesteticosg.booksy.com/,7,no,Booksy page plus a Canva 'edit' link listed as website (not a public page)
+30,Crockett Patterson Construction & Plumbing,Plumbing,Carrollton,(214) 906-4104,http://crockettplumbinginc.com,7,no,Facebook says 'call or text for services' - scheduling/estimates by phone/text only
+31,Derma Phi Med Spa,Med Spa,Carrollton,(469) 704-2537,,7,no,Open only Thu-Sat
+32,Divas Hair Salon,Hair Salon,Carrollton,(214) 483-3323,https://www.groupon.com/biz/carrollton/divas-hair-salon,7,no,Google website link is a Groupon page
+33,Giren Deguchi (GD) Barbershop,Barbershop,Lewisville,(214) 635-7291,https://linktr.ee/gdbarbershop,7,no,"Linktree only, no real website, despite 216 reviews at 4.9"
+34,Josey Lane Dentistry,Dental,Carrollton,(972) 242-1592,https://joseylanedentistry.com/,7,no,"Homepage reads like an old blog post ('recently changed our name', 'Comments are closed')"
+35,Kyle & Claire Hair Salon,Korean hair salon,Lewisville,(469) 474-9148,https://booksy.com/en-us/1419328_kyle-claire-hair-salon_hair-salon_36549_the-colony,7,no,"TX Comptroller sales-tax permit 2026-09-09, first sales 2026-09-08"
+36,Nail Go,Nail Salon,Flower Mound,(972) 267-3732,https://www.instagram.com/nailgo.usa,7,no,Instagram is the only website
+37,Ray's Barber and Beauty,Barbershop,Lewisville,(972) 219-0884,https://rays-barber-shop-tx.hub.biz/,7,no,"Closed Sun-Mon, Sat 8-4, weekdays until 6"
+38,RHD Primary Plumbing,Plumbing,Lewisville,(214) 714-1041,,7,no,Weekday 8-5 only
+39,Royal Autobody Repair,Body shop,Carrollton,(972) 838-0856,http://royalautobodyrepairtx.com,7,no,"Yelp photos: 'open by appointment only, please call' - booking is phone-only"
+40,"Sullivan Plumbing, Inc.",Plumbing,Lewisville,(214) 236-5240,,7,no,No website listed on BBB profile
+41,Van's Hair Salon,Hair Salon,Carrollton,(972) 242-3231,https://www.facebook.com/share/18U55qY9w4/,7,no,Facebook page only despite ~400 reviews
+42,Brooke & Co Lash Studio,Lash & Brow,The Colony,(214) 436-9735,https://brookeco.glossgenius.com/,6,no,GlossGenius booking page only
+43,DripSumGlitz,Nail Salon,Lewisville,(469) 283-8470,https://book.squareup.com/appointments/vpi1pbqrliljct/location/LF7FBPGSMC4PF/services,6,no,Square booking page is the only web presence
+44,Lucky Eden Cleaners,Dry cleaner,Flower Mound,(972) 539-1776,,6,no,"TX Comptroller sales-tax permit 2026-08-25, first sales 2026-08-26"
+45,Main Oil & Auto,Auto repair,The Colony,(972) 370-9110,https://mainoilandauto.com,6,no,Site footer copyright 2023 (not updated)
+46,Southwest Auto,Auto repair,Dallas,(972) 597-0364,https://www.southwestauto.com,6,no,Yelp listing unclaimed
+47,The Grooming Specialist,Barbershop,Lewisville,(214) 609-8256,http://thegroomingspecialist98.booksy.com/,6,no,Booksy page only
+48,The Hamptons Family & Cosmetic Dentistry,Dental,Carrollton,(972) 534-6033,https://www.thehamptonsdental.com/,6,no,Site: 'you can schedule an appointment by calling'
+49,Viki hair & beauty,Hair Salon,Carrollton,(214) 945-6903,,6,no,"No website, booking link or hours published on Google"
+50,Body Spring Fascia Fitness,Physical Therapy,Carrollton,(469) 405-3678,,5,no,Website not found in our search (listed via Cylex directory)
+51,Coco's Caribbean Haus,Caribbean restaurant,The Colony,(214) 308-9514,https://www.cocoscaribbeanhaus.com/,5,no,"TX Comptroller sales-tax permit 2026-09-02, first sales 2026-09-12"
+52,Creekview Family Dentistry,Dental,Lewisville,(972) 459-1100,https://www.cvfdental.com/,5,no,Three dentists and 7 AM-7 PM hours but booking is a request form only
+53,Foster Chiropractic,Chiropractor,Flower Mound,(972) 724-4357,https://www.fosterchiropractic.net/index.html,5,no,Legacy index.html template site
+54,Nevermore Tavern,Themed bar / tavern (opening soon),Lewisville,(214) 738-9378,https://www.nevermoretavern.com/,5,no,"TX Comptroller sales-tax permit 2026-08-12, first sales 2026-10-15"
+55,kNERO's Styles of Luxury,Barbershop,The Colony,(469) 871-0620,https://www.knerosstylesofluxury.com/,4,no,"TX Comptroller sales-tax permit 2026-09-09, first sales 2026-09-06"
+56,La Trompisa (Dallas),Mexican taqueria,Dallas,469-970-1860,https://latrompisa.com/,4,no,"TX Comptroller sales-tax permit 2026-08-11, first sales 2026-11-01"
+57,Mom's Cafe,Breakfast/lunch diner,Carrollton,(972) 492-0004,https://momscafecarrolltontx.com/,3,no,"TX Comptroller sales-tax permit 2026-11-04, first sales 2026-11-03"
+58,Lakewood Family Dental Care,Dental,Dallas,(214) 823-1638,https://www.lakewoodfamilydental.com/,9,yes,"Yelp: staff 'do not answer calls, return calls, or listen to messages'"
+59,Smith Family Dentistry,Dental,Dallas,(214) 503-6776,http://www.smithfamilydentistrypa.com,9,no,"Yelp: first callback took 'over a week, maybe two'"
+60,True Petal Cleaning Services (formerly Heather Sue's Cleaning),House cleaning,Lewisville,(469) 982-4200,,9,yes,Facebook as only web presence
+61,Ajax Plumbing Solutions,Plumbing,Carrollton,(972) 395-3730,https://ajaxps.com,8,yes,Website failed a secure HTTPS connection in our check (Nov 2026)
+62,Kelly's Heating and Air,HVAC,Lewisville,(972) 436-4340,https://kellysheatingandair.com,8,yes,Yelp reviews: missed estimate appointment
+63,M's Auto Detailing Service,Auto detailing,Carrollton,(214) 659-3586,https://msdetail.wixsite.com/msdetails,8,no,Free wixsite.com subdomain
+64,Salon Yoli and Barber Shop,Hair Salon,Lewisville,(817) 948-9021,https://facebook.com/280818198441318,8,yes,"Facebook page only, no website"
+65,Tier One Detailing,Auto detailing,Flower Mound,(972) 302-9320,https://tieronemobiledetai.wixsite.com/mysite-1,8,no,Free wixsite.com subdomain with 'This website was built on Wix' banner
+66,Afro Crown Braids,Hair Salon,Dallas,(214) 504-8209,http://afrocrownbraids.square.site/,7,no,"Review: client 'called her over 10 times, sent countless messages' and waited over a week for a reply"
+67,Celia's Hair Salon,Hair Salon,Carrollton,(972) 201-7064,https://celiashairsalon.my.canva.site/,7,no,Free Canva site
+68,Cheer Dental,Dental,Lewisville,(972) 874-1890,https://cheerdentallc.com/,7,no,Basic GoDaddy-builder site with email-only contact form
+69,Cosmo Nails,Nail Salon,Flower Mound,(972) 539-7773,https://cosmonails7488.wixsite.com/nails,7,no,Free Wix subdomain site with dated content (old pasted Yelp testimonials)
+70,Dawson Family Dentistry,Dental,Lewisville,(972) 317-1581,https://drdawson.com/,7,no,Site says 'the fastest way to schedule and ask about insurance is to call us'
+71,Dee's Domestics,House cleaning,Carrollton,(972) 492-5554,https://deesdomestics.com,7,no,Website failed a secure HTTPS connection in our check (Nov 2026)
+72,Regio Tire Shop,Tire shop,The Colony,(214) 469-2202,https://regiotireshop.com,7,no,"Website has no online booking, quote form tool or chat detected"
+73,Wakefield Family & Cosmetic Dentistry,Dental,Lewisville,(972) 221-9334,https://www.wakefielddentistry.com/,7,no,Very small site with request-appointment form only
+74,Ace Dental,Dental,Lewisville,(972) 316-1800,https://acedental-care.com/,6,no,Very thin site (about 12KB)
+75,Champ Thai Street Eats,Thai restaurant,Lewisville,(214) 513-0685,https://champthaitx.com/,6,no,"TX Comptroller sales-tax permit 2026-09-12, first sales 2026-11-01"
+76,Cornerstone Paint and Body,Body shop,Carrollton,(972) 310-9887,https://cornerstonepaintandbody.com,6,no,No online booking or chat detected
+77,DD Family Dentistry of Carrollton,Dental,Carrollton,(972) 245-3395,https://www.ddfamilydentistrytx.com/,6,no,Call us today to schedule
+78,Elite Body Chiropractic,Chiropractor,Highland Village,(972) 966-3333,https://elitebodychiropractic.com/,6,no,"Closed 12-2 PM daily, half days Fri/Sat, 'By Appointment Only'"
+79,Josephine's Creole House,Creole / seafood restaurant,Dallas,972-810-0077,https://www.josephinesdtx.com/,6,no,"TX Comptroller sales-tax permit 2026-10-02, first sales 2026-10-15"
+80,Physical Therapy Experts,Physical Therapy,Carrollton,(972) 636-1736,https://ptexperts.us/,6,no,Small site
+81,Round Grove Family Dentistry,Dental,Lewisville,(469) 702-2560,https://www.roundgrovedentistry.com/,6,no,"Short, irregular hours (Mon/Thu 9-3, Sat 9-1)"
+82,Triumph Physical Therapy & Wellness Center,Physical Therapy,Highland Village,(972) 808-7070,https://www.triumphdallasphysicaltherapy.com/,6,no,No online booking or chat detected
+83,Village Chiropractic Center & Medical Massage Rx,Chiropractor,Flower Mound,(972) 460-4420,https://www.villagechirocenter.com/,6,no,No online booking or chat detected
+84,Abundant Living Health & Wellness,Chiropractor,Flower Mound,(214) 470-6774,https://abundantlivingchiro.com/,5,no,Closed 1-2:40 PM most days and Friday afternoons
+85,Butler Chiropractic,Chiropractor,Flower Mound,(972) 221-7533,https://www.butlerchiropractic.com/,5,no,30+ year practice with only 4 Google reviews found
+86,Capehart Dental of Lewisville,Dental,Lewisville,(972) 436-1325,https://www.capehartdentistry.com/,5,no,No chat or after-hours call coverage
+87,EcoPal Mobile Detail,Auto detailing,Lewisville,(940) 465-8941,https://www.ecopalmobiledetail.com,5,no,No chat on site
+88,Emily Cortez Studio & Med Spa,Med spa,Dallas,(214) 505-0137,https://www.emilycortezstudio.com/,5,no,"TX Comptroller sales-tax permit 2026-08-18, first sales 2026-09-01"
+89,Lomonaco Family Chiropractic,Chiropractor,Highland Village,(972) 966-1600,https://lomonacodc.com/,5,no,"Site blocked our automated check (403), so booking/chat not verified"
+90,Mom's Got It Cleaning Services,House cleaning,Lewisville (service area),(469) 471-8777,https://momsgotit.com,5,no,Hostinger site builder
+91,Boutique Medspa,Med Spa,Lewisville,(682) 463-9822,https://boutiquemedspatx.com/,4,no,Small single-page site
+92,Doctor Slim Med Spa,Med Spa,Lewisville,(972) 745-7546,https://doctorslimmedspa.com/,4,no,No chat to answer weight-loss program questions
+93,Highland Nails & Spa,Nail salon,Flower Mound,(972) 691-3353,https://www.highlandnailsandspa.com/,4,no,"TX Comptroller sales-tax permit 2026-08-25, first sales 2026-09-01"
+94,Asian Pot Express,Chinese/Japanese restaurant,Lewisville,(972) 219-8886,https://asianpottexas.com/,3,no,"TX Comptroller sales-tax permit 2026-11-04, first sales 2026-11-15"
+95,PopStop!,Convenience store,Carrollton,(682) 364-6702,https://popstopshops.com/,3,no,"TX Comptroller sales-tax permit 2026-09-09, first sales 2026-11-01"
+96,SuA K-Glow,Korean med spa,Carrollton,972-665-8737,https://suaglow.com/,3,no,"TX Comptroller sales-tax permit 2026-08-21, first sales 2026-08-31"
+97,Totality Holistics,Chiropractic / acupuncture clinic,Dallas,(214) 210-6369,https://totalityholistics.com/,2,no,"TX Comptroller sales-tax permit 2026-10-08, first sales 2026-10-10"
