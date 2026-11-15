@@ -8,15 +8,13 @@ Don't quote numbers that aren't on our own pages. No client counts, no results p
 
 ## The 30-second script
 
-> Hi, is this the owner or manager? Great. This is Jilsha with VilouraAI, a small team right here in Lewisville. I'll be quick.
+> Hi, this is Jilsha with VilouraAI here in Lewisville. Quick one: is this the owner?
 >
-> More customers now ask AI assistants like ChatGPT or Gemini who to call, and AI only names a few businesses. I noticed [hook, said plainly, e.g. "you don't have a website listed on Google"], so I wanted to offer two free things.
+> More people now ask AI like ChatGPT who to call, and it only names a few businesses. I noticed [hook], so I'd like to send you two free things: a check of whether AI recommends [business], and a free SEO audit of your site.
 >
-> First, a free check of whether AI recommends [business] for [niche] in [city]. Second, a free SEO audit of your site and Google listing, emailed to you. No account, no obligation.
+> If you want more after that, the full Prisqo report is $19, one time.
 >
-> If you want the full picture afterwards, our Prisqo report is $19, one time. It shows what AI says across six buyer questions and who it names instead.
->
-> Which email should I send the free audit to?
+> What email should I send the audit to?
 
 If they say yes: confirm the spelling of the email and the website, thank them, and log it. Then submit the free SEO audit request yourself with their details.
 
