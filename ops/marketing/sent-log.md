@@ -94,3 +94,29 @@ Picked 2026-11-15 from `ops/marketing/outreach.md` (leads-1; Lewisville, where t
 - Dee's Domestics (marge@deesdomestics.com) — drafted 2026-11-15
 - DD Family Dentistry of Carrollton (info@ddfamilydentistrytx.com) — drafted 2026-11-15
 - Elite Body Chiropractic (office@elitebodyhighlandvillage.com) — drafted 2026-11-15
+
+
+## Follow-ups (round 2, CRM)
+
+Sent 2026-11-15 from vilouraai@gmail.com as thread replies to the Nov 13 CRM emails. (Lewisville Chiropractic was skipped; that address bounced.)
+
+- Lakewood Family Dental Care (appointment@lakewoodfamilydental.com) — follow-up sent 2026-11-15
+- True Petal Cleaning Services (truepetalclean@gmail.com) — follow-up sent 2026-11-15
+- Salon Yoli and Barber Shop (guadalupe.garcia9208@icloud.com) — follow-up sent 2026-11-15
+- Kelly's Heating and Air (info@kellysheatingandair.com) — follow-up sent 2026-11-15
+- Ajax Plumbing Solutions (ajaxplumbingsolutions@gmail.com) — follow-up sent 2026-11-15
+
+## Agencies (round 1, remaining)
+
+Picked 2026-11-16 from ops/marketing/agency-emails.csv and ops/marketing/drafts-agencies-1.md (already-merged hand-written drafts). Nothing below has been sent.
+
+- Idea Grove (newbiz@ideagrove.com) — drafted 2026-11-16
+- Internet Marketing Media (hello@internetmarketingmedia.net) — drafted 2026-11-16
+- Globotech Solutions (info@globotechsolutions.com) — drafted 2026-11-16
+- Visionary Search (hello@visionarysearch.com) — drafted 2026-11-16
+- Click4Corp (cs@click4corp.com) — drafted 2026-11-16
+- Triforce Digital Marketing (contact@triforce.io) — drafted 2026-11-16
+- Selah Digital (info@selah.net) — drafted 2026-11-16
+- Square 205 (communicate@square205.com) — drafted 2026-11-16
+- Karnes Consulting (asher@karnesconsulting.com) — drafted 2026-11-16
+- Prodigy Code (hello@prodigycode.com) — drafted 2026-11-16
