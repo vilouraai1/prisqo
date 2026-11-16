@@ -120,3 +120,25 @@ Picked 2026-11-16 from ops/marketing/agency-emails.csv and ops/marketing/drafts-
 - Square 205 (communicate@square205.com) — drafted 2026-11-16
 - Karnes Consulting (asher@karnesconsulting.com) — drafted 2026-11-16
 - Prodigy Code (hello@prodigycode.com) — drafted 2026-11-16
+
+## Follow-ups (round 3)
+
+Drafted 2026-11-16 in `ops/marketing/followups-3.md`, for the leads-3 first emails sent 2026-11-13 with no reply as of 2026-11-16. One follow-up each, then stop. Nothing below has been sent.
+
+- Prestonbrook Dental (contact@prestonbrookdental.com) — follow-up drafted 2026-11-16
+- Hush MedSpa (info@hushmedspa.com) — follow-up drafted 2026-11-16
+- Best Neighbor Home Services (help@bestneighborhomeservices.com) — follow-up drafted 2026-11-16
+- Burnside Air Conditioning, Heating, and Indoor Air Quality (info@burnsideac.com) — follow-up drafted 2026-11-16
+- Pounce Plumbing (info@pounceplumbing.com) — follow-up drafted 2026-11-16
+- White Tree Chiro (office@whitetreechiro.com) — follow-up drafted 2026-11-16
+- The Barber Law Firm (main@thebarberlawfirm.com) — follow-up drafted 2026-11-16
+- ArmorTex (tanner@armortexroofs.com) — follow-up drafted 2026-11-16
+- Denton Smiles Dentistry (info@dentonsmilesdentistry.com) — follow-up drafted 2026-11-16
+
+Skipped this round: round-1 follow-ups (Fast Hippo, GMP, Thinkit, Aspiro, Kingdom Chiropractic); the 5 CRM follow-ups Jilsha sent 2026-11-15 as thread replies (see "Follow-ups (round 2, CRM)"; Lakewood Family Dental Care, True Petal Cleaning Services, Salon Yoli and Barber Shop, Kelly's Heating and Air, Ajax Plumbing Solutions); bounces (DigitalZeon, Lewisville Chiropractic Center). No outreach replies as of 2026-11-16.
+
+### Summary
+
+9 round-3 follow-ups drafted 2026-11-16, none sent. Each uses the 2026-11-13 Gemini check as a new data point, offers the free check and free SEO audit first, and keeps the opt-out line and postal footer.
+
+DONE
