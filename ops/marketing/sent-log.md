@@ -142,3 +142,18 @@ Skipped this round: round-1 follow-ups (Fast Hippo, GMP, Thinkit, Aspiro, Kingdo
 9 round-3 follow-ups drafted 2026-11-16, none sent. Each uses the 2026-11-13 Gemini check as a new data point, offers the free check and free SEO audit first, and keeps the opt-out line and postal footer.
 
 DONE
+
+## Agencies (round 1, last 7) + CRM auto-home
+
+Picked 2026-11-17 from ops/marketing/agency-emails.csv and ops/marketing/drafts-agencies-1.md (already-merged hand-written drafts), and from ops/marketing/crm/out-auto-home.md. Nothing below has been sent.
+
+- AdsRole (info@adsrole.com) — drafted 2026-11-17
+- Nuesion (info@nuesion.com) — drafted 2026-11-17
+- ADMIVI (info@admivi.com) — drafted 2026-11-17
+- Complete SEO (info@completeseo.com) — drafted 2026-11-17
+- Creek Digital (rudy@creekdigital.co) — drafted 2026-11-17
+- Good Creative Media (info@goodcreativemedia.com) — drafted 2026-11-17
+- Gray Digital Group (info@graydigitalgroup.com) — drafted 2026-11-17
+- Tier One Detailing (tierone.mobile.detailing@gmail.com) — drafted 2026-11-17
+- M's Auto Detailing Service (MsDetail97@gmail.com) — drafted 2026-11-17
+- Regio Tire Shop (admin@regiotireshop.com) — drafted 2026-11-17
