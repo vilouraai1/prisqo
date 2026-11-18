@@ -51,13 +51,3 @@ Firm Foundation Wellness Center,chiropractor,"Keller, TX",https://www.firmfounda
 Smile Win Dental,dentist,"Grapevine, TX",https://smilewindental.com/,office@smilewindental.com,https://smilewindental.com/contact/,Winnie,ai_visibility,"Not named when Gemini was asked ""best dentist in Grapevine, TX"" on 2026-11-13 (it named Grapevine Family Dentistry; Daaboul Family Dentistry; Grapevine Dental; Grapevine Dental Center).","best dentist in Grapevine, TX",2026-11-13,,,no (city/category not in free-check form)
 Grace Chiropractic & Wellness,chiropractor,"Grapevine, TX",https://gracechirotx.com/,admin@gracechirotx.com,https://gracechirotx.com/,Caroline,ai_visibility+seo_gap,"Not named when Gemini was asked ""best chiropractor in Grapevine, TX"" on 2026-11-13 (it named Hands On Health Chiropractic; The Vine Family Chiropractic; Innovate Health; Kreamer Family Chiropractic; The Chiro Co.; Spine Health & Wellness (Grapevine Clinic)); also your homepage has no meta description.","best chiropractor in Grapevine, TX",2026-11-13,your homepage has no meta description,https://gracechirotx.com/,no (city/category not in free-check form)
 Red Ladder Roofing,roofer,"Denton, TX",https://www.redladderroofing.com/,office@redladderroofing.com,https://www.redladderroofing.com/,,ai_visibility,"Not named when Gemini was asked ""best roofer in Denton, TX"" on 2026-11-13 (it named Over The Top Roofing; Presidio Roofing Company of Denton; Elite Roofing LLC; Denton Trinity Roofing, Inc.; Gillean Brothers Roofing LLC).","best roofer in Denton, TX",2026-11-13,,,yes
-# ## Summary
-# 
-# - 52 new DFW leads, found 2026-11-17, across 11 cities (Fort Worth 11, Carrollton 10, Irving 8, Plano 6, Frisco 5, Southlake 2, Denton 2, McKinney 2, Allen 2, Keller 2, Grapevine 2) and 9 categories (dentist 14, chiropractor 14, med-spa 7, roofer 4, family-law 4, plumber 3, hair-salon 2, physical-therapy 2, hvac 2).
-# - Every email was read on the business's own website; the page is in `source_url`. None is guessed, and none came from a directory or social profile.
-# - Skipped: every business, email and domain already in `sent-log.md`, `leads-*.csv`, `crm/seg-*.csv` and earlier drafts files, and every business named in that city's Gemini answer.
-# - Hooks: all 52 use AI visibility (not named in the 2026-11-13 Gemini answer for their city and category, `data/ai-answers.json`); 22 also carry one site observation: weak or outdated site 9, SEO gap 10, missed calls 3.
-# - Free-check link: 33 drafts. The other 19 (Fort Worth, Southlake, Keller, Grapevine, and Carrollton physical therapy) aren't in the live free-check form yet, so those drafts offer only the free SEO audit.
-# - Nothing sent, posted or submitted.
-
-# DONE
