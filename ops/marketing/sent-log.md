@@ -145,15 +145,30 @@ DONE
 
 ## Agencies (round 1, last 7) + CRM auto-home
 
-Picked 2026-11-17 from ops/marketing/agency-emails.csv and ops/marketing/drafts-agencies-1.md (already-merged hand-written drafts), and from ops/marketing/crm/out-auto-home.md. Nothing below has been sent.
+Picked 2026-11-17 from ops/marketing/agency-emails.csv and ops/marketing/drafts-agencies-1.md (already-merged hand-written drafts), and from ops/marketing/crm/out-auto-home.md. Jilsha sent all 10 on 2026-11-17 (about 10:05 PM CST).
 
-- AdsRole (info@adsrole.com) — drafted 2026-11-17
-- Nuesion (info@nuesion.com) — drafted 2026-11-17
-- ADMIVI (info@admivi.com) — drafted 2026-11-17
-- Complete SEO (info@completeseo.com) — drafted 2026-11-17
-- Creek Digital (rudy@creekdigital.co) — drafted 2026-11-17
-- Good Creative Media (info@goodcreativemedia.com) — drafted 2026-11-17
-- Gray Digital Group (info@graydigitalgroup.com) — drafted 2026-11-17
-- Tier One Detailing (tierone.mobile.detailing@gmail.com) — drafted 2026-11-17
-- M's Auto Detailing Service (MsDetail97@gmail.com) — drafted 2026-11-17
-- Regio Tire Shop (admin@regiotireshop.com) — drafted 2026-11-17
+- AdsRole (info@adsrole.com) — sent 2026-11-17
+- Nuesion (info@nuesion.com) — sent 2026-11-17
+- ADMIVI (info@admivi.com) — sent 2026-11-17
+- Complete SEO (info@completeseo.com) — sent 2026-11-17
+- Creek Digital (rudy@creekdigital.co) — sent 2026-11-17
+- Good Creative Media (info@goodcreativemedia.com) — sent 2026-11-17
+- Gray Digital Group (info@graydigitalgroup.com) — sent 2026-11-17
+- Tier One Detailing (tierone.mobile.detailing@gmail.com) — sent 2026-11-17
+- M's Auto Detailing Service (MsDetail97@gmail.com) — sent 2026-11-17
+- Regio Tire Shop (admin@regiotireshop.com) — sent 2026-11-17
+
+## Lewisville leads-1 (playbook format)
+
+Picked 2026-11-18 from ops/marketing/leads-1.csv. Short first emails (no link, no price, one question). Nothing below has been sent.
+
+- Select Air (selectac@verizon.net) — drafted 2026-11-18
+- Nexus Dental (info@nexusdentaloflewisville.com) — drafted 2026-11-18
+- Dental Defenders (dentaldefenderslw@dfwtxdentalgroup.com) — drafted 2026-11-18
+- Alchemy Skin (alchemyskindallas@gmail.com) — drafted 2026-11-18
+- Advent Air (info@adventair.com) — drafted 2026-11-18
+- Todd Durham Law Firm (todd@thedurhamfirm.com) — drafted 2026-11-18
+- Compassion Family Chiropractic (info@compassionchirotx.com) — drafted 2026-11-18
+- Atchley Chiropractic (info-ch@atchleycc.com) — drafted 2026-11-18
+- Lewisville Plumbing (lewisvilleplumbing@outlook.com) — drafted 2026-11-18
+- NCI Plumbing (carl@nciplumbingcontractor.com) — drafted 2026-11-18
