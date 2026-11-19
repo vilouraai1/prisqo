@@ -172,3 +172,18 @@ Picked 2026-11-18 from ops/marketing/leads-1.csv. Short first emails (no link, n
 - Atchley Chiropractic (info-ch@atchleycc.com) — drafted 2026-11-18
 - Lewisville Plumbing (lewisvilleplumbing@outlook.com) — drafted 2026-11-18
 - NCI Plumbing (carl@nciplumbingcontractor.com) — drafted 2026-11-18
+
+## Leads-7 (playbook format)
+
+Picked 2026-11-19 from ops/marketing/leads-7.csv. Short first emails (no link, no price, one question). Nothing below has been sent.
+
+- Thompson Family & Cosmetic Dentistry (info@thompsondds.com) — drafted 2026-11-19
+- Plano Gentle Dental (info@planogentledental.com) — drafted 2026-11-19
+- Family Wellness Dentistry (info@familywellnessdentistry.com) — drafted 2026-11-19
+- Zone Chiropractic Clinic (info@zonechiroclinic.com) — drafted 2026-11-19
+- HealthWorks: A Family Wellness Center (care@healthworkstx.com) — drafted 2026-11-19
+- NEWGEN Chiropractic (info@newgenchiropractic.com) — drafted 2026-11-19
+- Venn Chiropractic and Wellness Center (drvenn@drvenn.com) — drafted 2026-11-19
+- Fusion Chiropractic Spa (info@fusionchiropracticspa.com) — drafted 2026-11-19
+- Coit Dental (info@coitdental.com) — drafted 2026-11-19
+- Mapletree Family Dentistry (info@mapletreedentistry.com) — drafted 2026-11-19
