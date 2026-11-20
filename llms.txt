@@ -20,3 +20,29 @@
 - [Compare AI visibility tools](https://prisqo.vilouraai.com/compare)
 - [Sample report](https://prisqo.vilouraai.com/sample/results)
 - [Contact](https://prisqo.vilouraai.com/contact)
+
+## Guides
+
+- [Guides: getting your business recommended by AI](https://prisqo.vilouraai.com/guides/)
+- [What is AI visibility?](https://prisqo.vilouraai.com/guides/what-is-ai-visibility)
+- [How to check if ChatGPT recommends you](https://prisqo.vilouraai.com/guides/how-to-check-if-chatgpt-recommends-you)
+- [Get recommended by ChatGPT](https://prisqo.vilouraai.com/guides/get-recommended-by-chatgpt)
+- [Show up in Perplexity answers](https://prisqo.vilouraai.com/guides/show-up-in-perplexity-answers)
+- [Show up in Google AI Overviews](https://prisqo.vilouraai.com/guides/show-up-in-google-ai-overviews)
+- [AI search visibility checklist](https://prisqo.vilouraai.com/guides/ai-search-visibility-checklist)
+
+## Compare
+
+- [Prisqo vs Semrush AI Toolkit](https://prisqo.vilouraai.com/compare/semrush-ai-toolkit)
+- [Prisqo vs Otterly](https://prisqo.vilouraai.com/compare/otterly)
+- [Prisqo vs Peec AI](https://prisqo.vilouraai.com/compare/peec-ai)
+- [Best AI visibility tools for small business](https://prisqo.vilouraai.com/best/ai-visibility-tools-small-business)
+
+## AI visibility by industry and city
+
+- [AI visibility by industry and city](https://prisqo.vilouraai.com/ai-visibility/)
+- [Dentists](https://prisqo.vilouraai.com/ai-visibility/dentists)
+- [Lawyers](https://prisqo.vilouraai.com/ai-visibility/lawyers)
+- [Plumbers](https://prisqo.vilouraai.com/ai-visibility/plumbers)
+- [Restaurants](https://prisqo.vilouraai.com/ai-visibility/restaurants)
+- [Med spas](https://prisqo.vilouraai.com/ai-visibility/med-spas)
