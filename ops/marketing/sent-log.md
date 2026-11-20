@@ -175,15 +175,30 @@ Picked 2026-11-18 from ops/marketing/leads-1.csv. Short first emails (no link, n
 
 ## Leads-7 (playbook format)
 
-Picked 2026-11-19 from ops/marketing/leads-7.csv. Short first emails (no link, no price, one question). Nothing below has been sent.
+Picked 2026-11-19 from ops/marketing/leads-7.csv. Short first emails (no link, no price, one question). Jilsha sent all 10 on 2026-11-19 (about 2:48 PM CST).
 
-- Thompson Family & Cosmetic Dentistry (info@thompsondds.com) — drafted 2026-11-19
-- Plano Gentle Dental (info@planogentledental.com) — drafted 2026-11-19
-- Family Wellness Dentistry (info@familywellnessdentistry.com) — drafted 2026-11-19
-- Zone Chiropractic Clinic (info@zonechiroclinic.com) — drafted 2026-11-19
-- HealthWorks: A Family Wellness Center (care@healthworkstx.com) — drafted 2026-11-19
-- NEWGEN Chiropractic (info@newgenchiropractic.com) — drafted 2026-11-19
-- Venn Chiropractic and Wellness Center (drvenn@drvenn.com) — drafted 2026-11-19
-- Fusion Chiropractic Spa (info@fusionchiropracticspa.com) — drafted 2026-11-19
-- Coit Dental (info@coitdental.com) — drafted 2026-11-19
-- Mapletree Family Dentistry (info@mapletreedentistry.com) — drafted 2026-11-19
+- Thompson Family & Cosmetic Dentistry (info@thompsondds.com) — sent 2026-11-19
+- Plano Gentle Dental (info@planogentledental.com) — sent 2026-11-19
+- Family Wellness Dentistry (info@familywellnessdentistry.com) — sent 2026-11-19
+- Zone Chiropractic Clinic (info@zonechiroclinic.com) — sent 2026-11-19
+- HealthWorks: A Family Wellness Center (care@healthworkstx.com) — sent 2026-11-19
+- NEWGEN Chiropractic (info@newgenchiropractic.com) — sent 2026-11-19
+- Venn Chiropractic and Wellness Center (drvenn@drvenn.com) — sent 2026-11-19
+- Fusion Chiropractic Spa (info@fusionchiropracticspa.com) — sent 2026-11-19; bounced the same day (address not found)
+- Coit Dental (info@coitdental.com) — sent 2026-11-19
+- Mapletree Family Dentistry (info@mapletreedentistry.com) — sent 2026-11-19
+
+## Leads-7 continued (playbook format)
+
+Picked 2026-11-20 from ops/marketing/leads-7.csv and ops/marketing/drafts-7.md (already-merged hooks, short playbook first emails: no link, no price, one question). Nothing below has been sent.
+
+- Hunt Family Dentistry (info@familydentistinfrisco.com) — drafted 2026-11-20
+- Freedom Family Dental (info@teethlovefreedom.com) — drafted 2026-11-20
+- Barr Family Dentistry (info@barrfamilydentistryftw.com) — drafted 2026-11-20
+- Nick Le DDS (info@nickledds.com) — drafted 2026-11-20
+- Vertical Chiropractic (drtrevor@verticalfw.com) — drafted 2026-11-20
+- R Family Chiropractic (connect@rfamilychiropractic.com) — drafted 2026-11-20
+- Cowtown Chiropractic (drjamespitts@gmail.com) — drafted 2026-11-20
+- Snug Aesthetics (info@snugaesthetics.com) — drafted 2026-11-20
+- Youthful Magnolia (info@youthfulmagnolia.com) — drafted 2026-11-20
+- Abby Henegan Aesthetics (info@ahafortworth.com) — drafted 2026-11-20
