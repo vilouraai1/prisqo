@@ -202,3 +202,26 @@ Picked 2026-11-20 from ops/marketing/leads-7.csv and ops/marketing/drafts-7.md (
 - Snug Aesthetics (info@snugaesthetics.com) — drafted 2026-11-20
 - Youthful Magnolia (info@youthfulmagnolia.com) — drafted 2026-11-20
 - Abby Henegan Aesthetics (info@ahafortworth.com) — drafted 2026-11-20
+
+## Follow-ups (round 4)
+
+Drafted 2026-11-20 in `ops/marketing/followups-4.md`, for the 10 first emails sent 2026-11-17 with no reply as of 2026-11-20 6 AM CST. One follow-up each, then stop. Nothing below has been sent.
+
+- AdsRole (info@adsrole.com) — follow-up drafted 2026-11-20
+- Nuesion (info@nuesion.com) — follow-up drafted 2026-11-20
+- ADMIVI (info@admivi.com) — follow-up drafted 2026-11-20
+- Complete SEO (info@completeseo.com) — follow-up drafted 2026-11-20
+- Creek Digital (rudy@creekdigital.co) — follow-up drafted 2026-11-20
+- Good Creative Media (info@goodcreativemedia.com) — follow-up drafted 2026-11-20
+- Gray Digital Group (info@graydigitalgroup.com) — follow-up drafted 2026-11-20
+- Tier One Detailing (tierone.mobile.detailing@gmail.com) — follow-up drafted 2026-11-20
+- M's Auto Detailing Service (MsDetail97@gmail.com) — follow-up drafted 2026-11-20
+- Regio Tire Shop (admin@regiotireshop.com) — follow-up drafted 2026-11-20
+
+Skipped this round: follow-ups already drafted or sent (rounds 1–3, CRM round 2); bounces (contact@digitalzeon.com, office@drkareed.com, info@fusionchiropracticspa.com); leads-7 emails sent 2026-11-19 (too recent). No outreach replies as of 2026-11-20 6 AM CST.
+
+### Summary
+
+10 round-4 follow-ups drafted 2026-11-20, none sent.
+
+DONE
