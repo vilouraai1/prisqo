@@ -6,27 +6,13 @@ WIP limit: 1 Doing item per lane. Agents never send, post, call, spend, or touch
 
 How to pick: from `## Next`, first table row whose `Lane` is yours (or `both`), whose details `blocked_on` is `none`, and who has nothing already in `## Doing`. Claim by moving the row + details block into `## Doing` in the same work PR. Items with `blocked_on` other than `none` belong in `## Blocked`, not here.
 
-Updated: 2026-11-21 16:45 America/Chicago (Hark: HM-01, HM-09, HM-11 to Done).
+Updated: 2026-11-21 16:45 America/Chicago (Hark: HM-01, HM-09, HM-11, HM-08 to Done).
 
 ## Next
 
 | ID | Pri | Lane | Title | Success metric | Inputs |
 |----|-----|------|-------|----------------|--------|
-| HM-08 | 1 | hark | Package 3 community posts from PR #48 for Jilsha | 3 ready-to-post items with community, rules check dated, and a paste body; agents do not post | `ops/marketing/community-posts-2.md` |
 | HM-10 | 1 | both | First weekly retro | Each lane updates its playbook, logs 1 experiment with a kill/keep rule, and adds one process-change line | `METRICS.md`, this board, playbooks, sent-log |
-
-### HM-08 — Package 3 community posts from PR #48 for Jilsha
-- id: HM-08
-- status: next
-- pri: 1
-- lane: hark
-- blocked_on: none
-- owner: none
-- branch: hark-hm-08
-- success: Exactly 3 posts, each with target community, why it is first, a rules re-check date, and a paste-ready body. No links or prices if the community or playbook forbids them. Agents never post.
-- inputs: ops/marketing/community-posts-2.md (merged in PR #48)
-- output: ops/marketing/community-posts-hm-08.md
-- notes: Packaging only. Pick value-first posts aimed at DFW local-business audiences over generic startup spam.
 
 ### HM-10 — First weekly retro
 - id: HM-10
@@ -140,6 +126,7 @@ Updated: 2026-11-21 16:45 America/Chicago (Hark: HM-01, HM-09, HM-11 to Done).
 
 | ID | Pri | Lane | Title | Success metric | Inputs |
 |----|-----|------|-------|----------------|--------|
+| HM-08 | 1 | hark | Package 3 community posts from PR #48 for Jilsha | 3 ready-to-post items with community, rules check dated, and a paste body; agents do not post | `ops/marketing/community-posts-2.md` |
 | HM-11 | 0 | hark | 15 Variant A first-email drafts (DFW dental/chiro/med spa/home service) | 15 unsent drafts, own-site email source URL + date, dated AI source; playbook edit proposed | `ops/research/reply-autopsy.md`, `data/ai-answers.json`, lead CSVs, sent-log, do-not-email |
 | HM-09 | 1 | hark | Bounce and list hygiene | Bounced addresses tagged do-not-email; any replacement is from the business's own site with a source URL | `ops/marketing/sent-log.md`, lead CSVs |
 | HM-01 | 0 | hark | Reply-rate autopsy + 2 first-email variants | A written kill/keep on the current cold formula, plus 2 testable variants (one recommended) | `ops/marketing/sent-log.md`, drafts, followups, `ops/playbooks/hark.md` |
@@ -187,3 +174,18 @@ Updated: 2026-11-21 16:45 America/Chicago (Hark: HM-01, HM-09, HM-11 to Done).
 - output: ops/marketing/drafts-variant-a-1.md; ops/playbooks/hark.md edit; ops/replies/HM-11.md
 - notes: Added by Hark at Jilsha's request 2026-11-21. Overlaps HM-05 (HM-05 = sending a Variant A batch and measuring it); HM-05 can use this file when Jilsha decides to send.
 - done: PR (hark-hm-11), 2026-11-21.
+
+### HM-08 — Package 3 community posts from PR #48 for Jilsha
+- id: HM-08
+- status: done
+- pri: 1
+- lane: hark
+- blocked_on: none
+- owner: hark
+- branch: hark-hm-08
+- success: Exactly 3 posts, each with target community, why it is first, a rules re-check date, and a paste-ready body. No links or prices if the community or playbook forbids them. Agents never post.
+- inputs: ops/marketing/community-posts-2.md (merged in PR #48)
+- output: ops/marketing/community-posts-hm-08.md
+- notes: Packaging only. Pick value-first posts aimed at DFW local-business audiences over generic startup spam.
+
+- done: PR (hark-hm-08), 2026-11-21: ops/marketing/community-posts-hm-08.md (FB DFW BP Networking, FB Small Business DFW, Alignable Lewisville).
