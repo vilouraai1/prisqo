@@ -225,3 +225,19 @@ Skipped this round: follow-ups already drafted or sent (rounds 1–3, CRM round 
 10 round-4 follow-ups drafted 2026-11-20, none sent.
 
 DONE
+
+## Leads-7 continued (playbook format)
+
+Picked 2026-11-21 from ops/marketing/leads-7.csv (already-merged hooks, short playbook first emails: no link, no price, one question). Nothing below has been sent.
+
+- City Roofing Company (info@cityroofing.net) — drafted 2026-11-21
+- CLC Roofing Inc. (sales@clcroofing.com) — drafted 2026-11-21
+- Kathleen Kasper D.D.S., P.A. (ourteam@kathleenkasperdds.com) — drafted 2026-11-21
+- Carrollton Advanced Family Dentistry (drmarkose@dentistatdallas.com) — drafted 2026-11-21
+- Serenity Chiropractic & Family Wellness Center (info@myserenitychiro.com) — drafted 2026-11-21
+- Carrollton Chiropractic and Massage (dfwchiromassage@gmail.com) — drafted 2026-11-21
+- MedSuite at Castle Hills (admin@med-suite.com) — drafted 2026-11-21
+- Glo On The Go Med Spa (info@glo-onthego.com) — drafted 2026-11-21
+- Park Jun Hair Salon (Park Jun Beauty Lab) (ParkSungHee56@gmail.com) — drafted 2026-11-21
+- Diva Styles Salon (divastylessalon@yahoo.com) — drafted 2026-11-21
+
