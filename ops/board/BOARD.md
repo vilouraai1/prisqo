@@ -6,7 +6,7 @@ WIP limit: 1 Doing item per lane. Agents never send, post, call, spend, or touch
 
 How to pick: from `## Next`, first table row whose `Lane` is yours (or `both`), whose details `blocked_on` is `none`, and who has nothing already in `## Doing`. Claim by moving the row + details block into `## Doing` in the same work PR. Items with `blocked_on` other than `none` belong in `## Blocked`, not here.
 
-Updated: 2026-11-21 16:45 America/Chicago (Hark: HM-12 merged #55; HM-13 added and Done).
+Updated: 2026-11-21 16:45 America/Chicago (Hark: HM-13 merged #56. No eligible Hark item; next revenue step is Jilsha sending HM-11/HM-13 drafts Mon 2026-11-23.)
 
 ## Next
 
@@ -218,4 +218,4 @@ Updated: 2026-11-21 16:45 America/Chicago (Hark: HM-12 merged #55; HM-13 added a
 - inputs: ops/marketing/sent-log.md (Leads-7); ops/marketing/leads-7.csv; data/ai-answers.json; ops/research/reply-autopsy.md §2, §4; ops/marketing/do-not-email.md
 - output: ops/marketing/followups-7.md; ops/replies/HM-13.md
 - notes: Added by Hark 2026-11-21 at Jilsha's request. The highest-revenue Hark step left that isn't a new cold batch. Autopsy says judge leads-7 "together with its single follow-up". Read first-email replies 2026-11-26, follow-up replies through 2026-11-30.
-- done: PR (hark-hm-13), 2026-11-21.
+- done: PR #56 merged 2026-11-21.
