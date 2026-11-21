@@ -175,15 +175,69 @@ Picked 2026-11-18 from ops/marketing/leads-1.csv. Short first emails (no link, n
 
 ## Leads-7 (playbook format)
 
-Picked 2026-11-19 from ops/marketing/leads-7.csv. Short first emails (no link, no price, one question). Nothing below has been sent.
+Picked 2026-11-19 from ops/marketing/leads-7.csv. Short first emails (no link, no price, one question). Jilsha sent all 10 on 2026-11-19 (about 2:48 PM CST).
 
-- Thompson Family & Cosmetic Dentistry (info@thompsondds.com) — drafted 2026-11-19
-- Plano Gentle Dental (info@planogentledental.com) — drafted 2026-11-19
-- Family Wellness Dentistry (info@familywellnessdentistry.com) — drafted 2026-11-19
-- Zone Chiropractic Clinic (info@zonechiroclinic.com) — drafted 2026-11-19
-- HealthWorks: A Family Wellness Center (care@healthworkstx.com) — drafted 2026-11-19
-- NEWGEN Chiropractic (info@newgenchiropractic.com) — drafted 2026-11-19
-- Venn Chiropractic and Wellness Center (drvenn@drvenn.com) — drafted 2026-11-19
-- Fusion Chiropractic Spa (info@fusionchiropracticspa.com) — drafted 2026-11-19
-- Coit Dental (info@coitdental.com) — drafted 2026-11-19
-- Mapletree Family Dentistry (info@mapletreedentistry.com) — drafted 2026-11-19
+- Thompson Family & Cosmetic Dentistry (info@thompsondds.com) — sent 2026-11-19
+- Plano Gentle Dental (info@planogentledental.com) — sent 2026-11-19
+- Family Wellness Dentistry (info@familywellnessdentistry.com) — sent 2026-11-19
+- Zone Chiropractic Clinic (info@zonechiroclinic.com) — sent 2026-11-19
+- HealthWorks: A Family Wellness Center (care@healthworkstx.com) — sent 2026-11-19
+- NEWGEN Chiropractic (info@newgenchiropractic.com) — sent 2026-11-19
+- Venn Chiropractic and Wellness Center (drvenn@drvenn.com) — sent 2026-11-19
+- Fusion Chiropractic Spa (info@fusionchiropracticspa.com) — sent 2026-11-19; bounced the same day (address not found)
+- Coit Dental (info@coitdental.com) — sent 2026-11-19
+- Mapletree Family Dentistry (info@mapletreedentistry.com) — sent 2026-11-19
+
+## Leads-7 continued (playbook format)
+
+Picked 2026-11-20 from ops/marketing/leads-7.csv and ops/marketing/drafts-7.md (already-merged hooks, short playbook first emails: no link, no price, one question). Nothing below has been sent.
+
+- Hunt Family Dentistry (info@familydentistinfrisco.com) — drafted 2026-11-20
+- Freedom Family Dental (info@teethlovefreedom.com) — drafted 2026-11-20
+- Barr Family Dentistry (info@barrfamilydentistryftw.com) — drafted 2026-11-20
+- Nick Le DDS (info@nickledds.com) — drafted 2026-11-20
+- Vertical Chiropractic (drtrevor@verticalfw.com) — drafted 2026-11-20
+- R Family Chiropractic (connect@rfamilychiropractic.com) — drafted 2026-11-20
+- Cowtown Chiropractic (drjamespitts@gmail.com) — drafted 2026-11-20
+- Snug Aesthetics (info@snugaesthetics.com) — drafted 2026-11-20
+- Youthful Magnolia (info@youthfulmagnolia.com) — drafted 2026-11-20
+- Abby Henegan Aesthetics (info@ahafortworth.com) — drafted 2026-11-20
+
+## Follow-ups (round 4)
+
+Drafted 2026-11-20 in `ops/marketing/followups-4.md`, for the 10 first emails sent 2026-11-17 with no reply as of 2026-11-20 6 AM CST. One follow-up each, then stop. Nothing below has been sent.
+
+- AdsRole (info@adsrole.com) — follow-up drafted 2026-11-20
+- Nuesion (info@nuesion.com) — follow-up drafted 2026-11-20
+- ADMIVI (info@admivi.com) — follow-up drafted 2026-11-20
+- Complete SEO (info@completeseo.com) — follow-up drafted 2026-11-20
+- Creek Digital (rudy@creekdigital.co) — follow-up drafted 2026-11-20
+- Good Creative Media (info@goodcreativemedia.com) — follow-up drafted 2026-11-20
+- Gray Digital Group (info@graydigitalgroup.com) — follow-up drafted 2026-11-20
+- Tier One Detailing (tierone.mobile.detailing@gmail.com) — follow-up drafted 2026-11-20
+- M's Auto Detailing Service (MsDetail97@gmail.com) — follow-up drafted 2026-11-20
+- Regio Tire Shop (admin@regiotireshop.com) — follow-up drafted 2026-11-20
+
+Skipped this round: follow-ups already drafted or sent (rounds 1–3, CRM round 2); bounces (contact@digitalzeon.com, office@drkareed.com, info@fusionchiropracticspa.com); leads-7 emails sent 2026-11-19 (too recent). No outreach replies as of 2026-11-20 6 AM CST.
+
+### Summary
+
+10 round-4 follow-ups drafted 2026-11-20, none sent.
+
+DONE
+
+## Leads-7 continued (playbook format)
+
+Picked 2026-11-21 from ops/marketing/leads-7.csv (already-merged hooks, short playbook first emails: no link, no price, one question). Nothing below has been sent.
+
+- City Roofing Company (info@cityroofing.net) — drafted 2026-11-21
+- CLC Roofing Inc. (sales@clcroofing.com) — drafted 2026-11-21
+- Kathleen Kasper D.D.S., P.A. (ourteam@kathleenkasperdds.com) — drafted 2026-11-21
+- Carrollton Advanced Family Dentistry (drmarkose@dentistatdallas.com) — drafted 2026-11-21
+- Serenity Chiropractic & Family Wellness Center (info@myserenitychiro.com) — drafted 2026-11-21
+- Carrollton Chiropractic and Massage (dfwchiromassage@gmail.com) — drafted 2026-11-21
+- MedSuite at Castle Hills (admin@med-suite.com) — drafted 2026-11-21
+- Glo On The Go Med Spa (info@glo-onthego.com) — drafted 2026-11-21
+- Park Jun Hair Salon (Park Jun Beauty Lab) (ParkSungHee56@gmail.com) — drafted 2026-11-21
+- Diva Styles Salon (divastylessalon@yahoo.com) — drafted 2026-11-21
+
