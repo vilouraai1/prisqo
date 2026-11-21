@@ -13,7 +13,6 @@ Updated: 2026-11-21 15:50 America/Chicago (draft, not on main).
 | ID | Pri | Lane | Title | Success metric | Inputs |
 |----|-----|------|-------|----------------|--------|
 | HM-01 | 0 | hark | Reply-rate autopsy + 2 first-email variants | A written kill/keep on the current cold formula, plus 2 testable variants (one recommended) | `ops/marketing/sent-log.md`, drafts, followups, `ops/playbooks/hark.md` |
-| HM-06 | 0 | muse | Conversion + in-flight SEO QA | Live `/free-check` and $19 checkout still work; muse-seo-3 and footer/dead-link work merged or given a precise leftover list; no engine/Stripe changes | `origin/muse-seo-3`, `origin/muse-footer-fix`, live prisqo.vilouraai.com |
 | HM-08 | 1 | hark | Package 3 community posts from PR #48 for Jilsha | 3 ready-to-post items with community, rules check dated, and a paste body; agents do not post | `ops/marketing/community-posts-2.md` |
 | HM-09 | 1 | hark | Bounce and list hygiene | Bounced addresses tagged do-not-email; any replacement is from the business's own site with a source URL | `ops/marketing/sent-log.md`, lead CSVs |
 | HM-10 | 1 | both | First weekly retro | Each lane updates its playbook, logs 1 experiment with a kill/keep rule, and adds one process-change line | `METRICS.md`, this board, playbooks, sent-log |
@@ -30,19 +29,6 @@ Updated: 2026-11-21 15:50 America/Chicago (draft, not on main).
 - inputs: ops/marketing/sent-log.md; ops/marketing/drafts-*.md; ops/marketing/followups-*.md; ops/playbooks/hark.md
 - output: ops/research/reply-autopsy.md and a short edit proposal for ops/playbooks/hark.md (apply only what review accepts). Optional: 10 sample drafts of the recommended variant, clearly marked unsent.
 - notes: 54 sent, 0 replies is the bottleneck (America/Chicago, as of 2026-11-21). Count bounces separately. Look at hook, subject, offer, length, link/price violations, agency vs local, timing, and whether the email asked a real easy question. Do not recommend "send more of the same." Cold drafts still must be 25–45 words, no link, no price, one question, opt-out + postal footer.
-
-### HM-06 — Conversion + in-flight SEO QA
-- id: HM-06
-- status: next
-- pri: 0
-- lane: muse
-- blocked_on: none
-- owner: none
-- branch: muse-seo-3 (prefer finishing this branch) or muse-hm-06
-- success: Money path works live (free-check name/city, $19 checkout form contract, no dead money-page links). In-flight muse-seo-3 is ready or the leftover is written. CSP/stylesheet regressions from muse-seo-2 do not return.
-- inputs: origin/muse-seo-3; origin/muse-footer-fix; ops/tasks/muse-seo-3.md; ops/replies/muse-seo-2.md; live site
-- output: PR(s) + ops/replies/HM-06.md
-- notes: Unblocked now so Muse is not idle while the missed-call page waits on approval. Do not restyle LP-2. Do not deploy yourself. If muse-seo-3 is already merged when this starts, do live QA and only fix real breakage.
 
 ### HM-08 — Package 3 community posts from PR #48 for Jilsha
 - id: HM-08
@@ -87,7 +73,21 @@ Updated: 2026-11-21 15:50 America/Chicago (draft, not on main).
 
 | ID | Pri | Lane | Title | Success metric | Inputs |
 |----|-----|------|-------|----------------|--------|
-| — | — | — | (empty) | — | — |
+| HM-06 | 0 | muse | Conversion + in-flight SEO QA | Live `/free-check` and $19 checkout still work; muse-seo-3 and footer/dead-link work merged or given a precise leftover list; no engine/Stripe changes | `origin/muse-seo-3`, `origin/muse-footer-fix`, live prisqo.vilouraai.com |
+
+### HM-06 — Conversion + in-flight SEO QA
+- id: HM-06
+- status: doing
+- pri: 0
+- lane: muse
+- blocked_on: none
+- owner: muse
+- branch: muse-hm-06 (rebased from muse-seo-3; PR #45 superseded, unmergeable add/add on BOARD.md)
+- success: Money path works live (free-check name/city, $19 checkout form contract, no dead money-page links). In-flight muse-seo-3 is ready or the leftover is written. CSP/stylesheet regressions from muse-seo-2 do not return.
+- inputs: origin/muse-seo-3; origin/muse-footer-fix; ops/tasks/muse-seo-3.md; ops/replies/muse-seo-2.md; live site
+- output: PR(s) + ops/replies/HM-06.md
+- notes: Unblocked now so Muse is not idle while the missed-call page waits on approval. Do not restyle LP-2. Do not deploy yourself. If muse-seo-3 is already merged when this starts, do live QA and only fix real breakage.
+
 
 ## Blocked
 
