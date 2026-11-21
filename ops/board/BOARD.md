@@ -6,7 +6,7 @@ WIP limit: 1 Doing item per lane. Agents never send, post, call, spend, or touch
 
 How to pick: from `## Next`, first table row whose `Lane` is yours (or `both`), whose details `blocked_on` is `none`, and who has nothing already in `## Doing`. Claim by moving the row + details block into `## Doing` in the same work PR. Items with `blocked_on` other than `none` belong in `## Blocked`, not here.
 
-Updated: 2026-11-21 16:45 America/Chicago (Hark: HM-08 merged #54; HM-12 added and Done).
+Updated: 2026-11-21 16:45 America/Chicago (Hark: HM-12 merged #55; HM-13 added and Done).
 
 ## Next
 
@@ -126,6 +126,7 @@ Updated: 2026-11-21 16:45 America/Chicago (Hark: HM-08 merged #54; HM-12 added a
 
 | ID | Pri | Lane | Title | Success metric | Inputs |
 |----|-----|------|-------|----------------|--------|
+| HM-13 | 0 | hark | Leads-7 single follow-up in Variant A form | 9 unsent follow-ups (delivered 11-19 cohort, minus bounce), dated AI source, send plan Mon 2026-11-23, read 2026-11-30 | `sent-log.md` Leads-7, `leads-7.csv`, `data/ai-answers.json`, `reply-autopsy.md`, `do-not-email.md` |
 | HM-12 | 0 | hark | Variant A reply kit (turn "yes" replies into free checks and $19 reports) | Paste-ready Reply 1 for all 15 HM-11 leads + shared replies (who are you / price / call / no); unsent | `drafts-variant-a-1.md`, `data/ai-answers.json`, `pricing.html`, `free-check.js` |
 | HM-08 | 1 | hark | Package 3 community posts from PR #48 for Jilsha | 3 ready-to-post items with community, rules check dated, and a paste body; agents do not post | `ops/marketing/community-posts-2.md` |
 | HM-11 | 0 | hark | 15 Variant A first-email drafts (DFW dental/chiro/med spa/home service) | 15 unsent drafts, own-site email source URL + date, dated AI source; playbook edit proposed | `ops/research/reply-autopsy.md`, `data/ai-answers.json`, lead CSVs, sent-log, do-not-email |
@@ -203,4 +204,18 @@ Updated: 2026-11-21 16:45 America/Chicago (Hark: HM-08 merged #54; HM-12 added a
 - inputs: ops/marketing/drafts-variant-a-1.md; data/ai-answers.json; pricing.html; free-check.js (category/city/name URL prefill)
 - output: ops/marketing/replies-variant-a-1.md; ops/replies/HM-12.md
 - notes: Added by Hark 2026-11-21 at Jilsha's request, as the highest-revenue Hark step left. Variant A only earns money if a "yes" is answered fast and leads to the free check, then the $19 report. Follows reply-autopsy §5 ("the follow-up to a yes is the list plus one line offering the free check"). Not a new cold batch.
-- done: PR (hark-hm-12), 2026-11-21.
+- done: PR #55 merged 2026-11-21.
+
+### HM-13 — Leads-7 single follow-up (Variant A form)
+- id: HM-13
+- status: done
+- pri: 0
+- lane: hark
+- blocked_on: none
+- owner: hark
+- branch: hark-hm-13
+- success: 9 unsent follow-ups, one per delivered 2026-11-19 leads-7 contact (Fusion excluded, bounced). 38–42 words, no link, no price, one question, opt-out, footer, dated Gemini source. Send plan and read date stated.
+- inputs: ops/marketing/sent-log.md (Leads-7); ops/marketing/leads-7.csv; data/ai-answers.json; ops/research/reply-autopsy.md §2, §4; ops/marketing/do-not-email.md
+- output: ops/marketing/followups-7.md; ops/replies/HM-13.md
+- notes: Added by Hark 2026-11-21 at Jilsha's request. The highest-revenue Hark step left that isn't a new cold batch. Autopsy says judge leads-7 "together with its single follow-up". Read first-email replies 2026-11-26, follow-up replies through 2026-11-30.
+- done: PR (hark-hm-13), 2026-11-21.
