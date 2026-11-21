@@ -6,7 +6,7 @@ WIP limit: 1 Doing item per lane. Agents never send, post, call, spend, or touch
 
 How to pick: from `## Next`, first table row whose `Lane` is yours (or `both`), whose details `blocked_on` is `none`, and who has nothing already in `## Doing`. Claim by moving the row + details block into `## Doing` in the same work PR. Items with `blocked_on` other than `none` belong in `## Blocked`, not here.
 
-Updated: 2026-11-21 16:45 America/Chicago (Hark: HM-01, HM-09 to Done).
+Updated: 2026-11-21 16:45 America/Chicago (Hark: HM-01, HM-09, HM-11 to Done).
 
 ## Next
 
@@ -140,6 +140,7 @@ Updated: 2026-11-21 16:45 America/Chicago (Hark: HM-01, HM-09 to Done).
 
 | ID | Pri | Lane | Title | Success metric | Inputs |
 |----|-----|------|-------|----------------|--------|
+| HM-11 | 0 | hark | 15 Variant A first-email drafts (DFW dental/chiro/med spa/home service) | 15 unsent drafts, own-site email source URL + date, dated AI source; playbook edit proposed | `ops/research/reply-autopsy.md`, `data/ai-answers.json`, lead CSVs, sent-log, do-not-email |
 | HM-09 | 1 | hark | Bounce and list hygiene | Bounced addresses tagged do-not-email; any replacement is from the business's own site with a source URL | `ops/marketing/sent-log.md`, lead CSVs |
 | HM-01 | 0 | hark | Reply-rate autopsy + 2 first-email variants | A written kill/keep on the current cold formula, plus 2 testable variants (one recommended) | `ops/marketing/sent-log.md`, drafts, followups, `ops/playbooks/hark.md` |
 
@@ -172,3 +173,17 @@ Updated: 2026-11-21 16:45 America/Chicago (Hark: HM-01, HM-09 to Done).
 - notes: Known bounces as of the 2026-11-21 sent-log include contact@digitalzeon.com, office@drkareed.com, and info@fusionchiropracticspa.com. Do not invent replacements.
 
 - done: PR (hark-hm-09), 2026-11-21: ops/marketing/do-not-email.md; bounces tagged in sent-log, seg-dental.csv, out-dental.md, drafts-7.md.
+
+### HM-11 — 15 Variant A first-email drafts
+- id: HM-11
+- status: done
+- pri: 0
+- lane: hark
+- blocked_on: none
+- owner: hark
+- branch: hark-hm-11
+- success: 15 unsent Variant A drafts for DFW dental/chiro/med spa/home-service leads not in sent-log, each with an own-site email source URL + date and a dated AI-answer source; playbook edit proposed.
+- inputs: ops/research/reply-autopsy.md; data/ai-answers.json; ops/marketing/leads-3.csv, leads-7.csv; sent-log; do-not-email.md
+- output: ops/marketing/drafts-variant-a-1.md; ops/playbooks/hark.md edit; ops/replies/HM-11.md
+- notes: Added by Hark at Jilsha's request 2026-11-21. Overlaps HM-05 (HM-05 = sending a Variant A batch and measuring it); HM-05 can use this file when Jilsha decides to send.
+- done: PR (hark-hm-11), 2026-11-21.
