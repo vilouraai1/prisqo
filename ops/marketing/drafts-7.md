@@ -180,6 +180,8 @@ VilouraAI, 357 E Corporate Dr, Lewisville, TX
 
 ### 8. Fusion Chiropractic Spa — chiropractor, Frisco, TX (info@fusionchiropracticspa.com)
 
+- **DO NOT EMAIL:** this address bounced (address not found). See `ops/marketing/do-not-email.md`. Don't reuse this draft.
+
 - Hook: Not named when Gemini was asked "best chiropractor in Frisco, TX" on 2026-11-13 (it named Breakaway Chiropractic & Wellness; FreeForm Chiropractic (Frisco); Global Chiropractic Plano Frisco; Frisco Chiropractic Center; Viva Chiropractic Center); also your homepage has no meta description and its title doesn't mention Frisco.
 - Body words (links excluded): 97
 

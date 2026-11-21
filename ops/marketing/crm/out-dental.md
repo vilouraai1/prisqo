@@ -21,6 +21,7 @@ Would Dr. Lee have time for a quick call to scope it this week?
 - chosen_offer: Website + AI Receptionist
 - reason: Site showed 'Account Suspended' on 2026-11-08, and reviewers were unhappy with first phone calls on new-patient/insurance questions; the email's one ask is fixing the site.
 - public_email: office@drkareed.com (in CRM)
+- **DO NOT EMAIL:** this address bounced (address not found). See `ops/marketing/do-not-email.md`. Don't reuse this draft.
 - draft:
 
 **Email**
