@@ -30,6 +30,9 @@ WIP = 1. If a second PR already claimed the same ID, rebase and take the next it
 - Every draft file must say that nothing was sent / drafts only.
 - No invented emails. Only addresses seen on the business's own site, with a source URL when newly found.
 - Do not email addresses on the bounce / do-not-email list.
+- Default first-email format: **Variant A** (reply-to-receive list) from `ops/research/reply-autopsy.md` §5. Use it only when a dated answer in `data/ai-answers.json` names 3+ businesses and not this one. The hook comes from the same source the free check serves, with its date. Example batch: `ops/marketing/drafts-variant-a-1.md`.
+- Check `ops/marketing/do-not-email.md` before every batch.
+- Sending cadence (advice to Jilsha): at most 5 a day, weekdays 8–10 AM Central, never one late-night burst.
 
 ## Result emails (after a real free test)
 - Allowed only when a call log (or equivalent verified observation) exists for that business.
@@ -42,12 +45,15 @@ WIP = 1. If a second PR already claimed the same ID, rebase and take the next it
 - Do not lead with permits / sales tax; PR #47 and the Codex validation rated that weak as the first paid offer. The test offer is the $49 Missed-Call + AI Visibility Check.
 
 ## Default now
+- Judge the 2026-11-19 leads-7 short format on 2026-11-26. Judge Variant A batch 1 seven days after its last send: keep it at 2 or more human replies out of 15–20, kill it at 0.
 - Do not draft another generic cold batch of the current formula until HM-01 has a kill/keep and the board opens HM-05 (or Jilsha asks to send a named batch).
 - Phone-first or observation-first (a real test call, a public Google-profile fact) beats a generic "does AI recommend you" pitch.
 - When idle and no Next item is eligible, do not self-assign product work. Wait, or only take a Pri-2 hygiene item Kiwi has already put on the board.
 
 ## Never again
-- (Empty at start. Add only in a retro, with evidence. Candidates if HM-01 confirms them: first emails with links or prices; batches that ignore bounces; more volume of a 0-reply formula.)
+- First emails with a link, a price, or a call request. 0 replies on 21 sends with 8+ days, 2026-11-11 to 11-13 (`ops/research/reply-autopsy.md`).
+- Agency "buy and resell our $19 report" pitch as a cold first email (same evidence).
+- AI hooks from a different model than the free check shows (the Groq hooks in leads-3 didn't match the Gemini free-check answers).
 
 ## Weekly retro
 On HM-10 or the Monday retro: read METRICS + outcomes; edit this playbook only; propose exactly one experiment (hypothesis, one change, metric, threshold, 7-day window, kill/keep); add one process-change line. Kill missed experiments; keep winners as new defaults here.
