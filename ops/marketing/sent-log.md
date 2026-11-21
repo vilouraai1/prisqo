@@ -2,13 +2,15 @@
 
 Drafts are not sent. Jilsha approves and sends every email herself.
 
+**Do not email** (bounced; see `ops/marketing/do-not-email.md`): contact@digitalzeon.com, office@drkareed.com, info@fusionchiropracticspa.com. Never draft or send to these.
+
 ## Agencies
 
 - Fast Hippo (info@fasthippomedia.com) — sent 2026-11-11
 - GMP (seo@gmpinternetmarketing.com) — sent 2026-11-11
 - Thinkit (hi@thinkitmedia.com) — sent 2026-11-11
 - Aspiro (info@aspiroagency.com) — sent 2026-11-11
-- DigitalZeon (contact@digitalzeon.com) — sent 2026-11-11; delivery failed 2026-11-14 3:04 PM CST (Gmail: message not delivered)
+- DigitalZeon (contact@digitalzeon.com) — sent 2026-11-11; delivery failed 2026-11-14 3:04 PM CST (Gmail: message not delivered) — DO-NOT-EMAIL
 
 ## Local leads
 
@@ -47,7 +49,7 @@ Picked from `ops/marketing/leads-3.csv` and `ops/marketing/drafts-3.md` on 2026-
 
 Sent 2026-11-13 from vilouraai@gmail.com, taken from Jilsha's Excel CRM.
 
-- Lewisville Chiropractic Center (office@drkareed.com) — sent 2026-11-13; bounced the same day (address not found)
+- Lewisville Chiropractic Center (office@drkareed.com) — sent 2026-11-13; bounced the same day (address not found) — DO-NOT-EMAIL
 - Lakewood Family Dental Care (appointment@lakewoodfamilydental.com) — sent 2026-11-13
 - True Petal Cleaning Services (truepetalclean@gmail.com) — sent 2026-11-13
 - Salon Yoli and Barber Shop (guadalupe.garcia9208@icloud.com) — sent 2026-11-13
@@ -184,7 +186,7 @@ Picked 2026-11-19 from ops/marketing/leads-7.csv. Short first emails (no link, n
 - HealthWorks: A Family Wellness Center (care@healthworkstx.com) — sent 2026-11-19
 - NEWGEN Chiropractic (info@newgenchiropractic.com) — sent 2026-11-19
 - Venn Chiropractic and Wellness Center (drvenn@drvenn.com) — sent 2026-11-19
-- Fusion Chiropractic Spa (info@fusionchiropracticspa.com) — sent 2026-11-19; bounced the same day (address not found)
+- Fusion Chiropractic Spa (info@fusionchiropracticspa.com) — sent 2026-11-19; bounced the same day (address not found) — DO-NOT-EMAIL
 - Coit Dental (info@coitdental.com) — sent 2026-11-19
 - Mapletree Family Dentistry (info@mapletreedentistry.com) — sent 2026-11-19
 

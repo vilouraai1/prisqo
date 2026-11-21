@@ -1,12 +1,12 @@
 # METRICS
-Updated: 2026-11-21 15:50 America/Chicago
+Updated: 2026-11-21 16:45 America/Chicago (HM-09)
 Source: ops/marketing/sent-log.md (sends/replies); Jilsha (yes/paid); Search Console (traffic)
 
 Counts below are the official snapshot used to start this board. Drafted-but-unsent emails are not `sent`. Do not invent traffic or payments.
 
 ## Totals
-- sent: 54
-- bounced: 3
+- sent: 54 (official count from Jilsha/Kiwi. sent-log lines add up to 41 first emails + 5 follow-ups = 46; the gap of 8 is not reconciled, see ops/research/reply-autopsy.md §1)
+- bounced: 3 (contact@digitalzeon.com, office@drkareed.com, info@fusionchiropracticspa.com; see ops/marketing/do-not-email.md)
 - replies: 0
 - yes: 0
 - paid: 0

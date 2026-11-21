@@ -6,29 +6,14 @@ WIP limit: 1 Doing item per lane. Agents never send, post, call, spend, or touch
 
 How to pick: from `## Next`, first table row whose `Lane` is yours (or `both`), whose details `blocked_on` is `none`, and who has nothing already in `## Doing`. Claim by moving the row + details block into `## Doing` in the same work PR. Items with `blocked_on` other than `none` belong in `## Blocked`, not here.
 
-Updated: 2026-11-21 15:50 America/Chicago (draft, not on main).
+Updated: 2026-11-21 16:45 America/Chicago (Hark: HM-01, HM-09 to Done).
 
 ## Next
 
 | ID | Pri | Lane | Title | Success metric | Inputs |
 |----|-----|------|-------|----------------|--------|
-| HM-01 | 0 | hark | Reply-rate autopsy + 2 first-email variants | A written kill/keep on the current cold formula, plus 2 testable variants (one recommended) | `ops/marketing/sent-log.md`, drafts, followups, `ops/playbooks/hark.md` |
 | HM-08 | 1 | hark | Package 3 community posts from PR #48 for Jilsha | 3 ready-to-post items with community, rules check dated, and a paste body; agents do not post | `ops/marketing/community-posts-2.md` |
-| HM-09 | 1 | hark | Bounce and list hygiene | Bounced addresses tagged do-not-email; any replacement is from the business's own site with a source URL | `ops/marketing/sent-log.md`, lead CSVs |
 | HM-10 | 1 | both | First weekly retro | Each lane updates its playbook, logs 1 experiment with a kill/keep rule, and adds one process-change line | `METRICS.md`, this board, playbooks, sent-log |
-
-### HM-01 — Reply-rate autopsy + 2 first-email variants
-- id: HM-01
-- status: next
-- pri: 0
-- lane: hark
-- blocked_on: none
-- owner: none
-- branch: hark-hm-01
-- success: A written kill/keep on the current cold-email formula, and 2 new variants with one recommended default. No new generic batch.
-- inputs: ops/marketing/sent-log.md; ops/marketing/drafts-*.md; ops/marketing/followups-*.md; ops/playbooks/hark.md
-- output: ops/research/reply-autopsy.md and a short edit proposal for ops/playbooks/hark.md (apply only what review accepts). Optional: 10 sample drafts of the recommended variant, clearly marked unsent.
-- notes: 54 sent, 0 replies is the bottleneck (America/Chicago, as of 2026-11-21). Count bounces separately. Look at hook, subject, offer, length, link/price violations, agency vs local, timing, and whether the email asked a real easy question. Do not recommend "send more of the same." Cold drafts still must be 25–45 words, no link, no price, one question, opt-out + postal footer.
 
 ### HM-08 — Package 3 community posts from PR #48 for Jilsha
 - id: HM-08
@@ -42,19 +27,6 @@ Updated: 2026-11-21 15:50 America/Chicago (draft, not on main).
 - inputs: ops/marketing/community-posts-2.md (merged in PR #48)
 - output: ops/marketing/community-posts-hm-08.md
 - notes: Packaging only. Pick value-first posts aimed at DFW local-business audiences over generic startup spam.
-
-### HM-09 — Bounce and list hygiene
-- id: HM-09
-- status: next
-- pri: 1
-- lane: hark
-- blocked_on: none
-- owner: none
-- branch: hark-hm-09
-- success: Every known bounce is marked do-not-email in sent-log (and lead files if present). No drafts to those addresses. Any new address has a source URL on the business's own site.
-- inputs: ops/marketing/sent-log.md; ops/marketing/leads-*.csv; crm CSVs
-- output: updated sent-log and a short ops/marketing/do-not-email.md list
-- notes: Known bounces as of the 2026-11-21 sent-log include contact@digitalzeon.com, office@drkareed.com, and info@fusionchiropracticspa.com. Do not invent replacements.
 
 ### HM-10 — First weekly retro
 - id: HM-10
@@ -168,4 +140,35 @@ Updated: 2026-11-21 15:50 America/Chicago (draft, not on main).
 
 | ID | Pri | Lane | Title | Success metric | Inputs |
 |----|-----|------|-------|----------------|--------|
-| — | — | — | (empty) | — | — |
+| HM-09 | 1 | hark | Bounce and list hygiene | Bounced addresses tagged do-not-email; any replacement is from the business's own site with a source URL | `ops/marketing/sent-log.md`, lead CSVs |
+| HM-01 | 0 | hark | Reply-rate autopsy + 2 first-email variants | A written kill/keep on the current cold formula, plus 2 testable variants (one recommended) | `ops/marketing/sent-log.md`, drafts, followups, `ops/playbooks/hark.md` |
+
+### HM-01 — Reply-rate autopsy + 2 first-email variants
+- id: HM-01
+- status: done
+- pri: 0
+- lane: hark
+- blocked_on: none
+- owner: hark
+- branch: hark-hm-01
+- success: A written kill/keep on the current cold-email formula, and 2 new variants with one recommended default. No new generic batch.
+- inputs: ops/marketing/sent-log.md; ops/marketing/drafts-*.md; ops/marketing/followups-*.md; ops/playbooks/hark.md
+- output: ops/research/reply-autopsy.md and a short edit proposal for ops/playbooks/hark.md (apply only what review accepts). Optional: 10 sample drafts of the recommended variant, clearly marked unsent.
+- notes: 54 sent, 0 replies is the bottleneck (America/Chicago, as of 2026-11-21). Count bounces separately. Look at hook, subject, offer, length, link/price violations, agency vs local, timing, and whether the email asked a real easy question. Do not recommend "send more of the same." Cold drafts still must be 25–45 words, no link, no price, one question, opt-out + postal footer.
+
+- done: PR #50 merged 2026-11-21 (ops/research/reply-autopsy.md). Verdict: kill the old formula; Variant A recommended.
+
+### HM-09 — Bounce and list hygiene
+- id: HM-09
+- status: done
+- pri: 1
+- lane: hark
+- blocked_on: none
+- owner: hark
+- branch: hark-hm-09
+- success: Every known bounce is marked do-not-email in sent-log (and lead files if present). No drafts to those addresses. Any new address has a source URL on the business's own site.
+- inputs: ops/marketing/sent-log.md; ops/marketing/leads-*.csv; crm CSVs
+- output: updated sent-log and a short ops/marketing/do-not-email.md list
+- notes: Known bounces as of the 2026-11-21 sent-log include contact@digitalzeon.com, office@drkareed.com, and info@fusionchiropracticspa.com. Do not invent replacements.
+
+- done: PR (hark-hm-09), 2026-11-21: ops/marketing/do-not-email.md; bounces tagged in sent-log, seg-dental.csv, out-dental.md, drafts-7.md.
