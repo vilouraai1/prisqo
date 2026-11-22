@@ -243,3 +243,38 @@ Picked 2026-11-21 from ops/marketing/leads-7.csv (already-merged hooks, short pl
 - Park Jun Hair Salon (Park Jun Beauty Lab) (ParkSungHee56@gmail.com) — drafted 2026-11-21
 - Diva Styles Salon (divastylessalon@yahoo.com) — drafted 2026-11-21
 
+
+## Variant A first emails (HM-11)
+
+Drafted 2026-11-21 in `ops/marketing/drafts-variant-a-1.md`; shown as cards 2026-11-22. Short Variant A first emails (no link, no price, one question). Send plan: at most 5 a day, weekdays 8-10 AM Central, starting Mon 2026-11-23. Nothing below has been sent.
+
+- Meridian Dental (Dr. Simi Paul, DDS) (info@irvingdds.com) — drafted 2026-11-21
+- Valley Ranch Family Dentistry (info@valleyranchdental.com) — drafted 2026-11-21
+- Hill Chiropractic Center (drdawnhill@irvingtxchiro.com) — drafted 2026-11-21
+- Irving Injury Center (clinic@irvinginjurycenter.com) — drafted 2026-11-21
+- Kairos Aesthetic Medicine (info@kairosaestheticmedicine.com) — drafted 2026-11-21
+- Firm Foundation Wellness Center (drcorey@firmfoundationtx.com) — drafted 2026-11-21
+- Grace Chiropractic & Wellness (admin@gracechirotx.com) — drafted 2026-11-21
+- Mangum Family Dentistry (office@mangumfamilydentistry.com) — drafted 2026-11-21
+- Susanne Holmgreen D.D.S. (info@susanneholmgreendds.com) — drafted 2026-11-21
+- Tex Plumbing (felix@texplumbing.com) — drafted 2026-11-21
+- Top Flow Plumbing (info@topflowplumbing.com) — drafted 2026-11-21
+- The Cooling King LLC (contact@thecoolingking.com) — drafted 2026-11-21
+- All Source Plumbing (info@allsourceplumbingtx.com) — drafted 2026-11-21
+- Red Ladder Roofing (office@redladderroofing.com) — drafted 2026-11-21
+- 423 Roofing and Construction (George@423-roofing.com) — drafted 2026-11-21
+
+## Follow-ups (leads-7 / HM-13)
+
+Drafted 2026-11-21 in `ops/marketing/followups-7.md`; shown as cards 2026-11-22. Nine follow-ups for the delivered 2026-11-19 leads-7 contacts (Fusion Chiropractic Spa excluded, bounced). Send plan Mon 2026-11-23. Nothing below has been sent.
+
+- Thompson Family & Cosmetic Dentistry (info@thompsondds.com) — follow-up drafted 2026-11-21
+- Plano Gentle Dental (info@planogentledental.com) — follow-up drafted 2026-11-21
+- Family Wellness Dentistry (info@familywellnessdentistry.com) — follow-up drafted 2026-11-21
+- Zone Chiropractic Clinic (info@zonechiroclinic.com) — follow-up drafted 2026-11-21
+- HealthWorks: A Family Wellness Center (care@healthworkstx.com) — follow-up drafted 2026-11-21
+- NEWGEN Chiropractic (info@newgenchiropractic.com) — follow-up drafted 2026-11-21
+- Venn Chiropractic and Wellness Center (drvenn@drvenn.com) — follow-up drafted 2026-11-21
+- Coit Dental (info@coitdental.com) — follow-up drafted 2026-11-21
+- Mapletree Family Dentistry (info@mapletreedentistry.com) — follow-up drafted 2026-11-21
+
