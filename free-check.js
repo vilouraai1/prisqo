@@ -74,9 +74,23 @@
   function sourceLabel(check) {
     return check.checked === "2026-11-13" ? "Gemini on Nov 13, 2026" : "an AI search assistant on Nov 11, 2026";
   }
-  function ctaHtml() {
-    return '<p><a class="btn" href="/?ref=freecheck#check">Get my report ($19)</a></p>' +
+  /* ref= is captured here, before run() rewrites the address bar without it. */
+  var refParam = (new URLSearchParams(window.location.search)).get("ref") || "freecheck";
+  function checkoutUrl(categoryLabel, city, name) {
+    return "/?category=" + encodeURIComponent(categoryLabel) + "&city=" + encodeURIComponent(city) +
+      "&name=" + encodeURIComponent(name) + "&ref=" + encodeURIComponent(refParam) + "#check";
+  }
+  function ctaHtml(categoryLabel, city, name) {
+    return '<p><a class="btn" href="' + checkoutUrl(categoryLabel, city, name) + '">Get my report ($19)</a></p>' +
       '<p style="font-size:14px">14-day refund · One-time charge · Report ready in minutes</p>';
+  }
+  /* Facts are from live pricing.html (2026-11-21, still on main 2026-11-24):
+     6 buyer-style questions, 0–100 score, who AI names instead, sources cited,
+     every prompt and answer in full; $19 once, no account, no subscription;
+     full refund within 14 days if the report fails or comes back empty. */
+  function reportExplainHtml() {
+    return '<p><strong>That was one question. The $19 report runs 6.</strong> For your business it asks 6 buyer-style questions, gives your visibility score (0–100), shows who AI names instead and which sources it cites, and lists every prompt and answer in full. One-time $19, no account, no subscription. If the report fails or comes back empty, email us within 14 days for a full refund.</p>' +
+      '<p style="font-size:14px"><a href="/pricing">See pricing</a> · <a href="/sample/results">See a sample report</a></p>';
   }
   function shareHtml(text) {
     var url = encodeURIComponent(window.location.href);
@@ -97,7 +111,7 @@
       return;
     }
     if (failed || !data) {
-      result.innerHTML = "<h2>Check unavailable right now</h2><p>We could not load the saved answers. Get your full report instead — 6 buyer questions, one $19 payment, no account.</p>" + ctaHtml();
+      result.innerHTML = "<h2>Check unavailable right now</h2><p>We could not load the saved answers. Get your full report instead — 6 buyer questions, one $19 payment, no account.</p>" + ctaHtml(label, city, name) + '<p style="font-size:14px"><a href="/pricing">See pricing</a></p>';
       return;
     }
     var check = null, otherCities = [];
@@ -111,7 +125,7 @@
     if (window.history && window.history.replaceState) window.history.replaceState(null, "", url);
     if (!check) {
       var also = otherCities.length ? " We do have saved answers for " + esc(label.toLowerCase()) + " in " + otherCities.map(esc).join(", ") + "." : "";
-      result.innerHTML = "<h2>Not checked yet</h2><p>We have not checked “best " + esc(label.toLowerCase()) + " in " + esc(city) + "” yet." + also + " Get your full $19 report — 6 real buyer questions for your business, answered by one AI model with live web search.</p>" + ctaHtml();
+      result.innerHTML = "<h2>Not checked yet</h2><p>We have not checked “best " + esc(label.toLowerCase()) + " in " + esc(city) + "” yet." + also + " Get your full $19 report — 6 real buyer questions for your business, answered by one AI model with live web search.</p>" + ctaHtml(label, city, name) + '<p style="font-size:14px">Or <a href="/pricing">see what the $19 full report covers</a> · <a href="/free-seo-audit">get a free one-page SEO audit</a></p>';
       return;
     }
     var named = check.named;
@@ -124,9 +138,9 @@
       ? "AI named " + found + " for “best " + label.toLowerCase() + " in " + city + "”. Did it name you?"
       : "AI did not name us for “best " + label.toLowerCase() + " in " + city + "”. Did it name you?";
     if (found) {
-      result.innerHTML = "<h2>You showed up</h2><p><strong>" + esc(found) + "</strong> was named for “" + esc(check.question) + "” in our check with " + sourceLabel(check) + ". But that is one question — see the 6 buyer questions where you might not show up.</p>" + ctaHtml() + shareHtml(shareText);
+      result.innerHTML = "<h2>You showed up</h2><p><strong>" + esc(found) + "</strong> was named for “" + esc(check.question) + "” in our check with " + sourceLabel(check) + ". But that is one question — see the 6 buyer questions where you might not show up.</p>" + ctaHtml(label, city, name) + reportExplainHtml() + shareHtml(shareText);
     } else {
-      result.innerHTML = "<h2>AI did not name you in our last check</h2><p>In our check with " + sourceLabel(check) + ", for “" + esc(check.question) + "” it named: <strong>" + list + "</strong>. Find out where you stand across 6 buyer questions — and what to fix.</p>" + ctaHtml() + shareHtml(shareText);
+      result.innerHTML = "<h2>AI did not name you in our last check</h2><p>In our check with " + sourceLabel(check) + ", for “" + esc(check.question) + "” it named: <strong>" + list + "</strong>. Find out where you stand across 6 buyer questions — and what to fix.</p>" + ctaHtml(label, city, name) + reportExplainHtml() + shareHtml(shareText);
     }
   }
 
