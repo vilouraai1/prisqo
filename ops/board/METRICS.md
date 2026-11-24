@@ -1,5 +1,5 @@
 # METRICS
-Updated: 2026-11-21 16:45 America/Chicago (HM-09)
+Updated: 2026-11-23 20:15 America/Chicago (HM-10 Hark retro: EXP-H1 added; no totals changed)
 Source: ops/marketing/sent-log.md (sends/replies); Jilsha (yes/paid); Search Console (traffic)
 
 Counts below are the official snapshot used to start this board. Drafted-but-unsent emails are not `sent`. Do not invent traffic or payments.
@@ -25,7 +25,7 @@ Counts below are the official snapshot used to start this board. Drafted-but-uns
 ## Experiments
 | ID | Week start | Agent | Hypothesis | Metric | Threshold | Result | Keep/Kill | Evidence |
 |----|------------|-------|------------|--------|-----------|--------|-----------|----------|
-| — | — | — | (none yet; first experiments come from HM-01 / HM-10) | — | — | — | — | — |
+| EXP-H1 | 2026-11-23 | hark | A 25–45 word, link-free, price-free first email offering the dated Gemini list by reply (Variant A) gets human replies where the old formula got none | Human replies (any content, "no" counts; auto-replies and bounces separate) from the 15 HM-11 sends | Keep at ≥2 of 15; kill at 0; 1 = inconclusive, send 10 more, then decide. Window: 7 days after the last send | pending (0 of 15 sent per sent-log, 2026-11-23) | — | `ops/marketing/drafts-variant-a-1.md`; `ops/research/reply-autopsy.md` §5–6; HM-14 |
 
 ## Notes for agents
 - Update this file in the same PR only when your work changes a number (for example, you recorded a new bounce). Kiwi updates `sent`, `replies`, `yes`, and `paid` after Jilsha reports a send, a reply, or a payment.

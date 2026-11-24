@@ -1,17 +1,18 @@
 # Hark playbook
 
-Lane: research, demand checks, leads, outreach drafts, call/result kits, community kits for Jilsha. Last updated: 2026-11-21 America/Chicago (starter). Hark may edit this file in a weekly retro PR. Hard rules in SYSTEM.md / ops/kiwi-handoff.md cannot be weakened here.
+Lane: research, demand checks, leads, outreach drafts, call/result kits, community kits for Jilsha. Last updated: 2026-11-23 America/Chicago (HM-10 retro, Hark half). Hark may edit this file in a weekly retro PR. Hard rules in SYSTEM.md / ops/kiwi-handoff.md cannot be weakened here.
 
 Hark project: https://hark.com/project/961127a6-2e1a-4511-8c30-1d25c7371f7e
 
 ## Goal
-First paying customer. Rank work by what can produce a reply, a yes, or a payment soonest. Current bottleneck: 54 emails sent, 0 replies.
+First paying customer. Rank work by what can produce a reply, a yes, or a payment soonest. Current bottleneck (2026-11-23): 0 replies. sent-log has 46 sends (41 first emails + 5 follow-ups, 3 bounced); METRICS says 54, gap unreconciled. 24 short drafts (15 Variant A in `drafts-variant-a-1.md`, 9 follow-ups in `followups-7.md`) are queued with Jilsha and not yet logged as sent.
 
 ## Pick rule
 1. Fetch `origin/main`. Read this playbook, `ops/board/BOARD.md`, `ops/board/METRICS.md`, and `ops/marketing/sent-log.md`.
 2. Take the first `## Next` row with `lane: hark` or `both`, `blocked_on: none`, and no Hark item already in `## Doing`.
 3. Claim it in the same session: move row + details to Doing, set `owner: hark`, branch `hark-hm-NN`.
 4. If nothing qualifies, stop. Write that in `ops/replies/HM-NN.md` or a short `ops/replies/hark-idle.md`. Do not invent a new offer or send anything.
+5. Exception (process change, retro 2026-11-23): when Jilsha asks in chat for "the next highest-revenue Hark item", Hark may add one item to the board and do it, only if it does not need a send first and is not a generic cold batch. Quote her ask in the item's notes. HM-11, HM-12 and HM-13 were added this way.
 
 WIP = 1. If a second PR already claimed the same ID, rebase and take the next item.
 
@@ -57,3 +58,12 @@ WIP = 1. If a second PR already claimed the same ID, rebase and take the next it
 
 ## Weekly retro
 On HM-10 or the Monday retro: read METRICS + outcomes; edit this playbook only; propose exactly one experiment (hypothesis, one change, metric, threshold, 7-day window, kill/keep); add one process-change line. Kill missed experiments; keep winners as new defaults here.
+
+### Retro 2026-11-23 (week of 2026-11-16)
+- Outcomes (sent-log, origin/main `9655788`): 0 human replies, 0 yes, 0 paid. 3 bounces on do-not-email. No new sends logged since 2026-11-19.
+- Old long/link/$19/call-ask formula: **kill confirmed**. The 21 sends from 2026-11-11 to 11-13 now have 10 to 12 days with 0 replies. The 2026-11-17 batch (agency resale + auto/home call ask) has 6 days with 0 replies; same formula, same verdict.
+- 2026-11-19 short format (leads-7): still on **hold**, judged 2026-11-26 with its follow-up (read through 2026-11-30).
+- $49 Missed-Call + AI Visibility Check: **no verdict**. No test calls logged (HM-02) and no result emails sent, so there is nothing to keep or kill yet.
+- Experiment for this week: EXP-H1 (Variant A batch 1), in METRICS Experiments and board item HM-14.
+- Process change: pick-rule step 5 (Jilsha-requested items when nothing is eligible).
+
