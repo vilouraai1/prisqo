@@ -12,26 +12,12 @@ Updated: 2026-11-23 20:15 America/Chicago (Kiwi: HM-06 moved to Done (PR #51). M
 
 | ID | Pri | Lane | Title | Success metric | Inputs |
 |----|-----|------|-------|----------------|--------|
-| HM-15 | 0 | muse | Free-check result → $19 report conversion | After a successful free check, one obvious click reaches the existing $19 checkout; uncovered cities get an honest fallback, not a fake list | live `/free-check`, `free-check.js`, `replies-variant-a-1.md`, `pricing.html` |
 | HM-16 | 0 | muse | Pricing page + checkout-path clarity | A first-time reader can tell free check vs $19 report apart; primary CTA destination is obvious; form contract unchanged | `pricing.html`, `/#check`, `faq.html`, `replies-variant-a-1.md` |
 | HM-17 | 0 | muse | Reply-to-report fulfilment path (`ref=reply`) | Reply 1 and Reply 2 URLs still work; a `ref=reply` visitor can go from free result or audit to $19 checkout with truthful copy | `replies-variant-a-1.md`, `/free-check`, `/pricing`, `/free-seo-audit` |
 | HM-18 | 1 | muse | Money-path CTAs on existing guides and industry pages | Priority dental/chiro/med-spa/home-service guides each have a truthful CTA to `/free-check` and/or `/pricing`; zero new 404s | existing `/guides/` and `/ai-visibility/` pages, sitemap |
 | HM-19 | 1 | muse | Technical SEO leftovers from HM-06 (indexation, speed, durability) | Each HM-06 §8 leftover is fixed or re-stated with evidence; money pages stay indexable and in the sitemap | `ops/replies/HM-06.md` §8, sitemap, live money pages |
 | HM-10 | 1 | both | First weekly retro | Each lane updates its playbook, logs 1 experiment with a kill/keep rule, and adds one process-change line | `METRICS.md`, this board, playbooks, sent-log |
 
-
-### HM-15 — Free-check result → $19 report conversion
-- id: HM-15
-- status: next
-- pri: 0
-- lane: muse
-- blocked_on: none
-- owner: none
-- branch: muse-hm-15
-- success: After a successful free check, a visitor can reach the existing $19 checkout in one obvious click. Fields `name` and `city`, URL prefill, data-testids, and the checkout form contract stay unchanged. Uncovered cities (e.g. Keller, Grapevine) get an honest fallback, not a fabricated list. New cities may be added only when a dated snapshot already exists in `data/ai-answers.json`.
-- inputs: https://prisqo.vilouraai.com/free-check; free-check.html; free-check.js; ops/marketing/replies-variant-a-1.md; pricing.html; ops/board/MUSE-PACK.md
-- output: site PR + ops/replies/HM-15.md
-- notes: Highest-revenue Muse item. Variant A "yes" replies land on pre-filled /free-check links. Paste-ready brief in ops/board/MUSE-PACK.md. Do not restyle LP-2. Do not deploy. Do not touch engine or Stripe.
 
 ### HM-16 — Pricing page + checkout-path clarity
 - id: HM-16
@@ -104,6 +90,20 @@ Updated: 2026-11-23 20:15 America/Chicago (Kiwi: HM-06 moved to Done (PR #51). M
 
 | ID | Pri | Lane | Title | Success metric | Inputs |
 |----|-----|------|-------|----------------|--------|
+| HM-15 | 0 | muse | Free-check result → $19 report conversion | After a successful free check, one obvious click reaches the existing $19 checkout; uncovered cities get an honest fallback, not a fake list | live `/free-check`, `free-check.js`, `replies-variant-a-1.md`, `pricing.html` |
+
+### HM-15 — Free-check result → $19 report conversion
+- id: HM-15
+- status: doing
+- pri: 0
+- lane: muse
+- blocked_on: none
+- owner: muse
+- branch: muse-hm-15
+- success: After a successful free check, a visitor can reach the existing $19 checkout in one obvious click. Fields `name` and `city`, URL prefill, data-testids, and the checkout form contract stay unchanged. Uncovered cities (e.g. Keller, Grapevine) get an honest fallback, not a fabricated list. New cities may be added only when a dated snapshot already exists in `data/ai-answers.json`.
+- inputs: https://prisqo.vilouraai.com/free-check; free-check.html; free-check.js; ops/marketing/replies-variant-a-1.md; pricing.html; ops/board/MUSE-PACK.md
+- output: site PR + ops/replies/HM-15.md
+- notes: Highest-revenue Muse item. Variant A "yes" replies land on pre-filled /free-check links. Paste-ready brief in ops/board/MUSE-PACK.md. Do not restyle LP-2. Do not deploy. Do not touch engine or Stripe.
 
 ## Blocked
 

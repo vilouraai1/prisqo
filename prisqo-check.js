@@ -450,6 +450,19 @@
     wireChecklistCapture();
     var form = document.querySelector("[data-static-check-form=\"check\"]") || document.querySelector("form");
     if (!form) return;
+    /* Prefill the checkout from a free-check result (?category=&city=&name=).
+       Only fills fields the visitor has not already typed in. Form ids,
+       names, action="#" and method="post" are unchanged. */
+    (function prefillCheckoutFromQuery() {
+      var q = new URLSearchParams(window.location.search);
+      var map = { category: "category", city: "city", name: "brand" };
+      Object.keys(map).forEach(function (key) {
+        var v = q.get(key);
+        if (!v) return;
+        var el = form.querySelector("#" + map[key]);
+        if (el && !el.value) el.value = v;
+      });
+    })();
     form.querySelectorAll("input, button, select, textarea").forEach(function (el) {
       el.disabled = false;
     });
