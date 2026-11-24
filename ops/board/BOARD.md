@@ -6,7 +6,7 @@ WIP limit: 1 Doing item per lane. Agents never send, post, call, spend, or touch
 
 How to pick: from `## Next`, first table row whose `Lane` is yours (or `both`), whose details `blocked_on` is `none`, and who has nothing already in `## Doing`. Claim by moving the row + details block into `## Doing` in the same work PR. Items with `blocked_on` other than `none` belong in `## Blocked`, not here.
 
-Updated: 2026-11-23 20:15 America/Chicago (Kiwi: HM-06 moved to Done (PR #51). Muse pack added HM-15–HM-19 to Next; briefs in ops/board/MUSE-PACK.md. Hark HM-10 half already merged in #58; HM-14 stays Blocked.)
+Updated: 2026-11-23 20:15 America/Chicago (Kiwi: HM-06 moved to Done (PR #51). Muse pack added HM-15–HM-19 to Next; briefs in ops/board/MUSE-PACK.md. Hark HM-10 half already merged in #58; HM-14 stays Blocked.) Hark 2026-11-23: HM-20 (verified, personalized first emails, top priority from Jilsha) done on branch hark-hm-20; unsent.
 
 ## Next
 
@@ -199,6 +199,7 @@ Updated: 2026-11-23 20:15 America/Chicago (Kiwi: HM-06 moved to Done (PR #51). M
 | ID | Pri | Lane | Title | Success metric | Inputs |
 |----|-----|------|-------|----------------|--------|
 | HM-06 | 0 | muse | Conversion + in-flight SEO QA | Live `/free-check` and $19 checkout still work; muse-seo-3 and footer/dead-link work merged or given a precise leftover list; no engine/Stripe changes | `origin/muse-seo-3`, `origin/muse-footer-fix`, live prisqo.vilouraai.com |
+| HM-20 | 0 | hark | Verified, personalized first emails | Every lead in ops/leads/ + HM-11 #6–15: email confirmed on own site (source URL), owner name + one real detail with source URL, unverified left out; 25–45 word Variant A drafts opening with the detail; unsent | `ops/leads/variant-a-2.csv` (PR #60), `drafts-variant-a-1.md`, `data/ai-answers.json`, `do-not-email.md` |
 | HM-13 | 0 | hark | Leads-7 single follow-up in Variant A form | 9 unsent follow-ups (delivered 11-19 cohort, minus bounce), dated AI source, send plan Mon 2026-11-23, read 2026-11-30 | `sent-log.md` Leads-7, `leads-7.csv`, `data/ai-answers.json`, `reply-autopsy.md`, `do-not-email.md` |
 | HM-12 | 0 | hark | Variant A reply kit (turn "yes" replies into free checks and $19 reports) | Paste-ready Reply 1 for all 15 HM-11 leads + shared replies (who are you / price / call / no); unsent | `drafts-variant-a-1.md`, `data/ai-answers.json`, `pricing.html`, `free-check.js` |
 | HM-08 | 1 | hark | Package 3 community posts from PR #48 for Jilsha | 3 ready-to-post items with community, rules check dated, and a paste body; agents do not post | `ops/marketing/community-posts-2.md` |
@@ -307,3 +308,18 @@ Updated: 2026-11-23 20:15 America/Chicago (Kiwi: HM-06 moved to Done (PR #51). M
 - output: ops/marketing/followups-7.md; ops/replies/HM-13.md
 - notes: Added by Hark 2026-11-21 at Jilsha's request. The highest-revenue Hark step left that isn't a new cold batch. Autopsy says judge leads-7 "together with its single follow-up". Read first-email replies 2026-11-26, follow-up replies through 2026-11-30.
 - done: PR #56 merged 2026-11-21.
+
+### HM-20 — Verified, personalized first emails
+- id: HM-20
+- status: done
+- pri: 0
+- lane: hark
+- blocked_on: none (sending is Jilsha's)
+- owner: hark
+- branch: hark-hm-20
+- success: For all 30 leads in ops/leads/variant-a-2.csv and the 10 unsent HM-11 leads (#6–15), the email is confirmed on a public page with a source URL, or marked UNVERIFIED and left out. Owner name with source when public. One real detail with source URL. Rewritten first email: 25–45 words, opens with the detail, no link, no price, one question, opt-out line, footer. Nothing sent.
+- inputs: ops/leads/variant-a-2.csv (PR #60); ops/marketing/drafts-variant-a-1.md; data/ai-answers.json; ops/marketing/do-not-email.md
+- output: ops/leads/verified-leads-2026-11-24.csv; ops/marketing/HM-20-personalized-drafts.md; ops/replies/HM-20.md
+- notes: Added by Jilsha 2026-11-23 as top priority ("our emails feel generic and some addresses may not be real"). 39 verified, 1 UNVERIFIED. HM-20 drafts replace HM-11 #6–15; send only one version per contact.
+- done: branch hark-hm-20, 2026-11-23.
+
