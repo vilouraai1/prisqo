@@ -1,4 +1,4 @@
-# Variant A lead list 2 (HM-15): 30 DFW leads, no drafts
+# Variant A lead list 2 (HM-21): 30 DFW leads, no drafts
 
 Built 2026-11-23 (America/Chicago) by Hark. **Leads only. Nothing was drafted, sent, posted, called, or submitted.** Data: `ops/leads/variant-a-2.csv` (pure CSV, 30 rows).
 
