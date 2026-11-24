@@ -6,13 +6,84 @@ WIP limit: 1 Doing item per lane. Agents never send, post, call, spend, or touch
 
 How to pick: from `## Next`, first table row whose `Lane` is yours (or `both`), whose details `blocked_on` is `none`, and who has nothing already in `## Doing`. Claim by moving the row + details block into `## Doing` in the same work PR. Items with `blocked_on` other than `none` belong in `## Blocked`, not here.
 
-Updated: 2026-11-23 20:15 America/Chicago (Hark: HM-10 Hark half done, branch hark-retro-2026-11-23; Muse half still open. HM-14 added to Blocked on Jilsha's sends.)
+Updated: 2026-11-23 20:15 America/Chicago (Kiwi: HM-06 moved to Done (PR #51). Muse pack added HM-15–HM-19 to Next; briefs in ops/board/MUSE-PACK.md. Hark HM-10 half already merged in #58; HM-14 stays Blocked.)
 
 ## Next
 
 | ID | Pri | Lane | Title | Success metric | Inputs |
 |----|-----|------|-------|----------------|--------|
+| HM-15 | 0 | muse | Free-check result → $19 report conversion | After a successful free check, one obvious click reaches the existing $19 checkout; uncovered cities get an honest fallback, not a fake list | live `/free-check`, `free-check.js`, `replies-variant-a-1.md`, `pricing.html` |
+| HM-16 | 0 | muse | Pricing page + checkout-path clarity | A first-time reader can tell free check vs $19 report apart; primary CTA destination is obvious; form contract unchanged | `pricing.html`, `/#check`, `faq.html`, `replies-variant-a-1.md` |
+| HM-17 | 0 | muse | Reply-to-report fulfilment path (`ref=reply`) | Reply 1 and Reply 2 URLs still work; a `ref=reply` visitor can go from free result or audit to $19 checkout with truthful copy | `replies-variant-a-1.md`, `/free-check`, `/pricing`, `/free-seo-audit` |
+| HM-18 | 1 | muse | Money-path CTAs on existing guides and industry pages | Priority dental/chiro/med-spa/home-service guides each have a truthful CTA to `/free-check` and/or `/pricing`; zero new 404s | existing `/guides/` and `/ai-visibility/` pages, sitemap |
+| HM-19 | 1 | muse | Technical SEO leftovers from HM-06 (indexation, speed, durability) | Each HM-06 §8 leftover is fixed or re-stated with evidence; money pages stay indexable and in the sitemap | `ops/replies/HM-06.md` §8, sitemap, live money pages |
 | HM-10 | 1 | both | First weekly retro | Each lane updates its playbook, logs 1 experiment with a kill/keep rule, and adds one process-change line | `METRICS.md`, this board, playbooks, sent-log |
+
+
+### HM-15 — Free-check result → $19 report conversion
+- id: HM-15
+- status: next
+- pri: 0
+- lane: muse
+- blocked_on: none
+- owner: none
+- branch: muse-hm-15
+- success: After a successful free check, a visitor can reach the existing $19 checkout in one obvious click. Fields `name` and `city`, URL prefill, data-testids, and the checkout form contract stay unchanged. Uncovered cities (e.g. Keller, Grapevine) get an honest fallback, not a fabricated list. New cities may be added only when a dated snapshot already exists in `data/ai-answers.json`.
+- inputs: https://prisqo.vilouraai.com/free-check; free-check.html; free-check.js; ops/marketing/replies-variant-a-1.md; pricing.html; ops/board/MUSE-PACK.md
+- output: site PR + ops/replies/HM-15.md
+- notes: Highest-revenue Muse item. Variant A "yes" replies land on pre-filled /free-check links. Paste-ready brief in ops/board/MUSE-PACK.md. Do not restyle LP-2. Do not deploy. Do not touch engine or Stripe.
+
+### HM-16 — Pricing page + checkout-path clarity
+- id: HM-16
+- status: next
+- pri: 0
+- lane: muse
+- blocked_on: none
+- owner: none
+- branch: muse-hm-16
+- success: /pricing still shows only the $19 one-time offer, keeps data-testid="plan-single" and the 14-day refund line, and makes the free-check vs paid-report distinction plus the CTA destination obvious, including for /pricing?ref=reply. Checkout form contract unchanged. No LP-2 restyle.
+- inputs: pricing.html; index.html #check; faq.html; ops/marketing/replies-variant-a-1.md; ops/board/MUSE-PACK.md
+- output: site PR + ops/replies/HM-16.md
+- notes: Reply 2 already points at /pricing?ref=reply. Primary CTA today goes to /#check. Paste-ready brief in MUSE-PACK.md. Do not add a $49 price or a new Stripe product.
+
+### HM-17 — Reply-to-report fulfilment path
+- id: HM-17
+- status: next
+- pri: 0
+- lane: muse
+- blocked_on: none
+- owner: none
+- branch: muse-hm-17
+- success: The exact Reply 1 and Reply 2 URLs in replies-variant-a-1.md still work. A ref=reply visitor can go from the free result (or /free-seo-audit for uncovered cities) to the $19 checkout with truthful copy. Prefer existing URLs; at most one optional /get-report page, added to the sitemap, still using the existing checkout.
+- inputs: ops/marketing/replies-variant-a-1.md; ops/research/reply-autopsy.md §5; free-check.html; free-seo-audit.html; pricing.html; ops/board/MUSE-PACK.md
+- output: site PR + ops/replies/HM-17.md
+- notes: Do not put a hard $19 pitch on the free-check page before the free result is shown (Reply 1 has no price). Do not invent coverage for Keller/Grapevine. Do not deploy.
+
+### HM-18 — Money-path CTAs on existing guides and industry pages
+- id: HM-18
+- status: next
+- pri: 1
+- lane: muse
+- blocked_on: none
+- owner: none
+- branch: muse-hm-18
+- success: Priority dental, chiro, med-spa, and home-service guides/industry pages each have at least one truthful CTA to /free-check and/or /pricing. Zero new 404s, no new pages, no invented stats, existing URLs kept, frozen contracts untouched.
+- inputs: existing /guides/ and /ai-visibility/ pages listed in ops/board/MUSE-PACK.md; sitemap.xml
+- output: site PR + ops/replies/HM-18.md (includes a before/after CTA table)
+- notes: Do not chase generic new-page volume. Do not restyle LP-2. Do not revive the old vilouraai.com/#contact stopgap.
+
+### HM-19 — Technical SEO leftovers from HM-06
+- id: HM-19
+- status: next
+- pri: 1
+- lane: muse
+- blocked_on: none
+- owner: none
+- branch: muse-hm-19
+- success: Each leftover in ops/replies/HM-06.md §8 is either fixed or re-stated with evidence. Money pages stay 200, indexable, in the sitemap, with valid JSON-LD and unchanged frozen contracts. Any performance number has a date, URL, and method.
+- inputs: ops/replies/HM-06.md §8; sitemap.xml; live / , /pricing, /free-check, /faq; ops/board/MUSE-PACK.md
+- output: site PR + ops/replies/HM-19.md
+- notes: Search Console baseline is still the Nov 19, 2026 figure in METRICS (0 indexed / 0 impressions, or unknown if not re-measured). Do not invent traffic or CWV. Do not print keys or replace CF_BEACON_TOKEN with a guessed value. Do not touch the engine or Stripe. Do not deploy.
 
 ### HM-10 — First weekly retro
 - id: HM-10
@@ -27,27 +98,12 @@ Updated: 2026-11-23 20:15 America/Chicago (Hark: HM-10 Hark half done, branch ha
 - output: playbook diffs + new experiment board items + METRICS experiment rows
 - hark_half: done 2026-11-23, branch hark-retro-2026-11-23 (playbook retro section, EXP-H1, HM-14, process line). ops/replies/HM-10.md.
 - muse_half: open (muse-retro-YYYY-MM-DD).
-- notes: Run Monday after weekly housekeeping, or the Monday after the missed-call test week. Include kill/keep on the old cold-email formula and on the $49 missed-call test if result emails have been sent. Do not skip Pri-0 work to start the retro early.
+- notes: Run Monday after weekly housekeeping, or the Monday after the missed-call test week. Include kill/keep on the old cold-email formula and on the $49 missed-call test if result emails have been sent. Do not skip Pri-0 work to start the retro early. Muse paste-ready brief is in ops/board/MUSE-PACK.md (Brief 6). Hark half merged in PR #58; Muse half still open on branch muse-retro-2026-11-23.
 
 ## Doing
 
 | ID | Pri | Lane | Title | Success metric | Inputs |
 |----|-----|------|-------|----------------|--------|
-| HM-06 | 0 | muse | Conversion + in-flight SEO QA | Live `/free-check` and $19 checkout still work; muse-seo-3 and footer/dead-link work merged or given a precise leftover list; no engine/Stripe changes | `origin/muse-seo-3`, `origin/muse-footer-fix`, live prisqo.vilouraai.com |
-
-### HM-06 — Conversion + in-flight SEO QA
-- id: HM-06
-- status: doing
-- pri: 0
-- lane: muse
-- blocked_on: none
-- owner: muse
-- branch: muse-hm-06 (rebased from muse-seo-3; PR #45 superseded, unmergeable add/add on BOARD.md)
-- success: Money path works live (free-check name/city, $19 checkout form contract, no dead money-page links). In-flight muse-seo-3 is ready or the leftover is written. CSP/stylesheet regressions from muse-seo-2 do not return.
-- inputs: origin/muse-seo-3; origin/muse-footer-fix; ops/tasks/muse-seo-3.md; ops/replies/muse-seo-2.md; live site
-- output: PR(s) + ops/replies/HM-06.md
-- notes: Unblocked now so Muse is not idle while the missed-call page waits on approval. Do not restyle LP-2. Do not deploy yourself. If muse-seo-3 is already merged when this starts, do live QA and only fix real breakage.
-
 
 ## Blocked
 
@@ -84,7 +140,7 @@ Updated: 2026-11-23 20:15 America/Chicago (Hark: HM-10 Hark half done, branch ha
 - success: Page shipped on the site Jilsha names (prisqo.vilouraai.com or vilouraai.com), using missed-call-landing-copy.md only. No invented stats, no ranking/lead promises. Existing /free-check and $19 checkout contracts unchanged. CTA is mailto:vilouraai@gmail.com or an existing form unless she separately approves a $49 Stripe price (do not create that price).
 - inputs: missed-call-landing-copy.md; ops/playbooks/muse.md; live LP-2 homepage contracts
 - output: the new page, sitemap/llms/nav as needed, ops/replies/HM-03.md
-- notes: Do not build until blocked_on is none. Do not touch prisqo-report-engine or Stripe.
+- notes: Do not build until blocked_on is none. Do not touch prisqo-report-engine or Stripe. Paste-ready brief is in ops/board/MUSE-PACK.md (Brief 7). As of 2026-11-23 8 PM CT there was no muse-hm-03 branch or missed-call-check PR on GitHub; the copy still lived at /workspace/missed-call/missed-call-landing-copy.md, not yet under ops/marketing/. Jilsha must name the site (prisqo.vilouraai.com or vilouraai.com) before this moves to Next.
 
 ### HM-04 — Personalized free-result + $49 offer drafts
 - id: HM-04
@@ -142,12 +198,28 @@ Updated: 2026-11-23 20:15 America/Chicago (Hark: HM-10 Hark half done, branch ha
 
 | ID | Pri | Lane | Title | Success metric | Inputs |
 |----|-----|------|-------|----------------|--------|
+| HM-06 | 0 | muse | Conversion + in-flight SEO QA | Live `/free-check` and $19 checkout still work; muse-seo-3 and footer/dead-link work merged or given a precise leftover list; no engine/Stripe changes | `origin/muse-seo-3`, `origin/muse-footer-fix`, live prisqo.vilouraai.com |
 | HM-13 | 0 | hark | Leads-7 single follow-up in Variant A form | 9 unsent follow-ups (delivered 11-19 cohort, minus bounce), dated AI source, send plan Mon 2026-11-23, read 2026-11-30 | `sent-log.md` Leads-7, `leads-7.csv`, `data/ai-answers.json`, `reply-autopsy.md`, `do-not-email.md` |
 | HM-12 | 0 | hark | Variant A reply kit (turn "yes" replies into free checks and $19 reports) | Paste-ready Reply 1 for all 15 HM-11 leads + shared replies (who are you / price / call / no); unsent | `drafts-variant-a-1.md`, `data/ai-answers.json`, `pricing.html`, `free-check.js` |
 | HM-08 | 1 | hark | Package 3 community posts from PR #48 for Jilsha | 3 ready-to-post items with community, rules check dated, and a paste body; agents do not post | `ops/marketing/community-posts-2.md` |
 | HM-11 | 0 | hark | 15 Variant A first-email drafts (DFW dental/chiro/med spa/home service) | 15 unsent drafts, own-site email source URL + date, dated AI source; playbook edit proposed | `ops/research/reply-autopsy.md`, `data/ai-answers.json`, lead CSVs, sent-log, do-not-email |
 | HM-09 | 1 | hark | Bounce and list hygiene | Bounced addresses tagged do-not-email; any replacement is from the business's own site with a source URL | `ops/marketing/sent-log.md`, lead CSVs |
 | HM-01 | 0 | hark | Reply-rate autopsy + 2 first-email variants | A written kill/keep on the current cold formula, plus 2 testable variants (one recommended) | `ops/marketing/sent-log.md`, drafts, followups, `ops/playbooks/hark.md` |
+
+### HM-06 — Conversion + in-flight SEO QA
+- id: HM-06
+- status: done
+- pri: 0
+- lane: muse
+- blocked_on: none
+- owner: muse
+- branch: muse-hm-06 (rebased from muse-seo-3; PR #45 superseded)
+- success: Money path works live (free-check name/city, $19 checkout form contract, no dead money-page links). In-flight muse-seo-3 is ready or the leftover is written. CSP/stylesheet regressions from muse-seo-2 do not return.
+- inputs: origin/muse-seo-3; origin/muse-footer-fix; ops/tasks/muse-seo-3.md; ops/replies/muse-seo-2.md; live site
+- output: PR(s) + ops/replies/HM-06.md
+- notes: Leftovers in ops/replies/HM-06.md §8 are now HM-19. Board row was still in Doing after the merge; Kiwi moved it to Done on 2026-11-23 with the Muse pack.
+
+- done: PR #51 merged 2026-11-21 (4bfc901). Live money path QA passed; footer stopgap retired in favor of vilouraai.com/pricing; Codex FAIL items on the DFW study page fixed.
 
 ### HM-01 — Reply-rate autopsy + 2 first-email variants
 - id: HM-01
