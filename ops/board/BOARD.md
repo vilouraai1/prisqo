@@ -6,7 +6,7 @@ WIP limit: 1 Doing item per lane. Agents never send, post, call, spend, or touch
 
 How to pick: from `## Next`, first table row whose `Lane` is yours (or `both`), whose details `blocked_on` is `none`, and who has nothing already in `## Doing`. Claim by moving the row + details block into `## Doing` in the same work PR. Items with `blocked_on` other than `none` belong in `## Blocked`, not here.
 
-Updated: 2026-11-21 16:45 America/Chicago (Hark: HM-13 merged #56. No eligible Hark item; next revenue step is Jilsha sending HM-11/HM-13 drafts Mon 2026-11-23.)
+Updated: 2026-11-23 20:15 America/Chicago (Hark: HM-10 Hark half done, branch hark-retro-2026-11-23; Muse half still open. HM-14 added to Blocked on Jilsha's sends.)
 
 ## Next
 
@@ -25,6 +25,8 @@ Updated: 2026-11-21 16:45 America/Chicago (Hark: HM-13 merged #56. No eligible H
 - success: Each lane edits only its playbook, proposes exactly one experiment (hypothesis, one change, metric, threshold, 7-day window, kill/keep), adds one process-change line, and appends a row to METRICS Experiments. Hard rules stay untouched.
 - inputs: ops/board/METRICS.md; ops/board/BOARD.md; ops/playbooks/hark.md; ops/playbooks/muse.md; ops/marketing/sent-log.md
 - output: playbook diffs + new experiment board items + METRICS experiment rows
+- hark_half: done 2026-11-23, branch hark-retro-2026-11-23 (playbook retro section, EXP-H1, HM-14, process line). ops/replies/HM-10.md.
+- muse_half: open (muse-retro-YYYY-MM-DD).
 - notes: Run Monday after weekly housekeeping, or the Monday after the missed-call test week. Include kill/keep on the old cold-email formula and on the $49 missed-call test if result emails have been sent. Do not skip Pri-0 work to start the retro early.
 
 ## Doing
@@ -56,6 +58,7 @@ Updated: 2026-11-21 16:45 America/Chicago (Hark: HM-13 merged #56. No eligible H
 | HM-04 | 0 | hark | Personalized free-result + $49 offer drafts | One draft per practice with a usable email and a completed call log; real outcomes only | call log; `followup-template.md`; sent-log |
 | HM-05 | 0 | hark | 10–20 first emails in the winning HM-01 variant | Threshold set in HM-01 (default: at least 2 replies from the next 20 sent emails, measured 7 days after the last send) | HM-01 reply file; playbook; sent-log |
 | HM-07 | 1 | muse | SEO for the missed-call page | Page in sitemap; Offer schema only if $49 is an approved on-page price; internal links from relevant guides; zero new 404s | HM-03 pages |
+| HM-14 | 0 | hark | EXP-H1 read-out: Variant A batch 1 kill/keep | Kill/keep written for the 15 HM-11 sends at 7 days after the last send, using EXP-H1's threshold | sent-log, `drafts-variant-a-1.md`, METRICS EXP-H1 |
 
 ### HM-02 — 30-practice disclosed test calls + log
 - id: HM-02
@@ -121,6 +124,19 @@ Updated: 2026-11-21 16:45 America/Chicago (Hark: HM-13 merged #56. No eligible H
 - inputs: the merged HM-03 page; ops/playbooks/muse.md
 - output: site PR + ops/replies/HM-07.md
 - notes: Start only after HM-03 is merged. Offer schema may state $49 only as an on-page one-time fee, not as a live Stripe product, unless Jilsha has approved Stripe.
+
+### HM-14 — EXP-H1 read-out: Variant A batch 1 kill/keep
+- id: HM-14
+- status: blocked
+- pri: 0
+- lane: hark
+- blocked_on: jilsha-send
+- owner: none
+- branch: hark-hm-14
+- success: Count human replies (and separately auto-replies/bounces) for the 15 HM-11 Variant A emails, 7 days after the last logged send. Keep at ≥2, kill at 0, 1 = send 10 more then decide. Update METRICS EXP-H1 Result + Keep/Kill and ops/playbooks/hark.md defaults.
+- inputs: ops/marketing/sent-log.md (dated "sent" lines); ops/marketing/drafts-variant-a-1.md; ops/board/METRICS.md EXP-H1; Jilsha's reply report
+- output: METRICS + playbook edit; ops/replies/HM-14.md
+- notes: Added by Hark in the HM-10 retro 2026-11-23. Unblocks when sent-log shows all 15 sent (or Jilsha says the batch is done) and 7 days have passed. Counts come from sent-log and Jilsha only; never guess a reply.
 
 ## Done
 
