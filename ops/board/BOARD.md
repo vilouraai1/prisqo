@@ -6,7 +6,7 @@ WIP limit: 1 Doing item per lane. Agents never send, post, call, spend, or touch
 
 How to pick: from `## Next`, first table row whose `Lane` is yours (or `both`), whose details `blocked_on` is `none`, and who has nothing already in `## Doing`. Claim by moving the row + details block into `## Doing` in the same work PR. Items with `blocked_on` other than `none` belong in `## Blocked`, not here.
 
-Updated: 2026-11-23 20:15 America/Chicago (Hark: HM-10 Hark half done, branch hark-retro-2026-11-23; Muse half still open. HM-14 added to Blocked on Jilsha's sends.)
+Updated: 2026-11-23 20:40 America/Chicago (Hark: HM-10 Hark half merged #58; Muse half open. HM-15 added and done on branch hark-hm-15: 30-lead Variant A list, no drafts.)
 
 ## Next
 
@@ -25,7 +25,7 @@ Updated: 2026-11-23 20:15 America/Chicago (Hark: HM-10 Hark half done, branch ha
 - success: Each lane edits only its playbook, proposes exactly one experiment (hypothesis, one change, metric, threshold, 7-day window, kill/keep), adds one process-change line, and appends a row to METRICS Experiments. Hard rules stay untouched.
 - inputs: ops/board/METRICS.md; ops/board/BOARD.md; ops/playbooks/hark.md; ops/playbooks/muse.md; ops/marketing/sent-log.md
 - output: playbook diffs + new experiment board items + METRICS experiment rows
-- hark_half: done 2026-11-23, branch hark-retro-2026-11-23 (playbook retro section, EXP-H1, HM-14, process line). ops/replies/HM-10.md.
+- hark_half: done, PR #58 merged 2026-11-23, branch hark-retro-2026-11-23 (playbook retro section, EXP-H1, HM-14, process line). ops/replies/HM-10.md.
 - muse_half: open (muse-retro-YYYY-MM-DD).
 - notes: Run Monday after weekly housekeeping, or the Monday after the missed-call test week. Include kill/keep on the old cold-email formula and on the $49 missed-call test if result emails have been sent. Do not skip Pri-0 work to start the retro early.
 
@@ -142,6 +142,7 @@ Updated: 2026-11-23 20:15 America/Chicago (Hark: HM-10 Hark half done, branch ha
 
 | ID | Pri | Lane | Title | Success metric | Inputs |
 |----|-----|------|-------|----------------|--------|
+| HM-15 | 1 | hark | 30-lead Variant A list 2 (Lewisville, Flower Mound, Carrollton, Frisco) | 30 leads not in any ops/ file, own-site email + source URL dated 2026-11-23, dated Gemini answer that doesn't name them; no drafts | `data/ai-answers.json`, all `ops/` lead/sent files, `do-not-email.md` |
 | HM-13 | 0 | hark | Leads-7 single follow-up in Variant A form | 9 unsent follow-ups (delivered 11-19 cohort, minus bounce), dated AI source, send plan Mon 2026-11-23, read 2026-11-30 | `sent-log.md` Leads-7, `leads-7.csv`, `data/ai-answers.json`, `reply-autopsy.md`, `do-not-email.md` |
 | HM-12 | 0 | hark | Variant A reply kit (turn "yes" replies into free checks and $19 reports) | Paste-ready Reply 1 for all 15 HM-11 leads + shared replies (who are you / price / call / no); unsent | `drafts-variant-a-1.md`, `data/ai-answers.json`, `pricing.html`, `free-check.js` |
 | HM-08 | 1 | hark | Package 3 community posts from PR #48 for Jilsha | 3 ready-to-post items with community, rules check dated, and a paste body; agents do not post | `ops/marketing/community-posts-2.md` |
@@ -235,3 +236,18 @@ Updated: 2026-11-23 20:15 America/Chicago (Hark: HM-10 Hark half done, branch ha
 - output: ops/marketing/followups-7.md; ops/replies/HM-13.md
 - notes: Added by Hark 2026-11-21 at Jilsha's request. The highest-revenue Hark step left that isn't a new cold batch. Autopsy says judge leads-7 "together with its single follow-up". Read first-email replies 2026-11-26, follow-up replies through 2026-11-30.
 - done: PR #56 merged 2026-11-21.
+
+### HM-15 — 30-lead Variant A list 2
+- id: HM-15
+- status: done
+- pri: 1
+- lane: hark
+- blocked_on: none
+- owner: hark
+- branch: hark-hm-15
+- success: 30 new DFW leads (dentist / chiro / med spa / HVAC / plumber in Lewisville, Flower Mound, Carrollton, Frisco). Each has an email read on its own site with a source URL dated 2026-11-23, and a dated Gemini answer in data/ai-answers.json naming 3+ businesses but not this one. None in sent-log, earlier lead files, CRM, drafts, or do-not-email. No drafts.
+- inputs: data/ai-answers.json; ops/ (all files, for exclusion); ops/marketing/do-not-email.md; ops/playbooks/hark.md Variant A rule
+- output: ops/leads/variant-a-2.csv; ops/leads/variant-a-2.md; ops/replies/HM-15.md
+- notes: Added by Hark 2026-11-23 under playbook pick-rule step 5. Jilsha's ask: "If none is left, add the next highest-revenue Hark item to BOARD.md yourself (no generic cold batch; follow ops/research/reply-autopsy.md) and do it." Lead list only, so nothing new is queued unsent. It feeds the next Variant A batch after EXP-H1 reads out.
+- done: branch hark-hm-15, 2026-11-23.
+
