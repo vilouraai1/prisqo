@@ -11,7 +11,7 @@ No eligible Hark item was left after HM-23. Ten local businesses got an old-form
 - Truthful about the earlier email: three of them (Hush, Burnside, Denton Smiles) were told on Nov 11 that another AI named them. The drafts keep that straight: Hush is named by Gemini too; Burnside and Denton Smiles were not.
 - Left out: the 4 agencies in `followups-1.md` (Fast Hippo, GMP, Thinkit, Aspiro). The autopsy killed the agency resale pitch and Variant A doesn't fit agencies. DigitalZeon and Lewisville Chiropractic Center bounced (do-not-email).
 - Delivery (HM-22): all 10 domains already accepted our first emails with no bounce. Check Inbox, Spam and All Mail first, and skip anyone who replied or said no.
-- Send plan: at most 5 a day, 8–10 AM Central. HM-23 already uses Mon 2026-11-30 (5) and Tue 2026-12-01 (2). So send #1–3 on **Tue 2026-12-01** and #4–8 on **Wed 2026-12-02**, then #9–10 on **Thu 2026-12-03**.
+- Send plan: **moved by HM-26 (2026-11-25): use `send-calendar-hm-26.md`** (#1–3 Fri 2026-12-04, #4–8 Mon 2026-12-07, #9–10 Tue 2026-12-08). Old plan: at most 5 a day, 8–10 AM Central. HM-23 already uses Mon 2026-11-30 (5) and Tue 2026-12-01 (2). So send #1–3 on **Tue 2026-12-01** and #4–8 on **Wed 2026-12-02**, then #9–10 on **Thu 2026-12-03**.
 - Log each in `sent-log.md` as "follow-up sent <date>" only after sending. Until then: "follow-up drafted 2026-11-25".
 
 ---
