@@ -1,16 +1,19 @@
 # Do not email
 
-Updated 2026-11-21 (America/Chicago). Never draft, send, or follow up to an address on this list. Check it before every batch. Anyone can add a row. Remove one only when Jilsha says so.
+Updated 2026-11-25 (America/Chicago). Never draft, send, or follow up to an address on this list. Check it before every batch. Anyone can add a row. Remove one only when Jilsha says so.
 
 | Address | Business | Why | Date (CST) | Evidence |
 |---|---|---|---|---|
 | contact@digitalzeon.com | DigitalZeon (Plano agency) | Delivery failed (Gmail: message not delivered) | 2026-11-14 3:04 PM | `sent-log.md`, Agencies section |
 | office@drkareed.com | Lewisville Chiropractic Center | Bounced (address not found) | 2026-11-13 | `sent-log.md`, CRM section |
 | info@fusionchiropracticspa.com | Fusion Chiropractic Spa (Frisco) | Bounced (address not found) | 2026-11-19 | `sent-log.md`, Leads-7 section |
+| smile@hillcrestdentaltx.com | HillCrest Dental (Lewisville) | Rejected, Gmail 5.7.1 "Message blocked / Message rejected" (policy block; no re-send or follow-up unless Jilsha decides after reading the bounce text) | 2026-11-24 9:40 AM | `sent-log.md`, HM-20 section; `ops/research/deliverability-hm-22.md` |
+| info@castlelakedental.com | Castle Lake Dental (Lewisville) | Rejected, Gmail 5.7.1 "Message blocked / Message rejected" (policy block; no re-send or follow-up unless Jilsha decides after reading the bounce text) | 2026-11-24 9:40 AM | `sent-log.md`, HM-20 section; `ops/research/deliverability-hm-22.md` |
+| info@hillsidedentaltx.com | Hillside Dental (Lewisville) | Rejected, Gmail 5.7.1 "Message blocked / Message rejected" (policy block; no re-send or follow-up unless Jilsha decides after reading the bounce text) | 2026-11-24 9:40 AM | `sent-log.md`, HM-20 section; `ops/research/deliverability-hm-22.md` |
 
 ## Replacements
 
-None. No other address for these three businesses has been found on their own sites, and none was invented. If one turns up later, add it in a new row in a separate "Replacement candidates" table with its source URL and check date. Don't send to it until Jilsha approves.
+None. No other address for these businesses has been found on their own sites, and none was invented. If one turns up later, add it in a new row in a separate "Replacement candidates" table with its source URL and check date. Don't send to it until Jilsha approves.
 
 ## Where each one is marked
 

@@ -6,7 +6,7 @@ WIP limit: 1 Doing item per lane. Agents never send, post, call, spend, or touch
 
 How to pick: from `## Next`, first table row whose `Lane` is yours (or `both`), whose details `blocked_on` is `none`, and who has nothing already in `## Doing`. Claim by moving the row + details block into `## Doing` in the same work PR. Items with `blocked_on` other than `none` belong in `## Blocked`, not here.
 
-Updated: 2026-11-23 20:15 America/Chicago (Kiwi: HM-06 moved to Done (PR #51). Muse pack added HM-15–HM-19 to Next; briefs in ops/board/MUSE-PACK.md. Hark HM-10 half already merged in #58; HM-14 stays Blocked.) Hark 2026-11-23: HM-21 (30-lead Variant A list 2, was numbered HM-15 on branch hark-hm-15 before the Muse pack took HM-15–19) added as Done; no drafts. Hark 2026-11-25: HM-20 (PR #61) rebased on main after #60 and #62; 5 of 39 drafts sent by Jilsha 2026-11-24, 34 unsent.
+Updated: 2026-11-23 20:15 America/Chicago (Kiwi: HM-06 moved to Done (PR #51). Muse pack added HM-15–HM-19 to Next; briefs in ops/board/MUSE-PACK.md. Hark HM-10 half already merged in #58; HM-14 stays Blocked.) Hark 2026-11-23: HM-21 (30-lead Variant A list 2, was numbered HM-15 on branch hark-hm-15 before the Muse pack took HM-15–19) added as Done; no drafts. Hark 2026-11-25: HM-20 (PR #61) rebased on main after #60 and #62; 5 of 39 drafts sent by Jilsha 2026-11-24, 34 unsent. Hark 2026-11-25: HM-20 marked merged (#61). No eligible Hark item left in Next (HM-10 Hark half done in #58), so Hark added HM-22 (deliverability triage after the 3 Gmail 5.7.1 rejects) under pick-rule step 5 and did it; Done.
 
 ## Next
 
@@ -199,6 +199,7 @@ Updated: 2026-11-23 20:15 America/Chicago (Kiwi: HM-06 moved to Done (PR #51). M
 | ID | Pri | Lane | Title | Success metric | Inputs |
 |----|-----|------|-------|----------------|--------|
 | HM-06 | 0 | muse | Conversion + in-flight SEO QA | Live `/free-check` and $19 checkout still work; muse-seo-3 and footer/dead-link work merged or given a precise leftover list; no engine/Stripe changes | `origin/muse-seo-3`, `origin/muse-footer-fix`, live prisqo.vilouraai.com |
+| HM-22 | 0 | hark | Deliverability triage after Gmail 5.7.1 rejects | All 39 HM-20 addresses have a dated MX/provider check; 34 unsent drafts get a send order with risky ones held; the 3 rejects are on do-not-email; Jilsha has a 5-minute bounce-text check; nothing sent | `sent-log.md`, `verified-leads-2026-11-24.csv`, `HM-20-personalized-drafts.md`, `reply-autopsy.md` §3.9, DNS |
 | HM-20 | 0 | hark | Verified, personalized first emails | Every lead in ops/leads/ + HM-11 #6–15: email confirmed on own site (source URL), owner name + one real detail with source URL, unverified left out; 25–45 word Variant A drafts opening with the detail; unsent | `ops/leads/variant-a-2.csv` (PR #60), `drafts-variant-a-1.md`, `data/ai-answers.json`, `do-not-email.md` |
 | HM-21 | 1 | hark | 30-lead Variant A list 2 (Lewisville, Flower Mound, Carrollton, Frisco) | 30 leads not in any ops/ file, own-site email + source URL dated 2026-11-23, dated Gemini answer that doesn't name them; no drafts | `data/ai-answers.json`, all `ops/` lead/sent files, `do-not-email.md` |
 | HM-13 | 0 | hark | Leads-7 single follow-up in Variant A form | 9 unsent follow-ups (delivered 11-19 cohort, minus bounce), dated AI source, send plan Mon 2026-11-23, read 2026-11-30 | `sent-log.md` Leads-7, `leads-7.csv`, `data/ai-answers.json`, `reply-autopsy.md`, `do-not-email.md` |
@@ -324,6 +325,20 @@ Updated: 2026-11-23 20:15 America/Chicago (Kiwi: HM-06 moved to Done (PR #51). M
 - notes: Added by Hark 2026-11-23 under playbook pick-rule step 5 at Jilsha's request (no generic cold batch). Lead list only. Feeds HM-20 and the next Variant A batch after EXP-H1 reads out.
 - done: PR #60, 2026-11-23.
 
+### HM-22 — Deliverability triage after Gmail 5.7.1 rejects
+- id: HM-22
+- status: done
+- pri: 0
+- lane: hark
+- blocked_on: none (sending and reading the bounce text are Jilsha's)
+- owner: hark
+- branch: hark-hm-22
+- success: Every HM-20 address has its mail provider looked up (DNS MX, dated 2026-11-25). The 34 unsent drafts are put in a send order: lowest risk first, risky filters and no-MX domains held. The 3 rejects go on do-not-email. Jilsha gets one free check (bounce "Technical details") that tells recipient policy from a sending-account problem. Drafts unchanged; nothing sent; no generic batch.
+- inputs: ops/marketing/sent-log.md (HM-20 section); ops/leads/verified-leads-2026-11-24.csv; ops/marketing/HM-20-personalized-drafts.md; ops/research/reply-autopsy.md §3.9 and §6; public DNS
+- output: ops/research/deliverability-hm-22.md; ops/leads/hm-22-mx-check-2026-11-25.csv; ops/marketing/do-not-email.md rows; ops/replies/HM-22.md
+- notes: Added by Hark 2026-11-25 under pick-rule step 5 at Jilsha's request (no eligible Hark item left). Highest revenue lever now: 3 of 5 HM-20 sends were rejected, and the 34 remaining drafts are the best leads we have. Result: 15 send first (Google Workspace), 9 second (Microsoft 365), 9 held (other filters), 1 held (Tex Plumbing, no MX).
+- done: branch hark-hm-22, 2026-11-25.
+
 ### HM-20 — Verified, personalized first emails
 - id: HM-20
 - status: done
@@ -336,6 +351,6 @@ Updated: 2026-11-23 20:15 America/Chicago (Kiwi: HM-06 moved to Done (PR #51). M
 - inputs: ops/leads/variant-a-2.csv (PR #60); ops/marketing/drafts-variant-a-1.md; data/ai-answers.json; ops/marketing/do-not-email.md
 - output: ops/leads/verified-leads-2026-11-24.csv; ops/marketing/HM-20-personalized-drafts.md; ops/replies/HM-20.md
 - notes: Added by Jilsha 2026-11-23 as top priority ("our emails feel generic and some addresses may not be real"). 39 verified, 1 UNVERIFIED. HM-20 drafts replace HM-11 #6–15; send only one version per contact.
-- done: branch hark-hm-20, PR #61, 2026-11-23.
+- done: PR #61 merged 2026-11-25 (0499c82).
 - update 2026-11-25: Jilsha sent the first 5 drafts on 2026-11-24 ~9:39 AM CT from vilouraai@gmail.com. Gmail rejected 3 (HillCrest Dental, Castle Lake Dental, Hillside Dental; 5.7.1 Message rejected); Jordan Carl DMD and Adjusted Life Family Chiropractic, no bounce. 34 drafts remain unsent. Do not re-send or follow up the 3 rejected.
 
