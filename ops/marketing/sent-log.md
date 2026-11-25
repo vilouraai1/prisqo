@@ -287,3 +287,7 @@ Jilsha sent all nine on 2026-11-23 at about 8:09 PM CST from vilouraai@gmail.com
 ## Kickoff log (2026-11-24 6 AM CST)
 
 Logged from Gmail Sent (vilouraai@gmail.com): 5 HM-11 Irving first emails and 9 HM-13 follow-ups, sent 2026-11-23 at about 8:09 PM CST. No outreach replies and no new bounces as of 2026-11-24 6:11 AM CST. The only known bounce remains Fusion Chiropractic Spa (2026-11-19).
+
+## Follow-up check (round 8, 2026-11-25)
+
+Checked 2026-11-25 6:30 AM CT in `ops/marketing/followups-8.md`. No first email sent 2026-11-22 or earlier is missing a follow-up (each is drafted, sent, or bounced), so nothing was drafted. Next due: HM-11 Irving five on 2026-11-26, delivered HM-20 two on 2026-11-27.
