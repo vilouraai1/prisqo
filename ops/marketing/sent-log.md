@@ -302,3 +302,15 @@ Personalized first emails from unmerged PR #61 (ops/marketing/HM-20-personalized
 ## Kickoff log (2026-11-25 6 AM CST)
 
 Logged from Gmail Sent (vilouraai@gmail.com): 5 HM-20 Lewisville first emails, sent 2026-11-24 at about 9:39 AM CST. Three bounced (HillCrest Dental, Castle Lake Dental, Hillside Dental; Gmail 5.7.1). Jordan Carl DMD and Adjusted Life Family Chiropractic have no bounce as of 2026-11-25 6:21 AM CST. No outreach replies, including spam/trash. PR #61 remains merge-blocked on ops/board/BOARD.md.
+
+## Follow-ups (round 9, HM-23)
+
+Drafted 2026-11-25 in `ops/marketing/followups-9.md`, for the delivered Variant A first emails of 2026-11-23 (HM-11 Irving) and 2026-11-24 (HM-20, no bounce). One follow-up each, then stop. Nothing below has been sent.
+
+- Meridian Dental (Dr. Simi Paul, DDS) (info@irvingdds.com) — follow-up drafted 2026-11-25
+- Valley Ranch Family Dentistry (info@valleyranchdental.com) — follow-up drafted 2026-11-25
+- Hill Chiropractic Center (drdawnhill@irvingtxchiro.com) — follow-up drafted 2026-11-25
+- Irving Injury Center (clinic@irvinginjurycenter.com) — follow-up drafted 2026-11-25
+- Kairos Aesthetic Medicine (info@kairosaestheticmedicine.com) — follow-up drafted 2026-11-25
+- Jordan Carl DMD (info@jordancarl.com) — follow-up drafted 2026-11-25
+- Adjusted Life Family Chiropractic (office@adjustedlifechiropractic.com) — follow-up drafted 2026-11-25
