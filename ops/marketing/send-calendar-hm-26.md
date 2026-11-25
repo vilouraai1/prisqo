@@ -17,6 +17,9 @@
 5. **Thanksgiving:** nothing on Thu 2026-11-26 or Fri 2026-11-27.
 6. **HM-20 follow-ups** come due at least 4 business days after each first email. Hark drafts them once `sent-log.md` shows the sends. They take free slots first (Tue 12-08, Thu 12-10), then push the Microsoft 365 first emails back. The cap stays at 5.
 
+## HM-20 follow-ups (added by HM-27, 2026-11-25)
+Drafted in `followups-11.md`. Each goes only after its first email is logged as sent and not bounced. If every first email goes on plan: Tue 2026-12-08 3; Thu 2026-12-10 1; Fri 2026-12-11 5; Mon 2026-12-14 5; Tue 2026-12-15 5; Wed 2026-12-16 5. Free slots here: Tue 12-08 (3) and Thu 12-10 (1).
+
 ## Read-outs this calendar feeds
 - EXP-H1 / HM-14: HM-20 #30–39 replace HM-11 #6–15. 7 of them are on this calendar (#30, #35, #38, #39 on 12-03/12-04; #31, #36, #37 on 12-09/12-10), so the 7-day read-out moves to Thu 2026-12-17, unless Kiwi scores the Irving 5 alone.
 - HM-20 Google batch: replies from the 15 by 2026-12-11 (7 days after Fri 12-04).
