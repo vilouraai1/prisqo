@@ -1,5 +1,7 @@
 # Follow-ups, round 1 (drafted 2026-11-14)
 
+**SUPERSEDED 2026-11-25 (HM-24): do not send any draft in this file.** The Kingdom Chiropractic draft is replaced by `followups-10.md` #1. The 4 agency drafts are dropped (old formula with link and price; agency pitch killed in reply-autopsy).
+
 Drafts only. Nothing here has been sent. Jilsha sends each one herself from vilouraai@gmail.com, as a reply in the original thread so the "Re:" subject keeps it together.
 
 Who is in this file: first emails sent 2026-11-11 with no reply as of 2026-11-14 (3 days). Checked against `ops/marketing/sent-log.md`: none of these five was emailed again or followed up since.

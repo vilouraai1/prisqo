@@ -314,3 +314,18 @@ Drafted 2026-11-25 in `ops/marketing/followups-9.md`, for the delivered Variant 
 - Kairos Aesthetic Medicine (info@kairosaestheticmedicine.com) — follow-up drafted 2026-11-25
 - Jordan Carl DMD (info@jordancarl.com) — follow-up drafted 2026-11-25
 - Adjusted Life Family Chiropractic (office@adjustedlifechiropractic.com) — follow-up drafted 2026-11-25
+
+## Follow-ups (round 10, HM-24)
+
+Drafted 2026-11-25 in `ops/marketing/followups-10.md`: Variant A follow-ups for old-formula first emails (Kingdom sent 2026-11-11; leads-3 sent 2026-11-13) whose earlier follow-up drafts (followups-1, followups-3) were never sent and are now superseded. One follow-up each, then stop. Nothing below has been sent.
+
+- Kingdom Chiropractic (info@kingdomchiropractictx.com) — follow-up drafted 2026-11-25 (replaces 2026-11-14 draft)
+- Prestonbrook Dental (contact@prestonbrookdental.com) — follow-up drafted 2026-11-25 (replaces 2026-11-16 draft)
+- Hush MedSpa (info@hushmedspa.com) — follow-up drafted 2026-11-25 (replaces 2026-11-16 draft)
+- Best Neighbor Home Services (help@bestneighborhomeservices.com) — follow-up drafted 2026-11-25 (replaces 2026-11-16 draft)
+- Burnside Air Conditioning, Heating, and Indoor Air Quality (info@burnsideac.com) — follow-up drafted 2026-11-25 (replaces 2026-11-16 draft)
+- Pounce Plumbing (info@pounceplumbing.com) — follow-up drafted 2026-11-25 (replaces 2026-11-16 draft)
+- White Tree Chiro (office@whitetreechiro.com) — follow-up drafted 2026-11-25 (replaces 2026-11-16 draft)
+- The Barber Law Firm (main@thebarberlawfirm.com) — follow-up drafted 2026-11-25 (replaces 2026-11-16 draft)
+- ArmorTex (tanner@armortexroofs.com) — follow-up drafted 2026-11-25 (replaces 2026-11-16 draft)
+- Denton Smiles Dentistry (info@dentonsmilesdentistry.com) — follow-up drafted 2026-11-25 (replaces 2026-11-16 draft)

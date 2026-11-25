@@ -1,5 +1,7 @@
 # Follow-ups, round 3 (drafted 2026-11-16)
 
+**SUPERSEDED 2026-11-25 (HM-24): do not send any draft in this file.** All 9 are replaced by the link-free, price-free drafts in `followups-10.md` #2–10.
+
 Drafts only. Nothing here has been sent. Jilsha sends each one herself from vilouraai@gmail.com, as a reply in the original 2026-11-13 thread so the "Re:" subject keeps it together.
 
 ## Who and why
