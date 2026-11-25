@@ -287,3 +287,18 @@ Jilsha sent all nine on 2026-11-23 at about 8:09 PM CST from vilouraai@gmail.com
 ## Kickoff log (2026-11-24 6 AM CST)
 
 Logged from Gmail Sent (vilouraai@gmail.com): 5 HM-11 Irving first emails and 9 HM-13 follow-ups, sent 2026-11-23 at about 8:09 PM CST. No outreach replies and no new bounces as of 2026-11-24 6:11 AM CST. The only known bounce remains Fusion Chiropractic Spa (2026-11-19).
+
+
+## HM-20 / Variant A list 2 first emails (VA2-01-05)
+
+Personalized first emails from unmerged PR #61 (ops/marketing/HM-20-personalized-drafts.md), Variant A + detail. Jilsha sent the first five (Lewisville) on 2026-11-24 at about 9:39 AM CST from vilouraai@gmail.com. Send plan remains at most 5 a day, weekdays 8-10 AM Central. 34 HM-20 drafts remain unsent, pending merge of PR #61.
+
+- HillCrest Dental (Dr. Namrata Shah, DDS) (smile@hillcrestdentaltx.com) — sent 2026-11-24 9:39 AM CST; bounced 2026-11-24 9:40 AM CST (Gmail 5.7.1 Message blocked / Message rejected)
+- Castle Lake Dental (Dr. Stephenie Sharp, DDS) (info@castlelakedental.com) — sent 2026-11-24 9:39 AM CST; bounced 2026-11-24 9:40 AM CST (Gmail 5.7.1 Message blocked / Message rejected)
+- Hillside Dental (Dr. Jeong Jeon, DDS) (info@hillsidedentaltx.com) — sent 2026-11-24 9:39 AM CST; bounced 2026-11-24 9:39 AM CST (Gmail 5.7.1 Message blocked / Message rejected)
+- Jordan Carl DMD (Dr. Jordan Carl, DMD) (info@jordancarl.com) — sent 2026-11-24 9:39 AM CST
+- Adjusted Life Family Chiropractic (Dr. Christina Upchurch, DC) (office@adjustedlifechiropractic.com) — sent 2026-11-24 9:39 AM CST
+
+## Kickoff log (2026-11-25 6 AM CST)
+
+Logged from Gmail Sent (vilouraai@gmail.com): 5 HM-20 Lewisville first emails, sent 2026-11-24 at about 9:39 AM CST. Three bounced (HillCrest Dental, Castle Lake Dental, Hillside Dental; Gmail 5.7.1). Jordan Carl DMD and Adjusted Life Family Chiropractic have no bounce as of 2026-11-25 6:21 AM CST. No outreach replies, including spam/trash. PR #61 remains merge-blocked on ops/board/BOARD.md.
