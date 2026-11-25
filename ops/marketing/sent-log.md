@@ -246,13 +246,15 @@ Picked 2026-11-21 from ops/marketing/leads-7.csv (already-merged hooks, short pl
 
 ## Variant A first emails (HM-11)
 
-Drafted 2026-11-21 in `ops/marketing/drafts-variant-a-1.md`; shown as cards 2026-11-22. Short Variant A first emails (no link, no price, one question). Send plan: at most 5 a day, weekdays 8-10 AM Central, starting Mon 2026-11-23. Nothing below has been sent.
+Drafted 2026-11-21 in `ops/marketing/drafts-variant-a-1.md`; shown as cards 2026-11-22. Short Variant A first emails (no link, no price, one question). Send plan: at most 5 a day, weekdays 8-10 AM Central, starting Mon 2026-11-23.
 
-- Meridian Dental (Dr. Simi Paul, DDS) (info@irvingdds.com) — drafted 2026-11-21
-- Valley Ranch Family Dentistry (info@valleyranchdental.com) — drafted 2026-11-21
-- Hill Chiropractic Center (drdawnhill@irvingtxchiro.com) — drafted 2026-11-21
-- Irving Injury Center (clinic@irvinginjurycenter.com) — drafted 2026-11-21
-- Kairos Aesthetic Medicine (info@kairosaestheticmedicine.com) — drafted 2026-11-21
+Jilsha sent the first five (Irving) on 2026-11-23 at about 8:09 PM CST from vilouraai@gmail.com. The remaining 10 have not been sent.
+
+- Meridian Dental (Dr. Simi Paul, DDS) (info@irvingdds.com) — sent 2026-11-23 8:09 PM CST
+- Valley Ranch Family Dentistry (info@valleyranchdental.com) — sent 2026-11-23 8:09 PM CST
+- Hill Chiropractic Center (drdawnhill@irvingtxchiro.com) — sent 2026-11-23 8:09 PM CST
+- Irving Injury Center (clinic@irvinginjurycenter.com) — sent 2026-11-23 8:09 PM CST
+- Kairos Aesthetic Medicine (info@kairosaestheticmedicine.com) — sent 2026-11-23 8:09 PM CST
 - Firm Foundation Wellness Center (drcorey@firmfoundationtx.com) — drafted 2026-11-21
 - Grace Chiropractic & Wellness (admin@gracechirotx.com) — drafted 2026-11-21
 - Mangum Family Dentistry (office@mangumfamilydentistry.com) — drafted 2026-11-21
@@ -266,15 +268,22 @@ Drafted 2026-11-21 in `ops/marketing/drafts-variant-a-1.md`; shown as cards 2026
 
 ## Follow-ups (leads-7 / HM-13)
 
-Drafted 2026-11-21 in `ops/marketing/followups-7.md`; shown as cards 2026-11-22. Nine follow-ups for the delivered 2026-11-19 leads-7 contacts (Fusion Chiropractic Spa excluded, bounced). Send plan Mon 2026-11-23. Nothing below has been sent.
+Drafted 2026-11-21 in `ops/marketing/followups-7.md`; shown as cards 2026-11-22. Nine follow-ups for the delivered 2026-11-19 leads-7 contacts (Fusion Chiropractic Spa excluded, bounced). Send plan Mon 2026-11-23.
 
-- Thompson Family & Cosmetic Dentistry (info@thompsondds.com) — follow-up drafted 2026-11-21
-- Plano Gentle Dental (info@planogentledental.com) — follow-up drafted 2026-11-21
-- Family Wellness Dentistry (info@familywellnessdentistry.com) — follow-up drafted 2026-11-21
-- Zone Chiropractic Clinic (info@zonechiroclinic.com) — follow-up drafted 2026-11-21
-- HealthWorks: A Family Wellness Center (care@healthworkstx.com) — follow-up drafted 2026-11-21
-- NEWGEN Chiropractic (info@newgenchiropractic.com) — follow-up drafted 2026-11-21
-- Venn Chiropractic and Wellness Center (drvenn@drvenn.com) — follow-up drafted 2026-11-21
-- Coit Dental (info@coitdental.com) — follow-up drafted 2026-11-21
-- Mapletree Family Dentistry (info@mapletreedentistry.com) — follow-up drafted 2026-11-21
+Jilsha sent all nine on 2026-11-23 at about 8:09 PM CST from vilouraai@gmail.com.
 
+- Thompson Family & Cosmetic Dentistry (info@thompsondds.com) — follow-up sent 2026-11-23 8:09 PM CST
+- Plano Gentle Dental (info@planogentledental.com) — follow-up sent 2026-11-23 8:09 PM CST
+- Family Wellness Dentistry (info@familywellnessdentistry.com) — follow-up sent 2026-11-23 8:09 PM CST
+- Zone Chiropractic Clinic (info@zonechiroclinic.com) — follow-up sent 2026-11-23 8:09 PM CST
+- HealthWorks: A Family Wellness Center (care@healthworkstx.com) — follow-up sent 2026-11-23 8:09 PM CST
+- NEWGEN Chiropractic (info@newgenchiropractic.com) — follow-up sent 2026-11-23 8:09 PM CST
+- Venn Chiropractic and Wellness Center (drvenn@drvenn.com) — follow-up sent 2026-11-23 8:09 PM CST
+- Coit Dental (info@coitdental.com) — follow-up sent 2026-11-23 8:09 PM CST to info@coitdental.com; the message went out on the Fusion Chiropractic Spa thread (subject: Re: AI and Fusion Chiropractic Spa)
+- Mapletree Family Dentistry (info@mapletreedentistry.com) — follow-up sent 2026-11-23 8:09 PM CST
+
+
+
+## Kickoff log (2026-11-24 6 AM CST)
+
+Logged from Gmail Sent (vilouraai@gmail.com): 5 HM-11 Irving first emails and 9 HM-13 follow-ups, sent 2026-11-23 at about 8:09 PM CST. No outreach replies and no new bounces as of 2026-11-24 6:11 AM CST. The only known bounce remains Fusion Chiropractic Spa (2026-11-19).

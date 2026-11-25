@@ -6,32 +6,18 @@ WIP limit: 1 Doing item per lane. Agents never send, post, call, spend, or touch
 
 How to pick: from `## Next`, first table row whose `Lane` is yours (or `both`), whose details `blocked_on` is `none`, and who has nothing already in `## Doing`. Claim by moving the row + details block into `## Doing` in the same work PR. Items with `blocked_on` other than `none` belong in `## Blocked`, not here.
 
-Updated: 2026-11-23 20:15 America/Chicago (Kiwi: HM-06 moved to Done (PR #51). Muse pack added HM-15–HM-19 to Next; briefs in ops/board/MUSE-PACK.md. Hark HM-10 half already merged in #58; HM-14 stays Blocked.) Hark 2026-11-23: HM-20 (verified, personalized first emails, top priority from Jilsha) done on branch hark-hm-20; unsent.
+Updated: 2026-11-23 20:15 America/Chicago (Kiwi: HM-06 moved to Done (PR #51). Muse pack added HM-15–HM-19 to Next; briefs in ops/board/MUSE-PACK.md. Hark HM-10 half already merged in #58; HM-14 stays Blocked.) Hark 2026-11-23: HM-21 (30-lead Variant A list 2, was numbered HM-15 on branch hark-hm-15 before the Muse pack took HM-15–19) added as Done; no drafts. Hark 2026-11-25: HM-20 (PR #61) rebased on main after #60 and #62; 5 of 39 drafts sent by Jilsha 2026-11-24, 34 unsent.
 
 ## Next
 
 | ID | Pri | Lane | Title | Success metric | Inputs |
 |----|-----|------|-------|----------------|--------|
-| HM-15 | 0 | muse | Free-check result → $19 report conversion | After a successful free check, one obvious click reaches the existing $19 checkout; uncovered cities get an honest fallback, not a fake list | live `/free-check`, `free-check.js`, `replies-variant-a-1.md`, `pricing.html` |
 | HM-16 | 0 | muse | Pricing page + checkout-path clarity | A first-time reader can tell free check vs $19 report apart; primary CTA destination is obvious; form contract unchanged | `pricing.html`, `/#check`, `faq.html`, `replies-variant-a-1.md` |
 | HM-17 | 0 | muse | Reply-to-report fulfilment path (`ref=reply`) | Reply 1 and Reply 2 URLs still work; a `ref=reply` visitor can go from free result or audit to $19 checkout with truthful copy | `replies-variant-a-1.md`, `/free-check`, `/pricing`, `/free-seo-audit` |
 | HM-18 | 1 | muse | Money-path CTAs on existing guides and industry pages | Priority dental/chiro/med-spa/home-service guides each have a truthful CTA to `/free-check` and/or `/pricing`; zero new 404s | existing `/guides/` and `/ai-visibility/` pages, sitemap |
 | HM-19 | 1 | muse | Technical SEO leftovers from HM-06 (indexation, speed, durability) | Each HM-06 §8 leftover is fixed or re-stated with evidence; money pages stay indexable and in the sitemap | `ops/replies/HM-06.md` §8, sitemap, live money pages |
 | HM-10 | 1 | both | First weekly retro | Each lane updates its playbook, logs 1 experiment with a kill/keep rule, and adds one process-change line | `METRICS.md`, this board, playbooks, sent-log |
 
-
-### HM-15 — Free-check result → $19 report conversion
-- id: HM-15
-- status: next
-- pri: 0
-- lane: muse
-- blocked_on: none
-- owner: none
-- branch: muse-hm-15
-- success: After a successful free check, a visitor can reach the existing $19 checkout in one obvious click. Fields `name` and `city`, URL prefill, data-testids, and the checkout form contract stay unchanged. Uncovered cities (e.g. Keller, Grapevine) get an honest fallback, not a fabricated list. New cities may be added only when a dated snapshot already exists in `data/ai-answers.json`.
-- inputs: https://prisqo.vilouraai.com/free-check; free-check.html; free-check.js; ops/marketing/replies-variant-a-1.md; pricing.html; ops/board/MUSE-PACK.md
-- output: site PR + ops/replies/HM-15.md
-- notes: Highest-revenue Muse item. Variant A "yes" replies land on pre-filled /free-check links. Paste-ready brief in ops/board/MUSE-PACK.md. Do not restyle LP-2. Do not deploy. Do not touch engine or Stripe.
 
 ### HM-16 — Pricing page + checkout-path clarity
 - id: HM-16
@@ -96,7 +82,7 @@ Updated: 2026-11-23 20:15 America/Chicago (Kiwi: HM-06 moved to Done (PR #51). M
 - success: Each lane edits only its playbook, proposes exactly one experiment (hypothesis, one change, metric, threshold, 7-day window, kill/keep), adds one process-change line, and appends a row to METRICS Experiments. Hard rules stay untouched.
 - inputs: ops/board/METRICS.md; ops/board/BOARD.md; ops/playbooks/hark.md; ops/playbooks/muse.md; ops/marketing/sent-log.md
 - output: playbook diffs + new experiment board items + METRICS experiment rows
-- hark_half: done 2026-11-23, branch hark-retro-2026-11-23 (playbook retro section, EXP-H1, HM-14, process line). ops/replies/HM-10.md.
+- hark_half: done, PR #58 merged 2026-11-23, branch hark-retro-2026-11-23 (playbook retro section, EXP-H1, HM-14, process line). ops/replies/HM-10.md.
 - muse_half: open (muse-retro-YYYY-MM-DD).
 - notes: Run Monday after weekly housekeeping, or the Monday after the missed-call test week. Include kill/keep on the old cold-email formula and on the $49 missed-call test if result emails have been sent. Do not skip Pri-0 work to start the retro early. Muse paste-ready brief is in ops/board/MUSE-PACK.md (Brief 6). Hark half merged in PR #58; Muse half still open on branch muse-retro-2026-11-23.
 
@@ -104,6 +90,20 @@ Updated: 2026-11-23 20:15 America/Chicago (Kiwi: HM-06 moved to Done (PR #51). M
 
 | ID | Pri | Lane | Title | Success metric | Inputs |
 |----|-----|------|-------|----------------|--------|
+| HM-15 | 0 | muse | Free-check result → $19 report conversion | After a successful free check, one obvious click reaches the existing $19 checkout; uncovered cities get an honest fallback, not a fake list | live `/free-check`, `free-check.js`, `replies-variant-a-1.md`, `pricing.html` |
+
+### HM-15 — Free-check result → $19 report conversion
+- id: HM-15
+- status: doing
+- pri: 0
+- lane: muse
+- blocked_on: none
+- owner: muse
+- branch: muse-hm-15
+- success: After a successful free check, a visitor can reach the existing $19 checkout in one obvious click. Fields `name` and `city`, URL prefill, data-testids, and the checkout form contract stay unchanged. Uncovered cities (e.g. Keller, Grapevine) get an honest fallback, not a fabricated list. New cities may be added only when a dated snapshot already exists in `data/ai-answers.json`.
+- inputs: https://prisqo.vilouraai.com/free-check; free-check.html; free-check.js; ops/marketing/replies-variant-a-1.md; pricing.html; ops/board/MUSE-PACK.md
+- output: site PR + ops/replies/HM-15.md
+- notes: Highest-revenue Muse item. Variant A "yes" replies land on pre-filled /free-check links. Paste-ready brief in ops/board/MUSE-PACK.md. Do not restyle LP-2. Do not deploy. Do not touch engine or Stripe.
 
 ## Blocked
 
@@ -200,6 +200,7 @@ Updated: 2026-11-23 20:15 America/Chicago (Kiwi: HM-06 moved to Done (PR #51). M
 |----|-----|------|-------|----------------|--------|
 | HM-06 | 0 | muse | Conversion + in-flight SEO QA | Live `/free-check` and $19 checkout still work; muse-seo-3 and footer/dead-link work merged or given a precise leftover list; no engine/Stripe changes | `origin/muse-seo-3`, `origin/muse-footer-fix`, live prisqo.vilouraai.com |
 | HM-20 | 0 | hark | Verified, personalized first emails | Every lead in ops/leads/ + HM-11 #6–15: email confirmed on own site (source URL), owner name + one real detail with source URL, unverified left out; 25–45 word Variant A drafts opening with the detail; unsent | `ops/leads/variant-a-2.csv` (PR #60), `drafts-variant-a-1.md`, `data/ai-answers.json`, `do-not-email.md` |
+| HM-21 | 1 | hark | 30-lead Variant A list 2 (Lewisville, Flower Mound, Carrollton, Frisco) | 30 leads not in any ops/ file, own-site email + source URL dated 2026-11-23, dated Gemini answer that doesn't name them; no drafts | `data/ai-answers.json`, all `ops/` lead/sent files, `do-not-email.md` |
 | HM-13 | 0 | hark | Leads-7 single follow-up in Variant A form | 9 unsent follow-ups (delivered 11-19 cohort, minus bounce), dated AI source, send plan Mon 2026-11-23, read 2026-11-30 | `sent-log.md` Leads-7, `leads-7.csv`, `data/ai-answers.json`, `reply-autopsy.md`, `do-not-email.md` |
 | HM-12 | 0 | hark | Variant A reply kit (turn "yes" replies into free checks and $19 reports) | Paste-ready Reply 1 for all 15 HM-11 leads + shared replies (who are you / price / call / no); unsent | `drafts-variant-a-1.md`, `data/ai-answers.json`, `pricing.html`, `free-check.js` |
 | HM-08 | 1 | hark | Package 3 community posts from PR #48 for Jilsha | 3 ready-to-post items with community, rules check dated, and a paste body; agents do not post | `ops/marketing/community-posts-2.md` |
@@ -309,6 +310,20 @@ Updated: 2026-11-23 20:15 America/Chicago (Kiwi: HM-06 moved to Done (PR #51). M
 - notes: Added by Hark 2026-11-21 at Jilsha's request. The highest-revenue Hark step left that isn't a new cold batch. Autopsy says judge leads-7 "together with its single follow-up". Read first-email replies 2026-11-26, follow-up replies through 2026-11-30.
 - done: PR #56 merged 2026-11-21.
 
+### HM-21 — 30-lead Variant A list 2
+- id: HM-21
+- status: done
+- pri: 1
+- lane: hark
+- blocked_on: none
+- owner: hark
+- branch: hark-hm-15 (opened as HM-15; renumbered HM-21 because main's Muse pack uses HM-15–HM-19 and HM-20 is Jilsha's verified-drafts item)
+- success: 30 new DFW leads (dentist / chiro / med spa / HVAC / plumber in Lewisville, Flower Mound, Carrollton, Frisco). Each has an email read on its own site with a source URL dated 2026-11-23, and a dated Gemini answer in data/ai-answers.json naming 3+ businesses but not this one. None in sent-log, earlier lead files, CRM, drafts, or do-not-email. No drafts.
+- inputs: data/ai-answers.json; ops/ (all files, for exclusion); ops/marketing/do-not-email.md; ops/playbooks/hark.md Variant A rule
+- output: ops/leads/variant-a-2.csv; ops/leads/variant-a-2.md; ops/replies/HM-21.md
+- notes: Added by Hark 2026-11-23 under playbook pick-rule step 5 at Jilsha's request (no generic cold batch). Lead list only. Feeds HM-20 and the next Variant A batch after EXP-H1 reads out.
+- done: PR #60, 2026-11-23.
+
 ### HM-20 — Verified, personalized first emails
 - id: HM-20
 - status: done
@@ -321,5 +336,6 @@ Updated: 2026-11-23 20:15 America/Chicago (Kiwi: HM-06 moved to Done (PR #51). M
 - inputs: ops/leads/variant-a-2.csv (PR #60); ops/marketing/drafts-variant-a-1.md; data/ai-answers.json; ops/marketing/do-not-email.md
 - output: ops/leads/verified-leads-2026-11-24.csv; ops/marketing/HM-20-personalized-drafts.md; ops/replies/HM-20.md
 - notes: Added by Jilsha 2026-11-23 as top priority ("our emails feel generic and some addresses may not be real"). 39 verified, 1 UNVERIFIED. HM-20 drafts replace HM-11 #6–15; send only one version per contact.
-- done: branch hark-hm-20, 2026-11-23.
+- done: branch hark-hm-20, PR #61, 2026-11-23.
+- update 2026-11-25: Jilsha sent the first 5 drafts on 2026-11-24 ~9:39 AM CT from vilouraai@gmail.com. Gmail rejected 3 (HillCrest Dental, Castle Lake Dental, Hillside Dental; 5.7.1 Message rejected); Jordan Carl DMD and Adjusted Life Family Chiropractic, no bounce. 34 drafts remain unsent. Do not re-send or follow up the 3 rejected.
 
