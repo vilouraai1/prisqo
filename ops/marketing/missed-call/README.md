@@ -30,7 +30,7 @@ These calls don't collide with the 8–10 AM email send slots in `send-calendar-
 - `phone_check` says which numbers had no tel link on their own site.
 
 ## Email checks
-- 15 of 24 have an email. 9 rows use Gmail or other personal addresses, or carry notes, so read `email_check` before sending. Smith Family Dentistry (VL-008) is the open name mismatch. Creekview's `fdesk@dentaloffice.com` sits on a shared vendor domain, so confirm it.
+- 15 of 24 have an email. 6 are Gmail addresses, and 11 were not re-seen on the practice's own site on 2026-11-26 or carry a note, so read `email_check` before sending. Smith Family Dentistry (VL-008) is the open name mismatch. Creekview's `fdesk@dentaloffice.com` sits on a shared vendor domain, so confirm it.
 - 9 have no email. Their result goes by a phone callback, or Jilsha uses their site's form herself.
 
 ## Success bar (scaled to 24)
