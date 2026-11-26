@@ -329,3 +329,8 @@ Drafted 2026-11-25 in `ops/marketing/followups-10.md`: Variant A follow-ups for 
 - The Barber Law Firm (main@thebarberlawfirm.com) — follow-up drafted 2026-11-25 (replaces 2026-11-16 draft)
 - ArmorTex (tanner@armortexroofs.com) — follow-up drafted 2026-11-25 (replaces 2026-11-16 draft)
 - Denton Smiles Dentistry (info@dentonsmilesdentistry.com) — follow-up drafted 2026-11-25 (replaces 2026-11-16 draft)
+
+## Follow-up check (round 8, 2026-11-25)
+
+Checked 2026-11-25 6:30 AM CT in `ops/marketing/followups-8.md`. No first email sent 2026-11-22 or earlier is missing a follow-up (each is drafted, sent, or bounced), so nothing was drafted. Next due: HM-11 Irving five on 2026-11-26, delivered HM-20 two on 2026-11-27. (Superseded: those follow-ups are now drafted in `followups-9.md`, dated in `send-calendar-hm-26.md`.)
+
