@@ -288,6 +288,49 @@ Jilsha sent all nine on 2026-11-23 at about 8:09 PM CST from vilouraai@gmail.com
 
 Logged from Gmail Sent (vilouraai@gmail.com): 5 HM-11 Irving first emails and 9 HM-13 follow-ups, sent 2026-11-23 at about 8:09 PM CST. No outreach replies and no new bounces as of 2026-11-24 6:11 AM CST. The only known bounce remains Fusion Chiropractic Spa (2026-11-19).
 
+
+## HM-20 / Variant A list 2 first emails (VA2-01-05)
+
+Personalized first emails from unmerged PR #61 (ops/marketing/HM-20-personalized-drafts.md), Variant A + detail. Jilsha sent the first five (Lewisville) on 2026-11-24 at about 9:39 AM CST from vilouraai@gmail.com. Send plan remains at most 5 a day, weekdays 8-10 AM Central. 34 HM-20 drafts remain unsent, pending merge of PR #61.
+
+- HillCrest Dental (Dr. Namrata Shah, DDS) (smile@hillcrestdentaltx.com) — sent 2026-11-24 9:39 AM CST; bounced 2026-11-24 9:40 AM CST (Gmail 5.7.1 Message blocked / Message rejected)
+- Castle Lake Dental (Dr. Stephenie Sharp, DDS) (info@castlelakedental.com) — sent 2026-11-24 9:39 AM CST; bounced 2026-11-24 9:40 AM CST (Gmail 5.7.1 Message blocked / Message rejected)
+- Hillside Dental (Dr. Jeong Jeon, DDS) (info@hillsidedentaltx.com) — sent 2026-11-24 9:39 AM CST; bounced 2026-11-24 9:39 AM CST (Gmail 5.7.1 Message blocked / Message rejected)
+- Jordan Carl DMD (Dr. Jordan Carl, DMD) (info@jordancarl.com) — sent 2026-11-24 9:39 AM CST
+- Adjusted Life Family Chiropractic (Dr. Christina Upchurch, DC) (office@adjustedlifechiropractic.com) — sent 2026-11-24 9:39 AM CST
+
+## Kickoff log (2026-11-25 6 AM CST)
+
+Logged from Gmail Sent (vilouraai@gmail.com): 5 HM-20 Lewisville first emails, sent 2026-11-24 at about 9:39 AM CST. Three bounced (HillCrest Dental, Castle Lake Dental, Hillside Dental; Gmail 5.7.1). Jordan Carl DMD and Adjusted Life Family Chiropractic have no bounce as of 2026-11-25 6:21 AM CST. No outreach replies, including spam/trash. PR #61 remains merge-blocked on ops/board/BOARD.md.
+
+## Follow-ups (round 9, HM-23)
+
+Drafted 2026-11-25 in `ops/marketing/followups-9.md`, for the delivered Variant A first emails of 2026-11-23 (HM-11 Irving) and 2026-11-24 (HM-20, no bounce). One follow-up each, then stop. Nothing below has been sent.
+
+- Meridian Dental (Dr. Simi Paul, DDS) (info@irvingdds.com) — follow-up drafted 2026-11-25
+- Valley Ranch Family Dentistry (info@valleyranchdental.com) — follow-up drafted 2026-11-25
+- Hill Chiropractic Center (drdawnhill@irvingtxchiro.com) — follow-up drafted 2026-11-25
+- Irving Injury Center (clinic@irvinginjurycenter.com) — follow-up drafted 2026-11-25
+- Kairos Aesthetic Medicine (info@kairosaestheticmedicine.com) — follow-up drafted 2026-11-25
+- Jordan Carl DMD (info@jordancarl.com) — follow-up drafted 2026-11-25
+- Adjusted Life Family Chiropractic (office@adjustedlifechiropractic.com) — follow-up drafted 2026-11-25
+
+## Follow-ups (round 10, HM-24)
+
+Drafted 2026-11-25 in `ops/marketing/followups-10.md`: Variant A follow-ups for old-formula first emails (Kingdom sent 2026-11-11; leads-3 sent 2026-11-13) whose earlier follow-up drafts (followups-1, followups-3) were never sent and are now superseded. One follow-up each, then stop. Nothing below has been sent.
+
+- Kingdom Chiropractic (info@kingdomchiropractictx.com) — follow-up drafted 2026-11-25 (replaces 2026-11-14 draft)
+- Prestonbrook Dental (contact@prestonbrookdental.com) — follow-up drafted 2026-11-25 (replaces 2026-11-16 draft)
+- Hush MedSpa (info@hushmedspa.com) — follow-up drafted 2026-11-25 (replaces 2026-11-16 draft)
+- Best Neighbor Home Services (help@bestneighborhomeservices.com) — follow-up drafted 2026-11-25 (replaces 2026-11-16 draft)
+- Burnside Air Conditioning, Heating, and Indoor Air Quality (info@burnsideac.com) — follow-up drafted 2026-11-25 (replaces 2026-11-16 draft)
+- Pounce Plumbing (info@pounceplumbing.com) — follow-up drafted 2026-11-25 (replaces 2026-11-16 draft)
+- White Tree Chiro (office@whitetreechiro.com) — follow-up drafted 2026-11-25 (replaces 2026-11-16 draft)
+- The Barber Law Firm (main@thebarberlawfirm.com) — follow-up drafted 2026-11-25 (replaces 2026-11-16 draft)
+- ArmorTex (tanner@armortexroofs.com) — follow-up drafted 2026-11-25 (replaces 2026-11-16 draft)
+- Denton Smiles Dentistry (info@dentonsmilesdentistry.com) — follow-up drafted 2026-11-25 (replaces 2026-11-16 draft)
+
 ## Follow-up check (round 8, 2026-11-25)
 
-Checked 2026-11-25 6:30 AM CT in `ops/marketing/followups-8.md`. No first email sent 2026-11-22 or earlier is missing a follow-up (each is drafted, sent, or bounced), so nothing was drafted. Next due: HM-11 Irving five on 2026-11-26, delivered HM-20 two on 2026-11-27.
+Checked 2026-11-25 6:30 AM CT in `ops/marketing/followups-8.md`. No first email sent 2026-11-22 or earlier is missing a follow-up (each is drafted, sent, or bounced), so nothing was drafted. Next due: HM-11 Irving five on 2026-11-26, delivered HM-20 two on 2026-11-27. (Superseded: those follow-ups are now drafted in `followups-9.md`, dated in `send-calendar-hm-26.md`.)
+

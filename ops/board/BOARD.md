@@ -6,7 +6,7 @@ WIP limit: 1 Doing item per lane. Agents never send, post, call, spend, or touch
 
 How to pick: from `## Next`, first table row whose `Lane` is yours (or `both`), whose details `blocked_on` is `none`, and who has nothing already in `## Doing`. Claim by moving the row + details block into `## Doing` in the same work PR. Items with `blocked_on` other than `none` belong in `## Blocked`, not here.
 
-Updated: 2026-11-23 20:15 America/Chicago (Kiwi: HM-06 moved to Done (PR #51). Muse pack added HM-15–HM-19 to Next; briefs in ops/board/MUSE-PACK.md. Hark HM-10 half already merged in #58; HM-14 stays Blocked.) Hark 2026-11-23: HM-21 (30-lead Variant A list 2, was numbered HM-15 on branch hark-hm-15 before the Muse pack took HM-15–19) added as Done; no drafts.
+Updated: 2026-11-23 20:15 America/Chicago (Kiwi: HM-06 moved to Done (PR #51). Muse pack added HM-15–HM-19 to Next; briefs in ops/board/MUSE-PACK.md. Hark HM-10 half already merged in #58; HM-14 stays Blocked.) Hark 2026-11-23: HM-21 (30-lead Variant A list 2, was numbered HM-15 on branch hark-hm-15 before the Muse pack took HM-15–19) added as Done; no drafts. Hark 2026-11-25: HM-20 (PR #61) rebased on main after #60 and #62; 5 of 39 drafts sent by Jilsha 2026-11-24, 34 unsent. Hark 2026-11-25: HM-20 marked merged (#61). No eligible Hark item left in Next (HM-10 Hark half done in #58), so Hark added HM-22 (deliverability triage after the 3 Gmail 5.7.1 rejects) under pick-rule step 5 and did it; Done. Hark 2026-11-25: HM-22 merged (#64). No eligible Hark item left, so Hark added HM-23 (7 Variant A follow-ups for the delivered 11-23 Irving and 11-24 HM-20 sends) under pick-rule step 5 and did it; Done. Hark 2026-11-25: HM-23 merged (#65). No eligible Hark item left, so Hark added HM-24 (10 Variant A follow-ups replacing the unsent old-formula drafts for the 11-11/11-13 local sends) under pick-rule step 5 and did it; Done. Hark 2026-11-25: HM-24 merged (#66). No eligible Hark item left, so Hark added HM-25 (Variant A reply kit batch 2: paste-ready Reply 1 for the 36 open threads not in batch 1) under pick-rule step 5 and did it; Done. Hark 2026-11-25: HM-25 merged (#67). No eligible Hark item left, so Hark added HM-26 (one send calendar, 2026-11-30 to 2026-12-10, for the 41 queued unsent emails at 5 a day) under pick-rule step 5 and did it; Done. Hark 2026-11-25: HM-26 merged (#68). No eligible Hark item left, so Hark added HM-27 (24 Variant A follow-ups drafted ahead for the scheduled HM-20 first emails) under pick-rule step 5 and did it; Done. Hark 2026-11-25: HM-27 merged (#69). No eligible Hark item left, and Hark added none: every queued email now has a draft, a reply kit and a date, so the next revenue step is a send. Making more drafts before then would mean a new cold batch (reply-autopsy §6). Hark lane waits on: (1) Jilsha reads one 11-24 bounce's Technical details before Tue 12-01; (2) the 11-30 to 12-10 sends in send-calendar-hm-26.md, each logged in sent-log; (3) any reply, answered from replies-variant-a-1/-2 within 2 business hours. Hark picks up again when a reply, a bounce, or a logged send comes in (HM-20 follow-up dates, EXP-H1 read-out 12-17), or when Jilsha names an item.
 
 ## Next
 
@@ -199,6 +199,13 @@ Updated: 2026-11-23 20:15 America/Chicago (Kiwi: HM-06 moved to Done (PR #51). M
 | ID | Pri | Lane | Title | Success metric | Inputs |
 |----|-----|------|-------|----------------|--------|
 | HM-06 | 0 | muse | Conversion + in-flight SEO QA | Live `/free-check` and $19 checkout still work; muse-seo-3 and footer/dead-link work merged or given a precise leftover list; no engine/Stripe changes | `origin/muse-seo-3`, `origin/muse-footer-fix`, live prisqo.vilouraai.com |
+| HM-27 | 0 | hark | Variant A follow-ups for the 24 scheduled HM-20 first emails | 24 unsent single follow-ups, 25–45 words, no link, no price, one question, opt-out. Each is gated on its first email being logged sent and not bounced, due 4 business days later, and fits the 5-a-day calendar | `HM-20-personalized-drafts.md`, `send-calendar-hm-26.md`, `data/ai-answers.json`, `followups-9.md` |
+| HM-26 | 0 | hark | One send calendar for the queued 41 (HM-23, HM-24, HM-20) | Every queued unsent email gets one weekday slot 2026-11-30 to 2026-12-10, at most 5 a day, 8–10 AM CT. Order: due follow-ups, HM-20 Google, HM-24, HM-20 M365. Gates: bounce check, daily reply check, sent-log line. Held leads stay held; unsent | `followups-9.md`, `followups-10.md`, `HM-20-personalized-drafts.md`, `deliverability-hm-22.md`, `playbooks/hark.md` |
+| HM-25 | 0 | hark | Variant A reply kit, batch 2 (HM-20 + HM-24 threads) | Paste-ready Reply 1 for every open Variant A thread not in replies-variant-a-1.md (36): dated Gemini names, no price, pre-filled free-check link where the live form covers the city, else free SEO audit; unsent | `HM-20-personalized-drafts.md`, `followups-10.md`, `replies-variant-a-1.md`, `data/ai-answers.json`, `free-check.html`, `pricing.html` |
+| HM-24 | 0 | hark | Variant A follow-ups for the old-formula 11-11 / 11-13 local sends | 10 unsent single follow-ups replacing the never-sent link/price drafts (followups-1 Kingdom, followups-3 all 9): 25–45 words, no link, no price, one question, opt-out, footer; dated Gemini source; truthful vs the first email; old drafts marked superseded | `sent-log.md`, `followups-1.md`, `followups-3.md`, `drafts-3.md`, `data/ai-answers.json`, `reply-autopsy.md` §4, `do-not-email.md` |
+| HM-23 | 0 | hark | Variant A follow-ups for delivered 11-23 / 11-24 first emails | 7 unsent single follow-ups (5 HM-11 Irving, 2 HM-20 delivered): 25–45 words, no link, no price, one question, opt-out, footer; dated Gemini source; send plan after Thanksgiving; logged only as drafted | `sent-log.md`, `drafts-variant-a-1.md`, `HM-20-personalized-drafts.md`, `data/ai-answers.json`, `do-not-email.md`, HM-22 |
+| HM-22 | 0 | hark | Deliverability triage after Gmail 5.7.1 rejects | All 39 HM-20 addresses have a dated MX/provider check; 34 unsent drafts get a send order with risky ones held; the 3 rejects are on do-not-email; Jilsha has a 5-minute bounce-text check; nothing sent | `sent-log.md`, `verified-leads-2026-11-24.csv`, `HM-20-personalized-drafts.md`, `reply-autopsy.md` §3.9, DNS |
+| HM-20 | 0 | hark | Verified, personalized first emails | Every lead in ops/leads/ + HM-11 #6–15: email confirmed on own site (source URL), owner name + one real detail with source URL, unverified left out; 25–45 word Variant A drafts opening with the detail; unsent | `ops/leads/variant-a-2.csv` (PR #60), `drafts-variant-a-1.md`, `data/ai-answers.json`, `do-not-email.md` |
 | HM-21 | 1 | hark | 30-lead Variant A list 2 (Lewisville, Flower Mound, Carrollton, Frisco) | 30 leads not in any ops/ file, own-site email + source URL dated 2026-11-23, dated Gemini answer that doesn't name them; no drafts | `data/ai-answers.json`, all `ops/` lead/sent files, `do-not-email.md` |
 | HM-13 | 0 | hark | Leads-7 single follow-up in Variant A form | 9 unsent follow-ups (delivered 11-19 cohort, minus bounce), dated AI source, send plan Mon 2026-11-23, read 2026-11-30 | `sent-log.md` Leads-7, `leads-7.csv`, `data/ai-answers.json`, `reply-autopsy.md`, `do-not-email.md` |
 | HM-12 | 0 | hark | Variant A reply kit (turn "yes" replies into free checks and $19 reports) | Paste-ready Reply 1 for all 15 HM-11 leads + shared replies (who are you / price / call / no); unsent | `drafts-variant-a-1.md`, `data/ai-answers.json`, `pricing.html`, `free-check.js` |
@@ -322,4 +329,103 @@ Updated: 2026-11-23 20:15 America/Chicago (Kiwi: HM-06 moved to Done (PR #51). M
 - output: ops/leads/variant-a-2.csv; ops/leads/variant-a-2.md; ops/replies/HM-21.md
 - notes: Added by Hark 2026-11-23 under playbook pick-rule step 5 at Jilsha's request (no generic cold batch). Lead list only. Feeds HM-20 and the next Variant A batch after EXP-H1 reads out.
 - done: PR #60, 2026-11-23.
+
+### HM-27 — Variant A follow-ups for the 24 scheduled HM-20 first emails
+- id: HM-27
+- status: done
+- pri: 0
+- lane: hark
+- blocked_on: none (sending is Jilsha's; each follow-up waits on its first email being sent)
+- owner: hark
+- branch: hark-hm-27
+- success: Each of the 24 HM-20 first emails on send-calendar-hm-26 has one unsent follow-up in HM-23 form: 40–44 words, no link, no price, one question, opt-out, footer, and the dated Gemini count. Each is gated (sent-log shows the first email sent and not bounced; no reply or no), due 4 business days later, and planned inside the 5-a-day cap from 12-08 to 12-16. Nothing sent.
+- inputs: ops/marketing/HM-20-personalized-drafts.md; ops/marketing/send-calendar-hm-26.md; data/ai-answers.json; ops/marketing/followups-9.md (format)
+- output: ops/marketing/followups-11.md; HM-20 follow-up section in send-calendar-hm-26.md; ops/replies/HM-27.md
+- notes: Added by Hark 2026-11-25 under pick-rule step 5 at Jilsha's request (no eligible Hark item left). Revenue reason: reply-autopsy §4/§6 judges a format with its one follow-up. Without drafts, follow-ups to the best batch would lag. Not a cold batch: these are the same 24 contacts. Held HM-22 leads are not included.
+- done: PR #69 merged 2026-11-25.
+
+### HM-26 — One send calendar for the queued 41
+- id: HM-26
+- status: done
+- pri: 0
+- lane: hark
+- blocked_on: none (sending is Jilsha's)
+- owner: hark
+- branch: hark-hm-26
+- success: All 41 queued unsent emails (HM-23 7 follow-ups, HM-24 10 follow-ups, HM-20 15 Google + 9 M365 first emails) have one weekday slot, 2026-11-30 to 2026-12-10. At most 5 a day, 8–10 AM CT, no Thanksgiving sends. Gates are written down: the HM-22 bounce check before HM-20 sends, a daily Inbox/Spam/All Mail check, a sent-log line per send, stop on a bounce. HM-22's held 10 stay held. Drafts are unchanged; HM-24's dates move. Nothing sent.
+- inputs: ops/marketing/followups-9.md; ops/marketing/followups-10.md; ops/marketing/HM-20-personalized-drafts.md; ops/research/deliverability-hm-22.md; ops/playbooks/hark.md (5-a-day cadence)
+- output: ops/marketing/send-calendar-hm-26.md; send-plan note in followups-10.md; ops/replies/HM-26.md
+- notes: Added by Hark 2026-11-25 under pick-rule step 5 at Jilsha's request (no eligible Hark item left). Revenue reason: the three separate send plans overlapped (7 on Tue 12-01) and put the best fresh leads (HM-20, 24 ready) behind two-week-old threads. No send, no reply, no customer. EXP-H1 read-out moves to 2026-12-17 because HM-20 #30–39 replace HM-11 #6–15.
+- done: PR #68 merged 2026-11-25 (c40b0c6).
+
+### HM-25 — Variant A reply kit, batch 2
+- id: HM-25
+- status: done
+- pri: 0
+- lane: hark
+- blocked_on: none (replying is Jilsha's)
+- owner: hark
+- branch: hark-hm-25
+- success: Every open or queued Variant A thread without a Reply 1 has one: HM-20 #4–29 (2 sent, 24 unsent) and HM-24 #1–10. Names and date exactly from data/ai-answers.json (Gemini 2026-11-13); no price; one free next step (pre-filled /free-check where the live form covers the city and category, else /free-seo-audit). Hush MedSpa (named) gets the other names. Reply 2 and reply-by-type stay in batch 1, re-checked against live pricing 2026-11-25. Nothing sent.
+- inputs: ops/marketing/HM-20-personalized-drafts.md; ops/marketing/followups-10.md; ops/marketing/replies-variant-a-1.md; data/ai-answers.json; free-check.html; pricing.html; ops/research/reply-autopsy.md §5
+- output: ops/marketing/replies-variant-a-2.md; ops/replies/HM-25.md
+- notes: Added by Hark 2026-11-25 under pick-rule step 5 at Jilsha's request (no eligible Hark item left). Revenue reason: Variant A's only path to money is a fast, good answer to a "yes"; 36 threads had no paste-ready answer. HM-20 #1–3 left out (5.7.1 rejects); HM-20 #30–39 and the Irving five are already in batch 1.
+- done: PR #67 merged 2026-11-25 (ca39e48).
+
+### HM-24 — Variant A follow-ups for the old-formula 11-11 / 11-13 local sends
+- id: HM-24
+- status: done
+- pri: 0
+- lane: hark
+- blocked_on: none (sending is Jilsha's)
+- owner: hark
+- branch: hark-hm-24
+- success: Each local business that got an old-formula first email on 2026-11-11 or 2026-11-13 and never got a follow-up has one Variant A follow-up draft: 25–45 words, no link, no price, one question, opt-out, footer, using the 2026-11-13 Gemini answers. Drafts stay truthful about what the first email claimed. The old link/price drafts are marked superseded. Agencies and bounces left out. Logged as drafted only; nothing sent.
+- inputs: ops/marketing/sent-log.md; ops/marketing/followups-1.md; ops/marketing/followups-3.md; ops/marketing/drafts-3.md; data/ai-answers.json; ops/research/reply-autopsy.md §4; ops/marketing/do-not-email.md; ops/research/deliverability-hm-22.md
+- output: ops/marketing/followups-10.md; superseded notes in followups-1.md and followups-3.md; sent-log "Follow-ups (round 10, HM-24)"; ops/replies/HM-24.md
+- notes: Added by Hark 2026-11-25 under pick-rule step 5 at Jilsha's request (no eligible Hark item left). 10 contacts: Kingdom + 9 leads-3. Send plan after HM-23: Tue 2026-12-01 (#1–3), Wed 2026-12-02 (#4–8), Thu 2026-12-03 (#9–10), 8–10 AM Central.
+- done: PR #66 merged 2026-11-25 (7a98721).
+
+### HM-23 — Variant A follow-ups for delivered 11-23 / 11-24 first emails
+- id: HM-23
+- status: done
+- pri: 0
+- lane: hark
+- blocked_on: none (sending is Jilsha's)
+- owner: hark
+- branch: hark-hm-23
+- success: One follow-up draft for each delivered Variant A first email with no follow-up yet: the 5 HM-11 Irving sends (2026-11-23) and Jordan Carl DMD and Adjusted Life (HM-20, 2026-11-24). Each 25–45 words, no link, no price, one question, opt-out, footer, same dated Gemini answer as the first email. None to do-not-email. Logged in sent-log only as drafted. Nothing sent.
+- inputs: ops/marketing/sent-log.md; ops/marketing/drafts-variant-a-1.md; ops/marketing/HM-20-personalized-drafts.md; data/ai-answers.json; ops/marketing/do-not-email.md; ops/research/deliverability-hm-22.md; ops/research/reply-autopsy.md §4, §6
+- output: ops/marketing/followups-9.md; sent-log "Follow-ups (round 9, HM-23)"; ops/replies/HM-23.md
+- notes: Added by Hark 2026-11-25 under pick-rule step 5 at Jilsha's request (no eligible Hark item left). Send plan: Irving 5 on Mon 2026-11-30, Lewisville 2 on Tue 2026-12-01, 8–10 AM Central (hold Thanksgiving and the Friday after). Replies count toward EXP-H1 / HM-14.
+- done: PR #65 merged 2026-11-25 (35a700b).
+
+### HM-22 — Deliverability triage after Gmail 5.7.1 rejects
+- id: HM-22
+- status: done
+- pri: 0
+- lane: hark
+- blocked_on: none (sending and reading the bounce text are Jilsha's)
+- owner: hark
+- branch: hark-hm-22
+- success: Every HM-20 address has its mail provider looked up (DNS MX, dated 2026-11-25). The 34 unsent drafts are put in a send order: lowest risk first, risky filters and no-MX domains held. The 3 rejects go on do-not-email. Jilsha gets one free check (bounce "Technical details") that tells recipient policy from a sending-account problem. Drafts unchanged; nothing sent; no generic batch.
+- inputs: ops/marketing/sent-log.md (HM-20 section); ops/leads/verified-leads-2026-11-24.csv; ops/marketing/HM-20-personalized-drafts.md; ops/research/reply-autopsy.md §3.9 and §6; public DNS
+- output: ops/research/deliverability-hm-22.md; ops/leads/hm-22-mx-check-2026-11-25.csv; ops/marketing/do-not-email.md rows; ops/replies/HM-22.md
+- notes: Added by Hark 2026-11-25 under pick-rule step 5 at Jilsha's request (no eligible Hark item left). Highest revenue lever now: 3 of 5 HM-20 sends were rejected, and the 34 remaining drafts are the best leads we have. Result: 15 send first (Google Workspace), 9 second (Microsoft 365), 9 held (other filters), 1 held (Tex Plumbing, no MX).
+- done: PR #64 merged 2026-11-25 (737aab5).
+
+### HM-20 — Verified, personalized first emails
+- id: HM-20
+- status: done
+- pri: 0
+- lane: hark
+- blocked_on: none (sending is Jilsha's)
+- owner: hark
+- branch: hark-hm-20
+- success: For all 30 leads in ops/leads/variant-a-2.csv and the 10 unsent HM-11 leads (#6–15), the email is confirmed on a public page with a source URL, or marked UNVERIFIED and left out. Owner name with source when public. One real detail with source URL. Rewritten first email: 25–45 words, opens with the detail, no link, no price, one question, opt-out line, footer. Nothing sent.
+- inputs: ops/leads/variant-a-2.csv (PR #60); ops/marketing/drafts-variant-a-1.md; data/ai-answers.json; ops/marketing/do-not-email.md
+- output: ops/leads/verified-leads-2026-11-24.csv; ops/marketing/HM-20-personalized-drafts.md; ops/replies/HM-20.md
+- notes: Added by Jilsha 2026-11-23 as top priority ("our emails feel generic and some addresses may not be real"). 39 verified, 1 UNVERIFIED. HM-20 drafts replace HM-11 #6–15; send only one version per contact.
+- done: PR #61 merged 2026-11-25 (0499c82).
+- update 2026-11-25: Jilsha sent the first 5 drafts on 2026-11-24 ~9:39 AM CT from vilouraai@gmail.com. Gmail rejected 3 (HillCrest Dental, Castle Lake Dental, Hillside Dental; 5.7.1 Message rejected); Jordan Carl DMD and Adjusted Life Family Chiropractic, no bounce. 34 drafts remain unsent. Do not re-send or follow up the 3 rejected.
 
