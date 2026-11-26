@@ -334,3 +334,10 @@ Drafted 2026-11-25 in `ops/marketing/followups-10.md`: Variant A follow-ups for 
 
 Checked 2026-11-25 6:30 AM CT in `ops/marketing/followups-8.md`. No first email sent 2026-11-22 or earlier is missing a follow-up (each is drafted, sent, or bounced), so nothing was drafted. Next due: HM-11 Irving five on 2026-11-26, delivered HM-20 two on 2026-11-27. (Superseded: those follow-ups are now drafted in `followups-9.md`, dated in `send-calendar-hm-26.md`.)
 
+## Community posts
+
+Jilsha logs each post here: date (CST), community, post URL, and comment count after 48 hours. Drafts: community-posts-hm-08.md, community-posts-2.md, community-posts-3.md. None posted as of 2026-11-26.
+
+### Leads
+
+From comments or DMs, per community-reply-kit.md: date (CST), community, name or handle, business, city/category, what was sent. None yet.

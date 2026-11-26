@@ -199,6 +199,7 @@ Updated: 2026-11-23 20:15 America/Chicago (Kiwi: HM-06 moved to Done (PR #51). M
 | ID | Pri | Lane | Title | Success metric | Inputs |
 |----|-----|------|-------|----------------|--------|
 | HM-06 | 0 | muse | Conversion + in-flight SEO QA | Live `/free-check` and $19 checkout still work; muse-seo-3 and footer/dead-link work merged or given a precise leftover list; no engine/Stripe changes | `origin/muse-seo-3`, `origin/muse-footer-fix`, live prisqo.vilouraai.com |
+| HM-29 | 0 | hark | Community comment reply kit (turn post comments into free checks) | Paste-ready replies for comments/DMs on HM-08, round-2 and round-3 posts: 8 templates, per-community link rules, free-check prefill, lead log, lookup of all 71 saved Gemini answers. No new outreach; nothing posted | `community-posts-3.md`, `community-posts-2.md`, `data/ai-answers.json`, `free-check.js`, `pricing.html` |
 | HM-28 | 0 | hark | Community posts round 3 (value-first, owner audiences) | 8 unposted drafts for the week of 2026-11-30 in communities already listed or cleared: missed calls (ADA, BrightLocal sourced), 10-minute website check (Hark home-page scan 2026-11-26), new local Gemini patterns. No link, product name or price in any main post; nothing posted | `communities.md`, `community-posts-2.md`, `community-posts-hm-08.md`, `data/ai-answers.json`, `verified-leads-2026-11-24.csv` |
 | HM-27 | 0 | hark | Variant A follow-ups for the 24 scheduled HM-20 first emails | 24 unsent single follow-ups, 25–45 words, no link, no price, one question, opt-out. Each is gated on its first email being logged sent and not bounced, due 4 business days later, and fits the 5-a-day calendar | `HM-20-personalized-drafts.md`, `send-calendar-hm-26.md`, `data/ai-answers.json`, `followups-9.md` |
 | HM-26 | 0 | hark | One send calendar for the queued 41 (HM-23, HM-24, HM-20) | Every queued unsent email gets one weekday slot 2026-11-30 to 2026-12-10, at most 5 a day, 8–10 AM CT. Order: due follow-ups, HM-20 Google, HM-24, HM-20 M365. Gates: bounce check, daily reply check, sent-log line. Held leads stay held; unsent | `followups-9.md`, `followups-10.md`, `HM-20-personalized-drafts.md`, `deliverability-hm-22.md`, `playbooks/hark.md` |
@@ -331,6 +332,20 @@ Updated: 2026-11-23 20:15 America/Chicago (Kiwi: HM-06 moved to Done (PR #51). M
 - notes: Added by Hark 2026-11-23 under playbook pick-rule step 5 at Jilsha's request (no generic cold batch). Lead list only. Feeds HM-20 and the next Variant A batch after EXP-H1 reads out.
 - done: PR #60, 2026-11-23.
 
+### HM-29 — Community comment reply kit
+- id: HM-29
+- status: done
+- pri: 0
+- lane: hark
+- blocked_on: none (Jilsha comments herself)
+- owner: hark
+- branch: hark-hm-29
+- success: Every likely comment on the queued community posts has a short, honest, sourced reply. Each community's comment-link rule is stated. The "check mine" path goes to a prefilled free check (ref=community3) or the SEO audit outside the form's cities and categories. Leads are logged in sent-log. Nothing posted.
+- inputs: ops/marketing/community-posts-3.md; community-posts-2.md; community-posts-hm-08.md; data/ai-answers.json; free-check.js; free-check.html; pricing.html
+- output: ops/marketing/community-reply-kit.md; ops/replies/HM-29.md
+- notes: Added by Hark 2026-11-26 under pick-rule step 5 at Jilsha's request ("add the next highest-revenue Hark item ... no generic cold batch"). Revenue reason: the posts carry no link or price by design, so a comment is the only route to a free check and a $19 report. Not outreach: every reply answers someone who spoke first. Builder /workspace/work/hm29/build.py.
+- done: branch hark-hm-29, 2026-11-26.
+
 ### HM-28 — Community posts round 3
 - id: HM-28
 - status: done
@@ -343,7 +358,7 @@ Updated: 2026-11-23 20:15 America/Chicago (Kiwi: HM-06 moved to Done (PR #51). M
 - inputs: ops/marketing/communities.md; community-posts-2.md; community-posts-hm-08.md; leaderboard-posts.md; posts.md; data/ai-answers.json; ops/leads/verified-leads-2026-11-24.csv
 - output: ops/marketing/community-posts-3.md; ops/leads/site-scan-2026-11-26.csv; ops/replies/HM-28.md
 - notes: Requested by Kiwi via Jilsha in chat 2026-11-26 ("value-first community post drafts aimed at getting a first paying customer soonest"). Not a cold email batch.
-- done: branch hark-community-3, 2026-11-26.
+- done: PR #71 merged 2026-11-26 (ca81448). PR #63 (followups-8, sent-log conflict fixed) merged 2026-11-26 (00b3221).
 
 ### HM-27 — Variant A follow-ups for the 24 scheduled HM-20 first emails
 - id: HM-27
