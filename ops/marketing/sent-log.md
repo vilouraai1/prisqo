@@ -341,3 +341,7 @@ Jilsha logs each post here: date (CST), community, post URL, and comment count a
 ### Leads
 
 From comments or DMs, per community-reply-kit.md: date (CST), community, name or handle, business, city/category, what was sent. None yet.
+
+## Follow-up check (round 12, 2026-11-27)
+
+Checked 2026-11-27 6:20 AM CST against this log: 0 eligible (51 logged sends; 6 bounced, all others already have one follow-up drafted or sent). No first email sent since 2026-11-24. Details in `ops/marketing/followups-12.md`. Nothing sent.
