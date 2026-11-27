@@ -1,5 +1,7 @@
 # Result email template (HM-04). Gated, unsent.
 
+**Drafts only. Nothing has been sent.** This is a template; Hark sends nothing.
+
 Use this only when (1) `call-log-template.csv` has all 3 calls logged for that practice, (2) the email in `missed-call-test.csv` has been checked, and (3) Jilsha has said go on the $49 offer (PR #47). Copy every fact from the log and never round it up. Keep the subject plain.
 
 ```
