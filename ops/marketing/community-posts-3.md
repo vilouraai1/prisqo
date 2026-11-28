@@ -75,7 +75,7 @@ Carrollton owners, something I noticed that might be useful.
 On Nov 13 I asked Google's Gemini (an AI assistant) "best ___ in Carrollton, TX" for 8 kinds of local business. Each answer named 4 to 7 places. Two things surprised me.
 
 House cleaning: all 4 names were national franchise brands (The Cleaning Authority, MaidPro, CottageCare, Merry Maids). No independent cleaner made the answer.
-<!-- Fact check 2026-11-27 (Hark): all 4 are franchise systems. CottageCare has franchised since 1989 (https://www.franchising.com/cottagecare; its operations manual is addressed to franchise managers). -->
+<!-- Fact check (Hark): CottageCare checked 2026-11-27 (franchising since 1989, https://www.franchising.com/cottagecare). The other three checked 2026-11-28 on their own franchise sites: The Cleaning Authority (https://franchise.thecleaningauthority.com/), MaidPro (https://www.maidpro.com/franchise/), Merry Maids (https://franchise.merrymaids.com/). All 4 are franchise systems. -->
 
 One clinic, Elevation Spine & Sports Medicine, showed up in both the chiropractor answer and the physical therapy answer. So the AI decides what you are from what it reads about you, and it can file you under more than one thing.
 

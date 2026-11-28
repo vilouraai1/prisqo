@@ -192,12 +192,13 @@ Updated: 2026-11-23 20:15 America/Chicago (Kiwi: HM-06 moved to Done (PR #51). M
 - success: Count human replies (and separately auto-replies/bounces) for the 15 HM-11 Variant A emails, 7 days after the last logged send. Keep at ≥2, kill at 0, 1 = send 10 more then decide. Update METRICS EXP-H1 Result + Keep/Kill and ops/playbooks/hark.md defaults.
 - inputs: ops/marketing/sent-log.md (dated "sent" lines); ops/marketing/drafts-variant-a-1.md; ops/board/METRICS.md EXP-H1; Jilsha's reply report
 - output: METRICS + playbook edit; ops/replies/HM-14.md
-- notes: Added by Hark in the HM-10 retro 2026-11-23. Unblocks when sent-log shows all 15 sent (or Jilsha says the batch is done) and 7 days have passed. Counts come from sent-log and Jilsha only; never guess a reply.
+- notes: Added by Hark in the HM-10 retro 2026-11-23. Unblocks when sent-log shows all 15 sent (or Jilsha says the batch is done) and 7 days have passed. Counts come from sent-log and Jilsha only; never guess a reply. Hark 2026-11-28: #78 merged (board-only, no item). PR #79 (leads-8: 16 Denton/Lewisville/Highland Village leads with own-site emails + 25–45 word drafts, a request Jilsha named in chat, not a board item) merged 2026-11-28 (ec6a239); Done. No eligible Hark item left in Next (HM-10 Hark half done in #58; HM-04, HM-05, HM-14 blocked), so Hark added HM-33 (leads-8 reply kit + send slots) under pick-rule step 5 and did it; Done. Correction: the 2026-11-27 line's Carrollton check covered CottageCare only. The Cleaning Authority, MaidPro and Merry Maids were checked 2026-11-28 on their own franchise sites, so the post's claim now holds for all 4 (source comment updated in community-posts-3.md).
 
 ## Done
 
 | ID | Pri | Lane | Title | Success metric | Inputs |
 |----|-----|------|-------|----------------|--------|
+| HM-33 | 0 | hark | Leads-8 reply kit + send slots (turn PR #79's 16 drafts into answered threads) | Every leads-8 email has a weekday slot after the HM-26 calendar (2026-12-11 to 12-16, max 5 a day) and a paste-ready Reply 1 that gives what the email offered plus one free next step; no price; nothing sent | `drafts-8.md`, `leads-8.csv`, `data/ai-answers.json`, `replies-variant-a-1.md`, `send-calendar-hm-26.md`, `reply-autopsy.md` §5 |
 | HM-06 | 0 | muse | Conversion + in-flight SEO QA | Live `/free-check` and $19 checkout still work; muse-seo-3 and footer/dead-link work merged or given a precise leftover list; no engine/Stripe changes | `origin/muse-seo-3`, `origin/muse-footer-fix`, live prisqo.vilouraai.com |
 | HM-32 | 0 | hark | Result channel for all 24 missed-call test practices | Every MC row has a checked result_channel (email / form / callback) and form_url from its own site, dated 2026-11-27; stale emails removed; paste-ready form text + phone script for the 12 without a usable email. Nothing sent or submitted | `missed-call/missed-call-test.csv`, own sites, `followup-template.md`, `reply-kit.md` |
 | HM-31 | 0 | hark | $49 check: reply kit + report template (turn a "yes" into a delivered, paid report) | ops/marketing/missed-call/reply-kit.md (6 replies to result emails, payment gate) + report-template.md (the 5 sections from pain-check §4, a fix menu, saved Gemini answers for all 24 test practices). Unsent; no Stripe price created | `pain-check.md` §4, `missed-call/`, `data/ai-answers.json`, HM-03 notes |
@@ -218,6 +219,20 @@ Updated: 2026-11-23 20:15 America/Chicago (Kiwi: HM-06 moved to Done (PR #51). M
 | HM-11 | 0 | hark | 15 Variant A first-email drafts (DFW dental/chiro/med spa/home service) | 15 unsent drafts, own-site email source URL + date, dated AI source; playbook edit proposed | `ops/research/reply-autopsy.md`, `data/ai-answers.json`, lead CSVs, sent-log, do-not-email |
 | HM-09 | 1 | hark | Bounce and list hygiene | Bounced addresses tagged do-not-email; any replacement is from the business's own site with a source URL | `ops/marketing/sent-log.md`, lead CSVs |
 | HM-01 | 0 | hark | Reply-rate autopsy + 2 first-email variants | A written kill/keep on the current cold formula, plus 2 testable variants (one recommended) | `ops/marketing/sent-log.md`, drafts, followups, `ops/playbooks/hark.md` |
+
+### HM-33 — Leads-8 reply kit + send slots
+- id: HM-33
+- status: done
+- pri: 0
+- lane: hark
+- blocked_on: none
+- owner: hark
+- branch: hark-hm-33
+- success: All 16 leads-8 first emails (PR #79) have a send slot after the HM-26 calendar and a paste-ready Reply 1 matched to their hook. Variant A leads get the dated Gemini list; site, SEO and missed-call leads get the answer their question promised. One free next step each, no price, nothing sent.
+- inputs: ops/marketing/drafts-8.md; ops/marketing/leads-8.csv; data/ai-answers.json; ops/marketing/replies-variant-a-1.md; ops/marketing/send-calendar-hm-26.md; ops/research/reply-autopsy.md §5
+- output: ops/marketing/replies-leads-8.md; ops/replies/HM-33.md
+- notes: Added by Hark 2026-11-28 under pick-rule step 5. Revenue reason: leads-8 (PR #79, merged) added 16 drafts with no date and no reply plan; reply-autopsy §5 says a "yes" turns into a free check and then a report only if the list (or promised fix) goes back fast. Not a new cold batch: no new leads or first emails. Slots: Fri 2026-12-11 (5), Mon 12-14 (5), Tue 12-15 (5), Wed 12-16 (1), AI-hook first. Free-check links only where the live form and a saved Gemini answer both exist (Denton dentist/med spa, Lewisville med spa); others get the free SEO audit. Missed-call replies offer nothing paid until Jilsha approves the $49 check. Builder /workspace/work/hm33/build.py.
+- done: PR pending.
 
 ### HM-06 — Conversion + in-flight SEO QA
 - id: HM-06
