@@ -12,6 +12,7 @@
   - only 24 qualified, not the 30 in the plan, so the success bar scales down (below)
 - `call-script.md`: the disclosed script and the rules.
 - `call-log-template.csv`: 72 rows, three calls per practice.
+- `make_results.py` (HM-37): after the calls, run `python3 ops/marketing/missed-call/make_results.py` from the repo root. It reads the filled call log and writes `result-drafts.md`, one ready-to-review email, form text or callback line per practice with all 3 calls logged. Facts are copied from the log, all-answered practices get no pitch, and nothing is sent. Hark runs it on Fri 2026-12-04 once the log is in.
 - `followup-template.md`: the result email for HM-04. It is gated: only after a completed log, and only after Jilsha decides go on the $49 offer (PR #47).
 
 ## Week plan (Central time)
