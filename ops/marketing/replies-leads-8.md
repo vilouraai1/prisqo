@@ -15,9 +15,9 @@
 
 ## Send slots
 
-`send-calendar-hm-26.md` fills every weekday from 2026-11-30 to 2026-12-10. Leads-8 goes after it, 5 a day, 8–10 AM Central, AI-hook emails first so they're read alongside the EXP-H1 read-out on 2026-12-17. Gates are the same as the calendar: no new 5.7.1 rejects in the week before, the daily reply check, and a sent-log line for each send. A send that slips moves to the next weekday. It doesn't double up.
+`send-calendar-hm-26.md` fills every weekday from 2026-11-30 to 2026-12-10, and the HM-27 follow-ups (`followups-11.md`) fill Thu 2026-12-10 (1 slot) and every weekday from Fri 2026-12-11 to Wed 2026-12-16 (5 a day). Leads-8 goes after both, 5 a day, 8–10 AM Central, AI-hook emails first. (Moved by HM-34 on 2026-11-28: HM-33 first put these on 12-11 to 12-16, which would have meant 10 sends a day.) If Jilsha would rather not send in Christmas week, start the whole block on Mon 2027-01-04 instead and keep the same order. Gates are the same as the calendar: no new 5.7.1 rejects in the week before, the daily reply check, and a sent-log line for each send. A send that slips moves to the next weekday. It doesn't double up.
 
-### Fri 2026-12-11 (5)
+### Thu 2026-12-17 (5)
 
 | Business | To | Hook | Draft |
 |---|---|---|---|
@@ -27,7 +27,7 @@
 | Composure Aesthetics | info@composuredfw.com | ai_visibility | `drafts-8.md` #8 |
 | Embodiment Spa Fusion | info@embodimentspafusion.com | ai_visibility | `drafts-8.md` #13 |
 
-### Mon 2026-12-14 (5)
+### Fri 2026-12-18 (5)
 
 | Business | To | Hook | Draft |
 |---|---|---|---|
@@ -37,7 +37,7 @@
 | Denton Dental Care | marketing@mydentondental.com | seo_gap | `drafts-8.md` #4 |
 | Medford Chiropractic | info@medfordchirotx.com | seo_gap | `drafts-8.md` #9 |
 
-### Tue 2026-12-15 (5)
+### Mon 2026-12-21 (5)
 
 | Business | To | Hook | Draft |
 |---|---|---|---|
@@ -47,13 +47,13 @@
 | Sunshine Family Chiropractic | info@sunshinefamilychiro.com | weak_site | `drafts-8.md` #10 |
 | Burgess Chiropractic | frontdesk@burgesschiro.com | weak_site | `drafts-8.md` #11 |
 
-### Wed 2026-12-16 (1)
+### Tue 2026-12-22 (1)
 
 | Business | To | Hook | Draft |
 |---|---|---|---|
 | Rooted Chiropractic & Wellness Center | contactus@therootedchirotx.com | weak_site | `drafts-8.md` #16 |
 
-Follow-ups: one Variant A-style follow-up per lead, drafted only once its first email is logged sent and not bounced, 3 or more business days later (same rule as `followups-12.md`).
+Follow-ups: drafted ahead in `followups-13.md` (HM-34), one per lead, sent only after its first email is logged sent and not bounced, 4 business days later.
 
 ---
 
@@ -359,7 +359,7 @@ Jilsha
 
 ## Summary
 
-- 16 leads-8 emails get send slots from Fri 2026-12-11 to Wed 2026-12-16, after the HM-26 calendar, at most 5 a day.
+- 16 leads-8 emails get send slots from Thu 2026-12-17 to Tue 2026-12-22, after the HM-26 calendar and the HM-27 follow-ups, at most 5 a day.
 - Every lead has a paste-ready Reply 1: 6 dated Gemini lists, 2 missed-call answers (both ways), 3 SEO answers and 5 site-fix answers, each with one free next step and no price.
 - Nothing sent, posted or submitted.
 
