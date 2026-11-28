@@ -192,12 +192,13 @@ Updated: 2026-11-23 20:15 America/Chicago (Kiwi: HM-06 moved to Done (PR #51). M
 - success: Count human replies (and separately auto-replies/bounces) for the 15 HM-11 Variant A emails, 7 days after the last logged send. Keep at ≥2, kill at 0, 1 = send 10 more then decide. Update METRICS EXP-H1 Result + Keep/Kill and ops/playbooks/hark.md defaults.
 - inputs: ops/marketing/sent-log.md (dated "sent" lines); ops/marketing/drafts-variant-a-1.md; ops/board/METRICS.md EXP-H1; Jilsha's reply report
 - output: METRICS + playbook edit; ops/replies/HM-14.md
-- notes: Added by Hark in the HM-10 retro 2026-11-23. Unblocks when sent-log shows all 15 sent (or Jilsha says the batch is done) and 7 days have passed. Counts come from sent-log and Jilsha only; never guess a reply. Hark 2026-11-28: #78 merged (board-only, no item). PR #79 (leads-8: 16 Denton/Lewisville/Highland Village leads with own-site emails + 25–45 word drafts, a request Jilsha named in chat, not a board item) merged 2026-11-28 (ec6a239); Done. No eligible Hark item left in Next (HM-10 Hark half done in #58; HM-04, HM-05, HM-14 blocked), so Hark added HM-33 (leads-8 reply kit + send slots) under pick-rule step 5 and did it; Done. Correction: the 2026-11-27 line's Carrollton check covered CottageCare only. The Cleaning Authority, MaidPro and Merry Maids were checked 2026-11-28 on their own franchise sites, so the post's claim now holds for all 4 (source comment updated in community-posts-3.md).
+- notes: Added by Hark in the HM-10 retro 2026-11-23. Unblocks when sent-log shows all 15 sent (or Jilsha says the batch is done) and 7 days have passed. Counts come from sent-log and Jilsha only; never guess a reply. Hark 2026-11-28: #78 merged (board-only, no item). PR #79 (leads-8: 16 Denton/Lewisville/Highland Village leads with own-site emails + 25–45 word drafts, a request Jilsha named in chat, not a board item) merged 2026-11-28 (ec6a239); Done. No eligible Hark item left in Next (HM-10 Hark half done in #58; HM-04, HM-05, HM-14 blocked), so Hark added HM-33 (leads-8 reply kit + send slots) under pick-rule step 5 and did it; Done. Correction: the 2026-11-27 line's Carrollton check covered CottageCare only. The Cleaning Authority, MaidPro and Merry Maids were checked 2026-11-28 on their own franchise sites, so the post's claim now holds for all 4 (source comment updated in community-posts-3.md). Hark 2026-11-28: #80 (HM-33) merged (cd4193a). No eligible Hark item left, so Hark added HM-34 (leads-8 send days moved off the HM-27 follow-up days, plus one follow-up per leads-8 email) under pick-rule step 5 and did it; Done.
 
 ## Done
 
 | ID | Pri | Lane | Title | Success metric | Inputs |
 |----|-----|------|-------|----------------|--------|
+| HM-34 | 0 | hark | Leads-8 send-day fix + one follow-up per lead | Leads-8 first emails moved off the days HM-27 already fills (no day over 5 sends); 16 unsent follow-ups, 25–45 words, no link, no price, one question, opt-out, footer, each gated on its first email being logged sent and not bounced, 4+ business days later | `replies-leads-8.md`, `followups-11.md`, `drafts-8.md`, `leads-8.csv`, `data/ai-answers.json`, `reply-autopsy.md` §4, §6 |
 | HM-33 | 0 | hark | Leads-8 reply kit + send slots (turn PR #79's 16 drafts into answered threads) | Every leads-8 email has a weekday slot after the HM-26 calendar (2026-12-11 to 12-16, max 5 a day) and a paste-ready Reply 1 that gives what the email offered plus one free next step; no price; nothing sent | `drafts-8.md`, `leads-8.csv`, `data/ai-answers.json`, `replies-variant-a-1.md`, `send-calendar-hm-26.md`, `reply-autopsy.md` §5 |
 | HM-06 | 0 | muse | Conversion + in-flight SEO QA | Live `/free-check` and $19 checkout still work; muse-seo-3 and footer/dead-link work merged or given a precise leftover list; no engine/Stripe changes | `origin/muse-seo-3`, `origin/muse-footer-fix`, live prisqo.vilouraai.com |
 | HM-32 | 0 | hark | Result channel for all 24 missed-call test practices | Every MC row has a checked result_channel (email / form / callback) and form_url from its own site, dated 2026-11-27; stale emails removed; paste-ready form text + phone script for the 12 without a usable email. Nothing sent or submitted | `missed-call/missed-call-test.csv`, own sites, `followup-template.md`, `reply-kit.md` |
@@ -220,6 +221,20 @@ Updated: 2026-11-23 20:15 America/Chicago (Kiwi: HM-06 moved to Done (PR #51). M
 | HM-09 | 1 | hark | Bounce and list hygiene | Bounced addresses tagged do-not-email; any replacement is from the business's own site with a source URL | `ops/marketing/sent-log.md`, lead CSVs |
 | HM-01 | 0 | hark | Reply-rate autopsy + 2 first-email variants | A written kill/keep on the current cold formula, plus 2 testable variants (one recommended) | `ops/marketing/sent-log.md`, drafts, followups, `ops/playbooks/hark.md` |
 
+### HM-34 — Leads-8 send-day fix + one follow-up per lead
+- id: HM-34
+- status: done
+- pri: 0
+- lane: hark
+- blocked_on: none
+- owner: hark
+- branch: hark-hm-34
+- success: No send day carries more than 5 emails once leads-8 is added; every leads-8 first email has one unsent follow-up ready, truthful to its first email, gated on the sent-log.
+- inputs: ops/marketing/replies-leads-8.md; ops/marketing/followups-11.md; ops/marketing/drafts-8.md; ops/marketing/leads-8.csv; data/ai-answers.json; ops/research/reply-autopsy.md §4, §6
+- output: ops/marketing/followups-13.md; replies-leads-8.md send slots updated; ops/replies/HM-34.md
+- notes: Added by Hark 2026-11-28 under pick-rule step 5. Revenue reason: HM-33 put leads-8 on 2026-12-11 to 12-16, the same days the HM-27 follow-ups fill at 5 a day, so following both meant 10 sends a day (the deliverability risk HM-22 was about) or dropping one. Leads-8 now goes Thu 2026-12-17 to Tue 12-22; follow-ups Wed 12-23 to Wed 12-30, skipping 12-24 and 12-25. Option kept for Jilsha: start leads-8 Mon 2027-01-04 instead of Christmas week. No new leads or first emails. Builder /workspace/work/hm34/build.py; slot change in /workspace/work/hm33/build.py.
+- done: PR pending.
+
 ### HM-33 — Leads-8 reply kit + send slots
 - id: HM-33
 - status: done
@@ -231,8 +246,8 @@ Updated: 2026-11-23 20:15 America/Chicago (Kiwi: HM-06 moved to Done (PR #51). M
 - success: All 16 leads-8 first emails (PR #79) have a send slot after the HM-26 calendar and a paste-ready Reply 1 matched to their hook. Variant A leads get the dated Gemini list; site, SEO and missed-call leads get the answer their question promised. One free next step each, no price, nothing sent.
 - inputs: ops/marketing/drafts-8.md; ops/marketing/leads-8.csv; data/ai-answers.json; ops/marketing/replies-variant-a-1.md; ops/marketing/send-calendar-hm-26.md; ops/research/reply-autopsy.md §5
 - output: ops/marketing/replies-leads-8.md; ops/replies/HM-33.md
-- notes: Added by Hark 2026-11-28 under pick-rule step 5. Revenue reason: leads-8 (PR #79, merged) added 16 drafts with no date and no reply plan; reply-autopsy §5 says a "yes" turns into a free check and then a report only if the list (or promised fix) goes back fast. Not a new cold batch: no new leads or first emails. Slots: Fri 2026-12-11 (5), Mon 12-14 (5), Tue 12-15 (5), Wed 12-16 (1), AI-hook first. Free-check links only where the live form and a saved Gemini answer both exist (Denton dentist/med spa, Lewisville med spa); others get the free SEO audit. Missed-call replies offer nothing paid until Jilsha approves the $49 check. Builder /workspace/work/hm33/build.py.
-- done: PR pending.
+- notes: Added by Hark 2026-11-28 under pick-rule step 5. Revenue reason: leads-8 (PR #79, merged) added 16 drafts with no date and no reply plan; reply-autopsy §5 says a "yes" turns into a free check and then a report only if the list (or promised fix) goes back fast. Not a new cold batch: no new leads or first emails. Slots as first written: Fri 2026-12-11 to Wed 12-16; moved by HM-34 to Thu 2026-12-17 to Tue 12-22 because HM-27 follow-ups already fill 12-11 to 12-16. Free-check links only where the live form and a saved Gemini answer both exist (Denton dentist/med spa, Lewisville med spa); others get the free SEO audit. Missed-call replies offer nothing paid until Jilsha approves the $49 check. Builder /workspace/work/hm33/build.py.
+- done: PR #80 merged 2026-11-28 (cd4193a). Slots later moved by HM-34 (they collided with HM-27).
 
 ### HM-06 — Conversion + in-flight SEO QA
 - id: HM-06
